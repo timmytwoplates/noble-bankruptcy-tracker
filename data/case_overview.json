@@ -1,0 +1,83 @@
+{
+  "case_name": "Noble Supply & Logistics, LLC, et al.",
+  "case_no": "26-11369",
+  "court": "U.S. Bankruptcy Court, District of Delaware",
+  "judge": "Hon. Craig T. Goldblatt",
+  "petition_date": "2026-08-30",
+  "chapter": "11 (jointly administered, debtors in possession)",
+  "hq": "1 Marina Park Drive, Suite 220, Boston, MA 02210",
+  "claims_agent": "Kurtzman Carson Consultants, LLC dba Verita Global",
+  "debtors": [
+    {"name": "Noble Supply & Logistics, LLC", "case_no": "26-11369", "tax_id_last4": "7926", "role": "Lead debtor / operating company"},
+    {"name": "COTS Solutions, LLC", "case_no": "26-11370", "tax_id_last4": "4477"},
+    {"name": "Federal Resources Supply Company, LLC", "case_no": "26-11371", "tax_id_last4": "3636", "role": "CBRNE products supplier, acquired Oct 2021"},
+    {"name": "FRS Holdings, LLC", "case_no": "26-11372", "tax_id_last4": "2327"},
+    {"name": "K.D. Analytical Consulting, LLC", "case_no": "26-11373", "tax_id_last4": "6637"},
+    {"name": "KDA Acquisition, LLC", "case_no": "26-11374", "tax_id_last4": "5870"},
+    {"name": "Noble Defense Corporation", "case_no": "26-11375", "tax_id_last4": "N/A"},
+    {"name": "Noble Equity Holdings, LLC", "case_no": "26-11376", "tax_id_last4": "0851", "role": "Intermediate holding company"},
+    {"name": "Noble.com, LLC", "case_no": "26-11377", "tax_id_last4": "4712", "role": "Holding company, direct/indirect parent of other debtors"},
+    {"name": "Noble Mission Support, LLC", "case_no": "26-11378", "tax_id_last4": "7908"},
+    {"name": "Tactical & Survival Specialties, LLC", "case_no": "26-11379", "tax_id_last4": "2266", "role": "Tactical equipment supplier, acquired March 2021 (TSSi)"}
+  ],
+  "non_debtor_parent": "Noble Holdco, Inc. (Delaware corp, 100% owned by founder/CEO Thomas W. Noble, III)",
+  "business_overview": {
+    "founded": 2003,
+    "founder": "Thomas W. Noble, III",
+    "description": "Boston-based small business and global supplier of mission-critical, non-lethal military equipment and logistics services to the U.S. military and allied governments. 5th largest prime vendor to the Defense Logistics Agency (DLA) and a trusted GSA partner. Connects 4,000+ government customers to 15,000+ vendors. Qualifies as a small business under the Small Business Act and operates under small-business set-aside contracts (SBSAs).",
+    "employees": 294,
+    "employee_census_date": "2026-07-24",
+    "locations": 19,
+    "key_locations": ["Boston, MA (HQ, 60 employees)", "Olive Branch, MS (distribution warehouse, 46 employees)", "Lexington & Harrisonburg, VA", "Holly Springs, MS", "Kaiserslautern, Germany (Noble Germany)", "Letterkenny Army Depot", "Anniston Army Depot"],
+    "segments": [
+      {"name": "Defense & Federal Solutions (DFS)", "share_note": "Largest segment", "revenue_2025_usd": 674000000, "description": "Tactical, survival, and support equipment/services to DoW and federal agencies, incl. commercial off-the-shelf (COTs) and special operations equipment (SOE). SOE contract with DLA is largest single contract by revenue ($630M in 2025)."},
+      {"name": "Supply Chain Services (SCS)", "revenue_2025_usd": 139000000, "description": "Full-service program/contract management, warehousing, transportation, outsourced distribution center management under long-term single-award programs incl. the FSG-53/FSG-31 aerospace-parts contract with DLA."},
+      {"name": "Noble International", "revenue_2025_usd": 198000000, "description": "Overseas supply operations (Germany, Japan) supporting U.S. military operations abroad, low-margin drop-shipment model."},
+      {"name": "Noble IQ", "revenue_2025_usd": 15000000, "description": "Specialized training, technical, and sustainment services (equipment training, safety monitoring, calibration/repair) for first responders and warfighters; smallest but fastest-growing, highest margin segment."},
+      {"name": "Corporate Services", "revenue_2025_usd": null, "description": "Shared administrative/back-office functions (finance, legal, HR, IT); no third-party revenue."}
+    ],
+    "contract_types": {
+      "HTCS": "High Touch Customer Solutions — ~70% of business; 100+ multi-award IDIQ contracts, drop-ship model, low capital intensity.",
+      "GSCP": "Global Supply Chain Programs — ~30% of business; 12 single-award 5-10yr IDIQ contracts requiring Noble to procure/warehouse/distribute directly; capital intensive."
+    },
+    "regulatory_investigations": [
+      "DOJ Civil Investigative Demand re: MRO/TLS contracts with DLA (Northeast/Southeast US + European Command) re: prompt-pay discounts and bidding process concerns; Noble in ability-to-pay settlement negotiations with DOJ.",
+      "Grand jury subpoena received Nov 8, 2023 re: bidding process concerns on MRO/TLS contracts; Deferred Prosecution Agreement in place with DOJ Antitrust pending ability-to-pay negotiations.",
+      "DOJ investigating Federal Resources Supply Company (acquired Oct 2021) re: nitrile glove contract compliance during COVID-19; CID issued Sept 11, 2024; Federal Resources cooperating voluntarily."
+    ]
+  },
+  "why_filed": {
+    "summary": "Noble grew rapidly via two 2021 acquisitions (Tactical & Survival Specialties, Federal Resources Supply) funded with new secured debt, then won a $1.2B single-award DLA contract (FSG-53) in July 2022 that required heavy up-front capital investment. DLA delayed the first order under that contract by a full year and ultimately declined to renew it (notice Dec 2024), while also not honoring contract closeout/inventory-buyback terms, leaving Noble holding $70M+ of inventory. A 7-week federal government shutdown (Oct-Nov 2025) froze customer orders and payments. DLA then also declined to renew Noble's Fire and Emergency Services Equipment (FESE) contract (March 2026) and other contracts (May 2026), deepening the liquidity crisis. Lenders issued notices of default (Feb-March 2026), a pre-petition refinancing effort failed, and on Aug 27, 2026 — three days before filing — DLA terminated ~$400 million of orders under Noble's largest contract (the SOE contract). Noble filed Chapter 11 on Aug 30, 2026 to pursue a dual-track process: a going-concern sale of some/all assets AND an orderly liquidation of inventory/receivables in parallel, while pursuing a ~$86 million Contract Disputes Act claim against DLA over the FSG-53 contract.",
+    "key_dates": [
+      {"date": "2022-07", "event": "Noble awarded $1.2B single-award FSG-53 contract with DLA (10-year term)"},
+      {"date": "2023-07", "event": "Noble receives first order under FSG-53 — a full year after contract award, after major ramp-up capital spend"},
+      {"date": "2024-12", "event": "DLA notifies Noble it will not renew FSG-53 Contract"},
+      {"date": "2025-06", "event": "Subordinated Note Holders provide additional $25M; Term Loan Agent consents to receivables factoring"},
+      {"date": "2025-10-01", "event": "Federal government shutdown begins (7 weeks) — freezes DLA/government customer orders and payments"},
+      {"date": "2026-01", "event": "DLA sends notice of intent to renew FESE contract"},
+      {"date": "2026-02-14", "event": "Prepetition Term Loan Agent sends notice of default"},
+      {"date": "2026-03-05", "event": "Prepetition ABL Agent sends notice of default"},
+      {"date": "2026-03-13", "event": "DLA reverses course, issues notice of non-renewal of FESE contract"},
+      {"date": "2026-05", "event": "DLA issues notices of non-renewal of additional critical contracts"},
+      {"date": "2026-06", "event": "FSG-53 Contract terminates"},
+      {"date": "2026-07-24", "event": "Prepetition Term Loan Lenders formally decline additional financing"},
+      {"date": "2026-07-31", "event": "ABL Facility maturity date; Forbearance Agreement signed extending to Sept 30, 2026"},
+      {"date": "2026-08-10", "event": "WARN Act notices issued to all employees"},
+      {"date": "2026-08-27", "event": "DLA terminates ~$400 million of orders under the SOE contract (Noble's largest by revenue)"},
+      {"date": "2026-08-30", "event": "Chapter 11 petitions filed"}
+    ]
+  },
+  "capital_structure_as_of": "2026-08-28",
+  "capital_structure": [
+    {"instrument": "Prepetition ABL Facility", "agent": "JPMorgan Chase Bank, N.A.", "commitment_usd": 85000000, "outstanding_usd": 1163196.07, "maturity": "2026-09-30 (extended from 2026-07-31 via forbearance)", "rate": "Adjusted Term SOFR + 3.75%", "priority": "Senior secured, first-priority on ABL Priority Collateral (AR, inventory, cash, deposit accounts)", "secured": true},
+    {"instrument": "Prepetition Term Loan Facility", "agent": "Blue Torch Finance LLC", "outstanding_usd": 134263177.81, "maturity": "2027-06-11", "rate": "SOFR + 9.25% or Reference Rate + 8.25%", "priority": "Senior secured, first-priority on Term Loan Priority Collateral (real property, equipment, equity, IP)", "secured": true},
+    {"instrument": "Prepetition Subordinated Note", "agent": "Alter Domus (US) LLC", "outstanding_usd": 120200000, "maturity": "2030-06-11", "rate": "10.25% PIK", "priority": "Secured but contractually subordinated to ABL and Term Loan", "secured": true, "notes": "Includes $25M add-on note issued June 2025; holders received warrants for ~4.95M equity shares (unexercised)."},
+    {"instrument": "Seller Note", "issuer": "Noble.com, LLC", "outstanding_usd": 36000000, "maturity": "Earlier of: 1yr after latest secured maturity, change of control, or 1yr after secured obligations paid in full", "rate": "8%", "priority": "Unsecured, contractually subordinated", "secured": false, "notes": "Issued to former Federal Resources Supply Company stakeholders as part of Oct 2021 acquisition financing."},
+    {"instrument": "Trade payables (unsecured)", "outstanding_usd": 250000000, "secured": false},
+    {"instrument": "Employee-related obligations (unsecured)", "outstanding_usd": 2900000, "secured": false},
+    {"instrument": "Tax obligations (unsecured)", "outstanding_usd": 50000, "secured": false},
+    {"instrument": "Non-residential lease obligations (unsecured)", "outstanding_usd": 200000, "secured": false}
+  ],
+  "total_funded_debt_usd": 292314840.88,
+  "source_docket_nos": {"first_day_declaration": "0015", "cash_collateral_declaration": "0014"}
+}

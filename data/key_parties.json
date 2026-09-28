@@ -1,0 +1,248 @@
+[
+  {
+    "category": "Secured Lender",
+    "name": "JPMorgan Chase Bank, N.A.",
+    "role": "Prepetition ABL Agent",
+    "key_people": [
+      "Daniel F. Fiorillo (Otterbourg P.C.)",
+      "Zachary I. Shapiro (Richards, Layton & Finger, P.A.)"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Identified as Prepetition ABL Agent in docket 0013 and as a required OCP-notice party in docket 0217. Counsel: Otterbourg P.C. (230 Park Avenue, New York, NY) and Richards, Layton & Finger, P.A. (Wilmington, DE), per the notice list in docket 0217. Not itself the subject of a retention application (it is a prepetition lender/estate counterparty, not a debtor professional)."
+  },
+  {
+    "category": "Secured Lender",
+    "name": "Blue Torch Finance LLC",
+    "role": "Prepetition Term Loan Agent",
+    "key_people": [
+      "Adam C. Harris (McDermott Will & Schulte LLP, per docket 0217 text)",
+      "Reuben E. Dizengoff (McDermott Will & Schulte LLP)"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Identified as Prepetition Term Loan Agent in docket 0013 and as a required OCP-notice party in docket 0217. Firm name rendered 'McDermott Will & Schulte LLP' in the pdftotext extraction of docket 0217 (likely OCR/extraction artifact of 'McDermott Will & Emery'); reproduced as it appears in the source text. Holds a first-priority lien on Term Loan Priority Collateral per docket 0013."
+  },
+  {
+    "category": "Secured Lender",
+    "name": "Alter Domus (US) LLC",
+    "role": "Agent for Prepetition Subordinated Note holders",
+    "key_people": [
+      "Alan Glantz (Arnold & Porter Kaye Scholer LLP)"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Prepetition Subordinated Note Agent, per the First Day Declaration (Docket #15). Counsel identified as Arnold & Porter Kaye Scholer LLP, 250 West 55th Street, New York, NY, per the notice list in docket 0217. Separate from the Prepetition Subordinated Note Holders, whose counsel is Young Conaway Stargatt & Taylor, LLP (Allison S. Mielke)."
+  },
+  {
+    "category": "Other",
+    "name": "Prepetition Subordinated Note Holders",
+    "role": "Holders of Noble's prepetition subordinated notes",
+    "key_people": [
+      "Allison S. Mielke (Young Conaway Stargatt & Taylor, LLP)"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Counsel: Young Conaway Stargatt & Taylor, LLP, 1000 North King Street, Wilmington, DE, per docket 0217 notice list."
+  },
+  {
+    "category": "Debtor Counsel",
+    "name": "Kirkland & Ellis LLP / Kirkland & Ellis International LLP",
+    "role": "Lead counsel to the Debtors and Debtors in Possession",
+    "key_people": [
+      "Joshua A. Sussberg, P.C.",
+      "Patrick J. Nash, Jr., P.C.",
+      "Charles B. Sterrett"
+    ],
+    "retention_docket_nos": [
+      "0198"
+    ],
+    "notes": "Retention effective as of the Petition Date (August 30, 2026), sought under application at docket 0198 supported by the Nash Declaration and Albergotti Declaration. Hourly rates (current, per docket 0198): Partners $1,395-$2,975; Of Counsel $875-$2,495; Associates $825-$1,775; Paraprofessionals $385-$775 (a slightly lower prior-year rate table of Partners $1,295-$2,675 / Of Counsel $875-$2,245 / Associates $785-$1,625 / Paraprofessionals $355-$705 is also shown for pre-petition-date services). Duplication charged at no more than $0.10/page in the case (down from Kirkland's standard $0.16/page). Special purpose (advance payment) retainer: $1,250,000 paid under the original Engagement Letter, plus additional special purpose retainers totaling $1,425,000 paid prior to the Petition Date (aggregate disclosed prepetition retainer payments approx. $2.675 million, per the payment history table in docket 0198, which also itemizes specific August 2026 retainer/fee applications e.g. $500,000 (8/3/26), $200,000 (8/12/26), $200,000 (8/19/26), $325,000 (8/24/26)). No redactions observed in the fee/rate disclosures reviewed."
+  },
+  {
+    "category": "Debtor Counsel",
+    "name": "Cole Schotz P.C.",
+    "role": "Proposed co-counsel to the Debtors and Debtors in Possession (works alongside Kirkland & Ellis)",
+    "key_people": [
+      "Michael D. Sirota (Member, $2,000/hr)",
+      "Seth Van Aalten (Member, $1,560/hr)",
+      "Justin R. Alberto (Member, $1,300/hr)",
+      "Patrick J. Reilley (Member, $1,080/hr)",
+      "Sarah A. Carnes (Member, $1,080/hr)",
+      "Anthony De Leo (Member, $1,000/hr)",
+      "Amanda A. Tersigni (Associate, $795/hr)",
+      "Jack M. Dougherty (Associate, $730/hr)",
+      "Julie Aberasturi (Associate, $545/hr)",
+      "Natalie C. Gibson (Associate, $480/hr)",
+      "Pauline Z. Ratkowiak (Paralegal, $445/hr)",
+      "Larry S. Morton (Paralegal, $440/hr)"
+    ],
+    "retention_docket_nos": [
+      "0200"
+    ],
+    "notes": "Rates as of September 1, 2026 (docket 0200, redacted version but rate table and named-timekeeper rates were visible/unredacted). Firm-wide standard ranges: Members $625-$2,000/hr; Special Counsel/Of Counsel $730-$1,680/hr; Associates $450-$825/hr; Staff Attorneys $395/hr flat; Paralegals $345-$500/hr; Litigation Support Specialists $325-$525/hr. Retainer: received payments totaling $953,577.50 prepetition; $491,862.70 applied to fees/expenses; remaining $461,714.80 held as a security retainer for postpetition fees (held in trust, distinct from Kirkland's 'special purpose' retainer structure)."
+  },
+  {
+    "category": "Debtor Financial Advisor",
+    "name": "Portage Point Partners (via Triple P TRS, LLC)",
+    "role": "Provider of Robert Albergotti as Chief Transformation Officer (CTO) and additional restructuring personnel to the Debtors",
+    "key_people": [
+      "Robert Albergotti (Chief Transformation Officer)"
+    ],
+    "retention_docket_nos": [
+      "0202"
+    ],
+    "notes": "Retention structured through Triple P TRS, LLC (a Portage Point entity) to place Mr. Albergotti as CTO plus 'Additional Personnel' as needed, effective as of the Petition Date. Hourly rates: Managing Director $830-$985; Director $655-$840; Vice President $490-$705; Associate $390-$470. Monthly Fee: $75,000, payable on the first of each month. Restructuring Fee: $650,000 upon consummation of a restructuring. Majority Sale Transaction Fee: $650,000. Minority Sale Transaction Fee: $350,000 (fee-split noted as 'fifty percent...', remainder redacted/cut off in extraction). Financing Fee subject to a $75,000 minimum. Retainer: $270,000 originally held (carried over from a pre-bankruptcy 'Original Agreement'), continued and applied under the current Engagement Letter; prepetition payments to Portage Point totaled $1,323,160.37 in the aggregate (itemized: e.g., $200,000 retainer 7/23/26, $105,698.80 fees 7/31/26, $147,453.62 and $119,469.00 fees 8/7/26, $150,986.75 fees 8/14/26, $70,000 retainer 8/14/26, $134,158.50 fees 8/21/26, $195,393.70 fees + $200,000 retainer 8/27/26, $40,000 monthly fee 8/28/26); $164,094.93 unapplied Fee Advance balance remained as of filing. Indemnification obligations require D&O insurance coverage of at least $10 million for Engagement Personnel serving as officers/directors, with per-person indemnification caps disclosed ($1,000,000 Managing Director or higher / $700,000 Director / $600,000 VP / $500,000 Associate / $250,000 other). Some dollar figures in the underlying (Redacted) application were visible; no major redactions blocked the core fee structure."
+  },
+  {
+    "category": "Claims Agent",
+    "name": "Kurtzman Carson Consultants, LLC dba Verita Global",
+    "role": "Claims and Noticing Agent (28 U.S.C. §156(c)); also separately retained as broader Administrative Advisor (11 U.S.C. §327(a))",
+    "key_people": [
+      "Evan Gershbein (EVP, Corporate Restructuring Services)",
+      "Drake D. Foster (KCC/Verita contact)"
+    ],
+    "retention_docket_nos": [
+      "0004",
+      "0074",
+      "0204"
+    ],
+    "notes": "Two-tier retention: (1) docket 0004 (application) / 0074 (order), approved effective as of the Petition Date (8/30/26; order entered 9/1/26), covers only claims/noticing duties delegable under 28 U.S.C. §156(c) — fees paid as administrative expenses without formal fee applications; (2) docket 0204 (filed 9/25/26, hearing set 10/16/26), a broader 'Administrative Advisor' retention under §327(a)/328(a) covering schedules/SOFA assistance, solicitation/balloting/tabulation, and claims reconciliation — this second retention DOES require standard fee applications to the Court (no automatic payment) and is titled a '(Redacted)' filing, though the reviewed fee/rate content was not blacked out. Prepetition retainer: $25,000 (applies to both engagements per the same underlying Services/Engagement Agreement dated 8/21/26). Verita disclaims any government-employment relationship and waives compensation from the U.S. government in its claims-agent capacity."
+  },
+  {
+    "category": "Ordinary Course Professional",
+    "name": "Ordinary Course Professionals (OCP) Program",
+    "role": "Umbrella program covering Noble's regular outside attorneys, accountants, auditors, tax advisors, and government-contracts/regulatory consultants retained without individual §327 applications",
+    "key_people": [],
+    "retention_docket_nos": [
+      "0115",
+      "0217"
+    ],
+    "notes": "Motion at docket 0115 (filed 9/14/26) and Order at docket 0217 (entered 9/26/26). OCPs are listed on Schedule 1 ('Tier 1') and Schedule 2 ('Tier 2') to the order, but the actual firm names on those schedules were not present in the reviewed docket text (likely a separate exhibit page not captured in this extraction). Each OCP must file a Declaration of Disinterestedness within 30 days of retention/order entry; Notice Parties (U.S. Trustee, Prepetition ABL/Term Loan/Subordinated Note Agents' and Holders' counsel, and Committee counsel) have 14 days to object. Payment caps: Tier 1 – $100,000/month per OCP (rolling 3-month average), $300,000/quarter cap; Tier 2 – $50,000/month per OCP (rolling 3-month average), $150,000/quarter cap. No prepetition amounts owed to OCPs may be paid under this order."
+  },
+  {
+    "category": "Committee Counsel",
+    "name": "Brown Rudnick LLP",
+    "role": "Counsel to the Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Tristan Axelrod",
+      "Jessica Y. Liong"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Identified as Committee counsel in the notice list of docket 0217 (One Financial Center, Boston, MA). A separate Committee retention application for Brown Rudnick was not among the documents reviewed for this summary."
+  },
+  {
+    "category": "Committee Counsel",
+    "name": "Morris James LLP",
+    "role": "Delaware co-counsel to the Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Jeffrey Waxman",
+      "Samantha L. Rodriguez"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Identified as Committee co-counsel (Delaware/local counsel) in the notice list of docket 0217 (3205 Avenue North Blvd., Suite 100, Wilmington, DE). A separate Committee retention application for Morris James was not among the documents reviewed for this summary."
+  },
+  {
+    "category": "Committee Member",
+    "name": "STATZ Corporation",
+    "role": "Member, Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Stanley Mark Lyons, Jr."
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 2120 W. Greenview Dr., Suite 3, Middleton, WI 53562. Listed in both original (0128, 9/16/26) and amended (0171, 9/24/26) committee notices — unchanged."
+  },
+  {
+    "category": "Committee Member",
+    "name": "Brooks Building Solutions, Inc.",
+    "role": "Member, Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Shane Fitzsimmons"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 4501 Beverly Ave., Jacksonville, FL 33210. Listed in both original (0128) and amended (0171) committee notices — unchanged."
+  },
+  {
+    "category": "Committee Member",
+    "name": "Continental Heavy Civil Corp.",
+    "role": "Member, Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Mark Zanardi"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 13131 SW 132nd Street, Suite 102, Miami, FL 33186. Listed in both original (0128) and amended (0171) committee notices — unchanged."
+  },
+  {
+    "category": "Committee Member",
+    "name": "LSI, Inc.",
+    "role": "Member, Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Earlis Harvey, II"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 6111 Technology Court, Jacksonville, FL 32221. Listed in both original (0128) and amended (0171) committee notices — unchanged."
+  },
+  {
+    "category": "Committee Member",
+    "name": "BlueHalo Labs, LLC",
+    "role": "Member, Official Committee of Unsecured Creditors",
+    "key_people": [
+      "Jesse Adams"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 4601 N. Fairfax Drive, Suite 900 (phone area code suggests a Florida/561 contact number despite the DC-area street address). Listed in both original (0128) and amended (0171) committee notices — unchanged."
+  },
+  {
+    "category": "Committee Member",
+    "name": "Tecmotiv (USA), Inc.",
+    "role": "Member, Official Committee of Unsecured Creditors",
+    "key_people": [
+      "David Krasne"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 1500 James Avenue, Niagara Falls, NY 14305. Listed in both original (0128) and amended (0171) committee notices — unchanged."
+  },
+  {
+    "category": "Committee Member",
+    "name": "Supliaeros USA LLC d/b/a Aero Supply USA",
+    "role": "Member, Official Committee of Unsecured Creditors (7th seat)",
+    "key_people": [
+      "Robert Ramirez"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Address: 21941 US Hwy 19 North, Clearwater, FL 33765. ADDED in the Amended Notice (docket 0171, filed 9/24/26), replacing Thermo Scientific Portable Analytical Instruments (which held the 7th seat in the original 9/16/26 notice, docket 0128, represented by Michael De Leo c/o Beverly W. Manne, Esq., Tucker Arensberg PC). Docket 0171 is authoritative as the amended/superseding notice."
+  },
+  {
+    "category": "Other",
+    "name": "Thermo Scientific Portable Analytical Instruments",
+    "role": "Former Member (7th seat), Official Committee of Unsecured Creditors — REMOVED",
+    "key_people": [
+      "Michael De Leo",
+      "Beverly W. Manne, Esq. (Tucker Arensberg PC, counsel)"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Appeared as the 7th Committee member in the original notice (docket 0128, 9/16/26) but was replaced by Supliaeros USA LLC d/b/a Aero Supply USA in the Amended Notice (docket 0171, 9/24/26). Included here for historical/tracker completeness since 0171 supersedes 0128."
+  },
+  {
+    "category": "Other",
+    "name": "Office of the United States Trustee, Region 3",
+    "role": "Appointed and amended the Committee of Unsecured Creditors; oversees the case administratively",
+    "key_people": [
+      "Andrew R. Vara (United States Trustee, Region 3)",
+      "Joseph J. McMahon, Jr. (Assistant United States Trustee)",
+      "Linda J. Casey, Esq. (attorney assigned to the case, (302) 573-6491)"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Source: dockets 0128 and 0171 (Committee appointment notices)."
+  },
+  {
+    "category": "Other",
+    "name": "United States of America / Defense Logistics Agency (DLA)",
+    "role": "Government counterparty in the FSG-53/FESE/PACOM MRO/SOE contract and automatic-stay dispute; represented by DOJ Commercial Litigation Branch",
+    "key_people": [
+      "Brett A. Shumate (Assistant Attorney General)",
+      "Marc S. Sacks",
+      "Mary A. Schmergel",
+      "Alastair M. Gesmundo",
+      "Ryan W. Lamb"
+    ],
+    "retention_docket_nos": [],
+    "notes": "Counsel of record on the Objection (docket 0124) and Certification of Counsel (docket 0142): DOJ Commercial Litigation Branch, Civil Division, P.O. Box 875, Washington, DC 20044. See dla_dispute.json for the substantive dispute."
+  }
+]

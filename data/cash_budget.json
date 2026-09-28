@@ -1,0 +1,32 @@
+{
+  "source": "Docket #218 (Second Interim Cash Collateral Order), Exhibit 1 - Initial Budget",
+  "title": "Noble Equity Holdings, LLC - 13 Week Cash Collateral Budget",
+  "units": "USD thousands",
+  "filed_date": "2026-09-26",
+  "note": "This is the DIP/cash-collateral budget submitted to secured lenders, not actuals except Week 1 which is marked 'Actual'. It will be superseded by later cash collateral orders/budget updates and should be checked against actual MOR cash figures as they're filed. Category-level detail (payroll, vendor disbursements, professional fees, etc.) is visible in the source PDF image (Docket 218, Exhibit 1, page 2) but only headline totals are transcribed here due to small print in the scanned exhibit.",
+  "weekly": [
+    {"week": 1, "week_ending": "2026-09-18", "type": "Actual", "total_receipts": 1778, "total_disbursements": 1545, "net_cash_flow": 233},
+    {"week": 2, "week_ending": "2026-09-25", "type": "Budget", "total_receipts": 8382, "total_disbursements": 4288, "net_cash_flow": 4095},
+    {"week": 3, "week_ending": "2026-10-02", "type": "Budget", "total_receipts": 2885, "total_disbursements": 2449, "net_cash_flow": 436},
+    {"week": 4, "week_ending": "2026-10-09", "type": "Budget", "total_receipts": 1788, "total_disbursements": 3287, "net_cash_flow": -1499},
+    {"week": 5, "week_ending": "2026-10-16", "type": "Budget", "total_receipts": 2483, "total_disbursements": 1340, "net_cash_flow": 1143},
+    {"week": 6, "week_ending": "2026-10-23", "type": "Budget", "total_receipts": 2422, "total_disbursements": 2960, "net_cash_flow": -538},
+    {"week": 7, "week_ending": "2026-10-30", "type": "Budget", "total_receipts": 2284, "total_disbursements": 1065, "net_cash_flow": 1220},
+    {"week": 8, "week_ending": "2026-11-06", "type": "Budget", "total_receipts": 2161, "total_disbursements": 1526, "net_cash_flow": 635},
+    {"week": 9, "week_ending": "2026-11-13", "type": "Budget", "total_receipts": 2141, "total_disbursements": 790, "net_cash_flow": 1351},
+    {"week": 10, "week_ending": "2026-11-20", "type": "Budget", "total_receipts": 2087, "total_disbursements": 1401, "net_cash_flow": 686},
+    {"week": 11, "week_ending": "2026-11-27", "type": "Budget", "total_receipts": 2772, "total_disbursements": 890, "net_cash_flow": 1882},
+    {"week": 12, "week_ending": "2026-12-04", "type": "Budget", "total_receipts": 1686, "total_disbursements": 2259, "net_cash_flow": -572},
+    {"week": 13, "week_ending": "2026-12-11", "type": "Budget", "total_receipts": 1613, "total_disbursements": 523, "net_cash_flow": 1091}
+  ],
+  "period_total": {"total_receipts": 34483, "total_disbursements": 24321, "net_cash_flow": 10162},
+  "debt_paydown": {
+    "term_loan_agent": "Blue Torch Finance LLC",
+    "term_loan_beginning_balance": 134263,
+    "term_loan_projected_ending_balance_wk13": 124802,
+    "term_loan_projected_paydown_13wk": 9461,
+    "mechanism": "Excess cash above an approx. $3,000K (thousand) minimum operating cash target is swept weekly to pay down the Term Loan.",
+    "abl_agent": "JPMorgan Chase Bank, N.A.",
+    "abl_balance_note": "ABL Paydown schedule shows zero balance/drawdown/paydown activity throughout the 13 weeks — consistent with the ABL Facility being nearly fully repaid pre-petition (~$1.16M residual, mostly letters of credit) and undrawn."
+  }
+}

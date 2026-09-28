@@ -1,0 +1,123 @@
+{
+  "as_of": "2026-09-28",
+  "petition_date": "2026-08-30",
+  "process_type": "Dual-track: (1) court-supervised marketing & sale of some/all assets on a going-concern basis, run in parallel with (2) an orderly liquidation/monetization of inventory and receivables. Both tracks proceed simultaneously, not sequentially, per the First Day Declaration.",
+  "investment_banker": "Portage Point Partners (via Triple P Securities, LLC) — also serves as Debtors' financial advisor / CTO provider (Triple P TRS, LLC)",
+  "stalking_horse_status": "NONE DESIGNATED AS OF 2026-09-28. The Debtors entered chapter 11 without a stalking horse bid. As of the Sept 7, 2026 bidding procedures motion, Portage Point had contacted ~105 prospective buyers, ~25 of whom signed NDAs for diligence access. The Bidding Procedures Order (Docket #219, entered 9/26/26) preserves the Debtors' ability to designate a stalking horse bidder later, with bid protections, if it would maximize estate value. Deadline to designate one is October 23, 2026 (per Cash Collateral Milestones) / October 21-23, 2026 (per Bidding Procedures sale timeline).",
+  "cash_collateral_milestones": [
+    {
+      "deadline_days_after_petition": 10,
+      "deadline_date": "2026-09-09",
+      "event": "Commence negotiations with DLA re: FSG-53 contract and inventory disputes",
+      "docket_source": "218 (Exhibit 2)",
+      "status": "should have occurred - verify in later filings"
+    },
+    {
+      "deadline_days_after_petition": 35,
+      "deadline_date": "2026-10-04",
+      "event": "Order approving sale/bid procedures entered",
+      "docket_source": "218 (Exhibit 2)",
+      "status": "MET EARLY — Bidding Procedures Order (Docket #219) entered 2026-09-26, 8 days ahead of this milestone"
+    },
+    {
+      "deadline_days_after_petition": 45,
+      "deadline_date": "2026-10-14",
+      "event": "Debtors shall have EITHER executed an asset purchase agreement OR filed a chapter 11 plan + disclosure statement",
+      "docket_source": "218 (Exhibit 2)",
+      "status": "pending"
+    },
+    {
+      "deadline_days_after_petition": 50,
+      "deadline_date": "2026-10-19",
+      "event": "Final cash collateral order entered (Final Hearing scheduled for this date, 10:00am ET)",
+      "docket_source": "218",
+      "status": "pending"
+    },
+    {
+      "deadline_days_after_petition": 90,
+      "deadline_date": "2026-11-28",
+      "event": "Sale of all/substantially all assets consummated",
+      "docket_source": "218 (Exhibit 2)",
+      "status": "pending"
+    },
+    {
+      "deadline_days_after_petition": 110,
+      "deadline_date": "2026-12-18",
+      "event": "Chapter 11 plan confirmed",
+      "docket_source": "218 (Exhibit 2)",
+      "status": "pending"
+    }
+  ],
+  "sale_timeline": [
+    {
+      "date": "2026-10-02 (approx, 4 business days after Bidding Procedures Order)",
+      "event": "Deadline to file/serve Sale Notice and Assumption & Assignment Notice",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-10-21, 4:00pm ET",
+      "event": "Cure Objection Deadline / Sale Objection Deadline",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-10-23, 4:00pm ET",
+      "event": "Deadline for Debtors to designate a Stalking Horse Bidder (if any)",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-10-30, 4:00pm ET",
+      "event": "Bid Deadline",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-11-04, 10:00am ET",
+      "event": "Auction (only if more than one Qualified Bid received)",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "1 business day after Auction (~2026-11-05)",
+      "event": "Notice of Auction Results filed",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-11-09, 4:00pm ET",
+      "event": "Supplemental Sale Objection Deadline / Adequate Assurance Objection Deadline",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-11-11, 4:00pm ET",
+      "event": "Debtors' deadline to reply to sale objections",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-11-16, 1:00pm ET",
+      "event": "Sale Hearing",
+      "status": "pending",
+      "docket_source": "219"
+    },
+    {
+      "date": "2026-11-20",
+      "event": "Deadline to consummate approved Sale",
+      "status": "pending",
+      "docket_source": "219"
+    }
+  ],
+  "notes": "The bidding-procedures process is an OPEN auction process, not a pre-negotiated sale — any Qualified Bidder can participate. This is a meaningfully more uncertain path than a case that starts with a signed stalking-horse asset purchase agreement. Per Lansio Declaration (Docket #92), if a stalking horse is later designated, it would set a bidding floor. Court-approved bid procedures order was entered ahead of its own required deadline, signaling the case is proceeding on schedule so far.",
+  "source_docket_nos": {
+    "bidding_procedures_motion": "0091",
+    "lansio_declaration": "0092",
+    "bidding_procedures_order": "0219",
+    "cash_collateral_2nd_interim_order": "0218"
+  },
+  "process_type_source": "15",
+  "investment_banker_source": "92",
+  "stalking_horse_status_source": "92, 219"
+}

@@ -1,0 +1,70 @@
+{
+  "software_vendors": {
+    "note": "Found by name in the (Redacted) Creditor Matrix (Docket #17, filed 09/25/26) — the full notice-mailing list of everyone Noble owes money or notice to. The Matrix doesn't give dollar amounts, only names/addresses, so this just confirms Noble has an active account with each — not the size of the relationship. NetSuite itself doesn't appear by that name, but the combination of Celigo (an integration platform whose flagship product connects to NetSuite) and Oracle America, Inc. (which bills for NetSuite subscriptions under Oracle's corporate umbrella since Oracle's 2016 acquisition of NetSuite) is fairly strong circumstantial evidence Noble runs NetSuite as its ERP — not confirmed outright in any filing we've read.",
+    "vendors": [
+      {"name": "Celigo, Inc.", "likely_use": "Integration platform (iPaaS) — commonly used to connect NetSuite to other systems; suggests but doesn't confirm NetSuite as the ERP."},
+      {"name": "Oracle America, Inc.", "likely_use": "Could be NetSuite (Oracle-owned) billing, Oracle database/cloud, or both — the Matrix doesn't say which."},
+      {"name": "Salesforce.com, Inc.", "likely_use": "CRM"},
+      {"name": "Microsoft Corporation", "likely_use": "Productivity / cloud (Microsoft 365, Azure, or both)"},
+      {"name": "HubSpot", "likely_use": "Marketing / CRM"},
+      {"name": "DocuSign Inc.", "likely_use": "E-signature"},
+      {"name": "Zoom Video Communications, Inc.", "likely_use": "Video conferencing"},
+      {"name": "Concur Technologies, Inc.", "likely_use": "Expense management — also referenced directly in the Utilities Exhibit C as the card program behind at least one Verizon account (\"IT Card via Concur\"), confirming it's actively used for expense/card payments, not just listed as a vendor."},
+      {"name": "Adp Screening And Selection", "likely_use": "Background-check / employment-screening service (an ADP product line, separate from full payroll ADP)."}
+    ]
+  },
+  "telecom_utility_vendors": {
+    "note": "From Docket #6 (Utilities Motion), Exhibit C — the formal, court-filed list of every utility account Noble asked the court to protect from service cutoff, with monthly cost and account number.",
+    "providers": [
+      {"provider": "Northcentral Electric Cooperative", "service": "Electricity", "account_no": "155995001", "avg_monthly_usd": 3264.00, "likely_location": "Olive Branch, MS (distribution warehouse)"},
+      {"provider": "Olive Branch Gas Utility", "service": "Gas", "account_no": "10014106-80242", "avg_monthly_usd": 1042.00, "likely_location": "Olive Branch, MS"},
+      {"provider": "Eversource", "service": "Electricity", "account_no": "7401 420 9311", "avg_monthly_usd": 600.00, "likely_location": "Boston, MA (HQ)"},
+      {"provider": "Dominion Energy Virginia", "service": "Electricity", "account_no": "08973349403", "avg_monthly_usd": 306.00, "likely_location": "Virginia (Lexington/Harrisonburg sales & ops)"},
+      {"provider": "Washington Gas Light", "service": "Gas", "account_no": "320000518706", "avg_monthly_usd": 99.00, "likely_location": "DC-area / Virginia"},
+      {"provider": "BCI Mississippi Broadband dba MAXXSouth Broadband", "service": "Internet", "account_no": "8282 40 025 0135575", "avg_monthly_usd": 195.00, "likely_location": "Mississippi"},
+      {"provider": "Vodafone GmbH (Wire)", "service": "Internet", "account_no": null, "avg_monthly_usd": 97.00, "likely_location": "Germany (Kaiserslautern)"},
+      {"provider": "Cable One (Sparklight)", "service": "Internet", "account_no": "816011101016774", "avg_monthly_usd": 153.00, "likely_location": "Mississippi region"},
+      {"provider": "Comcast (Olive Branch)", "service": "Internet", "account_no": "Weijia via NS", "avg_monthly_usd": 412.00, "likely_location": "Olive Branch, MS"},
+      {"provider": "Segra", "service": "Internet", "account_no": "103773393", "avg_monthly_usd": 2002.00, "likely_location": "Regional (Segra serves the Mid-Atlantic/Southeast)"},
+      {"provider": "Verizon", "service": "Internet", "account_no": "IT Card via Concur", "avg_monthly_usd": 260.00, "likely_location": "Various — paid via corporate card tracked in Concur"}
+    ],
+    "adequate_assurance_mechanism": "Noble proposed a segregated Utility Deposit Account holding roughly two weeks of average cost per provider (half the 'Average Cost Per Month' column) as adequate assurance of postpetition payment, per section 366 of the Bankruptcy Code."
+  },
+  "cash_management_structure": {
+    "source": "Docket #12 (Cash Management Motion), §9-12",
+    "bank": "JPMorgan Chase (JPMC) — all 13 of Noble's bank accounts are held there.",
+    "accounts": [
+      {"name": "Cash Collateral Accounts", "account_nos": ["3770", "0745", "7847", "7854"], "held_at": ["Noble Supply & Logistics, LLC", "Tactical & Survival Specialties, LLC", "Federal Resources Supply Company, LLC", "K.D. Analytical Consulting, LLC"], "purpose": "Collects customer revenue; swept daily by the Prepetition ABL Secured Parties to pay down the ABL Facility under a cash-dominion agreement. After the ABL is paid off, sweeps will instead pay down the Term Loan."},
+      {"name": "Main Operating Account", "account_nos": ["3671"], "held_at": ["Noble Supply & Logistics, LLC"], "purpose": "Pays substantially all operating expenses: domestic payroll, taxes, insurance, shipping/freight, and vendor claims. Funded by the ABL Secured Parties on request. Also funds K.D. Analytical, the only other debtor that pays some of its own expenses directly."},
+      {"name": "Ancillary Operating Accounts", "account_nos": ["3977", "7189", "7379"], "held_at": ["Tactical & Survival Specialties, LLC", "K.D. Analytical Consulting, LLC", "Federal Resources Supply Company, LLC"], "purpose": "Secondary operating accounts at three entities."},
+      {"name": "Controlled Disbursement Account (CDA)", "account_nos": ["6129"], "held_at": ["Noble Supply & Logistics, LLC"], "purpose": "Zero-balance account; Noble issues checks from it for vendors that don't accept ACH, auto-funded from the ABL Facility when each check clears."},
+      {"name": "Zero Balance Accounts (unused)", "account_nos": ["7056", "7839"], "held_at": ["KDA Acquisition, LLC", "COTS Solutions, LLC"], "purpose": "Open but never used (7056) or never even opened (7839); won't be used during the case."},
+      {"name": "Savings Account", "account_nos": ["6203"], "held_at": ["Noble Supply & Logistics, LLC"], "purpose": "Holds de minimis cash."},
+      {"name": "German Account", "account_nos": ["9876"], "held_at": ["Noble Supply & Logistics, LLC"], "purpose": "Depository and disbursement account for German operations — funds German payroll, receives monthly VAT refunds and foreign-customer receipts, swept to the Main Operating Account about once a month."}
+    ],
+    "intercompany_transactions": "Noble historically ran intercompany transactions among the 11 debtors (recorded/reconciled receivables and payables) and sought authority to continue them postpetition, with postpetition intercompany claims getting administrative-expense priority (junior to cash-collateral/DIP claims)."
+  },
+  "credit_card_program": {
+    "source": "Docket #12 (Cash Management Motion), §17-20",
+    "issuer": "JPMorgan Chase (JPMC)",
+    "structure": "Two active corporate credit cards (a third was paid off and closed before the petition), used by employees for travel and other company expenditures. Balances are paid off monthly, reimbursed from the Main Operating Account.",
+    "outstanding_balance_usd": 210000,
+    "credit_line_usd": 362000,
+    "collateral": "Secured by a segregated 'Credit Card Cash Collateral Account' held at JPMC and by the same liens securing the Prepetition ABL Facility.",
+    "rewards_or_discount_terms": "Not disclosed in any filing we've reviewed — no mention of a cash-back percentage, rewards program, or similar terms; only that it's a standard corporate charge-card arrangement with JPMC."
+  },
+  "trade_terms_and_vendor_programs": {
+    "source": "Docket #11 (Critical Vendors & Lien Claimants Motion), §23-25, §11-18",
+    "customary_trade_terms": "Noble asked (and was authorized) to require any vendor it pays on a prepetition claim to continue extending 'Customary Trade Terms' — defined broadly as credit limits, discounts, pricing, timing of payments, allowances and availability at least as favorable as before the filing. The motion doesn't disclose specific discount percentages or day-terms (e.g. no explicit '2/10 net 30' language) — only that preserving whatever favorable terms already existed was a condition of getting paid.",
+    "critical_vendors": {
+      "definition": "A small, deliberately narrow set of vendors: (i) third-party integrators owed final payment on assembled supply kits before delivery (paying them unlocks near-term cash), (ii) key suppliers for goods tied to live military conflicts, (iii) businesses owned/operated by disabled veterans, and (iv) vendors tied to the Noble IQ segment (seen as high going-concern sale value).",
+      "amount_due_within_21_days_usd": 250000,
+      "cap_authorized_usd": 4000000
+    },
+    "lien_claimants": {
+      "definition": "Shippers, freight/parcel carriers, warehousemen, and other transport/storage/logistics providers who could assert statutory possessory, mechanic's, construction, or transportation liens on Noble's inventory if unpaid — payment was framed as protecting the supply chain from being physically held up.",
+      "total_owed_usd": 1000000,
+      "amount_due_within_21_days_usd": 250000
+    }
+  }
+}

@@ -1,0 +1,1493 @@
+[
+  {
+    "entity": "Noble Supply & Logistics, LLC",
+    "docket_no": "0156",
+    "case_no": "26-11369",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "AR Collections",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Other Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Market Value Movement",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Net Cash Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Payroll",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Inventory Vendors",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Shipping & Logistics",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Rent & Facility Costs",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Software & Technology",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Legal, Accounting & Advisory",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Other Vendors",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Operating Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Restricted Cash Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 1308831,
+      "ending_cash": 1308831,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Cash and Cash Equivalents",
+        "amount_usd": 838202
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts Receivable, Net",
+        "amount_usd": 64627272
+      },
+      {
+        "section": "assets",
+        "line_item": "Intercompany Receivables",
+        "amount_usd": 1164848385
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory, Net",
+        "amount_usd": 61250459
+      },
+      {
+        "section": "assets",
+        "line_item": "Prepaid Expenses and Other Current Assets",
+        "amount_usd": 17011918
+      },
+      {
+        "section": "assets",
+        "line_item": "Total Current Assets",
+        "amount_usd": 1308576237
+      },
+      {
+        "section": "assets",
+        "line_item": "Fixed Assets, Net",
+        "amount_usd": 3546077
+      },
+      {
+        "section": "assets",
+        "line_item": "Other Assets",
+        "amount_usd": 8150733
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance) [Part 2b]",
+        "amount_usd": 27938100
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accounts Payable",
+        "amount_usd": 1040092532
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Credit Card Payable",
+        "amount_usd": -524517
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accrued and Other Current Liabilities",
+        "amount_usd": -74934145
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Current Liabilities",
+        "amount_usd": 964633870
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Long-Term Liabilities",
+        "amount_usd": 279480649
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes) [Part 2f, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes) [Part 2g, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable [Part 2h, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt [Part 2k, main form]",
+        "amount_usd": 231253092
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt [Part 2l, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt [Part 2m, main form]",
+        "amount_usd": 315730721
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt), main-form classification (j+k+l+m) [Part 2n]",
+        "amount_usd": 546983813
+      },
+      {
+        "section": "equity",
+        "line_item": "Total Equity (support-schedule balance sheet)",
+        "amount_usd": 76158527
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending equity/net worth, main-form classification (e-n) [Part 2o]",
+        "amount_usd": 773289233
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 1320273046,
+      "total_liabilities": 1244114519,
+      "total_equity": 76158527
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Lead/reporting debtor. Reporting period is the 2-day stub period 08/30/2026 (petition date) through 08/31/2026 — Months Pending: 0, cash basis reporting.\n\nPart 1–4 figures are taken from a clean re-read of the native PDF (pdftotext badly interleaved the multi-line Part 2/4 cells for this filing). The detailed balance sheet and statement of operations come from the 5-page support-schedule attachment (Doc 156-1), a consolidated 2-column schedule covering only this entity and K.D. Analytical Consulting, LLC — the other 9 jointly-administered debtors filed blank/zero main forms with no attachments.\n\nCash balance of $1,308,831 (beginning = ending, no activity in the stub period) is held across JPMorgan accounts x3671 ($20,856), x0745 ($102,058), x9326 ($1,163,196), x9876 ($22,721), x6129 ($0) and x6203 ($0), per the Cash Balances schedule.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire: no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no professional payments (N/A), has workers' comp/casualty/general liability insurance with current premiums, no plan of reorganization or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026.",
+    "discrepancy_flag": "The main MOR form's Part 2 liability classification (secured/priority/unsecured debt: total liabilities $546,983,813, ending equity $773,289,233) does NOT match the detailed support-schedule balance sheet's current/long-term classification (total liabilities $1,244,114,519, total equity $76,158,527). Both splits independently sum to the same Total Assets of $1,320,273,046, so this looks like two different liability-classification methodologies applied to the same asset base rather than a math error — flagged for legal/financial review rather than resolved here.",
+    "income_statement": [
+      {
+        "line_item": "Product Sales",
+        "amount_usd": 4124287,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Training Revenue",
+        "amount_usd": 3250,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Less Returns & Allowances",
+        "amount_usd": -54646,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Total Revenue",
+        "amount_usd": 4072891,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Product COGS",
+        "amount_usd": -4956160,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Service COGS",
+        "amount_usd": -308236,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Total COGS",
+        "amount_usd": -5264396,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Gross Profit",
+        "amount_usd": 9337287,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Selling Expenses",
+        "amount_usd": 12470,
+        "section": "opex"
+      },
+      {
+        "line_item": "Compensation & Payroll Taxes",
+        "amount_usd": 1155058,
+        "section": "opex"
+      },
+      {
+        "line_item": "Employee Benefits",
+        "amount_usd": 233859,
+        "section": "opex"
+      },
+      {
+        "line_item": "Occupancy & Facilities",
+        "amount_usd": 155655,
+        "section": "opex"
+      },
+      {
+        "line_item": "IT & Technology",
+        "amount_usd": 289701,
+        "section": "opex"
+      },
+      {
+        "line_item": "Professional & Consulting Fees",
+        "amount_usd": 153526,
+        "section": "opex"
+      },
+      {
+        "line_item": "Insurance",
+        "amount_usd": 137300,
+        "section": "opex"
+      },
+      {
+        "line_item": "Travel & Entertainment",
+        "amount_usd": 528769,
+        "section": "opex"
+      },
+      {
+        "line_item": "Other G&A",
+        "amount_usd": -396,
+        "section": "opex"
+      },
+      {
+        "line_item": "Total G&A Expenses",
+        "amount_usd": 2653472,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Legal — Investigation Matters",
+        "amount_usd": 58943,
+        "section": "other"
+      },
+      {
+        "line_item": "Financial Advisor & Restructuring-Related Fees",
+        "amount_usd": 775085,
+        "section": "other"
+      },
+      {
+        "line_item": "Realized Gain/Loss",
+        "amount_usd": -1063,
+        "section": "other"
+      },
+      {
+        "line_item": "Other/Rounding",
+        "amount_usd": 12,
+        "section": "other"
+      },
+      {
+        "line_item": "Total Other Expense",
+        "amount_usd": 832977,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Depreciation & Amortization",
+        "amount_usd": 150390,
+        "section": "other"
+      },
+      {
+        "line_item": "Interest & Other Income, net",
+        "amount_usd": -7630,
+        "section": "other"
+      },
+      {
+        "line_item": "Other Taxes (Non-Income)",
+        "amount_usd": 6918,
+        "section": "other"
+      },
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 5688689,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "From the Doc 156-1 support schedule. Matches the main form's Part 4k profit/loss; current month = cumulative for this 2-day stub period."
+  },
+  {
+    "entity": "COTS Solutions, LLC",
+    "docket_no": "0157",
+    "case_no": "26-11370",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11370, jointly administered under lead Case No. 26-11369.\n\nEvery dollar figure on Parts 1–4 of the main form is printed as $0 — no separate bank accounts or standalone activity attributed to this entity during the stub period. The enterprise's actual cash, receivables, inventory and liabilities for the period are reported at the two entities that filed populated schedules: Noble Supply & Logistics, LLC (Doc 156) and K.D. Analytical Consulting, LLC (Doc 160). No support-schedule attachment was filed for this entity.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Federal Resources Supply Company, LLC",
+    "docket_no": "0158",
+    "case_no": "26-11371",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11371, jointly administered under lead Case No. 26-11369.\n\nDespite the entity name suggesting an operating supply business, every dollar figure on Parts 1–4 is printed as $0 for this reporting period — no separate bank accounts or activity attributed to this entity. The Cash Balances schedule (Doc 156-1/160-1) does list a “Federal Resources Supply Company, LLC” JPMorgan account, x7847, with a $0 balance, consistent with this filing. No support-schedule attachment was filed for this docket.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "FRS Holdings, LLC",
+    "docket_no": "0159",
+    "case_no": "26-11372",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11372, jointly administered under lead Case No. 26-11369.\n\nThe entity name (“Holdings”) and all-zero form are consistent with this being a non-operating holding company with no separate bank accounts or activity during the stub period. No support-schedule attachment was filed.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "K.D. Analytical Consulting, LLC",
+    "docket_no": "0160",
+    "case_no": "26-11373",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "AR Collections",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Other Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Market Value Movement",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Net Cash Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Payroll",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Inventory Vendors",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Shipping & Logistics",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Rent & Facility Costs",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Software & Technology",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Legal, Accounting & Advisory",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Other Vendors",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Operating Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Restricted Cash Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 3669,
+      "ending_cash": 3669,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Cash and Cash Equivalents",
+        "amount_usd": 73888
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts Receivable, Net",
+        "amount_usd": 1993134
+      },
+      {
+        "section": "assets",
+        "line_item": "Intercompany Receivables",
+        "amount_usd": 46439884
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory, Net",
+        "amount_usd": 1793887
+      },
+      {
+        "section": "assets",
+        "line_item": "Prepaid Expenses and Other Current Assets",
+        "amount_usd": -840149
+      },
+      {
+        "section": "assets",
+        "line_item": "Total Current Assets",
+        "amount_usd": 49460644
+      },
+      {
+        "section": "assets",
+        "line_item": "Fixed Assets, Net",
+        "amount_usd": 209777
+      },
+      {
+        "section": "assets",
+        "line_item": "Other Assets",
+        "amount_usd": 2783
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance) [Part 2b]",
+        "amount_usd": 391513
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accounts Payable",
+        "amount_usd": 23693323
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Credit Card Payable",
+        "amount_usd": -93829
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accrued and Other Current Liabilities",
+        "amount_usd": 2115563
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Current Liabilities",
+        "amount_usd": 25715056
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Long-Term Liabilities",
+        "amount_usd": 122475
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes) [Part 2f, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes) [Part 2g, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable [Part 2h, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt [Part 2k, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt [Part 2l, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt [Part 2m, main form]",
+        "amount_usd": 1762664
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt), main-form classification (j+k+l+m) [Part 2n]",
+        "amount_usd": 1762664
+      },
+      {
+        "section": "equity",
+        "line_item": "Total Equity (support-schedule balance sheet)",
+        "amount_usd": 23835672
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending equity/net worth, main-form classification (e-n) [Part 2o]",
+        "amount_usd": 47910540
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 49673204,
+      "total_liabilities": 25837532,
+      "total_equity": 23835672
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second of the two debtors with populated financials this period. Reporting period is the 2-day stub period 08/30/2026–08/31/2026 — Months Pending: 0, cash basis.\n\nMain-form Part 1–4 figures are re-read from the clean native PDF (pdftotext jumbled the multi-line cells). The detailed balance sheet and statement of operations come from the identical 5-page support-schedule attachment filed at both Doc 156-1 and Doc 160-1 — a single consolidated 2-column schedule covering this entity together with Noble Supply & Logistics, LLC, duplicated as an exhibit to both dockets.\n\nCash balance $3,669 is held in JPMorgan account x7189 (beginning = ending, no activity); a second account, x7854, in this entity's name shows a $0 balance per the Cash Balances schedule.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity (see Noble Supply & Logistics notes).\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026.",
+    "discrepancy_flag": "Same balance-sheet-classification discrepancy as the lead entity: the main form's Part 2 secured/priority/unsecured classification (total liabilities $1,762,664, ending equity $47,910,540) does not match the support-schedule's current/long-term classification (total liabilities $25,837,532, total equity $23,835,672). Both splits independently sum to Total Assets of $49,673,204.",
+    "income_statement": [
+      {
+        "line_item": "Product Sales",
+        "amount_usd": -584557,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Service Revenue",
+        "amount_usd": 1081241,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Training Revenue",
+        "amount_usd": 164535,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Total Revenue",
+        "amount_usd": 661219,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Product COGS",
+        "amount_usd": -1010669,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Service COGS",
+        "amount_usd": 1307537,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Total COGS",
+        "amount_usd": 296868,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Gross Profit",
+        "amount_usd": 364351,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Selling Expenses",
+        "amount_usd": 0,
+        "section": "opex"
+      },
+      {
+        "line_item": "Compensation & Payroll Taxes",
+        "amount_usd": 199664,
+        "section": "opex"
+      },
+      {
+        "line_item": "Employee Benefits",
+        "amount_usd": 34936,
+        "section": "opex"
+      },
+      {
+        "line_item": "Occupancy & Facilities",
+        "amount_usd": 579,
+        "section": "opex"
+      },
+      {
+        "line_item": "Other G&A",
+        "amount_usd": 699,
+        "section": "opex"
+      },
+      {
+        "line_item": "Total G&A Expenses",
+        "amount_usd": 235879,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Total Other Expense",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Depreciation & Amortization",
+        "amount_usd": 6069,
+        "section": "other"
+      },
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 122402,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "From the Doc 160-1 support schedule (same source document as Doc 156-1). Matches the main form's Part 4k; current month = cumulative for this 2-day stub period."
+  },
+  {
+    "entity": "KDA Acquisition, LLC",
+    "docket_no": "0161",
+    "case_no": "26-11374",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11374, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form; an “Acquisition” shell entity with no separate bank activity this period. The Cash Balances schedule (Doc 156-1/160-1) lists a JPMorgan account, x7056, in this entity's name with a $0 balance, consistent with this filing. No support-schedule attachment was filed.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Noble Defense Corporation",
+    "docket_no": "0162",
+    "case_no": "26-11375",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11375, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form; not among the entities listed on the Cash Balances schedule, consistent with no bank accounts and no activity this period. No support-schedule attachment was filed.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Noble Equity Holdings, LLC",
+    "docket_no": "0163",
+    "case_no": "26-11376",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11376, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form; the entity name (“Equity Holdings”) and the lack of any listed bank account are consistent with a pure holding-company shell with no operations this period. No support-schedule attachment was filed.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Noble.com, LLC",
+    "docket_no": "0164",
+    "case_no": "26-11377",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11377, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form; likely a dormant IP/domain-holding entity with no separate bank accounts or activity this period. No support-schedule attachment was filed.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Noble Mission Support, LLC",
+    "docket_no": "0165",
+    "case_no": "26-11378",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11378, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form; consistent with a services/payroll-support entity whose costs and cash flow through the two reporting entities (Noble Supply & Logistics and K.D. Analytical Consulting) rather than its own accounts this stub period. No support-schedule attachment was filed.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Tactical & Survival Specialties, LLC",
+    "docket_no": "0166",
+    "case_no": "26-11379",
+    "period_start": "2026-08-30",
+    "period_end": "2026-08-31",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total receipts (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total disbursements (net of transfers between accounts)",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable (total net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance)",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total current assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes)",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt) (j+k+l+m)",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11379, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form despite this entity having its own JPMorgan account (x3770, $0 balance per the Cash Balances schedule in Doc 156-1/160-1) — no activity through that account this stub period. No support-schedule attachment was filed for this docket.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  }
+]
