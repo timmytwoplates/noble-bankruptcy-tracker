@@ -21,9 +21,19 @@ UPDATE_PLAYBOOK.md for that pass):
     dla_dispute based on what a new filing actually says.
 
 Designed to run unattended (GitHub Actions cron) with only the Python
-standard library -- no pip installs, so it can't break on a dependency.
+standard library plus the system `curl` binary (preinstalled on GitHub's
+ubuntu-latest runners) -- no pip installs, so it can't break on a dependency.
+
+Fetching uses `curl` rather than Python's `urllib`/`ssl` deliberately:
+veritaglobal.net's certificate chain is missing an intermediate that
+Python's bundled trust store won't resolve (confirmed failing the same way
+both locally and on an actual GitHub Actions runner --
+SSLCertVerificationError: unable to get local issuer certificate), while
+curl's OS-level trust store handles it fine. Don't "fix" this by disabling
+certificate verification in Python -- that's a bad pattern for a public
+script and unnecessary since curl already works.
 """
-import json, os, re, sys, urllib.request, urllib.parse, datetime
+import json, os, re, sys, subprocess, urllib.parse, datetime
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(REPO_ROOT, "data")
@@ -100,11 +110,13 @@ def fetch_docket_page(page_num, total_records):
     data = urllib.parse.urlencode({
         "CurrentPage": page_num, "PageSize": 100, "TotalRecords": total_records,
         "AllCases": "True", "AllIndustryGroups": "True", "AllJurisdictions": "True",
-    }).encode()
-    req = urllib.request.Request(f"{DOCKET_LIST_URL}?pagesize=200", data=data,
-                                  headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
+    })
+    result = subprocess.run(
+        ["curl", "-sL", "--fail", "-X", "POST", f"{DOCKET_LIST_URL}?pagesize=200",
+         "-A", UA, "--data-raw", data],
+        capture_output=True, text=True, timeout=30, check=True,
+    )
+    return result.stdout
 
 
 def parse_entries(html):
