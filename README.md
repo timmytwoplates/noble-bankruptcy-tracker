@@ -23,6 +23,12 @@ A plain-English dashboard for the Noble Supply & Logistics, LLC, et al. Chapter 
   type. Included for transparency about the extraction method, not as a turnkey pipeline — the
   raw downloaded PDFs/HTML aren't included here (they're large and easy to re-fetch from the
   source below).
+- **`template/dashboard_template.html`** — the page's actual source (design, layout, JavaScript).
+  `scripts/build_standalone.py` combines this with everything in `data/` to produce `index.html`.
+  Edit the template, not `index.html` directly — it gets overwritten on every rebuild.
+- **`.github/workflows/refresh.yml`** — runs daily on GitHub's own servers (see "Staying current"
+  below).
+- **`UPDATE_PLAYBOOK.md`** — the runbook for the deeper, AI-assisted update pass (see below).
 
 ## Source
 
@@ -37,8 +43,22 @@ the page says so.
 
 ## Staying current
 
-This is a **snapshot**, not a live feed — it reflects the docket as of the date shown at the
-bottom of the page. It is not automatically kept in sync with this GitHub repo.
+Two update paths, both self-contained in this repo — neither depends on any particular machine
+or session to keep running:
+
+1. **Automatic, mechanical, free** ([`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)) —
+   a GitHub Action runs daily (and can be triggered manually from the Actions tab), checks the
+   public docket for filings newer than what's in `data/docket_entries.json`, classifies each as
+   routine/substantive with the same rules the original build used, and commits + pushes the
+   update. Routine filings (certs of service, pro hac vice admissions, etc.) get a one-line
+   factual note automatically. New *substantive* filings get added with `"summary": null` and are
+   listed in `data/pending_review.json` — this step deliberately does not use AI, so it can't
+   write a plain-English summary or transcribe a new financial statement.
+2. **AI-assisted, on demand** ([`UPDATE_PLAYBOOK.md`](UPDATE_PLAYBOOK.md)) — clears out
+   `data/pending_review.json` by actually reading each new filing and writing the plain-English
+   summary (and any financial transcription, sale-milestone update, etc.) that step 1 can't. Meant
+   to be run by a capable AI coding agent (or a person) in a local clone, on whatever cadence you
+   want — the playbook is self-contained and doesn't assume any prior context about this case.
 
 ## Not legal advice
 

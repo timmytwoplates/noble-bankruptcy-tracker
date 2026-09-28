@@ -1,0 +1,42 @@
+name: Refresh docket (mechanical, no AI)
+
+on:
+  schedule:
+    # 11:00 UTC daily = 7am ET (matches the cadence of the AI-assisted pass)
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-docket
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new docket entries and update data/
+        run: python scripts/refresh_docket.py
+
+      - name: Rebuild index.html from data/
+        run: python scripts/build_standalone.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "noble-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git add -A
+          git commit -m "Automated docket refresh (no AI) - $(date -u +%Y-%m-%d)"
+          git push

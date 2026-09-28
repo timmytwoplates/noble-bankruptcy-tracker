@@ -1,0 +1,1006 @@
+<title>Noble Ch. 11 Tracker</title>
+<meta name="description" content="A plain-English tracker for the Noble Supply &amp; Logistics Chapter 11 case: filed motions, the asset-sale timeline, and per-entity cash flow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f9f9f7; --surface:#fcfcfb; --surface-2:#f2f1ec; --surface-3:#e9e7df;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#898781;
+  --border:rgba(11,11,11,0.10); --gridline:#e1e0d9; --baseline:#c3c2b7;
+  --accent:#2a78d6; --accent-ink:#ffffff; --accent-soft:#dce9fa;
+  --series-2:#eb6834; --series-3:#1baf7a; --series-4:#eda100; --series-7:#4a3aa7;
+  --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  --good-soft:#e3f6e3; --warning-soft:#fff3dc; --serious-soft:#fde7de; --critical-soft:#fbe2e2;
+  --font-display:'Spectral',Georgia,serif;
+  --font-body:'Inter',system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#0d0d0d; --surface:#1a1a19; --surface-2:#212120; --surface-3:#2a2a28;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#8f8d86;
+    --border:rgba(255,255,255,0.10); --gridline:#2c2c2a; --baseline:#383835;
+    --accent:#3987e5; --accent-ink:#ffffff; --accent-soft:#173257;
+    --series-2:#d95926; --series-3:#199e70; --series-4:#c98500; --series-7:#9085e9;
+    --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#e66767;
+    --good-soft:#123312; --warning-soft:#3a2c0c; --serious-soft:#3a2018; --critical-soft:#3a1414;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#0d0d0d; --surface:#1a1a19; --surface-2:#212120; --surface-3:#2a2a28;
+  --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#8f8d86;
+  --border:rgba(255,255,255,0.10); --gridline:#2c2c2a; --baseline:#383835;
+  --accent:#3987e5; --accent-ink:#ffffff; --accent-soft:#173257;
+  --series-2:#d95926; --series-3:#199e70; --series-4:#c98500; --series-7:#9085e9;
+  --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#e66767;
+  --good-soft:#123312; --warning-soft:#3a2c0c; --serious-soft:#3a2018; --critical-soft:#3a1414;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--text-primary);
+  font-family:var(--font-body); font-size:14px; line-height:1.5;
+  padding-inline:16px;
+}
+.wrap{max-width:1080px; margin:0 auto; padding-block:20px 64px;}
+h1,h2,h3{font-family:var(--font-display); font-weight:600; text-wrap:balance; margin:0;}
+a{color:var(--accent);}
+.mono{font-family:var(--font-mono);}
+.tabular{font-variant-numeric:tabular-nums;}
+
+/* ---- header ---- */
+.case-header{
+  display:flex; flex-wrap:wrap; gap:16px 32px; align-items:flex-start;
+  padding-block:8px 20px; border-bottom:1px solid var(--border); margin-bottom:20px;
+}
+.case-id{font-family:var(--font-mono); font-size:12px; color:var(--text-muted); letter-spacing:.02em; margin-bottom:4px;}
+.case-title{font-size:26px; line-height:1.15;}
+.case-sub{color:var(--text-secondary); font-size:13px; margin-top:6px;}
+.case-meta{margin-left:auto; display:flex; gap:24px; flex-wrap:wrap;}
+.meta-stat{min-width:90px;}
+.meta-stat .label{font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-muted);}
+.meta-stat .value{font-size:20px; font-weight:600; font-family:var(--font-display);}
+
+/* ---- health banner ---- */
+.health-banner{
+  display:flex; gap:14px; align-items:flex-start; padding:16px 18px; border-radius:10px;
+  background:var(--warning-soft); border:1px solid var(--border); margin-bottom:24px;
+}
+.health-dot{width:12px; height:12px; border-radius:50%; background:var(--warning); margin-top:5px; flex:none; box-shadow:0 0 0 4px color-mix(in srgb, var(--warning) 20%, transparent);}
+.health-body .h-title{font-weight:700; font-size:15px;}
+.health-body .h-sub{color:var(--text-secondary); margin-top:3px; font-size:13.5px;}
+.health-toggle{margin-left:auto; align-self:center; flex:none;}
+
+/* ---- tabs ---- */
+.tabs{display:flex; gap:4px; border-bottom:1px solid var(--border); margin-bottom:22px; flex-wrap:wrap;}
+.tab-btn{
+  font:inherit; font-weight:600; font-size:13.5px; color:var(--text-secondary);
+  background:none; border:none; padding:10px 14px; cursor:pointer; border-bottom:2px solid transparent;
+  border-radius:6px 6px 0 0;
+}
+.tab-btn:hover{color:var(--text-primary); background:var(--surface-2);}
+.tab-btn.active{color:var(--accent); border-bottom-color:var(--accent);}
+.panel{display:none;}
+.panel.active{display:block;}
+
+/* ---- cards / layout ---- */
+.card{background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:18px 20px;}
+.grid-2{display:grid; grid-template-columns:1.3fr 1fr; gap:16px;}
+.grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px;}
+.stack{display:flex; flex-direction:column; gap:16px;}
+@media (max-width:760px){ .grid-2,.grid-3{grid-template-columns:1fr;} }
+
+.section-title{font-size:17px; margin-bottom:10px;}
+.section-title.spaced{margin-top:26px;}
+p{margin:0 0 10px; color:var(--text-secondary); max-width:70ch;}
+p:last-child{margin-bottom:0;}
+ul.plain{margin:0; padding-left:18px; color:var(--text-secondary);}
+ul.plain li{margin-bottom:6px;}
+ul.plain li::marker{color:var(--text-muted);}
+
+.pill{display:inline-flex; align-items:center; gap:5px; font-size:11.5px; font-weight:600; padding:3px 9px; border-radius:100px; white-space:nowrap;}
+.pill.good{background:var(--good-soft); color:var(--good);}
+.pill.warning{background:var(--warning-soft); color:#946200;}
+.pill.serious{background:var(--serious-soft); color:#a4431f;}
+.pill.critical{background:var(--critical-soft); color:var(--critical);}
+.pill.neutral{background:var(--surface-3); color:var(--text-secondary);}
+:root:not([data-theme="light"]) .pill.warning{color:var(--warning);}
+:root:not([data-theme="light"]) .pill.serious{color:var(--serious);}
+:root[data-theme="dark"] .pill.warning{color:var(--warning);}
+:root[data-theme="dark"] .pill.serious{color:var(--serious);}
+
+table{width:100%; border-collapse:collapse; font-size:13px;}
+th{text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-muted); font-weight:600; padding:7px 10px; border-bottom:1px solid var(--border);}
+td{padding:9px 10px; border-bottom:1px solid var(--gridline); vertical-align:top; color:var(--text-primary);}
+tr:last-child td{border-bottom:none;}
+.num{text-align:right; font-family:var(--font-mono); font-variant-numeric:tabular-nums;}
+.table-wrap{overflow-x:auto; border:1px solid var(--border); border-radius:10px;}
+.table-wrap table{min-width:520px;}
+.table-wrap .card-title{padding:14px 16px 0;}
+
+/* ---- overview ---- */
+.segment-card{background:var(--surface-2); border-radius:8px; padding:12px 14px;}
+.segment-card .seg-name{font-weight:600; font-size:13px;}
+.segment-card .seg-rev{font-family:var(--font-mono); font-size:15px; margin-top:2px;}
+.timeline-list{position:relative; margin-left:6px; padding-left:20px; border-left:2px solid var(--gridline);}
+.tl-item{position:relative; padding-bottom:16px;}
+.tl-item::before{content:''; position:absolute; left:-25px; top:3px; width:9px; height:9px; border-radius:50%; background:var(--accent); border:2px solid var(--surface);}
+.tl-date{font-family:var(--font-mono); font-size:11.5px; color:var(--text-muted);}
+.tl-event{font-size:13.5px; margin-top:2px;}
+
+/* ---- docket ---- */
+.filter-row{display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:14px;}
+.filter-row select, .filter-row input[type=search]{
+  font:inherit; font-size:13px; padding:7px 10px; border-radius:7px; border:1px solid var(--border);
+  background:var(--surface); color:var(--text-primary);
+}
+.filter-row input[type=search]{flex:1; min-width:160px;}
+.count-note{font-size:12px; color:var(--text-muted); margin-bottom:10px;}
+.docket-list{display:flex; flex-direction:column; gap:2px;}
+.docket-row{display:grid; grid-template-columns:56px 1fr auto; gap:12px; padding:12px 10px; border-bottom:1px solid var(--gridline); align-items:start;}
+.docket-row:hover{background:var(--surface-2);}
+.docket-num{font-family:var(--font-mono); font-size:12px; color:var(--text-muted); padding-top:2px;}
+.docket-main .d-title{font-size:13px; font-weight:600; line-height:1.4;}
+.docket-main .d-summary{font-size:13px; color:var(--text-secondary); margin-top:4px; line-height:1.5;}
+.docket-side{text-align:right; white-space:nowrap; display:flex; flex-direction:column; align-items:flex-end; gap:6px;}
+.docket-date{font-family:var(--font-mono); font-size:11.5px; color:var(--text-muted);}
+.docket-row.is-routine .d-title{font-weight:500; color:var(--text-secondary);}
+
+/* ---- sale timeline ---- */
+.stl{display:flex; flex-direction:column;}
+.stl-row{display:grid; grid-template-columns:150px 24px 1fr; gap:10px; align-items:center; min-height:44px;}
+.stl-date{font-family:var(--font-mono); font-size:12px; color:var(--text-secondary); text-align:right;}
+.stl-dotcol{display:flex; flex-direction:column; align-items:center; align-self:stretch;}
+.stl-dot{width:11px; height:11px; border-radius:50%; background:var(--baseline); flex:none; margin-top:4px;}
+.stl-row.met .stl-dot{background:var(--good);}
+.stl-row.next .stl-dot{background:var(--accent); box-shadow:0 0 0 4px var(--accent-soft);}
+.stl-line{width:2px; flex:1; background:var(--gridline); margin-top:2px;}
+.stl-event{font-size:13px; padding-bottom:2px;}
+.stl-row.met .stl-event{color:var(--text-secondary);}
+.source-cite{font-size:11px; color:var(--text-muted); padding-bottom:14px;}
+.source-cite a{color:var(--text-muted); text-decoration:underline;}
+p .source-cite, .card > .source-cite{margin-top:4px;}
+
+/* ---- financials ---- */
+.entity-picker{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:16px;}
+.entity-btn{
+  font:inherit; font-size:12.5px; font-weight:600; padding:6px 12px; border-radius:100px;
+  border:1px solid var(--border); background:var(--surface); color:var(--text-secondary); cursor:pointer;
+}
+.entity-btn.active{background:var(--accent); border-color:var(--accent); color:var(--accent-ink);}
+.entity-btn:disabled{opacity:.4; cursor:default;}
+.stat-tile{background:var(--surface-2); border-radius:8px; padding:12px 14px;}
+.stat-tile .label{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-muted);}
+.stat-tile .value{font-family:var(--font-mono); font-size:19px; margin-top:3px;}
+.chart-card{padding-bottom:8px;}
+.legend{display:flex; gap:16px; flex-wrap:wrap; margin:10px 2px 2px; font-size:12px; color:var(--text-secondary);}
+.legend .lg-item{display:flex; align-items:center; gap:6px;}
+.legend .swatch{width:10px; height:10px; border-radius:2px; flex:none;}
+.chart-note{font-size:12px; color:var(--text-muted); margin-top:8px;}
+.notes-block{background:var(--surface-2); border-radius:8px; padding:12px 14px; margin-top:12px;}
+.notes-block .nb-label{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-muted); margin-bottom:8px; font-weight:600;}
+.notes-block .nb-body{font-size:13px; color:var(--text-secondary); line-height:1.6; max-width:none;}
+.notes-block .nb-body p{margin:0 0 12px; max-width:none; color:var(--text-secondary);}
+.notes-block .nb-body p:last-child{margin-bottom:0;}
+.discrepancy-callout{
+  display:flex; gap:10px; align-items:flex-start; background:var(--warning-soft); border:1px solid var(--border);
+  border-radius:8px; padding:12px 14px; margin-top:12px;
+}
+.discrepancy-callout .dc-icon{flex:none; font-weight:700; font-size:13px; color:#946200;}
+:root:not([data-theme="light"]) .discrepancy-callout .dc-icon{color:var(--warning);}
+:root[data-theme="dark"] .discrepancy-callout .dc-icon{color:var(--warning);}
+.discrepancy-callout .dc-body{font-size:13px; line-height:1.55;}
+.discrepancy-callout .dc-title{font-weight:700; margin-bottom:4px;}
+.cm-account{padding:10px 0; border-bottom:1px solid var(--gridline);}
+.cm-account:last-child{border-bottom:none;}
+.cm-account .cma-head{display:flex; justify-content:space-between; gap:10px; font-size:13px; font-weight:600;}
+.cm-account .cma-nos{font-family:var(--font-mono); font-size:11.5px; color:var(--text-muted); font-weight:400;}
+.cm-account .cma-desc{font-size:12.5px; color:var(--text-secondary); margin-top:3px; line-height:1.5;}
+.svg-tip{position:absolute; pointer-events:none; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:6px 9px; font-size:11.5px; box-shadow:0 4px 14px rgba(0,0,0,.12); opacity:0; transition:opacity .1s; white-space:nowrap; z-index:5;}
+.chart-wrap{position:relative;}
+
+footer{margin-top:40px; padding-top:16px; border-top:1px solid var(--border); font-size:11.5px; color:var(--text-muted);}
+footer a{color:var(--text-muted); text-decoration:underline;}
+
+@media (max-width:600px){
+  .case-meta{margin-left:0; gap:16px;}
+  .docket-row{grid-template-columns:1fr; row-gap:6px;}
+  .docket-num{order:-1;}
+  .docket-side{flex-direction:row; align-items:center;}
+  .stl-row{grid-template-columns:90px 20px 1fr;}
+}
+</style>
+
+<div class="wrap">
+
+  <div class="case-header">
+    <div>
+      <div class="case-id" id="case-id"></div>
+      <h1 class="case-title" id="case-title"></h1>
+      <div class="case-sub" id="case-sub"></div>
+    </div>
+    <div class="case-meta">
+      <div class="meta-stat"><div class="label">Days since filing</div><div class="value" id="days-since"></div></div>
+      <div class="meta-stat"><div class="label">Docket entries</div><div class="value" id="docket-count"></div></div>
+      <div class="meta-stat"><div class="label">Debtor entities</div><div class="value" id="entity-count"></div></div>
+    </div>
+  </div>
+
+  <div class="health-banner" id="health-banner">
+    <div class="health-dot"></div>
+    <div class="health-body">
+      <div class="h-title" id="health-title"></div>
+      <div class="h-sub" id="health-sub"></div>
+    </div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button class="tab-btn" data-tab="overview">Overview</button>
+    <button class="tab-btn" data-tab="docket">Docket</button>
+    <button class="tab-btn" data-tab="sale">Sale Process</button>
+    <button class="tab-btn" data-tab="financials">Financials</button>
+    <button class="tab-btn" data-tab="parties">Parties</button>
+    <button class="tab-btn" data-tab="vendors">Creditors &amp; Vendors</button>
+    <button class="tab-btn" data-tab="health">Outlook</button>
+  </div>
+
+  <!-- OVERVIEW -->
+  <div class="panel" id="panel-overview">
+    <div class="grid-2">
+      <div class="card">
+        <h2 class="section-title">What Noble does</h2>
+        <p id="ov-desc"></p>
+        <div class="grid-3" id="ov-segments" style="margin-top:12px;"></div>
+      </div>
+      <div class="card">
+        <h2 class="section-title">At a glance</h2>
+        <table>
+          <tr><td>Founded</td><td class="num" id="ov-founded"></td></tr>
+          <tr><td>Employees</td><td class="num" id="ov-employees"></td></tr>
+          <tr><td>Locations</td><td class="num" id="ov-locations"></td></tr>
+          <tr><td>Debtor entities</td><td class="num" id="ov-entities-n"></td></tr>
+          <tr><td>Total funded debt</td><td class="num" id="ov-debt"></td></tr>
+          <tr><td>Court</td><td class="num" id="ov-court"></td></tr>
+          <tr><td>Judge</td><td class="num" id="ov-judge"></td></tr>
+          <tr><td>Claims agent</td><td class="num" id="ov-agent"></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <h2 class="section-title spaced">Why Noble filed for Chapter 11</h2>
+    <div class="grid-2">
+      <div class="card"><p id="ov-why"></p><div id="ov-why-cite"></div></div>
+      <div class="card"><div class="timeline-list" id="ov-timeline"></div></div>
+    </div>
+
+    <h2 class="section-title spaced">Capital structure</h2>
+    <div id="ov-cap-cite"></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Instrument</th><th>Agent / Issuer</th><th>Rate</th><th>Maturity</th><th class="num">Outstanding</th></tr></thead>
+        <tbody id="ov-capstack"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title spaced">The Defense Logistics Agency dispute</h2>
+    <div class="card">
+      <p id="dla-summary"></p>
+      <div id="dla-cite"></div>
+      <h2 class="section-title" style="font-size:15px; margin-top:14px;">Outcome</h2>
+      <p id="dla-outcome"></p>
+      <h2 class="section-title" style="font-size:15px; margin-top:14px;">Financial stakes</h2>
+      <p id="dla-stakes"></p>
+      <p style="font-size:12px; color:var(--text-muted);">Note: this dispute (Docket #102/124/142/151) is separate from the larger ~$400M SOE contract termination and ~$86M FSG-53 recoupment claim described in the First Day Declaration <span id="dla-fdd-cite"></span> — those remain unresolved and aren't part of this specific ruling.</p>
+    </div>
+    <div class="table-wrap" style="margin-top:12px;" id="dla-timeline-wrap">
+      <table>
+        <thead><tr><th>Date</th><th>Event</th><th>Source</th></tr></thead>
+        <tbody id="dla-timeline"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title spaced">The 11 debtor entities</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Entity</th><th>Case No.</th><th>Notes</th></tr></thead>
+        <tbody id="ov-entities"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- DOCKET -->
+  <div class="panel" id="panel-docket">
+    <div class="filter-row">
+      <input type="search" id="d-search" placeholder="Search filings…">
+      <select id="d-category"></select>
+      <select id="d-view">
+        <option value="substantive">Substantive filings</option>
+        <option value="all">All filings (incl. routine)</option>
+      </select>
+    </div>
+    <div class="count-note" id="d-count"></div>
+    <div class="docket-list" id="d-list"></div>
+  </div>
+
+  <!-- SALE PROCESS -->
+  <div class="panel" id="panel-sale">
+    <div class="grid-2">
+      <div class="card">
+        <h2 class="section-title">Stalking horse status</h2>
+        <p id="sale-stalking"></p>
+      </div>
+      <div class="card">
+        <h2 class="section-title">Process type</h2>
+        <p id="sale-process-type"></p>
+        <p style="margin-top:10px;" id="sale-banker"></p>
+      </div>
+    </div>
+
+    <h2 class="section-title spaced">Sale timeline</h2>
+    <div class="card">
+      <div class="stl" id="sale-timeline"></div>
+    </div>
+
+    <h2 class="section-title spaced">Cash-collateral case milestones</h2>
+    <div class="card">
+      <div class="stl" id="sale-cc-milestones"></div>
+    </div>
+  </div>
+
+  <!-- FINANCIALS -->
+  <div class="panel" id="panel-financials">
+    <div class="card" style="margin-bottom:16px;">
+      <h2 class="section-title">13-week cash flow (cash-collateral budget)</h2>
+      <p id="cb-note"></p>
+      <div class="chart-wrap">
+        <div id="cb-chart"></div>
+        <div class="svg-tip" id="cb-tip"></div>
+      </div>
+      <div class="legend">
+        <div class="lg-item"><span class="swatch" style="background:var(--accent)"></span>Total receipts</div>
+        <div class="lg-item"><span class="swatch" style="background:var(--series-2)"></span>Total disbursements</div>
+        <div class="lg-item"><span class="swatch" style="background:var(--series-3)"></span>Net cash flow</div>
+      </div>
+      <div class="chart-note" id="cb-debt-note"></div>
+    </div>
+
+    <h2 class="section-title">Monthly Operating Reports — by entity</h2>
+    <div class="entity-picker" id="mor-picker"></div>
+    <div class="grid-3" id="mor-stats"></div>
+    <div class="chart-note" id="mor-period"></div>
+    <div class="discrepancy-callout" id="mor-discrepancy" style="display:none;">
+      <div class="dc-icon">⚠</div>
+      <div class="dc-body">
+        <div class="dc-title">Data discrepancy in this filing</div>
+        <div id="mor-discrepancy-text"></div>
+      </div>
+    </div>
+    <div class="notes-block" id="mor-notes-block" style="display:none;">
+      <div class="nb-label">Notes on this filing</div>
+      <div class="nb-body" id="mor-note"></div>
+    </div>
+
+    <div id="mor-income-wrap" style="display:none;">
+      <h2 class="section-title spaced">Statement of operations</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Line item</th><th class="num">Amount</th></tr></thead>
+          <tbody id="mor-income"></tbody>
+        </table>
+      </div>
+      <div class="chart-note" id="mor-income-note"></div>
+    </div>
+
+    <h2 class="section-title spaced">Cash &amp; disbursements detail</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Line item</th><th>Section</th><th class="num">Amount</th></tr></thead>
+        <tbody id="mor-cashflow"></tbody>
+      </table>
+    </div>
+    <h2 class="section-title spaced">Balance sheet</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Line item</th><th>Section</th><th class="num">Amount</th></tr></thead>
+        <tbody id="mor-balance"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PARTIES -->
+  <div class="panel" id="panel-parties">
+    <div id="parties-groups"></div>
+  </div>
+
+  <!-- CREDITORS & VENDORS -->
+  <div class="panel" id="panel-vendors">
+    <div class="card">
+      <h2 class="section-title">All creditors</h2>
+      <p id="tc-source"></p>
+      <p id="tc-note" style="font-size:12px; color:var(--text-muted);"></p>
+    </div>
+    <div class="filter-row" style="margin-top:14px;">
+      <input type="search" id="tc-search" placeholder="Search creditors, city, state…">
+      <select id="tc-type-filter"></select>
+      <select id="tc-sort">
+        <option value="amount-desc">Sort: Claim amount (high→low)</option>
+        <option value="amount-asc">Sort: Claim amount (low→high)</option>
+        <option value="name-asc">Sort: Name (A→Z)</option>
+      </select>
+    </div>
+    <div class="count-note" id="tc-count"></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Creditor</th><th>Type</th><th>Location</th><th class="num">Claim</th><th>Links</th></tr></thead>
+        <tbody id="tc-body"></tbody>
+      </table>
+    </div>
+    <div style="display:flex; justify-content:center; margin-top:14px;">
+      <button class="entity-btn" id="tc-load-more">Show more</button>
+    </div>
+
+    <h2 class="section-title spaced">Software &amp; systems we could identify</h2>
+    <div class="card"><p id="sw-note"></p></div>
+    <div class="table-wrap" style="margin-top:10px;">
+      <table>
+        <thead><tr><th>Vendor</th><th>Likely use</th></tr></thead>
+        <tbody id="sw-body"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title spaced">Utility providers</h2>
+    <div class="card"><p id="ut-note"></p></div>
+    <div class="table-wrap" style="margin-top:10px;">
+      <table>
+        <thead><tr><th>Provider</th><th>Service</th><th>Likely location</th><th class="num">Avg. / month</th></tr></thead>
+        <tbody id="ut-body"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title spaced">Treasury &amp; payment practices</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h2 class="section-title" style="font-size:15px;">Cash management (13 JPMorgan Chase accounts)</h2>
+        <div id="cm-accounts"></div>
+        <p id="cm-intercompany" style="margin-top:10px;"></p>
+      </div>
+      <div class="card">
+        <h2 class="section-title" style="font-size:15px;">Corporate credit card program</h2>
+        <p id="cc-body"></p>
+        <h2 class="section-title" style="font-size:15px; margin-top:16px;">Trade terms &amp; vendor programs</h2>
+        <p id="tt-body"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEALTH / OUTLOOK -->
+  <div class="panel" id="panel-health">
+    <div class="card">
+      <h2 class="section-title" id="hp-title"></h2>
+      <p id="hp-summary"></p>
+    </div>
+    <div class="grid-2" style="margin-top:16px;">
+      <div class="card">
+        <h2 class="section-title" style="font-size:15px;">Positive signals</h2>
+        <ul class="plain" id="hp-positive"></ul>
+      </div>
+      <div class="card">
+        <h2 class="section-title" style="font-size:15px;">Risk signals</h2>
+        <ul class="plain" id="hp-risk"></ul>
+      </div>
+    </div>
+    <h2 class="section-title spaced">What to watch next</h2>
+    <div class="card">
+      <div class="stl" id="hp-watch"></div>
+    </div>
+  </div>
+
+  <footer>
+    Built from the public docket at <a href="https://veritaglobal.net/noble/document/list/6618" target="_blank" rel="noopener">veritaglobal.net/noble</a> (Kurtzman Carson Consultants dba Verita Global, claims &amp; noticing agent). Not legal advice — a research aid for following the case in plain English. Figures are transcribed from public court filings and may contain errors; verify anything decision-critical against the source PDF linked from each docket entry. Last refreshed <span id="foot-updated"></span>.
+  </footer>
+</div>
+
+<script type="application/json" id="case-data">
+__DATA_JSON__
+</script>
+<script>
+(function(){
+  const DATA = JSON.parse(document.getElementById('case-data').textContent);
+  const $ = (sel, el) => (el||document).querySelector(sel);
+  const $$ = (sel, el) => Array.from((el||document).querySelectorAll(sel));
+  const fmtUSD = (n, opts) => {
+    if (n === null || n === undefined || isNaN(n)) return '—';
+    opts = opts || {};
+    const abs = Math.abs(n);
+    let s;
+    if (opts.compact && abs >= 1e6) s = '$' + (n/1e6).toFixed(abs>=1e8?0:1) + 'M';
+    else if (opts.compact && abs >= 1e3) s = '$' + (n/1e3).toFixed(0) + 'K';
+    else s = (n<0?'-$':'$') + Math.abs(Math.round(n)).toLocaleString('en-US');
+    return s;
+  };
+  const fmtDate = (iso) => {
+    if(!iso) return '—';
+    const d = new Date(iso + 'T00:00:00');
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
+  };
+
+  /* ---------------- SOURCE CITATIONS ---------------- */
+  // Every docket entry already carries its own source PDF URL; build a lookup once
+  // so any claim on the page can cite "Docket #N" and link straight to the filing.
+  const docketUrlByNum = {};
+  DATA.docket_entries.forEach(e => { docketUrlByNum[String(parseInt(e.docket_no, 10))] = e.pdf_url; });
+  function citeHtml(sourceStr, label){
+    if (!sourceStr) return '';
+    // sourceStr like "219" or "92, 219" or "218 (Exhibit 2)" -- pull out each docket number
+    // and any trailing parenthetical note that goes with it.
+    const parts = sourceStr.split(',').map(s => s.trim()).filter(Boolean);
+    const links = parts.map(p => {
+      const m = p.match(/(\d+)\s*(\(.*\))?/);
+      if (!m) return null;
+      const num = String(parseInt(m[1], 10));
+      const note = m[2] ? ' ' + m[2] : '';
+      const url = docketUrlByNum[num];
+      if (!url) return `Docket #${num}${note}`;
+      return `<a href="${url}" target="_blank" rel="noopener">Docket #${num}${note}</a>`;
+    }).filter(Boolean);
+    if (!links.length) return '';
+    return `<div class="source-cite">${label||'Source'}: ${links.join(' · ')}</div>`;
+  }
+
+  /* ---------------- HEADER ---------------- */
+  const co = DATA.case_overview;
+  $('#case-id').textContent = `Case No. ${co.case_no} · ${co.chapter}`;
+  $('#case-title').textContent = co.case_name;
+  $('#case-sub').textContent = `${co.court} · ${co.judge} · Petition filed ${fmtDate(co.petition_date)}`;
+  const today = new Date('2026-09-28T00:00:00');
+  const petition = new Date(co.petition_date + 'T00:00:00');
+  $('#days-since').textContent = Math.round((today-petition)/86400000);
+  $('#docket-count').textContent = DATA.docket_entries.length;
+  $('#entity-count').textContent = co.debtors.length;
+
+  /* ---------------- HEALTH BANNER ---------------- */
+  const health = DATA.health_assessments[DATA.health_assessments.length-1];
+  const banner = $('#health-banner');
+  const indicatorClass = {uncertain:'warning', positive:'good', negative:'critical'}[health.indicator] || 'warning';
+  banner.querySelector('.health-dot').style.background = `var(--${indicatorClass})`;
+  banner.style.background = `var(--${indicatorClass}-soft)`;
+  $('#health-title').textContent = health.indicator_label;
+  $('#health-sub').textContent = health.summary + '  — see the Outlook tab for the full reasoning.';
+
+  /* ---------------- TABS ---------------- */
+  const tabBtns = $$('.tab-btn');
+  function showTab(name){
+    tabBtns.forEach(b => b.classList.toggle('active', b.dataset.tab===name));
+    $$('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-'+name));
+    try{ localStorage.setItem('noble-tracker-tab', name); }catch(e){}
+  }
+  tabBtns.forEach(b => b.addEventListener('click', () => showTab(b.dataset.tab)));
+  let startTab = 'overview';
+  try{ startTab = localStorage.getItem('noble-tracker-tab') || 'overview'; }catch(e){}
+  showTab(startTab);
+
+  /* ---------------- OVERVIEW ---------------- */
+  const bo = co.business_overview;
+  $('#ov-desc').textContent = bo.description;
+  const segWrap = $('#ov-segments');
+  bo.segments.forEach(s => {
+    const el = document.createElement('div');
+    el.className = 'segment-card';
+    el.innerHTML = `<div class="seg-name">${s.name}</div><div class="seg-rev">${s.revenue_2025_usd?fmtUSD(s.revenue_2025_usd,{compact:true})+' <span style=\"font-size:10px;color:var(--text-muted);font-family:var(--font-body)\">2025 rev.</span>':'<span style=\"font-size:11px;color:var(--text-muted);font-family:var(--font-body)\">no direct revenue</span>'}</div>`;
+    segWrap.appendChild(el);
+  });
+  $('#ov-founded').textContent = bo.founded + ' by ' + bo.founder;
+  $('#ov-employees').textContent = bo.employees.toLocaleString();
+  $('#ov-locations').textContent = bo.locations;
+  $('#ov-entities-n').textContent = co.debtors.length;
+  $('#ov-debt').textContent = fmtUSD(co.total_funded_debt_usd);
+  $('#ov-court').textContent = co.court;
+  $('#ov-judge').textContent = co.judge;
+  $('#ov-agent').textContent = co.claims_agent;
+
+  $('#ov-why').textContent = co.why_filed.summary;
+  $('#ov-why-cite').innerHTML = citeHtml('15', 'Source');
+  const tlWrap = $('#ov-timeline');
+  co.why_filed.key_dates.forEach(k => {
+    const el = document.createElement('div'); el.className='tl-item';
+    el.innerHTML = `<div class="tl-date">${fmtDate(k.date.length>7?k.date:k.date+'-01')}</div><div class="tl-event">${k.event}</div>`;
+    tlWrap.appendChild(el);
+  });
+  $('#ov-cap-cite').innerHTML = citeHtml('15', 'Source') + citeHtml('14', 'Also see');
+
+  const capBody = $('#ov-capstack');
+  co.capital_structure.forEach(c => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${c.instrument}${c.secured===false?' <span class="pill neutral">unsecured</span>':''}</td>
+      <td>${c.agent||c.issuer||'—'}</td><td>${c.rate||'—'}</td><td>${c.maturity||'—'}</td>
+      <td class="num">${fmtUSD(c.outstanding_usd)}</td>`;
+    capBody.appendChild(tr);
+  });
+
+  const entBody = $('#ov-entities');
+  co.debtors.forEach(d => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${d.name}</td><td class="mono">${d.case_no}</td><td>${d.role||''}</td>`;
+    entBody.appendChild(tr);
+  });
+
+  /* ---------------- DLA DISPUTE ---------------- */
+  const dla = DATA.dla_dispute;
+  if (dla) {
+    $('#dla-summary').textContent = dla.summary;
+    $('#dla-cite').innerHTML = citeHtml('124, 142, 151');
+    $('#dla-outcome').textContent = dla.outcome;
+    $('#dla-stakes').textContent = dla.financial_stakes;
+    $('#dla-fdd-cite').innerHTML = docketUrlByNum['15'] ? `(<a href="${docketUrlByNum['15']}" target="_blank" rel="noopener">Docket #15</a>)` : '(Docket #15)';
+    const dlaBody = $('#dla-timeline');
+    dla.timeline.forEach(t => {
+      const tr = document.createElement('tr');
+      const num = t.docket_no ? String(parseInt(t.docket_no,10)) : null;
+      const url = num ? docketUrlByNum[num] : null;
+      tr.innerHTML = `<td class="mono" style="white-space:nowrap;">${fmtDate(t.date)}</td>
+        <td>${t.event}</td>
+        <td>${url?`<a href="${url}" target="_blank" rel="noopener">#${num}</a>`:(num?('#'+num):'—')}</td>`;
+      dlaBody.appendChild(tr);
+    });
+  }
+
+  /* ---------------- DOCKET ---------------- */
+  const catSel = $('#d-category');
+  const cats = Array.from(new Set(DATA.docket_entries.map(e=>e.category))).sort();
+  catSel.innerHTML = '<option value="">All categories</option>' + cats.map(c=>`<option value="${c}">${c}</option>`).join('');
+
+  function renderDocket(){
+    const q = $('#d-search').value.trim().toLowerCase();
+    const cat = catSel.value;
+    const view = $('#d-view').value;
+    let items = DATA.docket_entries.filter(e => {
+      if (view==='substantive' && !e.substantive) return false;
+      if (cat && e.category !== cat) return false;
+      if (q && !(e.title.toLowerCase().includes(q) || (e.summary||'').toLowerCase().includes(q))) return false;
+      return true;
+    });
+    items = items.slice().sort((a,b)=> parseInt(b.docket_no) - parseInt(a.docket_no));
+    $('#d-count').textContent = `${items.length} of ${DATA.docket_entries.length} filings`;
+    const list = $('#d-list');
+    list.innerHTML = '';
+    const frag = document.createDocumentFragment();
+    items.forEach(e => {
+      const row = document.createElement('div');
+      row.className = 'docket-row' + (e.substantive?'':' is-routine');
+      row.innerHTML = `
+        <div class="docket-num">#${e.docket_no}</div>
+        <div class="docket-main">
+          <div class="d-title">${e.title}</div>
+          ${e.summary?`<div class="d-summary">${e.summary}</div>`:''}
+          ${e.pdf_url?`<div class="source-cite" style="padding-bottom:0;"><a href="${e.pdf_url}" target="_blank" rel="noopener">View source PDF ↗</a></div>`:''}
+        </div>
+        <div class="docket-side">
+          <span class="pill neutral">${e.topic_label||e.category}</span>
+          <span class="docket-date">${fmtDate(e.date_filed_iso)}</span>
+        </div>`;
+      frag.appendChild(row);
+    });
+    list.appendChild(frag);
+  }
+  $('#d-search').addEventListener('input', renderDocket);
+  catSel.addEventListener('change', renderDocket);
+  $('#d-view').addEventListener('change', renderDocket);
+  renderDocket();
+
+  /* ---------------- SALE PROCESS ---------------- */
+  const sm = DATA.sale_milestones;
+  $('#sale-stalking').innerHTML = sm.stalking_horse_status + citeHtml(sm.stalking_horse_status_source);
+  $('#sale-process-type').innerHTML = sm.process_type + citeHtml(sm.process_type_source);
+  $('#sale-banker').innerHTML = 'Investment banker: ' + sm.investment_banker + citeHtml(sm.investment_banker_source);
+
+  function renderStl(containerId, items, dateKey, eventKey, statusFn){
+    const wrap = $(containerId);
+    wrap.innerHTML = '';
+    items.forEach((it,i) => {
+      const status = statusFn(it);
+      const row = document.createElement('div');
+      row.className = 'stl-row ' + status;
+      row.innerHTML = `<div class="stl-date">${it[dateKey]}</div>
+        <div class="stl-dotcol"><div class="stl-dot"></div>${i<items.length-1?'<div class="stl-line"></div>':''}</div>
+        <div><div class="stl-event">${it[eventKey]}</div>${citeHtml(it.docket_source)}</div>`;
+      wrap.appendChild(row);
+    });
+  }
+  renderStl('#sale-timeline', sm.sale_timeline, 'date', 'event', it => it.status==='met'?'met':'');
+  renderStl('#sale-cc-milestones', sm.cash_collateral_milestones, 'deadline_date', 'event',
+    it => it.status && it.status.startsWith('MET')?'met':'');
+
+  /* ---------------- FINANCIALS: cash budget chart ---------------- */
+  const cb = DATA.cash_budget;
+  $('#cb-note').textContent = cb.note;
+  $('#cb-debt-note').textContent = `Term Loan (Blue Torch): projected to decline from ${fmtUSD(cb.debt_paydown.term_loan_beginning_balance*1000,{compact:true})} to ${fmtUSD(cb.debt_paydown.term_loan_projected_ending_balance_wk13*1000,{compact:true})} over the 13 weeks via excess-cash sweeps. ${cb.debt_paydown.abl_balance_note}`;
+
+  (function drawCashChart(){
+    const w = cb.weekly;
+    const W = 900, H = 260, padL = 46, padR = 10, padT = 10, padB = 34;
+    const plotW = W - padL - padR, plotH = H - padT - padB;
+    const maxVal = Math.max(...w.map(d=>Math.max(d.total_receipts, d.total_disbursements)));
+    const minVal = Math.min(0, ...w.map(d=>d.net_cash_flow));
+    const yMax = Math.ceil(maxVal/1000)*1000;
+    const yMin = Math.floor(minVal/1000)*1000;
+    const yScale = v => padT + plotH * (1 - (v - yMin)/(yMax - yMin));
+    const zeroY = yScale(0);
+    const bandW = plotW / w.length;
+    const barW = bandW * 0.32;
+
+    let bars = '', gridlines = '', xlabels = '';
+    const ySteps = 4;
+    for(let s=0; s<=ySteps; s++){
+      const val = yMin + (yMax-yMin)*s/ySteps;
+      const y = yScale(val);
+      gridlines += `<line x1="${padL}" x2="${W-padR}" y1="${y}" y2="${y}" stroke="var(--gridline)" stroke-width="1"/>`;
+      gridlines += `<text x="${padL-8}" y="${y+3}" text-anchor="end" font-size="9.5" fill="var(--text-muted)" font-family="var(--font-mono)">${Math.round(val)}</text>`;
+    }
+    w.forEach((d,i) => {
+      const cx = padL + bandW*i + bandW/2;
+      const rH = zeroY - yScale(d.total_receipts);
+      const dH = zeroY - yScale(d.total_disbursements);
+      bars += `<rect class="bar" data-i="${i}" data-series="r" x="${cx-barW-1}" y="${yScale(d.total_receipts)}" width="${barW}" height="${Math.max(rH,0)}" rx="2" fill="var(--accent)"/>`;
+      bars += `<rect class="bar" data-i="${i}" data-series="d" x="${cx+1}" y="${yScale(d.total_disbursements)}" width="${barW}" height="${Math.max(dH,0)}" rx="2" fill="var(--series-2)"/>`;
+      if(i%2===0) xlabels += `<text x="${cx}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="var(--text-muted)" font-family="var(--font-mono)">W${d.week}</text>`;
+    });
+    let linePts = w.map((d,i) => {
+      const cx = padL + bandW*i + bandW/2;
+      return `${cx},${yScale(d.net_cash_flow)}`;
+    }).join(' ');
+    let dots = w.map((d,i) => {
+      const cx = padL + bandW*i + bandW/2;
+      return `<circle class="dot" data-i="${i}" cx="${cx}" cy="${yScale(d.net_cash_flow)}" r="3.2" fill="var(--series-3)"/>`;
+    }).join('');
+
+    const svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" style="display:block;font-family:var(--font-body)" role="img" aria-label="13 week cash flow budget">
+      ${gridlines}
+      <line x1="${padL}" x2="${W-padR}" y1="${zeroY}" y2="${zeroY}" stroke="var(--baseline)" stroke-width="1.3"/>
+      ${bars}
+      <polyline points="${linePts}" fill="none" stroke="var(--series-3)" stroke-width="2"/>
+      ${dots}
+      ${xlabels}
+    </svg>`;
+    const holder = $('#cb-chart');
+    holder.innerHTML = svg;
+
+    const tip = $('#cb-tip');
+    $$('.bar, .dot', holder).forEach(el => {
+      el.addEventListener('mousemove', (ev) => {
+        const i = +el.dataset.i;
+        const d = w[i];
+        tip.innerHTML = `<b>Week ${d.week}</b> (${fmtDate(d.week_ending)}, ${d.type})<br>Receipts: ${fmtUSD(d.total_receipts*1000,{compact:true})}<br>Disbursements: ${fmtUSD(d.total_disbursements*1000,{compact:true})}<br>Net: ${fmtUSD(d.net_cash_flow*1000,{compact:true})}`;
+        const rect = holder.getBoundingClientRect();
+        tip.style.left = (ev.clientX - rect.left + 14) + 'px';
+        tip.style.top = (ev.clientY - rect.top - 10) + 'px';
+        tip.style.opacity = 1;
+      });
+      el.addEventListener('mouseleave', () => tip.style.opacity = 0);
+    });
+  })();
+
+  /* ---------------- FINANCIALS: MOR by entity ---------------- */
+  const mors = DATA.mor_financials;
+  const picker = $('#mor-picker');
+  let currentEntity = null;
+  mors.forEach(m => {
+    const btn = document.createElement('button');
+    btn.className = 'entity-btn';
+    btn.textContent = m.entity.replace(', LLC','').replace(', Inc.','');
+    btn.addEventListener('click', () => selectEntity(m.docket_no));
+    btn.dataset.docket = m.docket_no;
+    picker.appendChild(btn);
+  });
+
+  function selectEntity(docketNo){
+    currentEntity = mors.find(m => m.docket_no === docketNo);
+    $$('.entity-btn', picker).forEach(b => b.classList.toggle('active', b.dataset.docket===docketNo));
+    const bs = currentEntity.balance_sheet_totals || {};
+    const cf = currentEntity.cash_summary || {};
+    $('#mor-stats').innerHTML = `
+      <div class="stat-tile"><div class="label">Total assets</div><div class="value">${fmtUSD(bs.total_assets)}</div></div>
+      <div class="stat-tile"><div class="label">Total liabilities</div><div class="value">${fmtUSD(bs.total_liabilities)}</div></div>
+      <div class="stat-tile"><div class="label">Ending cash</div><div class="value">${fmtUSD(cf.ending_cash)}</div></div>`;
+    $('#mor-period').textContent = `Period ending ${fmtDate(currentEntity.period_end)}${currentEntity.period_start?(' (from '+fmtDate(currentEntity.period_start)+')'):''}.`;
+
+    const discBlock = $('#mor-discrepancy');
+    if (currentEntity.discrepancy_flag) {
+      $('#mor-discrepancy-text').textContent = currentEntity.discrepancy_flag;
+      discBlock.style.display = '';
+    } else {
+      discBlock.style.display = 'none';
+    }
+
+    const notesBlock = $('#mor-notes-block');
+    if (currentEntity.notes) {
+      const body = $('#mor-note');
+      body.innerHTML = '';
+      currentEntity.notes.split('\n\n').filter(Boolean).forEach(para => {
+        const p = document.createElement('p');
+        p.textContent = para;
+        body.appendChild(p);
+      });
+      notesBlock.style.display = '';
+    } else {
+      notesBlock.style.display = 'none';
+    }
+
+    const incWrap = $('#mor-income-wrap');
+    if (currentEntity.income_statement && currentEntity.income_statement.length) {
+      const incBody = $('#mor-income');
+      incBody.innerHTML = '';
+      currentEntity.income_statement.forEach(l => {
+        const tr = document.createElement('tr');
+        const strong = (l.section==='subtotal' || l.section==='total');
+        tr.innerHTML = `<td${strong?' style="font-weight:600;"':''}>${l.line_item}</td><td class="num"${strong?' style="font-weight:600;"':''}>${fmtUSD(l.amount_usd)}</td>`;
+        if (strong) tr.style.background = 'var(--surface-2)';
+        incBody.appendChild(tr);
+      });
+      $('#mor-income-note').textContent = currentEntity.income_statement_note || '';
+      incWrap.style.display = '';
+    } else {
+      incWrap.style.display = 'none';
+    }
+
+    const cfBody = $('#mor-cashflow');
+    cfBody.innerHTML = '';
+    (currentEntity.cash_flow||[]).forEach(l => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${l.line_item}</td><td><span class="pill neutral">${l.section}</span></td><td class="num">${fmtUSD(l.amount_usd)}</td>`;
+      cfBody.appendChild(tr);
+    });
+    if(!(currentEntity.cash_flow||[]).length){
+      cfBody.innerHTML = '<tr><td colspan="3" style="color:var(--text-muted)">No cash-flow line items reported for this entity in this period.</td></tr>';
+    }
+
+    const bsBody = $('#mor-balance');
+    bsBody.innerHTML = '';
+    (currentEntity.balance_sheet||[]).forEach(l => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${l.line_item}</td><td><span class="pill neutral">${l.section}</span></td><td class="num">${fmtUSD(l.amount_usd)}</td>`;
+      bsBody.appendChild(tr);
+    });
+    if(!(currentEntity.balance_sheet||[]).length){
+      bsBody.innerHTML = '<tr><td colspan="3" style="color:var(--text-muted)">No balance-sheet line items reported for this entity in this period.</td></tr>';
+    }
+  }
+  const firstPopulated = mors.find(m => (m.balance_sheet_totals&&m.balance_sheet_totals.total_assets)) || mors[0];
+  selectEntity(firstPopulated.docket_no);
+
+  /* ---------------- CREDITORS & VENDORS (full list) ---------------- */
+  const tcAll = DATA.creditors_full;
+  if (tcAll) {
+    $('#tc-source').textContent = tcAll.source_note;
+    $('#tc-note').textContent = tcAll.generated_note;
+
+    const typeSel = $('#tc-type-filter');
+    const types = Array.from(new Set(tcAll.creditors.map(c => c.type))).sort();
+    typeSel.innerHTML = '<option value="">All types</option>' + types.map(t => `<option value="${t}">${t}</option>`).join('');
+
+    let visibleCount = 50;
+    const PAGE = 50;
+
+    function renderCreditors(){
+      const q = $('#tc-search').value.trim().toLowerCase();
+      const typeF = typeSel.value;
+      const sortMode = $('#tc-sort').value;
+      let items = tcAll.creditors.filter(c => {
+        if (typeF && c.type !== typeF) return false;
+        if (q) {
+          const hay = `${c.name} ${c.city||''} ${c.state||''} ${c.country||''}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+      if (sortMode === 'amount-desc') items.sort((a,b)=> b.amount_usd - a.amount_usd || a.name.localeCompare(b.name));
+      else if (sortMode === 'amount-asc') items.sort((a,b)=> a.amount_usd - b.amount_usd || a.name.localeCompare(b.name));
+      else items.sort((a,b)=> a.name.localeCompare(b.name));
+
+      $('#tc-count').textContent = `${items.length.toLocaleString()} of ${tcAll.creditors.length.toLocaleString()} creditors${typeF?` — filtered to ${typeF}`:''}`;
+
+      const shown = items.slice(0, visibleCount);
+      const body = $('#tc-body');
+      body.innerHTML = '';
+      const frag = document.createDocumentFragment();
+      shown.forEach(c => {
+        const loc = [c.city, c.state || c.country].filter(Boolean).join(', ');
+        const links = [];
+        if (c.official_website) links.push(`<a href="${c.official_website}" target="_blank" rel="noopener">Site</a>`);
+        if (!c.redacted_address && c.city) links.push(`<a href="${c.maps_search_url}" target="_blank" rel="noopener">Map</a>`);
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><b>${c.name}</b>${c.top30_notes?`<div style="color:var(--text-muted);font-size:12px;margin-top:2px;">${c.top30_notes}</div>`:''}</td>
+          <td><span class="pill neutral">${c.type}</span></td>
+          <td>${loc || (c.redacted_address ? '<span style="color:var(--text-muted);">Address on file</span>' : '—')}</td>
+          <td class="num">${c.amount_usd ? fmtUSD(c.amount_usd) : '<span style="color:var(--text-muted);">—</span>'}</td>
+          <td style="white-space:nowrap;">${links.join(' · ') || '—'}</td>`;
+        frag.appendChild(tr);
+      });
+      body.appendChild(frag);
+      $('#tc-load-more').style.display = items.length > visibleCount ? '' : 'none';
+    }
+    $('#tc-search').addEventListener('input', () => { visibleCount = PAGE; renderCreditors(); });
+    typeSel.addEventListener('change', () => { visibleCount = PAGE; renderCreditors(); });
+    $('#tc-sort').addEventListener('change', () => { visibleCount = PAGE; renderCreditors(); });
+    $('#tc-load-more').addEventListener('click', () => { visibleCount += PAGE; renderCreditors(); });
+    renderCreditors();
+  }
+
+  const vs = DATA.vendors_systems;
+  if (vs) {
+    $('#sw-note').textContent = vs.software_vendors.note;
+    const swBody = $('#sw-body');
+    vs.software_vendors.vendors.forEach(v => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td><b>${v.name}</b></td><td>${v.likely_use}</td>`;
+      swBody.appendChild(tr);
+    });
+
+    $('#ut-note').textContent = vs.telecom_utility_vendors.note + ' ' + vs.telecom_utility_vendors.adequate_assurance_mechanism;
+    const utBody = $('#ut-body');
+    vs.telecom_utility_vendors.providers.forEach(p => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td><b>${p.provider}</b>${p.account_no?`<div class="mono" style="color:var(--text-muted);font-size:11px;margin-top:2px;">Acct: ${p.account_no}</div>`:''}</td>
+        <td>${p.service}</td><td>${p.likely_location}</td><td class="num">${fmtUSD(p.avg_monthly_usd)}</td>`;
+      utBody.appendChild(tr);
+    });
+
+    const cmWrap = $('#cm-accounts');
+    vs.cash_management_structure.accounts.forEach(a => {
+      const el = document.createElement('div');
+      el.className = 'cm-account';
+      el.innerHTML = `<div class="cma-head"><span>${a.name}</span><span class="cma-nos">${a.account_nos.join(', ')}</span></div>
+        <div class="cma-desc">${a.held_at.join(' / ')} — ${a.purpose}</div>`;
+      cmWrap.appendChild(el);
+    });
+    $('#cm-intercompany').textContent = vs.cash_management_structure.intercompany_transactions;
+
+    const cc = vs.credit_card_program;
+    $('#cc-body').textContent = `${cc.structure} Issuer: ${cc.issuer}. Outstanding balance: ${fmtUSD(cc.outstanding_balance_usd)} on a ${fmtUSD(cc.credit_line_usd)} line. ${cc.collateral} Rewards/discount terms: ${cc.rewards_or_discount_terms}`;
+
+    const tt = vs.trade_terms_and_vendor_programs;
+    $('#tt-body').textContent = `${tt.customary_trade_terms} Critical Vendors: ${tt.critical_vendors.definition} (up to ${fmtUSD(tt.critical_vendors.amount_due_within_21_days_usd)} due within 21 days; authorized to pay up to ${fmtUSD(tt.critical_vendors.cap_authorized_usd)} total.) Lien Claimants: ${tt.lien_claimants.definition} (roughly ${fmtUSD(tt.lien_claimants.total_owed_usd)} owed in total.)`;
+  }
+
+  /* ---------------- PARTIES ---------------- */
+  const partyGroups = {};
+  DATA.key_parties.forEach(p => {
+    (partyGroups[p.category] = partyGroups[p.category] || []).push(p);
+  });
+  const groupOrder = ['Secured Lender','Committee Member','Committee Counsel','Debtor Counsel','Debtor Financial Advisor','Claims Agent','Ordinary Course Professional','Other'];
+  const pWrap = $('#parties-groups');
+  groupOrder.filter(g=>partyGroups[g]).forEach(g => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.marginBottom = '14px';
+    let rows = partyGroups[g].map(p => `
+      <tr><td><b>${p.name}</b>${p.role?`<div style="color:var(--text-muted);font-size:12px;margin-top:2px;">${p.role}</div>`:''}</td>
+      <td>${(p.key_people||[]).join(', ')}</td>
+      <td style="max-width:260px;">${p.notes||''}</td></tr>`).join('');
+    card.innerHTML = `<h2 class="section-title" style="font-size:15px;">${g}${partyGroups[g].length>1?'s':''}</h2>
+      <div class="table-wrap" style="border:none;"><table><thead><tr><th>Name</th><th>Key people</th><th>Notes</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    pWrap.appendChild(card);
+  });
+
+  /* ---------------- HEALTH / OUTLOOK TAB ---------------- */
+  $('#hp-title').textContent = health.indicator_label;
+  $('#hp-summary').textContent = health.summary;
+  $('#hp-positive').innerHTML = health.positive_signals.map(s=>`<li>${s}</li>`).join('');
+  $('#hp-risk').innerHTML = health.risk_signals.map(s=>`<li>${s}</li>`).join('');
+  const watchWrap = $('#hp-watch');
+  health.watch_next.forEach((w,i) => {
+    const row = document.createElement('div');
+    row.className = 'stl-row';
+    row.innerHTML = `<div class="stl-date">${fmtDate(w.date)}</div>
+      <div class="stl-dotcol"><div class="stl-dot"></div>${i<health.watch_next.length-1?'<div class="stl-line"></div>':''}</div>
+      <div class="stl-event">${w.event}</div>`;
+    watchWrap.appendChild(row);
+  });
+
+  $('#foot-updated').textContent = fmtDate(DATA.generated_at.slice(0,10));
+})();
+</script>

@@ -2978,5 +2978,20 @@
     "summary": "The published running order of matters to be heard at an upcoming omnibus hearing.",
     "date_filed_iso": "2026-09-26",
     "pdf_url": "https://veritaglobal.net/noble/document/2611369260926000000000015"
+  },
+  {
+    "docket_no": "0221",
+    "pdf_href": "/noble/document/2611369260928000000000009",
+    "title": "Notice of Appearance and Request for Notices by Potter Anderson & Corroon LLP on Behalf of Nominal, Inc. (Filed by Nominal, Inc.)",
+    "date_filed": "9/28/2026",
+    "date_filed_iso": "2026-09-28",
+    "related": [],
+    "source_list": "main",
+    "category": "Routine",
+    "substantive": false,
+    "summary": "A law firm formally notifying the court it represents a creditor or party in interest in the case — procedural, but can signal which parties are actively watching the case.",
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369260928000000000009"
   }
 ]

@@ -1,0 +1,48 @@
+[
+  {
+    "as_of": "2026-09-28",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — open sale process, no buyer named yet",
+    "summary": "Noble is running two tracks at once — a going-concern sale auction and an orderly liquidation — and hasn't committed to either outcome. The single biggest open question is whether a stalking-horse or winning bidder emerges by the Oct 30 bid deadline.",
+    "positive_signals": [
+      "Bidding Procedures Order was entered 8 days ahead of its own court-ordered deadline — the case is moving faster than required, not slower.",
+      "Broad marketing process: Portage Point had contacted ~105 prospective buyers and ~25 had signed NDAs as of the Sept 7 filing, before the process was even court-approved.",
+      "Secured lenders continue to consent to cash-collateral use under a rolling budget rather than forcing an immediate liquidation.",
+      "Noble won a discrete early fight with the Defense Logistics Agency: the court ordered DLA to release $6.43M of frozen invoice payments on Sept 18, 2026.",
+      "On paper, consolidated assets ($1.32B reported for the lead entity in the stub-period MOR) substantially exceed total funded debt (~$292M) — though a forced or distressed sale rarely recovers full book value, especially for government-contract-dependent inventory and receivables."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update. Noble entered Chapter 11 without one, which is a materially riskier starting position than a pre-negotiated sale.",
+      "The relationship with DLA — Noble's largest customer — remains damaged: ~$400M of orders were terminated Aug 27, 2026 and an ~$86M contract dispute claim is still unresolved (separate from the smaller invoice-freeze fight Noble already won).",
+      "The sale timeline is compressed: bid deadline Oct 30, auction (if needed) Nov 4, sale hearing Nov 16, deadline to close Nov 20 — about 8 weeks total, leaving little room for delay.",
+      "WARN Act layoff notices were issued to all employees before the filing (Aug 10, 2026), reflecting workforce reductions already underway.",
+      "Monthly Operating Reports filed so far cover only a 2-day stub period, with 9 of 11 debtor entities reporting all-zero placeholder figures — too early to read an operating trend from MOR data yet."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
+  }
+]
