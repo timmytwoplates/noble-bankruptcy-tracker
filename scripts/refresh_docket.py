@@ -24,16 +24,21 @@ Designed to run unattended (GitHub Actions cron) with only the Python
 standard library plus the system `curl` binary (preinstalled on GitHub's
 ubuntu-latest runners) -- no pip installs, so it can't break on a dependency.
 
-Fetching uses `curl` rather than Python's `urllib`/`ssl` deliberately:
-veritaglobal.net's certificate chain is missing an intermediate that
-Python's bundled trust store won't resolve (confirmed failing the same way
-both locally and on an actual GitHub Actions runner --
-SSLCertVerificationError: unable to get local issuer certificate), while
-curl's OS-level trust store handles it fine. Don't "fix" this by disabling
-certificate verification in Python -- that's a bad pattern for a public
-script and unnecessary since curl already works.
+A note on TLS: veritaglobal.net's server doesn't send its intermediate
+certificate (Go Daddy Secure Certificate Authority - G2) -- confirmed with
+`openssl s_client -showcerts`, and confirmed failing the same way with both
+Python's urllib and a stock `curl` on an actual GitHub Actions runner
+(SSLCertVerificationError / curl exit 60, "unable to get local issuer
+certificate"). It only ever worked from developer machines that had already
+cached that intermediate from browsing elsewhere. Rather than disable
+certificate verification (a bad pattern for a public script, even for a
+read-only public-data fetch), `_curl_cacert()` below fetches that specific
+intermediate from the CA-Issuers URL the leaf certificate itself declares
+(its Authority Information Access extension -- the standard, correct way to
+complete a chain a server forgot to send) and combines it with curl's normal
+CA bundle, so the fetch verifies properly instead of skipping verification.
 """
-import json, os, re, sys, subprocess, urllib.parse, datetime
+import json, os, re, sys, subprocess, urllib.parse, datetime, tempfile
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(REPO_ROOT, "data")
@@ -106,16 +111,64 @@ def to_iso(mdY):
     return f"{yr}-{int(mo):02d}-{int(da):02d}"
 
 
+GODADDY_G2_INTERMEDIATE_URL = "http://certificates.godaddy.com/repository/gdig2.crt"
+SYSTEM_CA_BUNDLE_CANDIDATES = [
+    "/etc/ssl/certs/ca-certificates.crt",  # Debian/Ubuntu
+    "/etc/pki/tls/certs/ca-bundle.crt",     # RHEL/Fedora
+    "/etc/ssl/cert.pem",                    # Alpine/macOS
+]
+_cacert_path = None
+
+
+def _curl_cacert():
+    """Build (once) a CA bundle = system roots + the intermediate
+    veritaglobal.net's server fails to send, so `curl --cacert` can verify
+    its chain properly instead of skipping verification. Falls back to None
+    (curl's own default trust store) if a system bundle can't be found or
+    the intermediate can't be fetched -- the plain fetch will then fail
+    loudly with the real SSL error, which is preferable to a silent bypass.
+    """
+    global _cacert_path
+    if _cacert_path:
+        return _cacert_path
+    system_bundle = next((p for p in SYSTEM_CA_BUNDLE_CANDIDATES if os.path.exists(p)), None)
+    if not system_bundle:
+        print("Warning: no system CA bundle found; curl will use its own default.")
+        return None
+    try:
+        intermediate_der = subprocess.run(
+            ["curl", "-sL", "--fail", GODADDY_G2_INTERMEDIATE_URL],
+            capture_output=True, timeout=20, check=True,
+        ).stdout
+        intermediate_pem = subprocess.run(
+            ["openssl", "x509", "-inform", "DER", "-outform", "PEM"],
+            input=intermediate_der, capture_output=True, timeout=10, check=True,
+        ).stdout
+    except Exception as exc:
+        print(f"Warning: couldn't fetch/convert the GoDaddy intermediate ({exc}); "
+              f"falling back to curl's default trust store.")
+        return None
+    fd, path = tempfile.mkstemp(prefix="cacert_", suffix=".pem")
+    with os.fdopen(fd, "wb") as f:
+        f.write(open(system_bundle, "rb").read())
+        f.write(b"\n")
+        f.write(intermediate_pem)
+    _cacert_path = path
+    print(f"Built combined CA bundle at {path} (system store + GoDaddy G2 intermediate).")
+    return _cacert_path
+
+
 def fetch_docket_page(page_num, total_records):
     data = urllib.parse.urlencode({
         "CurrentPage": page_num, "PageSize": 100, "TotalRecords": total_records,
         "AllCases": "True", "AllIndustryGroups": "True", "AllJurisdictions": "True",
     })
-    result = subprocess.run(
-        ["curl", "-sL", "--fail", "-X", "POST", f"{DOCKET_LIST_URL}?pagesize=200",
-         "-A", UA, "--data-raw", data],
-        capture_output=True, text=True, timeout=30, check=True,
-    )
+    cmd = ["curl", "-sL", "--fail", "-X", "POST", f"{DOCKET_LIST_URL}?pagesize=200",
+           "-A", UA, "--data-raw", data]
+    cacert = _curl_cacert()
+    if cacert:
+        cmd += ["--cacert", cacert]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=30, check=True)
     return result.stdout
 
 
