@@ -442,6 +442,37 @@ footer a{color:var(--text-muted); text-decoration:underline;}
       <button class="entity-btn" id="tc-load-more">Show more</button>
     </div>
 
+    <h2 class="section-title spaced">Vendor payments in the 90 days before filing</h2>
+    <div class="card">
+      <p id="p90-note"></p>
+      <p style="font-size:12px; color:var(--text-muted); margin-top:6px;">Payments to non-insiders within 90 days of a bankruptcy filing can potentially be clawed back by the estate as "preference payments" under 11 U.S.C. § 547 — this table is the disclosure that list would be drawn from, not a list of payments already being clawed back.</p>
+      <div class="grid-3" id="p90-stats" style="margin-top:12px;"></div>
+    </div>
+    <div class="table-wrap" style="margin-top:10px;">
+      <table>
+        <thead><tr><th>Debtor entity</th><th class="num">Paid in 90 days</th><th class="num">Vendors paid</th></tr></thead>
+        <tbody id="p90-entity-body"></tbody>
+      </table>
+    </div>
+    <div class="filter-row" style="margin-top:14px;">
+      <input type="search" id="p90-search" placeholder="Search vendors paid…">
+      <select id="p90-sort">
+        <option value="amount-desc">Sort: Amount paid (high→low)</option>
+        <option value="amount-asc">Sort: Amount paid (low→high)</option>
+        <option value="name-asc">Sort: Name (A→Z)</option>
+      </select>
+    </div>
+    <div class="count-note" id="p90-count"></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Vendor</th><th class="num">Paid (90 days)</th><th>Reasons</th><th>Still owed?</th><th>Source</th></tr></thead>
+        <tbody id="p90-body"></tbody>
+      </table>
+    </div>
+    <div style="display:flex; justify-content:center; margin-top:14px;">
+      <button class="entity-btn" id="p90-load-more">Show more</button>
+    </div>
+
     <h2 class="section-title spaced">Software &amp; systems we could identify</h2>
     <div class="card"><p id="sw-note"></p></div>
     <div class="table-wrap" style="margin-top:10px;">
@@ -912,8 +943,9 @@ __DATA_JSON__
         if (c.official_website) links.push(`<a href="${c.official_website}" target="_blank" rel="noopener">Site</a>`);
         if (!c.redacted_address && c.city) links.push(`<a href="${c.maps_search_url}" target="_blank" rel="noopener">Map</a>`);
         const tr = document.createElement('tr');
+        const p90 = c.pre_petition_90d_payments;
         tr.innerHTML = `
-          <td><b>${c.name}</b>${c.top30_notes?`<div style="color:var(--text-muted);font-size:12px;margin-top:2px;">${c.top30_notes}</div>`:''}</td>
+          <td><b>${c.name}</b>${c.top30_notes?`<div style="color:var(--text-muted);font-size:12px;margin-top:2px;">${c.top30_notes}</div>`:''}${p90?`<div style="color:var(--amber, #b45309);font-size:12px;margin-top:2px;">Paid ${fmtUSD(p90.total_paid_usd)} in the 90 days before filing</div>`:''}</td>
           <td><span class="pill neutral">${c.type}</span></td>
           <td>${loc || (c.redacted_address ? '<span style="color:var(--text-muted);">Address on file</span>' : '—')}</td>
           <td class="num">${c.amount_usd ? fmtUSD(c.amount_usd) : '<span style="color:var(--text-muted);">—</span>'}</td>
@@ -928,6 +960,93 @@ __DATA_JSON__
     $('#tc-sort').addEventListener('change', () => { visibleCount = PAGE; renderCreditors(); });
     $('#tc-load-more').addEventListener('click', () => { visibleCount += PAGE; renderCreditors(); });
     renderCreditors();
+  }
+
+  /* ---------------- 90-DAY PRE-PETITION VENDOR PAYMENTS ---------------- */
+  const p90All = DATA.vendor_90day_payments;
+  if (p90All) {
+    $('#p90-note').textContent = p90All.source_note;
+
+    const totalPaid = p90All.by_creditor.reduce((s,c) => s + c.total_paid_90d_all_entities, 0);
+    const entitiesWithPayments = new Set();
+    p90All.per_entity.forEach(e => entitiesWithPayments.add(e.debtor_entity));
+    $('#p90-stats').innerHTML = `
+      <div class="stat-tile"><div class="label">Total paid, all entities</div><div class="value">${fmtUSD(totalPaid)}</div></div>
+      <div class="stat-tile"><div class="label">Vendors paid</div><div class="value">${p90All.unique_creditor_count.toLocaleString()}</div></div>
+      <div class="stat-tile"><div class="label">Entities reporting payments</div><div class="value">${entitiesWithPayments.size} of ${p90All.entity_count}</div></div>`;
+
+    const entByEntity = {};
+    p90All.per_entity.forEach(e => {
+      const a = entByEntity[e.debtor_entity] || { total: 0, count: 0 };
+      a.total += e.total_paid_90d; a.count += 1;
+      entByEntity[e.debtor_entity] = a;
+    });
+    const entBody = $('#p90-entity-body');
+    Object.keys(entByEntity).sort((a,b)=>entByEntity[b].total-entByEntity[a].total).forEach(name => {
+      const a = entByEntity[name];
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td><b>${name}</b></td><td class="num">${fmtUSD(a.total)}</td><td class="num">${a.count.toLocaleString()}</td>`;
+      entBody.appendChild(tr);
+    });
+    const noneEntities = p90All.entity_count - entitiesWithPayments.size;
+    if (noneEntities > 0) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td style="color:var(--text-muted);">${noneEntities} other ${noneEntities===1?'entity':'entities'} (checked "None" on this question)</td><td class="num">—</td><td class="num">—</td>`;
+      entBody.appendChild(tr);
+    }
+
+    // Build a normalized-name lookup into creditors_full to flag whether the vendor
+    // still shows an outstanding claim (vs. apparently paid in full pre-petition).
+    function normName(n){
+      return (n||'').toUpperCase().replace(/[^\sA-Z0-9]/g,'').replace(/\b(LLC|INC|CORP|CORPORATION|CO|COMPANY|LTD|LP|DBA)\b/g,'').replace(/\s+/g,' ').trim();
+    }
+    const creditorLookup = {};
+    if (tcAll) tcAll.creditors.forEach(c => { creditorLookup[normName(c.name)] = c; });
+
+    let p90Visible = 50;
+    const P90_PAGE = 50;
+    function renderP90(){
+      const q = $('#p90-search').value.trim().toLowerCase();
+      const sortMode = $('#p90-sort').value;
+      let items = p90All.by_creditor.filter(c => {
+        if (!q) return true;
+        return c.creditor_name.toLowerCase().includes(q);
+      });
+      if (sortMode === 'amount-desc') items.sort((a,b)=> b.total_paid_90d_all_entities - a.total_paid_90d_all_entities || a.creditor_name.localeCompare(b.creditor_name));
+      else if (sortMode === 'amount-asc') items.sort((a,b)=> a.total_paid_90d_all_entities - b.total_paid_90d_all_entities || a.creditor_name.localeCompare(b.creditor_name));
+      else items.sort((a,b)=> a.creditor_name.localeCompare(b.creditor_name));
+
+      $('#p90-count').textContent = `${items.length.toLocaleString()} of ${p90All.by_creditor.length.toLocaleString()} vendors paid in the 90 days before filing`;
+
+      const shown = items.slice(0, p90Visible);
+      const body = $('#p90-body');
+      body.innerHTML = '';
+      const frag = document.createDocumentFragment();
+      shown.forEach(c => {
+        const match = creditorLookup[normName(c.creditor_name)];
+        let owedCell = '<span class="pill neutral">Not on current creditor list</span>';
+        if (match) {
+          owedCell = match.amount_usd
+            ? `<span class="pill" style="background:var(--amber-bg,#fef3c7); color:var(--amber,#92400e);">Still owed ${fmtUSD(match.amount_usd)}</span>`
+            : '<span class="pill" style="background:var(--green-bg,#dcfce7); color:var(--green,#166534);">No outstanding claim listed</span>';
+        }
+        const src = c.by_entity.map(e => `<a href="${e.pdf_url}" target="_blank" rel="noopener">Docket ${parseInt(e.docket_no,10)}</a>`).join(', ');
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><b>${c.creditor_name}</b>${c.by_entity.length>1?`<div style="color:var(--text-muted);font-size:12px;margin-top:2px;">Paid by ${c.by_entity.length} debtor entities</div>`:''}</td>
+          <td class="num">${fmtUSD(c.total_paid_90d_all_entities)}</td>
+          <td>${(c.reasons||[]).map(r=>`<span class="pill neutral">${r}</span>`).join(' ') || '—'}</td>
+          <td>${owedCell}</td>
+          <td style="white-space:nowrap; font-size:12px;">${src}</td>`;
+        frag.appendChild(tr);
+      });
+      body.appendChild(frag);
+      $('#p90-load-more').style.display = items.length > p90Visible ? '' : 'none';
+    }
+    $('#p90-search').addEventListener('input', () => { p90Visible = P90_PAGE; renderP90(); });
+    $('#p90-sort').addEventListener('change', () => { p90Visible = P90_PAGE; renderP90(); });
+    $('#p90-load-more').addEventListener('click', () => { p90Visible += P90_PAGE; renderP90(); });
+    renderP90();
   }
 
   const vs = DATA.vendors_systems;

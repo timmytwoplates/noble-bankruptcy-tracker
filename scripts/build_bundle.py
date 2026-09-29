@@ -29,6 +29,7 @@ FILES = {
     "top_creditors": "top_creditors.json",
     "vendors_systems": "vendors_systems.json",
     "creditors_full": "creditors_full.json",
+    "vendor_90day_payments": "vendor_90day_payments.json",
 }
 
 
