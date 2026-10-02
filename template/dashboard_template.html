@@ -59,6 +59,7 @@ a{color:var(--accent);}
 .case-id{font-family:var(--font-mono); font-size:12px; color:var(--text-muted); letter-spacing:.02em; margin-bottom:4px;}
 .case-title{font-size:26px; line-height:1.15;}
 .case-sub{color:var(--text-secondary); font-size:13px; margin-top:6px;}
+.case-updated{color:var(--text-muted); font-size:11.5px; margin-top:4px; font-family:var(--font-mono);}
 .case-meta{margin-left:auto; display:flex; gap:24px; flex-wrap:wrap;}
 .meta-stat{min-width:90px;}
 .meta-stat .label{font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-muted);}
@@ -141,6 +142,8 @@ tr:last-child td{border-bottom:none;}
 .count-note{font-size:12px; color:var(--text-muted); margin-bottom:10px;}
 .docket-list{display:flex; flex-direction:column; gap:2px;}
 .docket-row{display:grid; grid-template-columns:56px 1fr auto; gap:12px; padding:12px 10px; border-bottom:1px solid var(--gridline); align-items:start;}
+.docket-row.cal-row{grid-template-columns:96px 1fr auto;}
+.docket-row.cal-row .docket-num{font-size:12px; line-height:1.5; white-space:nowrap;}
 .docket-row:hover{background:var(--surface-2);}
 .docket-num{font-family:var(--font-mono); font-size:12px; color:var(--text-muted); padding-top:2px;}
 .docket-main .d-title{font-size:13px; font-weight:600; line-height:1.4;}
@@ -208,6 +211,7 @@ footer a{color:var(--text-muted); text-decoration:underline;}
 @media (max-width:600px){
   .case-meta{margin-left:0; gap:16px;}
   .docket-row{grid-template-columns:1fr; row-gap:6px;}
+  .docket-row.cal-row{grid-template-columns:1fr;}
   .docket-num{order:-1;}
   .docket-side{flex-direction:row; align-items:center;}
   .stl-row{grid-template-columns:90px 20px 1fr;}
@@ -221,6 +225,7 @@ footer a{color:var(--text-muted); text-decoration:underline;}
       <div class="case-id" id="case-id"></div>
       <h1 class="case-title" id="case-title"></h1>
       <div class="case-sub" id="case-sub"></div>
+      <div class="case-updated" id="case-updated"></div>
     </div>
     <div class="case-meta">
       <div class="meta-stat"><div class="label">Days since filing</div><div class="value" id="days-since"></div></div>
@@ -241,6 +246,7 @@ footer a{color:var(--text-muted); text-decoration:underline;}
     <button class="tab-btn" data-tab="overview">Overview</button>
     <button class="tab-btn" data-tab="docket">Docket</button>
     <button class="tab-btn" data-tab="sale">Sale Process</button>
+    <button class="tab-btn" data-tab="calendar">Calendar</button>
     <button class="tab-btn" data-tab="financials">Financials</button>
     <button class="tab-btn" data-tab="parties">Parties</button>
     <button class="tab-btn" data-tab="vendors">Creditors &amp; Vendors</button>
@@ -348,6 +354,25 @@ footer a{color:var(--text-muted); text-decoration:underline;}
     <div class="card">
       <div class="stl" id="sale-cc-milestones"></div>
     </div>
+  </div>
+
+  <!-- CALENDAR -->
+  <div class="panel" id="panel-calendar">
+    <div class="grid-2">
+      <div class="card">
+        <h2 class="section-title" style="font-size:15px;">How to attend a hearing</h2>
+        <p id="cal-attend-note"></p>
+        <p style="margin-top:10px;"><a id="cal-ecourt-link" target="_blank" rel="noopener">eCourtAppearances (remote registration)</a> · <a id="cal-chambers-link" target="_blank" rel="noopener">Judge Goldblatt's chambers procedures</a></p>
+      </div>
+      <div class="card">
+        <h2 class="section-title" style="font-size:15px;">Catching up on a hearing you missed</h2>
+        <p id="cal-recordings-note"></p>
+      </div>
+    </div>
+
+    <h2 class="section-title spaced">Hearings, meetings &amp; deadlines</h2>
+    <div class="count-note" id="cal-count"></div>
+    <div class="docket-list" id="cal-list"></div>
   </div>
 
   <!-- FINANCIALS -->
@@ -527,6 +552,30 @@ footer a{color:var(--text-muted); text-decoration:underline;}
     <div class="card">
       <div class="stl" id="hp-watch"></div>
     </div>
+
+    <h2 class="section-title spaced">What would a buyer have to pay to make everyone whole?</h2>
+    <div class="card">
+      <p id="be-methodology"></p>
+      <p id="be-excluded" style="font-size:12px; color:var(--text-muted); margin-top:8px;"></p>
+    </div>
+    <div id="be-tiers"></div>
+    <div class="card" style="margin-top:14px;">
+      <p id="be-context-note"></p>
+      <p id="be-important-distinction" style="margin-top:10px;"></p>
+    </div>
+
+    <h2 class="section-title spaced">Was this a sudden cash crunch, or a long decline?</h2>
+    <div class="card">
+      <div id="cof-verdict" style="margin-bottom:10px;"></div>
+      <p id="cof-summary"></p>
+      <p id="cof-source" style="font-size:12px; color:var(--text-muted); margin-top:8px;"></p>
+    </div>
+    <div class="table-wrap" style="margin-top:12px;">
+      <table>
+        <thead><tr><th style="width:110px;">Date</th><th>What happened</th><th>Why it matters</th></tr></thead>
+        <tbody id="cof-timeline"></tbody>
+      </table>
+    </div>
   </div>
 
   <footer>
@@ -587,7 +636,12 @@ __DATA_JSON__
   $('#case-id').textContent = `Case No. ${co.case_no} · ${co.chapter}`;
   $('#case-title').textContent = co.case_name;
   $('#case-sub').textContent = `${co.court} · ${co.judge} · Petition filed ${fmtDate(co.petition_date)}`;
-  const today = new Date('2026-09-28T00:00:00');
+  const genDate = new Date(DATA.generated_at);
+  const genStr = genDate.toLocaleString('en-US', {month:'short', day:'numeric', year:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'});
+  const hoursAgo = (Date.now() - genDate.getTime()) / 3600000;
+  const agoStr = hoursAgo < 1 ? 'less than an hour ago' : hoursAgo < 48 ? `~${Math.round(hoursAgo)}h ago` : `~${Math.round(hoursAgo/24)}d ago`;
+  $('#case-updated').textContent = `Data last pulled: ${genStr} (${agoStr})`;
+  const today = new Date();
   const petition = new Date(co.petition_date + 'T00:00:00');
   $('#days-since').textContent = Math.round((today-petition)/86400000);
   $('#docket-count').textContent = DATA.docket_entries.length;
@@ -744,6 +798,55 @@ __DATA_JSON__
   renderStl('#sale-timeline', sm.sale_timeline, 'date', 'event', it => it.status==='met'?'met':'');
   renderStl('#sale-cc-milestones', sm.cash_collateral_milestones, 'deadline_date', 'event',
     it => it.status && it.status.startsWith('MET')?'met':'');
+
+  /* ---------------- CALENDAR ---------------- */
+  const cal = DATA.case_calendar;
+  if (cal) {
+    $('#cal-attend-note').textContent = cal.how_to_attend_note;
+    $('#cal-recordings-note').textContent = cal.recordings_note;
+    $('#cal-ecourt-link').href = cal.ecourt_appearances_url;
+    $('#cal-chambers-link').href = cal.chambers_procedures_url;
+
+    function calcEventStatus(ev){
+      if (ev.status_override) return ev.status_override;
+      const d = new Date(ev.date_iso + 'T23:59:59');
+      return d.getTime() < Date.now() ? 'passed' : 'upcoming';
+    }
+    const statusPill = {
+      held: '<span class="pill good">Held</span>',
+      cancelled: '<span class="pill critical">Cancelled</span>',
+      passed: '<span class="pill neutral">Passed</span>',
+      upcoming: '<span class="pill warning">Upcoming</span>',
+    };
+    const typeLabel = {hearing:'Hearing', meeting:'Meeting', deadline:'Deadline'};
+
+    const calEvents = cal.events.slice().sort((a,b) =>
+      a.date_iso.localeCompare(b.date_iso) || (a.time_et||'').localeCompare(b.time_et||''));
+    $('#cal-count').textContent = `${calEvents.length} scheduled hearings, meetings & deadlines`;
+    const calList = $('#cal-list');
+    calList.innerHTML = '';
+    const calFrag = document.createDocumentFragment();
+    calEvents.forEach(ev => {
+      const status = calcEventStatus(ev);
+      const row = document.createElement('div');
+      row.className = 'docket-row cal-row' + (status==='cancelled' ? ' is-routine' : '');
+      const resourcesHtml = (ev.resources||[]).map(r => `<a href="${r.pdf_url}" target="_blank" rel="noopener">${r.label}</a>`).join(' · ');
+      row.innerHTML = `
+        <div class="docket-num">${fmtDate(ev.date_iso)}${ev.time_et ? '<br>'+ev.time_et : ''}</div>
+        <div class="docket-main">
+          <div class="d-title">${ev.title}</div>
+          ${ev.location?`<div class="d-summary">${ev.location}</div>`:''}
+          ${ev.notes?`<div class="d-summary">${ev.notes}</div>`:''}
+          ${resourcesHtml?`<div class="source-cite" style="padding-bottom:0;">${resourcesHtml}</div>`:''}
+        </div>
+        <div class="docket-side">
+          <span class="pill neutral">${typeLabel[ev.type]||ev.type}</span>
+          ${statusPill[status]||''}
+        </div>`;
+      calFrag.appendChild(row);
+    });
+    calList.appendChild(calFrag);
+  }
 
   /* ---------------- FINANCIALS: cash budget chart ---------------- */
   const cb = DATA.cash_budget;
@@ -1119,6 +1222,50 @@ __DATA_JSON__
       <div class="stl-event">${w.event}</div>`;
     watchWrap.appendChild(row);
   });
+
+  /* ---------------- BREAKEVEN SALE-PRICE ANALYSIS ---------------- */
+  const ca = DATA.case_analysis;
+  if (ca && ca.breakeven_sale_analysis) {
+    const be = ca.breakeven_sale_analysis;
+    $('#be-methodology').textContent = be.methodology_note;
+    $('#be-excluded').textContent = be.excluded_caveat;
+    const tiersWrap = $('#be-tiers');
+    be.tiers.forEach(t => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.style.marginTop = '12px';
+      const rows = t.components.map(c => `<tr><td>${c.item}</td><td class="num">${fmtUSD(c.amount_usd)}</td></tr>`).join('');
+      card.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px;">
+          <h2 class="section-title" style="font-size:15px;">${t.tier}</h2>
+          <div style="font-family:var(--font-mono); font-size:20px;">${fmtUSD(t.threshold_usd)}</div>
+        </div>
+        <table style="margin-top:8px;"><tbody>${rows}</tbody></table>
+        <p style="margin-top:10px; font-size:13px;">${t.meaning}</p>`;
+      tiersWrap.appendChild(card);
+    });
+    if (be.context) {
+      $('#be-context-note').textContent = be.context.note;
+      $('#be-important-distinction').innerHTML = `<b>Worth knowing:</b> ${be.context.important_distinction}`;
+    }
+  }
+
+  /* ---------------- CAUSE-OF-FILING ANALYSIS ---------------- */
+  if (ca && ca.cause_of_filing_analysis) {
+    const cof = ca.cause_of_filing_analysis;
+    const verdictPill = cof.verdict === 'protracted_decline' ? 'warning' : 'neutral';
+    $('#cof-verdict').innerHTML = `<span class="pill ${verdictPill}">${cof.verdict_label}</span>`;
+    $('#cof-summary').textContent = cof.summary;
+    $('#cof-source').innerHTML = cof.source_note + ' ' + citeHtml(cof.source_docket_no, 'Source');
+    const cofBody = $('#cof-timeline');
+    cof.timeline_with_commentary.forEach(row => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td class="mono" style="white-space:nowrap;">${row.date}</td>
+        <td>${row.event}</td>
+        <td style="color:var(--text-secondary);">${row.commentary||'—'}</td>`;
+      cofBody.appendChild(tr);
+    });
+  }
 
   $('#foot-updated').textContent = fmtDate(DATA.generated_at.slice(0,10));
 })();

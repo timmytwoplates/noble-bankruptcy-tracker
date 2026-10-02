@@ -1,0 +1,60 @@
+{
+  "breakeven_sale_analysis": {
+    "as_of": "2026-10-01",
+    "is_estimate": true,
+    "methodology_note": "Not stated in any filing — our own estimate, built from the capital structure disclosed in the First Day Declaration (Docket #15, as of 8/28/26) and the unsecured obligations in the same filing. No stalking horse or qualified bid exists yet (this is a dual-track sale/liquidation case), so there is nothing real to compare a hypothetical price against; treat this as a framework for sizing any bid that does emerge, not a prediction.",
+    "excluded_caveat": "Deliberately excluded because no filing we've reviewed quantifies them: administrative and priority claims (professional fees, 11 U.S.C. §503(b)(9) 20-day-goods claims, wind-down costs, accrued priority wages/taxes), interest/fees accrued since 8/28/26, and transaction costs or taxes on a sale. All of these would push the real breakeven price higher than the tiers below — likely by tens of millions given the scope of professional retentions already on file.",
+    "tiers": [
+      {
+        "tier": "Tier 1 — Secured debt",
+        "threshold_usd": 255626373.88,
+        "components": [
+          {"item": "Prepetition ABL Facility (JPMorgan Chase)", "amount_usd": 1163196.07},
+          {"item": "Prepetition Term Loan Facility (Blue Torch Finance LLC)", "amount_usd": 134263177.81},
+          {"item": "Prepetition Subordinated Note (Alter Domus) — secured but contractually junior", "amount_usd": 120200000}
+        ],
+        "meaning": "The floor. A sale priced below this can still happen, but secured lenders would need to consent, credit-bid the shortfall, or get paid from something other than cash sale proceeds — otherwise they can block it. This is the minimum for the case to resolve as a going-concern sale rather than a secured-creditor-driven liquidation."
+      },
+      {
+        "tier": "Tier 2 — Secured debt + full unsecured recovery",
+        "threshold_usd": 544776373.88,
+        "components": [
+          {"item": "Tier 1 secured debt (above)", "amount_usd": 255626373.88},
+          {"item": "Trade payables (unsecured)", "amount_usd": 250000000},
+          {"item": "Seller Note (Noble.com, LLC — unsecured, to former Federal Resources stakeholders)", "amount_usd": 36000000},
+          {"item": "Employee-related obligations (unsecured)", "amount_usd": 2900000},
+          {"item": "Tax obligations (unsecured)", "amount_usd": 50000},
+          {"item": "Non-residential lease obligations (unsecured)", "amount_usd": 200000}
+        ],
+        "meaning": "What it would take to make literally everyone whole — every vendor, the Seller Note holders, every unsecured claim paid in full — before even accounting for unquantified administrative claims. This is the number implied by “pull Noble out of bankruptcy” if that means no creditor takes a loss."
+      }
+    ],
+    "context": {
+      "note": "For scale, not as a valuation method: Noble's four reporting segments totaled about $1.026 billion of 2025 revenue (DFS $674M + SCS $139M + Noble International $198M + Noble IQ $15M, per the First Day Declaration). Tier 2 (~$545M) is roughly 0.53x that revenue figure — whether that's a realistic multiple for a distressed, contract-dependent defense/logistics supplier is a judgment call we aren't making here; profitability, not revenue, would actually drive what a buyer pays, and we don't have a disclosed EBITDA figure to anchor that.",
+      "important_distinction": "Legally, “emerging from bankruptcy” does not require Tier 2. A chapter 11 plan can be confirmed over unsecured creditors' objection (a “cramdown”) as long as secured and priority claims are satisfied and the plan passes the Bankruptcy Code's other confirmation tests — unsecured creditors can end up with partial or even no recovery and the case still closes. Tier 1, not Tier 2, is the more realistic “minimum to get a deal done” threshold; Tier 2 is the “no one loses money” threshold."
+    }
+  },
+  "cause_of_filing_analysis": {
+    "as_of": "2026-10-01",
+    "verdict": "protracted_decline",
+    "verdict_label": "A long, visible decline — not a sudden cash-flow surprise",
+    "summary": "This reads as a multi-year structural decline that the company, its lenders, and its advisors were all tracking in real time — not a last-minute “we're about to miss payroll” scramble. The proximate trigger (DLA terminating ~$400M of orders on Aug 27, 2026, three days before filing) was acute, but it landed on a company that had already been in managed decline for roughly 20 months: lenders had been in formal default since February/March 2026, a forbearance agreement and wind-down budget were already signed over a month before filing, WARN Act layoff notices had already gone out three weeks earlier, and a sale process had already been running for months. The filing date looks like it was set by the forbearance deadline and the final DLA blow landing on top of an already-committed wind-down, not by an unexpected liquidity gap.",
+    "timeline_with_commentary": [
+      {"date": "2022-07", "event": "Awarded the $1.2B single-award FSG-53 contract", "commentary": "Required heavy up-front capital investment (new warehouse, automation, inventory) in reliance on a 10-year term and DLA's demand forecast — the root structural bet."},
+      {"date": "2023-07", "event": "First FSG-53 order arrives a full year late", "commentary": "No additional lender capital came in during that ramp-up gap — an early warning sign, though 2023 overall performance was still strong enough to fully repay the ABL Facility."},
+      {"date": "2024-01 to 2024-12", "event": "Early 2024: explores refinancing the Term Loan to escape its covenants, even while performance was “strong”", "commentary": "Noble was already managing a capital-structure problem a full two years before filing, independent of any single cash crunch."},
+      {"date": "2024-12", "event": "DLA notifies Noble it won't renew the FSG-53 Contract", "commentary": "Also refuses standard contract closeout/inventory buyback, leaving Noble holding $70M+ of inventory it couldn't unwind. Noble responds by stretching vendor payables — the first concrete sign of real distress, 20 months before filing."},
+      {"date": "2025-06", "event": "Lenders inject $25M more (subordinated note) and consent to receivables factoring; Noble cuts $30M of opex", "commentary": "Active, lender-supported crisis management — everyone involved already knew there was a problem and was trying to buy time/fix it, not reacting to a surprise."},
+      {"date": "2025-10 to 2025-11", "event": "7-week federal government shutdown freezes DLA orders and payments", "commentary": "An external shock layered on top of an already-fragile balance sheet — not the root cause by itself."},
+      {"date": "2026-02-14 to 2026-03-05", "event": "Term Loan Agent, Subordinated Note Agent, and ABL Agent each send notices of default, in sequence", "commentary": "From this point on, Noble was continuously in default under all three of its secured facilities — six months before filing."},
+      {"date": "2026-04", "event": "Refinancing push for the ABL Facility ahead of its 7/31/26 maturity", "commentary": "17 of 19 contacted parties signed NDAs and some gave indications of interest, but nothing closed — the market had already seen enough of Noble's situation to pass."},
+      {"date": "2026-07-24", "event": "Term Loan Lenders formally decline additional financing", "commentary": "The last realistic off-ramp closes roughly five weeks before filing."},
+      {"date": "2026-07-31", "event": "ABL forbearance agreement signed, extending maturity to 9/30/26 under a budget that “contemplated limited vendor payments… to effectuate a pay down of the Prepetition ABL Facility over a six-week period”", "commentary": "This is explicitly a wind-down budget, signed a full month before the bankruptcy filing."},
+      {"date": "2026-08-10", "event": "WARN Act layoff notices issued to all employees", "commentary": "Required advance notice of anticipated mass layoffs — the company judged a shutdown/sale likely enough to trigger this legal obligation three weeks before actually filing."},
+      {"date": "2026-08-27", "event": "DLA terminates ~$400M of SOE contract orders", "commentary": "The acute, final trigger — but it hit a company that had already signed a wind-down forbearance budget and sent layoff notices. It accelerated the timeline; it didn't create the underlying problem."},
+      {"date": "2026-08-30", "event": "Chapter 11 petitions filed", "commentary": null}
+    ],
+    "source_docket_no": "0015",
+    "source_note": "All facts and dates above are drawn from the First Day Declaration (Docket #15, ¶¶43–60); the commentary/framing is our own reading of that narrative, not the filing's own characterization."
+  }
+}

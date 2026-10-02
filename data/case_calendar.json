@@ -1,0 +1,283 @@
+{
+  "source_note": "Compiled from hearing notices, agendas, and scheduling orders on the docket, plus the Bidding Procedures Order (Docket #219) and Notice of Sale (Docket #251). Dates/times are as stated in those filings — always confirm a deadline against its linked source before relying on it.",
+  "how_to_attend_note": "Per Judge Goldblatt's Chambers Procedures, hearings are held in person at the courthouse by default; status/scheduling conferences and first-day hearings are conducted remotely by default. There is no public standing Zoom link — anyone wanting to attend remotely must register in advance through the court's eCourtAppearances tool, due 4:00 p.m. ET the business day before (one hour before for first-day hearings). Attending in person requires no registration; the courtroom is open to the public.",
+  "recordings_note": "This court does not post hearing recordings to YouTube or anywhere public-facing. Two things sometimes show up on the docket afterward: (1) an audio recording embedded inside a PDF, filed as “PDF File with Audio File Attachment” — the link opens a PDF wrapper; open it in a desktop PDF reader (e.g. Adobe Acrobat Reader) that supports embedded attachments to play it, most browser PDF viewers won't surface it. (2) An official certified transcript, orderable from the court reporter named on the matching “Request for Transcript” entry — these aren't available as a free download during an initial restriction window (shown below), only by purchase from the reporter.",
+  "ecourt_appearances_url": "https://www.deb.uscourts.gov/ecourt-appearances",
+  "chambers_procedures_url": "https://www.deb.uscourts.gov/sites/deb/files/judge/Judge%20Craig%20T.%20Goldblatt/ctgChambers%20Procedures.pdf",
+  "events": [
+    {
+      "date_iso": "2026-09-01",
+      "time_et": "12:00 PM",
+      "title": "First Day Hearing",
+      "type": "hearing",
+      "status_override": "held",
+      "location": "Conducted remotely via Zoom (standing court procedure for first-day hearings); case formally assigned to Courtroom #7, 824 Market St., 3rd Fl., Wilmington, DE",
+      "notes": "Considered the cash collateral motion, retention applications, and other “first day” relief needed to begin operating in chapter 11.",
+      "resources": [
+        {
+          "label": "Agenda",
+          "docket_no": "0020",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260831000000000005"
+        },
+        {
+          "label": "Amended agenda",
+          "docket_no": "0065",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260901000000000024"
+        },
+        {
+          "label": "Zoom sign-in/registration sheet (after the fact)",
+          "docket_no": "0067",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260901000000000026"
+        },
+        {
+          "label": "Audio recording (PDF with embedded MP3)",
+          "docket_no": "0066",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260901000000000025"
+        },
+        {
+          "label": "Transcript — restricted (free download) through 12/9/2026; order from Reliable Companies, (302) 654-8080 before then",
+          "docket_no": "0100",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260910000000000003"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-09-16",
+      "time_et": "10:00 AM",
+      "title": "Omnibus Hearing (incl. DLA emergency motion to compel payment)",
+      "type": "hearing",
+      "status_override": "held",
+      "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
+      "notes": "Originally set for 2:00 PM, moved to 10:00 AM the day before (Docket #118). First hearing on the DLA payment-freeze dispute — see the DLA Dispute section on the Overview tab.",
+      "resources": [
+        {
+          "label": "Amended agenda",
+          "docket_no": "0126",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260916000000000001"
+        },
+        {
+          "label": "Court sign-in/Zoom registration sheet (after the fact)",
+          "docket_no": "0131",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260916000000000010"
+        },
+        {
+          "label": "Audio recording (PDF with embedded MP3, ~21 MB)",
+          "docket_no": "0130",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260916000000000009"
+        },
+        {
+          "label": "Transcript — restricted (free download) through 12/21/2026",
+          "docket_no": "0154",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260922000000000010"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-09-18",
+      "time_et": "1:00 PM",
+      "title": "Status Conference — Court's ruling on the DLA payment dispute",
+      "type": "hearing",
+      "status_override": "held",
+      "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
+      "notes": "The Court ruled DLA's payment freeze went further than permitted and ordered release of the improperly withheld funds — see the DLA Dispute section on the Overview tab for the outcome.",
+      "resources": [
+        {
+          "label": "Notice of status conference",
+          "docket_no": "0144",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260917000000000019"
+        },
+        {
+          "label": "Zoom registration sheet (after the fact)",
+          "docket_no": "0149",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260918000000000007"
+        },
+        {
+          "label": "Audio recording (PDF with embedded MP3)",
+          "docket_no": "0148",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260918000000000006"
+        },
+        {
+          "label": "Transcript — restricted (free download) through 12/21/2026",
+          "docket_no": "0155",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260922000000000011"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-09-28",
+      "time_et": "2:00 PM",
+      "title": "Section 341(a) Meeting of Creditors",
+      "type": "meeting",
+      "status_override": "held",
+      "location": "Virtual (Zoom) — run by the U.S. Trustee's office, not the judge",
+      "notes": "Standard first-look meeting where creditors can question a company representative under oath; held and then continued to 10/14/2026 (next row).",
+      "resources": [
+        {
+          "label": "Original notice",
+          "docket_no": "0083",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260902000000000006"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-09-28",
+      "time_et": "11:00 AM",
+      "title": "Omnibus Hearing",
+      "type": "hearing",
+      "status_override": "cancelled",
+      "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
+      "notes": "Cancelled per the amended agenda — nothing contested remained on the calendar for this date.",
+      "resources": [
+        {
+          "label": "Amended agenda (marked cancelled)",
+          "docket_no": "0220",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260926000000000015"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-14",
+      "time_et": "10:00 AM",
+      "title": "Section 341(a) Meeting of Creditors (continued)",
+      "type": "meeting",
+      "status_override": null,
+      "location": "Virtual (Zoom) — Meeting ID 160 0079 1008, Passcode 3059184726",
+      "notes": "Run by the U.S. Trustee's office. This Zoom ID/passcode is specific to this meeting — it is not the same access point as a Judge Goldblatt court hearing.",
+      "resources": [
+        {
+          "label": "Minute sheet with Zoom details",
+          "docket_no": "0256",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260930000000000006"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-16",
+      "time_et": "10:00 AM",
+      "title": "Omnibus Hearing (incl. KERP/KEIP motion)",
+      "type": "hearing",
+      "status_override": null,
+      "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
+      "notes": "Regularly-scheduled omnibus hearing date (Docket #85). Known agenda items include the sealed Key Employee Retention/Incentive Plan motion (Docket #195).",
+      "resources": [
+        {
+          "label": "Order scheduling this omnibus date",
+          "docket_no": "0085",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260904000000000002"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-21",
+      "time_et": "4:00 PM",
+      "title": "Sale Objection Deadline",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Last day to file a written objection to the sale of the Debtors' assets.",
+      "resources": [
+        {
+          "label": "Notice of Sale (key dates)",
+          "docket_no": "0251",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-23",
+      "time_et": "4:00 PM",
+      "title": "Deadline to designate a Stalking Horse Bidder (if any)",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "The single most important date on this calendar for the sale outlook — see the Sale Process tab.",
+      "resources": [
+        {
+          "label": "Bidding Procedures Order",
+          "docket_no": "0219",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260926000000000014"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-30",
+      "time_et": "4:00 PM",
+      "title": "Bid Deadline",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Deadline for a Qualified Bid to be submitted in writing.",
+      "resources": [
+        {
+          "label": "Notice of Sale (key dates)",
+          "docket_no": "0251",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-04",
+      "time_et": "10:00 AM",
+      "title": "Auction (only if more than one Qualified Bid is received)",
+      "type": "hearing",
+      "status_override": null,
+      "location": "Offices of Cole Schotz P.C., 500 Delaware Avenue, Suite 600, Wilmington, DE — or virtually, at the Debtors' discretion (instructions to be emailed to participants if virtual)",
+      "notes": "Not a court hearing — a private auction process run by the Debtors and their advisors, open only to Qualified Bidders and their counsel.",
+      "resources": [
+        {
+          "label": "Notice of Sale (key dates)",
+          "docket_no": "0251",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-09",
+      "time_et": "4:00 PM",
+      "title": "Supplemental Sale Objection Deadline",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Objections limited to the conduct of the Auction, the Successful Bidder, or the Backup Bidder.",
+      "resources": [
+        {
+          "label": "Notice of Sale (key dates)",
+          "docket_no": "0251",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-16",
+      "time_et": "1:00 PM",
+      "title": "Sale Hearing",
+      "type": "hearing",
+      "status_override": null,
+      "location": "US Bankruptcy Court, 824 N. Market Street, Wilmington, DE (before Judge Goldblatt)",
+      "notes": "The hearing where the Court considers approving the winning bid (or the stalking horse bid, if no higher offer emerged).",
+      "resources": [
+        {
+          "label": "Notice of Sale (key dates)",
+          "docket_no": "0251",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-20",
+      "time_et": null,
+      "title": "Deadline to consummate (close) the approved Sale",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": null,
+      "resources": [
+        {
+          "label": "Notice of Sale (key dates)",
+          "docket_no": "0251",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        }
+      ]
+    }
+  ]
+}
