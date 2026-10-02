@@ -44,5 +44,111 @@
         "event": "Deadline to close an approved sale"
       }
     ]
+  },
+  {
+    "as_of": "2026-09-29",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "The sale process keeps moving faster than its court-ordered deadlines (the Sale Notice and Cure Costs Notice went out ~3 days early), but the two facts that will actually decide this case — whether a stalking horse is named by Oct 23 and what bids come in by Oct 30 — are still unknown. A new KERP/KEIP motion shows management is now focused on retaining staff and paying incentive bonuses tied to hitting the cash-collateral budget's collection targets through the sale.",
+    "positive_signals": [
+      "Sale Notice and Cure Costs Notice (Docket #251, #252) were filed September 29, 2026 — about 3 days ahead of their approximate October 2 deadline, continuing the case's pattern of running ahead of schedule.",
+      "Debtors have formalized a Key Employee Retention Plan and Key Executive Incentive Plan (Docket #250) to keep the ~61 employees and 10 executives needed to run the sale process and maximize accounts-receivable/inventory collections through closing.",
+      "The KEIP's incentive structure is directly tied to exceeding the cash-collateral budget's $37.5M collections target, aligning management's bonus with the same cash recovery the secured lenders are counting on.",
+      "Bidding Procedures Order continues to be implemented on schedule with no reported delays."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "The KERP/KEIP motion, plus a new $39,530 administrative-expense claim motion from vendor Midwest Pressure Systems (Docket #248), add incremental near-term cash obligations on top of the existing sale-process costs.",
+      "The Notice of Cure Costs (Docket #252) as filed does not include the underlying Schedule 1 list of contracts/cure amounts in machine-readable text, so it's not yet possible to confirm which specific vendor contracts are slated for assumption and assignment from this filing alone.",
+      "Bid deadline (Oct 30), auction (Nov 4), and sale hearing (Nov 16) remain unchanged and still compressed — under 8 weeks total from now to a required closing of Nov 20."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the KERP/KEIP motion and the Midwest Pressure Systems admin-claim motion"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on KERP/KEIP motion and Midwest Pressure Systems admin-claim motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-01",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "Only routine case-administration activity was filed since the last update: the Section 341 meeting of creditors convened on September 30 and was continued to October 14, 2026, and Verita Global filed a supplemental proof of service. Nothing in this batch touches the sale process, financing, or the DLA dispute. The case's real decision points — whether a stalking horse is designated by October 23 and what bids arrive by October 30 — remain unresolved and unchanged from the prior update.",
+    "positive_signals": [
+      "No new adverse filings, objections, or motions appeared in this check — the case continues to track its court-ordered milestones without reported slippage.",
+      "The Section 341 meeting proceeded on its scheduled date (Sept 30) rather than being pushed out further, suggesting normal administrative cadence.",
+      "Sale Notice and Cure Costs Notice (Docket #251, #252) remain filed ahead of schedule from the prior update, and the KERP/KEIP retention motion (Docket #250) is still pending a hearing to keep staff through the sale."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "Bid deadline (Oct 30), auction (Nov 4), and sale hearing (Nov 16) remain unchanged and still compressed — under 8 weeks total from now to a required closing of Nov 20.",
+      "The continued 341 meeting (now Oct 14) means creditor questioning of the Debtors is still not complete, three weeks after the original hearing date."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the KERP/KEIP motion and the Midwest Pressure Systems admin-claim motion"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Continued Section 341 meeting of creditors (via Zoom)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on KERP/KEIP motion and Midwest Pressure Systems admin-claim motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
   }
 ]

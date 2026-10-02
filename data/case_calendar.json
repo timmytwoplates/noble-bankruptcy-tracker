@@ -136,29 +136,47 @@
       ]
     },
     {
+      "date_iso": "2026-10-09",
+      "time_et": null,
+      "title": "Objection deadline: KERP/KEIP motion and Midwest Pressure Systems admin-claim motion",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Two separate motions share this objection deadline and the same Oct 16 hearing date: the Debtors' own Key Employee Retention/Incentive Plan motion, and a vendor's ($39,530.26) request for immediate administrative-expense payment.",
+      "resources": [
+        {"label": "Midwest Pressure Systems admin-claim motion", "docket_no": "0248", "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000018"},
+        {"label": "KERP/KEIP motion (redacted)", "docket_no": "0250", "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000020"}
+      ]
+    },
+    {
       "date_iso": "2026-10-14",
       "time_et": "10:00 AM",
       "title": "Section 341(a) Meeting of Creditors (continued)",
       "type": "meeting",
       "status_override": null,
       "location": "Virtual (Zoom) — Meeting ID 160 0079 1008, Passcode 3059184726",
-      "notes": "Run by the U.S. Trustee's office. This Zoom ID/passcode is specific to this meeting — it is not the same access point as a Judge Goldblatt court hearing.",
+      "notes": "Run by the U.S. Trustee's office. This Zoom ID/passcode is specific to this meeting — it is not the same access point as a Judge Goldblatt court hearing. Direct join link: https://usdoj-ustp-gov.zoomgov.com/j/16000791008?pwd=jUBSElWPTkceYtY5QEJeAaBVa1half.1&omn=1655374420 (web browser join may not work — the notice recommends downloading the Zoom app in advance). Phone-only: +1 646 828 7666.",
       "resources": [
         {
           "label": "Minute sheet with Zoom details",
           "docket_no": "0256",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369260930000000000006"
+        },
+        {
+          "label": "Notice with full Zoom join instructions",
+          "docket_no": "0257",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369260930000000000007"
         }
       ]
     },
     {
       "date_iso": "2026-10-16",
       "time_et": "10:00 AM",
-      "title": "Omnibus Hearing (incl. KERP/KEIP motion)",
+      "title": "Omnibus Hearing (incl. KERP/KEIP and Midwest Pressure Systems motions)",
       "type": "hearing",
       "status_override": null,
       "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
-      "notes": "Regularly-scheduled omnibus hearing date (Docket #85). Known agenda items include the sealed Key Employee Retention/Incentive Plan motion (Docket #195).",
+      "notes": "Regularly-scheduled omnibus hearing date (Docket #85). Known agenda items: the sealed Key Employee Retention/Incentive Plan motion (Docket #195/#250) and Midwest Pressure Systems' administrative-expense claim motion (Docket #248).",
       "resources": [
         {
           "label": "Order scheduling this omnibus date",

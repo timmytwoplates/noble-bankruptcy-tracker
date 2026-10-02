@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "petition_date": "2026-08-30",
   "process_type": "Dual-track: (1) court-supervised marketing & sale of some/all assets on a going-concern basis, run in parallel with (2) an orderly liquidation/monetization of inventory and receivables. Both tracks proceed simultaneously, not sequentially, per the First Day Declaration.",
   "investment_banker": "Portage Point Partners (via Triple P Securities, LLC) — also serves as Debtors' financial advisor / CTO provider (Triple P TRS, LLC)",
@@ -52,8 +52,8 @@
     {
       "date": "2026-10-02 (approx, 4 business days after Bidding Procedures Order)",
       "event": "Deadline to file/serve Sale Notice and Assumption & Assignment Notice",
-      "status": "pending",
-      "docket_source": "219"
+      "status": "MET EARLY — Sale Notice and Assumption & Assignment (Cure Costs) Notice filed 2026-09-29 (Docket #251, #252), ~3 days ahead of the ~10/2 deadline",
+      "docket_source": "219, 251, 252"
     },
     {
       "date": "2026-10-21, 4:00pm ET",
