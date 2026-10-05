@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-05",
   "petition_date": "2026-08-30",
   "process_type": "Dual-track: (1) court-supervised marketing & sale of some/all assets on a going-concern basis, run in parallel with (2) an orderly liquidation/monetization of inventory and receivables. Both tracks proceed simultaneously, not sequentially, per the First Day Declaration.",
   "investment_banker": "Portage Point Partners (via Triple P Securities, LLC) — also serves as Debtors' financial advisor / CTO provider (Triple P TRS, LLC)",
@@ -29,7 +29,7 @@
     {
       "deadline_days_after_petition": 50,
       "deadline_date": "2026-10-19",
-      "event": "Final cash collateral order entered (Final Hearing scheduled for this date, 10:00am ET)",
+      "event": "Final cash collateral order entered (the Final Hearing itself is Oct 16 at 10:00am ET, objections due Oct 9 at 4:00pm ET per Docket #218 ¶33; Oct 19 is the milestone deadline for the order)",
       "docket_source": "218",
       "status": "pending"
     },

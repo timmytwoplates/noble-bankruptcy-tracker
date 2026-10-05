@@ -150,5 +150,113 @@
         "event": "Deadline to close an approved sale"
       }
     ]
+  },
+  {
+    "as_of": "2026-10-02",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "Only two routine filings landed since the last check: the U.S. Department of Justice entered its appearance in the case (a standard procedural step, not a new enforcement action), and the claims agent filed proof that it properly served the Sale Notice and Cure Costs Notice (Docket #251, #252) on all required parties. Nothing in this batch touches the sale process, financing, or the DLA dispute. The case's real open questions — whether a stalking horse is designated by October 23 and what bids arrive by October 30 — remain unresolved and unchanged from the prior update.",
+    "positive_signals": [
+      "No new adverse filings, objections, or motions appeared in this check — the case continues to track its court-ordered milestones without reported slippage.",
+      "Proof of service for the Sale Notice and Cure Costs Notice is now on file, confirming the required parties (contract counterparties, creditors) were properly put on notice of the sale and assumption/assignment process ahead of the October 21 cure objection deadline.",
+      "The DOJ's appearance is routine case administration (the government is a party-in-interest in every case involving federal contracts/agencies like DLA) and isn't itself evidence of a new investigation or objection."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "Bid deadline (Oct 30), auction (Nov 4), and sale hearing (Nov 16) remain unchanged and still compressed — under 7 weeks from now to a required closing of Nov 20.",
+      "The continued Section 341 meeting (Oct 14) and KERP/KEIP objection deadline (Oct 9) are both still ahead, so several procedural checkpoints remain open."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the KERP/KEIP motion and the Midwest Pressure Systems admin-claim motion"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Continued Section 341 meeting of creditors (via Zoom)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on KERP/KEIP motion and Midwest Pressure Systems admin-claim motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-03",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "Five new filings landed since the last check, two of them meaningful but neither changing the core trajectory of the case. The Debtors filed a motion to set claims bar dates (November 16, 2026 for most creditors; February 26, 2027 for government units) — a standard, necessary step that doesn't affect the sale timeline. More notably, the U.S. government formally appealed the September 18 ruling that forced DLA to release ~$6.4 million in frozen payments to Noble; the appeal doesn't block that order (a stay pending appeal was already denied) but keeps the DLA dispute's ultimate outcome open. A minor stipulation let a pre-bankruptcy plaintiff add CEO Tom Noble personally as a defendant in an unrelated state-court suit, which doesn't touch the estate. No stalking horse has been named yet, and the October 23 designation deadline, October 30 bid deadline, and November 16 sale hearing all remain unchanged.",
+    "positive_signals": [
+      "The claims bar-date process is moving forward on a normal timeline, a routine sign of an orderly case.",
+      "The bankruptcy court already rejected DLA's request to pause the September 18 payment-release order, so Noble keeps the ~$6.4 million (and ongoing ordinary-course payments) regardless of how the appeal turns out for now.",
+      "No new objections, defaults, or adverse rulings affecting the sale process or cash position appeared in this batch."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "DLA's appeal of the September 18 order keeps alive the possibility that a district court could later reinstate DLA's ability to freeze or offset future payments, adding long-run uncertainty to Noble's DLA-related cash flows even though it changes nothing immediately.",
+      "Bid deadline (Oct 30), auction (Nov 4), and sale hearing (Nov 16) remain unchanged and still compressed — under 7 weeks from now to a required closing of Nov 20."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the KERP/KEIP motion, the Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Continued Section 341 meeting of creditors (via Zoom)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on KERP/KEIP motion, Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing / proposed General Bar Date for claims"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
   }
 ]
