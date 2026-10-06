@@ -3748,5 +3748,35 @@
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261005000000000009"
+  },
+  {
+    "docket_no": "0269",
+    "pdf_href": "/noble/document/2611369261006000000000005",
+    "title": "Notice of Appearance and Request for Notices by Potter Anderson & Corroon LLP on Behalf of J.F. Taylor, Inc. (Filed by J.F. Taylor, Inc.)",
+    "date_filed": "10/6/2026",
+    "date_filed_iso": "2026-10-06",
+    "related": [],
+    "source_list": "main",
+    "category": "Routine",
+    "substantive": false,
+    "summary": "A law firm formally notifying the court it represents a creditor or party in interest in the case — procedural, but can signal which parties are actively watching the case.",
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000005"
+  },
+  {
+    "docket_no": "0270",
+    "pdf_href": "/noble/document/2611369261006000000000006",
+    "title": "Certification of Counsel Regarding Proposed Order Scheduling Omnibus Hearing Date. Filed by Noble Supply & Logistics, LLC. (Attachments: # (1) Exhibit A - Proposed Order) (Dougherty, Jack)",
+    "date_filed": "10/6/2026",
+    "date_filed_iso": "2026-10-06",
+    "related": [],
+    "source_list": "main",
+    "category": "Hearing / Court Admin",
+    "substantive": true,
+    "summary": null,
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000006"
   }
 ]
