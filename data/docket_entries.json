@@ -3778,5 +3778,50 @@
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000006"
+  },
+  {
+    "docket_no": "0271",
+    "pdf_href": "/noble/document/2611369261006000000000008",
+    "title": "Order Scheduling Omnibus Hearing Date [Omnibus Hearing scheduled for 10/28/2026 at 11:00 AM US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware]",
+    "date_filed": "10/6/2026",
+    "date_filed_iso": "2026-10-06",
+    "related": [],
+    "source_list": "main",
+    "category": "Hearing / Court Admin",
+    "substantive": true,
+    "summary": null,
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000008"
+  },
+  {
+    "docket_no": "0272",
+    "pdf_href": "/noble/document/2611369261006000000000010",
+    "title": "Adversary Complaint [AP Summons Served due date: 1/4/2027]",
+    "date_filed": "10/6/2026",
+    "date_filed_iso": "2026-10-06",
+    "related": [],
+    "source_list": "main",
+    "category": "Other / General",
+    "substantive": true,
+    "summary": null,
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000010"
+  },
+  {
+    "docket_no": "0273",
+    "pdf_href": "/noble/document/2611369261007000000000001",
+    "title": "Supplemental Declaration of Justin R. Alberto in Support of Debtors' Application for Entry of an Order Authorizing the Retention and Employment of Cole Schotz P.C. as Co-Counsel for the Debtors Effective as of the Petition Date (Filed by Noble Supply & Logistics, LLC)",
+    "date_filed": "10/7/2026",
+    "date_filed_iso": "2026-10-07",
+    "related": [],
+    "source_list": "main",
+    "category": "Professional Retention",
+    "substantive": true,
+    "summary": null,
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000001"
   }
 ]
