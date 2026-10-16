@@ -4858,5 +4858,35 @@
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000002"
+  },
+  {
+    "docket_no": "0343",
+    "pdf_href": "/noble/document/2611369261015000000000006",
+    "title": "Request for Transcript of Hearing Held on October 8, 2026 Received (No Image Available)",
+    "date_filed": "10/15/2026",
+    "date_filed_iso": "2026-10-15",
+    "related": [],
+    "source_list": "main",
+    "category": "Routine",
+    "substantive": false,
+    "summary": "A request to the court reporter for a written transcript of a hearing.",
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000006"
+  },
+  {
+    "docket_no": "0344",
+    "pdf_href": "/noble/document/2611369261015000000000007",
+    "title": "Certificate of Service of Tran K. Le re: Documents Served on October 14, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "date_filed": "10/15/2026",
+    "date_filed_iso": "2026-10-15",
+    "related": [],
+    "source_list": "main",
+    "category": "Routine",
+    "substantive": false,
+    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000007"
   }
 ]
