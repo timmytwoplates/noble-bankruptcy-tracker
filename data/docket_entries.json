@@ -5098,5 +5098,50 @@
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261019000000000006"
+  },
+  {
+    "docket_no": "0359",
+    "pdf_href": "/noble/document/2611369261020000000000011",
+    "title": "Certificate of Service of Andrew Henchen re: 1) Modified Form 410 Proof of Claim and 2) Notice of Deadlines for Filing Proofs of Claim Against the Debtors (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "date_filed": "10/20/2026",
+    "date_filed_iso": "2026-10-20",
+    "related": [],
+    "source_list": "main",
+    "category": "Routine",
+    "substantive": false,
+    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261020000000000011"
+  },
+  {
+    "docket_no": "0360",
+    "pdf_href": "/noble/document/2611369261020000000000012",
+    "title": "Affidavit of Publication of the Notice of Entry of Bar Date Order Establishing Deadlines for Filing of Proofs of Claim in The Wall Street Journal (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "date_filed": "10/20/2026",
+    "date_filed_iso": "2026-10-20",
+    "related": [],
+    "source_list": "main",
+    "category": "Claims / Bar Date",
+    "substantive": true,
+    "summary": null,
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261020000000000012"
+  },
+  {
+    "docket_no": "0361",
+    "pdf_href": "/noble/document/2611369261021000000000002",
+    "title": "Transcript regarding Hearing Held 10/08/2026 RE: Status Conference. Remote electronic access to the transcript is restricted until 1/19/2027. The transcript may be viewed at the Bankruptcy Court Clerk's Office. For information about how to obtain a transcript, call or Contact the Court Reporter/Transcriber, Reliable, at Telephone number (302) 654-8080. Notice of Intent to Request Redaction Deadline Due By 10/28/2026. Redaction Request Due By 11/12/2026. Redacted Transcript Submission Due By 11/23/2026. Transcript access will be restricted through 1/19/2027. (GNP)",
+    "date_filed": "10/21/2026",
+    "date_filed_iso": "2026-10-21",
+    "related": [],
+    "source_list": "main",
+    "category": "Routine",
+    "substantive": false,
+    "summary": "Official transcript of a hearing (access is typically restricted for a period after filing).",
+    "topic": null,
+    "topic_label": null,
+    "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000002"
   }
 ]
