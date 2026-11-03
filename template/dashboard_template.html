@@ -246,6 +246,7 @@ footer a{color:var(--text-muted); text-decoration:underline;}
     <button class="tab-btn" data-tab="overview">Overview</button>
     <button class="tab-btn" data-tab="docket">Docket</button>
     <button class="tab-btn" data-tab="sale">Sale Process</button>
+    <button class="tab-btn" data-tab="fca">DOJ &amp; FCA</button>
     <button class="tab-btn" data-tab="calendar">Calendar</button>
     <button class="tab-btn" data-tab="financials">Financials</button>
     <button class="tab-btn" data-tab="parties">Parties</button>
@@ -353,6 +354,51 @@ footer a{color:var(--text-muted); text-decoration:underline;}
     <h2 class="section-title spaced">Cash-collateral case milestones</h2>
     <div class="card">
       <div class="stl" id="sale-cc-milestones"></div>
+    </div>
+  </div>
+
+  <!-- DOJ & FCA -->
+  <div class="panel" id="panel-fca">
+    <div class="card">
+      <h2 class="section-title">Government claims against Noble</h2>
+      <p id="fca-intro"></p>
+      <div class="grid-3" id="fca-stats" style="margin-top:12px;"></div>
+      <p id="fca-caveat" style="font-size:12px; color:var(--text-muted); margin-top:10px;"></p>
+    </div>
+
+    <h2 class="section-title spaced">The two newly-unsealed qui tam suits</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Court</th><th>Status</th><th>What we know</th></tr></thead>
+        <tbody id="fca-quitam-body"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title spaced">The government's adequate protection motion</h2>
+    <div class="card">
+      <p id="fca-motion-summary"></p>
+      <h2 class="section-title" style="font-size:15px; margin-top:14px;">What it's asking the court for</h2>
+      <ul class="plain" id="fca-motion-relief"></ul>
+      <div id="fca-motion-cite" style="margin-top:10px;"></div>
+    </div>
+
+    <h2 class="section-title spaced">How the dollar figures compare</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Claim / dispute</th><th class="num">Amount</th><th>Status</th></tr></thead>
+        <tbody id="fca-compare-body"></tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title spaced">Pre-petition DOJ investigations</h2>
+    <div class="card">
+      <p id="fca-prior-note"></p>
+      <ul class="plain" id="fca-prior-list"></ul>
+    </div>
+
+    <h2 class="section-title spaced">Timeline</h2>
+    <div class="card">
+      <div class="timeline-list" id="fca-timeline"></div>
     </div>
   </div>
 
@@ -798,6 +844,47 @@ __DATA_JSON__
   renderStl('#sale-timeline', sm.sale_timeline, 'date', 'event', it => it.status==='met'?'met':'');
   renderStl('#sale-cc-milestones', sm.cash_collateral_milestones, 'deadline_date', 'event',
     it => it.status && it.status.startsWith('MET')?'met':'');
+
+  /* ---------------- DOJ & FCA ---------------- */
+  const fca = DATA.fca_doj;
+  if (fca) {
+    $('#fca-intro').textContent = fca.tab_intro;
+    const statWrap = $('#fca-stats');
+    statWrap.innerHTML = `
+      <div class="stat-tile"><div class="label">${fca.exposure_summary.qui_tam_claimed_label}</div><div class="value">${fmtUSD(fca.exposure_summary.qui_tam_claimed_usd)}</div></div>
+      <div class="stat-tile"><div class="label">${fca.exposure_summary.dla_payment_dispute_label}</div><div class="value">${fmtUSD(fca.exposure_summary.dla_payment_dispute_usd)}</div></div>
+      <div class="stat-tile"><div class="label">${fca.exposure_summary.prior_settlement_label}</div><div class="value">${fmtUSD(fca.exposure_summary.prior_settlement_usd)}</div></div>`;
+    $('#fca-caveat').textContent = fca.caveat;
+
+    const qtBody = $('#fca-quitam-body');
+    fca.qui_tam_suits.forEach(s => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td><b>${s.court}</b></td><td><span class="pill warning">${s.status}</span></td><td>${s.notes}</td>`;
+      qtBody.appendChild(tr);
+    });
+
+    const apm = fca.adequate_protection_motion;
+    $('#fca-motion-summary').textContent = apm.summary;
+    $('#fca-motion-relief').innerHTML = apm.relief_sought.map(r=>`<li>${r}</li>`).join('');
+    $('#fca-motion-cite').innerHTML = citeHtml(apm.docket_no) + citeHtml(apm.related_docket_nos, 'Related');
+
+    const cmpBody = $('#fca-compare-body');
+    fca.comparison_table.forEach(c => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${c.item}</td><td class="num">${fmtUSD(c.amount_usd)}</td><td style="color:var(--text-secondary);">${c.status}</td>`;
+      cmpBody.appendChild(tr);
+    });
+
+    $('#fca-prior-note').textContent = fca.prior_investigations_note;
+    $('#fca-prior-list').innerHTML = (co.business_overview.regulatory_investigations||[]).map(s=>`<li>${s}</li>`).join('');
+
+    const fcaTlWrap = $('#fca-timeline');
+    fca.timeline.forEach(t => {
+      const el = document.createElement('div'); el.className='tl-item';
+      el.innerHTML = `<div class="tl-date">${fmtDate(t.date)}</div><div class="tl-event">${t.event} ${citeHtml(t.docket_source)}</div>`;
+      fcaTlWrap.appendChild(el);
+    });
+  }
 
   /* ---------------- CALENDAR ---------------- */
   const cal = DATA.case_calendar;

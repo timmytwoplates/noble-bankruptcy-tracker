@@ -1489,5 +1489,1407 @@
     },
     "postpetition_taxes_current": true,
     "notes": "Stub-period MOR (08/30/2026–08/31/2026, Months Pending: 0), Case No. 26-11379, jointly administered under lead Case No. 26-11369.\n\nAll-zero main form despite this entity having its own JPMorgan account (x3770, $0 balance per the Cash Balances schedule in Doc 156-1/160-1) — no activity through that account this stub period. No support-schedule attachment was filed for this docket.\n\nPart 3 (assets sold/transferred): $0. Part 5 (professional fees & expenses): blank — no professionals paid yet this period. Part 6 (postpetition taxes): all $0.\n\nPart 7 questionnaire answers are identical to the lead entity's: current on tax filings and estimated payments, trust fund taxes current, no postpetition borrowing, no insider or out-of-ordinary-course payments, insurance in place, no plan or disclosure statement filed yet, current on quarterly UST fees.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 09/22/2026."
+  },
+  {
+    "entity": "Noble Supply & Logistics, LLC",
+    "docket_no": "0369",
+    "case_no": "26-11369",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "AR Collections",
+        "amount_usd": 15031224
+      },
+      {
+        "section": "receipts",
+        "line_item": "Other Receipts",
+        "amount_usd": 1263859
+      },
+      {
+        "section": "receipts",
+        "line_item": "Market Value Movement",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Net Cash Receipts",
+        "amount_usd": 16295083
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Payroll",
+        "amount_usd": -2431144
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Inventory Vendors",
+        "amount_usd": -1095092
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Shipping & Logistics",
+        "amount_usd": -452451
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Rent & Facility Costs",
+        "amount_usd": -248865
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Legal, Accounting & Advisory",
+        "amount_usd": -395035
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Other Vendors",
+        "amount_usd": -441031
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Operating Disbursements",
+        "amount_usd": -5063619
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Operating Cash Flow",
+        "amount_usd": 11231464
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Restricted Cash Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Blue Torch Paydown (Debt Service)",
+        "amount_usd": -2000000
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Other Disbursements",
+        "amount_usd": -2000000
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": -7063619
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 1305849,
+      "ending_cash": 10537312,
+      "net_cash_flow": 9231463
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Cash and Cash Equivalents",
+        "amount_usd": 9301726
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts Receivable, Net",
+        "amount_usd": 67295959
+      },
+      {
+        "section": "assets",
+        "line_item": "Intercompany Receivables",
+        "amount_usd": 1165341600
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory, Net",
+        "amount_usd": 58445380
+      },
+      {
+        "section": "assets",
+        "line_item": "Prepaid Expenses and Other Current Assets",
+        "amount_usd": 17472639
+      },
+      {
+        "section": "assets",
+        "line_item": "Total Current Assets",
+        "amount_usd": 1317857303
+      },
+      {
+        "section": "assets",
+        "line_item": "Fixed Assets, Net",
+        "amount_usd": 3400536
+      },
+      {
+        "section": "assets",
+        "line_item": "Other Assets",
+        "amount_usd": 8117447
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance) [Part 2b]",
+        "amount_usd": 29262437
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accounts Payable",
+        "amount_usd": 1054354475
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Credit Card Payable",
+        "amount_usd": -483979
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accrued and Other Current Liabilities",
+        "amount_usd": -72920812
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Current Liabilities",
+        "amount_usd": 980949683
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Long-Term Liabilities",
+        "amount_usd": 279284934
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes) [Part 2f, main form]",
+        "amount_usd": 3587365
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes) [Part 2g, main form]",
+        "amount_usd": 952260
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable [Part 2h, main form]",
+        "amount_usd": -110351
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt [Part 2k, main form]",
+        "amount_usd": 230873616
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt [Part 2l, main form]",
+        "amount_usd": 672949
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt [Part 2m, main form]",
+        "amount_usd": 328365628
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt), main-form classification (j+k+l+m) [Part 2n]",
+        "amount_usd": 563389206
+      },
+      {
+        "section": "equity",
+        "line_item": "Total Equity (support-schedule balance sheet)",
+        "amount_usd": 69140669
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending equity/net worth, main-form classification (e-n) [Part 2o]",
+        "amount_usd": 765986081
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 1329375287,
+      "total_liabilities": 1260234617,
+      "total_equity": 69140669
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report — the first full-month report (prior filing, Docket #156, covered only the 2-day stub period 08/30-08/31/2026). Reporting period September 1-30, 2026, Months Pending: 1. Lead/reporting debtor.\n\nFull-time employees fell from 272 (as of the order for relief) to 252 (current), a reduction of 20 since the petition date.\n\nThe detailed cash-activity, balance-sheet, and statement-of-operations figures come from a 6-page support-schedule attachment (Doc 369-1) shared across three entities — Noble Supply & Logistics, LLC, K.D. Analytical Consulting, LLC, and Noble.com, LLC — the only three of the eleven debtors with an attachment or non-zero main form this period; the other eight filed entirely blank/zero main forms.\n\nEnding cash per the main form (Part 1d, $10,537,312) differs modestly from the sum of this entity's individual JPMorgan/Verita Global account balances in the Cash Balances schedule (~$10,225,610 across accounts x3671, x0745, x3977, x7379, x9326, x9876, x6129, x6203, x3770, x7847, plus the Verita Global professional-fee reserve account x5330); the ~$312K gap is not explained in the filing and is flagged for reference rather than resolved here.\n\nNet cash flow for the month was positive ($9.2M), driven by a large AR collection ($15.0M) against relatively modest operating disbursements ($5.1M) and a $2.0M voluntary paydown of the Blue Torch (Term Loan) facility.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 10/21/2026.",
+    "discrepancy_flag": "As in the prior period, the main MOR form's Part 2 liability classification (secured/priority/unsecured debt: total liabilities $563,389,206, ending equity $765,986,081) does not match the support-schedule balance sheet's current/long-term classification (total liabilities $1,260,234,617, total equity $69,140,669). Both independently reconcile to the same Total Assets of $1,329,375,287, consistent with two different liability-classification methodologies being applied to the same asset base — flagged for legal/financial review rather than resolved here.",
+    "income_statement": [
+      {
+        "line_item": "Product Sales",
+        "amount_usd": 17301093,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Service Revenue",
+        "amount_usd": 0,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Training Revenue",
+        "amount_usd": 395793,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Less: Returns & Allowances",
+        "amount_usd": -1064,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Total Revenue",
+        "amount_usd": 17695822,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Product COGS",
+        "amount_usd": 17237973,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Service COGS",
+        "amount_usd": 80013,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Total Cost of Goods Sold",
+        "amount_usd": 17317986,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Gross Profit",
+        "amount_usd": 377836,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Selling Expenses",
+        "amount_usd": 84094,
+        "section": "opex"
+      },
+      {
+        "line_item": "Compensation & Payroll Taxes",
+        "amount_usd": 2561295,
+        "section": "opex"
+      },
+      {
+        "line_item": "Employee Benefits",
+        "amount_usd": 269969,
+        "section": "opex"
+      },
+      {
+        "line_item": "Occupancy & Facilities",
+        "amount_usd": 274327,
+        "section": "opex"
+      },
+      {
+        "line_item": "IT & Technology",
+        "amount_usd": 282645,
+        "section": "opex"
+      },
+      {
+        "line_item": "Professional & Consulting Fees",
+        "amount_usd": 27044,
+        "section": "opex"
+      },
+      {
+        "line_item": "Insurance",
+        "amount_usd": -285543,
+        "section": "opex"
+      },
+      {
+        "line_item": "Travel & Entertainment",
+        "amount_usd": 167338,
+        "section": "opex"
+      },
+      {
+        "line_item": "Other G&A",
+        "amount_usd": 18221,
+        "section": "opex"
+      },
+      {
+        "line_item": "Total General & Administrative Expenses",
+        "amount_usd": 3315294,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Legal — Investigation Matters",
+        "amount_usd": 288868,
+        "section": "other"
+      },
+      {
+        "line_item": "Financial Advisor & Restructuring-Related Fees",
+        "amount_usd": 221916,
+        "section": "other"
+      },
+      {
+        "line_item": "Realized Gain/Loss",
+        "amount_usd": 6775,
+        "section": "other"
+      },
+      {
+        "line_item": "Other/Rounding",
+        "amount_usd": 30009,
+        "section": "other"
+      },
+      {
+        "line_item": "Total Other Expense",
+        "amount_usd": 547568,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Depreciation & Amortization",
+        "amount_usd": 150124,
+        "section": "other"
+      },
+      {
+        "line_item": "Interest & Other Income, net",
+        "amount_usd": 3192158,
+        "section": "other"
+      },
+      {
+        "line_item": "Other Taxes (Non-Income)",
+        "amount_usd": -46647,
+        "section": "other"
+      },
+      {
+        "line_item": "Reorganization Items",
+        "amount_usd": 153103,
+        "section": "other"
+      },
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": -7017858,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "From the Doc 369-1 support schedule. Matches the main form's Part 4k current-month profit/loss of $(7,017,858); cumulative profit/loss across both MOR periods to date is $(1,329,168) per Part 4k cumulative column."
+  },
+  {
+    "entity": "K.D. Analytical Consulting, LLC",
+    "docket_no": "0373",
+    "case_no": "26-11373",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "AR Collections",
+        "amount_usd": 706598
+      },
+      {
+        "section": "receipts",
+        "line_item": "Other Receipts",
+        "amount_usd": 1492
+      },
+      {
+        "section": "receipts",
+        "line_item": "Market Value Movement",
+        "amount_usd": 0
+      },
+      {
+        "section": "receipts",
+        "line_item": "Net Cash Receipts",
+        "amount_usd": 708091
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Payroll",
+        "amount_usd": -414562
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Inventory Vendors",
+        "amount_usd": -171574
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Shipping & Logistics",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Rent & Facility Costs",
+        "amount_usd": -21940
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Legal, Accounting & Advisory",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Other Vendors",
+        "amount_usd": -51021
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Operating Disbursements",
+        "amount_usd": -659097
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Operating Cash Flow",
+        "amount_usd": 48994
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Restricted Cash Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Other Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": -659097
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 3669,
+      "ending_cash": 52663,
+      "net_cash_flow": 48994
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Cash and Cash Equivalents",
+        "amount_usd": 319622
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts Receivable, Net",
+        "amount_usd": 2341189
+      },
+      {
+        "section": "assets",
+        "line_item": "Intercompany Receivables",
+        "amount_usd": 46402939
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory, Net",
+        "amount_usd": 1586637
+      },
+      {
+        "section": "assets",
+        "line_item": "Prepaid Expenses and Other Current Assets",
+        "amount_usd": -878355
+      },
+      {
+        "section": "assets",
+        "line_item": "Total Current Assets",
+        "amount_usd": 49772032
+      },
+      {
+        "section": "assets",
+        "line_item": "Fixed Assets, Net",
+        "amount_usd": 203708
+      },
+      {
+        "section": "assets",
+        "line_item": "Other Assets",
+        "amount_usd": 2783
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts receivable over 90 days outstanding (net of allowance) [Part 2b]",
+        "amount_usd": 316293
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accounts Payable",
+        "amount_usd": 24086600
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Credit Card Payable",
+        "amount_usd": -117249
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accrued and Other Current Liabilities",
+        "amount_usd": 1785389
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Current Liabilities",
+        "amount_usd": 25754740
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Long-Term Liabilities",
+        "amount_usd": 118726
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables (excluding taxes) [Part 2f, main form]",
+        "amount_usd": 55825
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition payables past due (excluding taxes) [Part 2g, main form]",
+        "amount_usd": 1228
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Postpetition taxes payable [Part 2h, main form]",
+        "amount_usd": 190343
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt [Part 2k, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt [Part 2l, main form]",
+        "amount_usd": 108396
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt [Part 2m, main form]",
+        "amount_usd": 1789367
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt), main-form classification (j+k+l+m) [Part 2n]",
+        "amount_usd": 2143930
+      },
+      {
+        "section": "equity",
+        "line_item": "Total Equity (support-schedule balance sheet)",
+        "amount_usd": 24105056
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending equity/net worth, main-form classification (e-n) [Part 2o]",
+        "amount_usd": 47834592
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 49978522,
+      "total_liabilities": 25873466,
+      "total_equity": 24105056
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1). Reports 0 current and 0 at-petition full-time employees — this entity has no direct headcount of its own.\n\nOne of only three debtors (along with Noble Supply & Logistics, LLC and Noble.com, LLC) with a non-zero filing this period; shares a 6-page support-schedule attachment (Doc 373-1, identical content to Doc 369-1) covering cash activity, balance sheet, statement of operations, AR aging, and post-petition AP aging.\n\nModestly profitable this period on a stand-alone basis: $708K in net cash receipts against $659K in disbursements (+$49K operating cash flow), and $269K in net income on $1.5M of revenue (primarily Service and Training Revenue — no Product Sales).\n\nSigned by Robert Albergotti, Chief Transformation Officer, 10/21/2026.",
+    "discrepancy_flag": "The main MOR form's Part 2 liability classification (total liabilities $2,143,930, ending equity $47,834,592) does not match the support-schedule balance sheet's current/long-term classification (total liabilities $25,873,466, total equity $24,105,056) — the same two-methodology pattern seen for Noble Supply & Logistics this period and in the prior period's filings across entities. Both splits reconcile to the same Total Assets of $49,978,522.",
+    "income_statement": [
+      {
+        "line_item": "Service Revenue",
+        "amount_usd": 1266686,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Training Revenue",
+        "amount_usd": 246834,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Less: Returns & Allowances",
+        "amount_usd": -2240,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Total Revenue",
+        "amount_usd": 1511280,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Product COGS",
+        "amount_usd": 6086,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Service COGS",
+        "amount_usd": 859086,
+        "section": "cogs"
+      },
+      {
+        "line_item": "Total Cost of Goods Sold",
+        "amount_usd": 865172,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Gross Profit",
+        "amount_usd": 646108,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Selling Expenses",
+        "amount_usd": -1492,
+        "section": "opex"
+      },
+      {
+        "line_item": "Compensation & Payroll Taxes",
+        "amount_usd": 305254,
+        "section": "opex"
+      },
+      {
+        "line_item": "Employee Benefits",
+        "amount_usd": 39667,
+        "section": "opex"
+      },
+      {
+        "line_item": "Occupancy & Facilities",
+        "amount_usd": 22101,
+        "section": "opex"
+      },
+      {
+        "line_item": "IT & Technology",
+        "amount_usd": 2131,
+        "section": "opex"
+      },
+      {
+        "line_item": "Professional & Consulting Fees",
+        "amount_usd": 0,
+        "section": "opex"
+      },
+      {
+        "line_item": "Insurance",
+        "amount_usd": 0,
+        "section": "opex"
+      },
+      {
+        "line_item": "Travel & Entertainment",
+        "amount_usd": 2470,
+        "section": "opex"
+      },
+      {
+        "line_item": "Other G&A",
+        "amount_usd": -106,
+        "section": "opex"
+      },
+      {
+        "line_item": "Total General & Administrative Expenses",
+        "amount_usd": 371517,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Legal — Investigation Matters",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Financial Advisor & Restructuring-Related Fees",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Realized Gain/Loss",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Other/Rounding",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Total Other Expense",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Depreciation & Amortization",
+        "amount_usd": 6069,
+        "section": "other"
+      },
+      {
+        "line_item": "Interest & Other Income, net",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Other Taxes (Non-Income)",
+        "amount_usd": 630,
+        "section": "other"
+      },
+      {
+        "line_item": "Reorganization Items",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 269384,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "From the Doc 373-1 support schedule. Matches the main form's Part 4k current-month profit/loss of $269,384; cumulative profit/loss across both MOR periods to date is $391,787."
+  },
+  {
+    "entity": "Noble.com, LLC",
+    "docket_no": "0377",
+    "case_no": "26-11377",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Disbursements made by third party for the benefit of the estate",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Cash and Cash Equivalents",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Accounts Receivable, Net",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Intercompany Receivables",
+        "amount_usd": -416645768
+      },
+      {
+        "section": "assets",
+        "line_item": "Inventory, Net",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Prepaid Expenses and Other Current Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Total Current Assets",
+        "amount_usd": -416645768
+      },
+      {
+        "section": "assets",
+        "line_item": "Fixed Assets, Net",
+        "amount_usd": 0
+      },
+      {
+        "section": "assets",
+        "line_item": "Other Assets",
+        "amount_usd": 77871968
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accounts Payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Credit Card Payable",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Accrued and Other Current Liabilities",
+        "amount_usd": 48148646
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Current Liabilities",
+        "amount_usd": 48148646
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Long-Term Liabilities",
+        "amount_usd": 19240804
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition secured debt [Part 2k, main form]",
+        "amount_usd": 11606397
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition priority debt [Part 2l, main form]",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Prepetition unsecured debt [Part 2m, main form]",
+        "amount_usd": 7634406
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total liabilities (debt), main-form classification (j+k+l+m) [Part 2n]",
+        "amount_usd": 19240804
+      },
+      {
+        "section": "equity",
+        "line_item": "Total Equity (support-schedule balance sheet)",
+        "amount_usd": -406163250
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending equity/net worth, main-form classification (e-n) [Part 2o]",
+        "amount_usd": -358014604
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": -338773800,
+      "total_liabilities": 67389450,
+      "total_equity": -406163250
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1). Reports 0 employees and $0 cash activity — Noble.com, LLC is a pure holding company (the direct/indirect parent of the other debtors) with no operations of its own.\n\nThe negative Total Assets and Total Current Assets figures ($(338.8M) and $(416.6M) respectively) are driven by a large negative Intercompany Receivables balance of $(416,645,768), i.e. this entity is a net intercompany payable position within the consolidated group — consistent with its role as a holding company sitting above operating subsidiaries whose receivables/payables net out at this level. Total Equity is correspondingly deeply negative, $(406.2M) on the support-schedule classification.\n\nOnly non-zero line reported on the main form's Part 4 (income statement) is Depreciation & Amortization of $1,323,349, which flows straight to a Net Loss of the same amount since there is no revenue to offset it — likely amortization of an intangible asset (e.g., goodwill/trademark) held at the holding-company level.\n\nSigned by Robert Albergotti, Chief Transformation Officer, 10/21/2026.",
+    "discrepancy_flag": "Total Assets as reported differs by sign/classification between the two schedules in the same way seen for the other two entities this period: Part 2e of the main form reports Total Assets of $(338,773,800), matching the support-schedule's Total Assets line exactly, but the liabilities/equity classification differs (main form: total liabilities $19,240,804, ending equity $(358,014,604); support schedule: total liabilities $67,389,450, total equity $(406,163,250)). Both reconcile internally to the same $(338,773,800) total.",
+    "income_statement": [
+      {
+        "line_item": "Product Sales",
+        "amount_usd": 0,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Service Revenue",
+        "amount_usd": 0,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Training Revenue",
+        "amount_usd": 0,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Less: Returns & Allowances",
+        "amount_usd": 0,
+        "section": "revenue"
+      },
+      {
+        "line_item": "Total Revenue",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Total Cost of Goods Sold",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Gross Profit",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Selling Expenses",
+        "amount_usd": 0,
+        "section": "opex"
+      },
+      {
+        "line_item": "Total General & Administrative Expenses",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Total Other Expense",
+        "amount_usd": 0,
+        "section": "subtotal"
+      },
+      {
+        "line_item": "Depreciation & Amortization",
+        "amount_usd": 1323349,
+        "section": "other"
+      },
+      {
+        "line_item": "Interest & Other Income, net",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Other Taxes (Non-Income)",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Reorganization Items",
+        "amount_usd": 0,
+        "section": "other"
+      },
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": -1323349,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "From the Doc 377-1 support schedule and main form Part 4. The only expense is Depreciation & Amortization; there is no revenue or operating expense activity at this holding-company entity."
+  },
+  {
+    "entity": "COTS Solutions, LLC",
+    "docket_no": "0370",
+    "case_no": "26-11370",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0370. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), COTS Solutions, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "Federal Resources Supply Company, LLC",
+    "docket_no": "0371",
+    "case_no": "26-11371",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0371. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), Federal Resources Supply Company, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "FRS Holdings, LLC",
+    "docket_no": "0372",
+    "case_no": "26-11372",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0372. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), FRS Holdings, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "KDA Acquisition, LLC",
+    "docket_no": "0374",
+    "case_no": "26-11374",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0374. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), KDA Acquisition, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "Noble Defense Corporation",
+    "docket_no": "0375",
+    "case_no": "26-11375",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0375. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), Noble Defense Corporation has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "Noble Equity Holdings, LLC",
+    "docket_no": "0376",
+    "case_no": "26-11376",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0376. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), Noble Equity Holdings, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "Noble Mission Support, LLC",
+    "docket_no": "0378",
+    "case_no": "26-11378",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0378. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), Noble Mission Support, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
+  },
+  {
+    "entity": "Tactical & Survival Specialties, LLC",
+    "docket_no": "0379",
+    "case_no": "26-11379",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "cash_flow": [
+      {
+        "section": "receipts",
+        "line_item": "Total Receipts",
+        "amount_usd": 0
+      },
+      {
+        "section": "disbursements",
+        "line_item": "Total Disbursements",
+        "amount_usd": 0
+      }
+    ],
+    "cash_summary": {
+      "beginning_cash": 0,
+      "ending_cash": 0,
+      "net_cash_flow": 0
+    },
+    "balance_sheet": [
+      {
+        "section": "assets",
+        "line_item": "Total Assets",
+        "amount_usd": 0
+      },
+      {
+        "section": "liabilities",
+        "line_item": "Total Liabilities",
+        "amount_usd": 0
+      },
+      {
+        "section": "equity",
+        "line_item": "Ending Equity/Net Worth",
+        "amount_usd": 0
+      }
+    ],
+    "balance_sheet_totals": {
+      "total_assets": 0,
+      "total_liabilities": 0,
+      "total_equity": 0
+    },
+    "postpetition_taxes_current": true,
+    "notes": "Second Monthly Operating Report (period 09/01/2026-09/30/2026, Months Pending: 1), filed 10/21/2026 as Docket #0379. All Parts 1-4 report $0/no activity — consistent with the first MOR (the 2-day stub period), Tactical & Survival Specialties, LLC has no independent cash, AR, inventory, or operations; its financial activity is consolidated through Noble Supply & Logistics, LLC and reflected there as intercompany balances. No supporting-schedule attachment was filed with this entity's main form.\n\nPart 7 questionnaire indicates no prepetition-debt payments, no out-of-ordinary-course payments, no insider payments, current on postpetition tax filings/estimated payments, trust fund taxes current, no postpetition borrowing, and current on quarterly UST fees (consistent with the case-wide pattern).",
+    "discrepancy_flag": null,
+    "income_statement": [
+      {
+        "line_item": "Net Income (Loss)",
+        "amount_usd": 0,
+        "section": "total"
+      }
+    ],
+    "income_statement_note": "Main form Part 4 reports $0 across all lines; no supporting statement-of-operations schedule filed for this entity this period."
   }
 ]

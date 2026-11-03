@@ -48,7 +48,7 @@
       "type": "hearing",
       "status_override": "held",
       "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
-      "notes": "Originally set for 2:00 PM, moved to 10:00 AM the day before (Docket #118). First hearing on the DLA payment-freeze dispute — see the DLA Dispute section on the Overview tab.",
+      "notes": "Originally set for 2:00 PM, moved to 10:00 AM the day before (Docket #118). First hearing on the DLA payment-freeze dispute — see the DLA Dispute section on the Overview tab. As of Oct 12, Certificates/Certifications of No Objection have been filed for the bar date order (#308), the Cole Schotz retention (#306), and the Verita Global retention (#307) — all unopposed and expected to be entered without argument.",
       "resources": [
         {
           "label": "Amended agenda",
@@ -110,7 +110,7 @@
       "type": "hearing",
       "status_override": "cancelled",
       "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
-      "notes": "Cancelled per the amended agenda — nothing contested remained on the calendar for this date.",
+      "notes": "Cancelled per the amended agenda — nothing contested remained on the calendar for this date. As of Oct 12, Certificates/Certifications of No Objection have been filed for the bar date order (#308), the Cole Schotz retention (#306), and the Verita Global retention (#307) — all unopposed and expected to be entered without argument.",
       "resources": [
         {
           "label": "Amended agenda (marked cancelled)",
@@ -132,6 +132,22 @@
           "label": "Original notice",
           "docket_no": "0083",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369260902000000000006"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-08",
+      "time_et": "4:00 PM",
+      "title": "Status hearing: Emergency Motion to Expedite Partial Summary Judgment (DLA turnover adversary proceeding)",
+      "type": "hearing",
+      "status_override": null,
+      "location": "Virtual Hearing (Zoom) before Judge Goldblatt",
+      "notes": "Addresses Noble's request to expedite a motion for partial summary judgment in its $18.96M turnover adversary proceeding against DLA (Adv. Proc. No. 26-50885, Docket #272).",
+      "resources": [
+        {
+          "label": "Notice of Hearing",
+          "docket_no": "0275",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000009"
         }
       ]
     },
@@ -171,9 +187,9 @@
       "time_et": "10:00 AM",
       "title": "Section 341(a) Meeting of Creditors (continued)",
       "type": "meeting",
-      "status_override": null,
+      "status_override": "held",
       "location": "Virtual (Zoom) — Meeting ID 160 0079 1008, Passcode 3059184726",
-      "notes": "Run by the U.S. Trustee's office. This Zoom ID/passcode is specific to this meeting — it is not the same access point as a Judge Goldblatt court hearing. Direct join link: https://usdoj-ustp-gov.zoomgov.com/j/16000791008?pwd=jUBSElWPTkceYtY5QEJeAaBVa1half.1&omn=1655374420 (web browser join may not work — the notice recommends downloading the Zoom app in advance). Phone-only: +1 646 828 7666.",
+      "notes": "Run by the U.S. Trustee's office. This Zoom ID/passcode is specific to this meeting — it is not the same access point as a Judge Goldblatt court hearing. Direct join link: https://usdoj-ustp-gov.zoomgov.com/j/16000791008?pwd=jUBSElWPTkceYtY5QEJeAaBVa1half.1&omn=1655374420 (web browser join may not work — the notice recommends downloading the Zoom app in advance). Phone-only: +1 646 828 7666. Convened on 10/14/2026 but not completed; continued to 10/21/2026 at 10:00 a.m. ET via the same Zoom meeting (Docket #341, #342).",
       "resources": [
         {
           "label": "Minute sheet with Zoom details",
@@ -184,6 +200,11 @@
           "label": "Notice with full Zoom join instructions",
           "docket_no": "0257",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369260930000000000007"
+        },
+        {
+          "label": "Minute sheet continuing meeting to 10/21",
+          "docket_no": "0341",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000001"
         }
       ]
     },
@@ -192,9 +213,9 @@
       "time_et": "10:00 AM",
       "title": "Omnibus Hearing (final cash collateral, bar dates, KERP/KEIP, Midwest Pressure)",
       "type": "hearing",
-      "status_override": null,
+      "status_override": "cancelled",
       "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, DE",
-      "notes": "Regularly-scheduled omnibus date (Docket #85). Known agenda: final hearing on the cash collateral order (#218 ¶33), the Debtors' proposed claims bar dates (#262), the KERP/KEIP motion (#195/#250), and Midwest Pressure Systems' admin-expense claim motion (#248).",
+      "notes": "Regularly-scheduled omnibus date (Docket #85). Known agenda: final hearing on the cash collateral order (#218 ¶33), the Debtors' proposed claims bar dates (#262), the KERP/KEIP motion (#195/#250), and Midwest Pressure Systems' admin-expense claim motion (#248). As of Oct 12, Certificates/Certifications of No Objection have been filed for the bar date order (#308), the Cole Schotz retention (#306), and the Verita Global retention (#307) — all unopposed and expected to be entered without argument. UPDATE: Cancelled per Docket #340 (filed 10/14/2026) — every matter on this agenda was resolved by consent order entered 10/14 (cash collateral Third Interim Order #338, KERP/KEIP order #336, Kirkland retention #337, Triple P/CTO retention #339, bar date order already entered 10/13 as #309), except the Midwest Pressure Systems administrative-claim motion (#248), which was adjourned by agreement to the 2026-11-16 1:00pm hearing.",
       "resources": [
         {
           "label": "Order scheduling this omnibus date",
@@ -210,6 +231,32 @@
           "label": "Bar date motion",
           "docket_no": "0262",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369261002000000000014"
+        },
+        {
+          "label": "Notice of Agenda (hearing cancelled)",
+          "docket_no": "0340",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000018"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-10-21",
+      "time_et": "10:00 AM",
+      "title": "Section 341(a) Meeting of Creditors (continued)",
+      "type": "meeting",
+      "status_override": null,
+      "location": "Virtual (Zoom) — Meeting ID 160 0079 1008, Passcode 3059184726",
+      "notes": "Run by the U.S. Trustee's office, not the judge. Continued from the 10/14/2026 session, which did not conclude. Phone-only: +1 646 828 7666.",
+      "resources": [
+        {
+          "label": "Minute sheet",
+          "docket_no": "0341",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000001"
+        },
+        {
+          "label": "Notice with full Zoom join instructions",
+          "docket_no": "0342",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000002"
         }
       ]
     },
@@ -246,6 +293,52 @@
       ]
     },
     {
+      "date_iso": "2026-10-28",
+      "time_et": "10:00 AM",
+      "title": "Omnibus Hearing (incl. DLA stay-relief motion re: ~21,000 delivery orders, U.S. adequate-protection motion)",
+      "type": "hearing",
+      "status_override": null,
+      "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware",
+      "notes": "Rescheduled twice: originally 11:00 AM, moved to 2:00 PM per Docket #293, then moved earlier again to 10:00 AM per Docket #388 (filed 10/22/2026). Known agenda includes the Committee's professional-retention applications for Brown Rudnick LLP (counsel, Docket #289), Morris James LLP (Delaware co-counsel, Docket #291), and FTI Consulting, Inc. (financial advisor, Docket #292) — Certificates/Certifications of No Objection have now been filed for all three (Docket #389, #390, #391), so these are expected to be approved without argument. Also on the agenda: DLA's motion for stay relief to terminate ~21,000 delivery orders (Docket #325, Debtors' limited objection at #363, government's reply in support at #392) and the United States' motion for adequate protection of its setoff rights (Docket #327, Debtors' objection at #366). Objection deadline for both government motions was October 21, 2026.",
+      "resources": [
+        {
+          "label": "Order Scheduling Omnibus Hearing Date",
+          "docket_no": "0271",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000008"
+        },
+        {
+          "label": "Notice of Rescheduled Omnibus Hearing Time",
+          "docket_no": "0293",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000022"
+        },
+        {
+          "label": "Committee counsel retention application (Brown Rudnick)",
+          "docket_no": "0289",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000016"
+        },
+        {
+          "label": "Committee co-counsel retention application (Morris James)",
+          "docket_no": "0291",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000019"
+        },
+        {
+          "label": "Committee financial advisor retention application (FTI Consulting)",
+          "docket_no": "0292",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000020"
+        },
+        {
+          "label": "Notice of (Second) Rescheduled Omnibus Hearing Time",
+          "docket_no": "0388",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000011"
+        },
+        {
+          "label": "U.S. Reply in Support of Stay Relief Motion",
+          "docket_no": "0392",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000018"
+        }
+      ]
+    },
+    {
       "date_iso": "2026-10-30",
       "time_et": "4:00 PM",
       "title": "Bid Deadline",
@@ -264,16 +357,42 @@
     {
       "date_iso": "2026-11-04",
       "time_et": "10:00 AM",
-      "title": "Auction (only if more than one Qualified Bid is received)",
+      "title": "Auction (virtual, via Zoom) — more than one Qualified Bid received",
       "type": "hearing",
       "status_override": null,
-      "location": "Offices of Cole Schotz P.C., 500 Delaware Avenue, Suite 600, Wilmington, DE — or virtually, at the Debtors' discretion (instructions to be emailed to participants if virtual)",
-      "notes": "Not a court hearing — a private auction process run by the Debtors and their advisors, open only to Qualified Bidders and their counsel.",
+      "location": "Virtual (Zoom). Observers may request a link from Debtors' counsel (Cole Schotz, pratkowiak@coleschotz.com per the sale notice).",
+      "notes": "The Notice of Auction (Docket #426) confirms the Debtors received more than one Qualified Bid by the Oct 30 deadline, so the auction is going ahead. No stalking horse was ever designated. Not a court hearing — a private process open to Qualified Bidders; results are expected in a Notice of Auction Results about Nov 5.",
       "resources": [
         {
           "label": "Notice of Sale (key dates)",
           "docket_no": "0251",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369260929000000000021"
+        },
+        {
+          "label": "Notice of Auction",
+          "docket_no": "0426",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000010"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-09",
+      "time_et": null,
+      "title": "Government must pay Noble $8,493,160.09 (court-ordered)",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Per the Court's Nov 2 Memorandum Opinion: partial summary judgment for Noble on its turnover claim for deliveries with matured, undisputed payment obligations. Note the government has already appealed the earlier Sept 18 order and may seek to stay or appeal this one.",
+      "resources": [
+        {
+          "label": "Memorandum Opinion",
+          "docket_no": "0427",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000012"
+        },
+        {
+          "label": "Corrective entry replacing it",
+          "docket_no": "0429",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261103000000000004"
         }
       ]
     },
@@ -294,13 +413,61 @@
       ]
     },
     {
+      "date_iso": "2026-11-09",
+      "time_et": "4:00 PM",
+      "title": "Objection deadline: final order on cash collateral motion",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Set by the Third Interim Cash Collateral Order (Docket #338 ¶34), entered 2026-10-14 after the contested 10/16 hearing was cancelled by consent. Distinct from (but coincides with) the Supplemental Sale Objection Deadline the same day.",
+      "resources": [
+        {
+          "label": "Third Interim Cash Collateral Order",
+          "docket_no": "0338",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000016"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-09",
+      "time_et": "4:00 PM",
+      "title": "Objection deadline: lease rejection motion",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Deadline to object to the Debtors' motion (Docket #417) to reject an unexpired office lease at 46655 Expedition Drive, Lexington Park, MD and abandon related personal property, effective 10/31/2026.",
+      "resources": [
+        {
+          "label": "Lease rejection motion",
+          "docket_no": "0417",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000003"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-11-14",
+      "time_et": null,
+      "title": "Deadline: file combined disclosure statement and plan of liquidation",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Restated lender-consent milestone from the Third Interim Cash Collateral Order (Docket #338, Exhibit 2), entered 2026-10-14. Replaces the original 2026-10-14 cash-collateral milestone (execute an APA or file a plan + disclosure statement).",
+      "resources": [
+        {
+          "label": "Third Interim Cash Collateral Order (Exhibit 2, Milestones)",
+          "docket_no": "0338",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000016"
+        }
+      ]
+    },
+    {
       "date_iso": "2026-11-16",
       "time_et": "1:00 PM",
       "title": "Sale Hearing",
       "type": "hearing",
       "status_override": null,
       "location": "US Bankruptcy Court, 824 N. Market Street, Wilmington, DE (before Judge Goldblatt)",
-      "notes": "The hearing where the Court considers approving the winning bid (or the stalking horse bid, if no higher offer emerged).",
+      "notes": "The hearing where the Court considers approving the winning bid (or the stalking horse bid, if no higher offer emerged). This date now also hosts the continued Final Hearing on cash collateral (continued from 10/16 per the Third Interim Order, Docket #338) and, if contested, the Debtors' motion to reject an unexpired office lease at Lexington Park, MD (Docket #417, objections due 11/9). The previously-adjourned Midwest Pressure Systems administrative-claim motion (Docket #248) was resolved by stipulation on 10/30/2026 (Docket #418) and no longer needs to be heard.",
       "resources": [
         {
           "label": "Notice of Sale (key dates)",
@@ -312,11 +479,11 @@
     {
       "date_iso": "2026-11-16",
       "time_et": "5:00 PM",
-      "title": "PROPOSED general claims bar date",
+      "title": "General claims bar date",
       "type": "deadline",
       "status_override": null,
       "location": null,
-      "notes": "Proposed, not yet approved — the court will consider it at the Oct 16 hearing. Applies to everyone except government agencies, and includes 503(b)(9) claims.",
+      "notes": "Debtors revised this order after informal U.S. Trustee comments and it drew no objections by the Oct 9 deadline (Certification of Counsel, Docket #308); still formally awaiting entry at the Oct 16 hearing, but approval now appears to be a formality. Applies to everyone except government agencies, and includes 503(b)(9) claims. Established by Bar Date Order, Docket #309, entered 10/13/2026.",
       "resources": [
         {
           "label": "Bar date motion",
@@ -332,7 +499,7 @@
       "type": "deadline",
       "status_override": null,
       "location": null,
-      "notes": null,
+      "notes": "Per the Bidding Procedures Order (Docket #219). Note: the Third Interim Cash Collateral Order's lender-consent milestones (Docket #338, Exhibit 2, entered 2026-10-14) separately set a later backstop deadline of 2026-12-18 for sale consummation — it's unclear which date controls in practice.",
       "resources": [
         {
           "label": "Notice of Sale (key dates)",
@@ -342,13 +509,29 @@
       ]
     },
     {
-      "date_iso": "2027-02-26",
-      "time_et": "5:00 PM",
-      "title": "PROPOSED governmental claims bar date",
+      "date_iso": "2027-01-04",
+      "time_et": null,
+      "title": "DLA's deadline to answer/respond to Noble's new adversary complaint (turnover of $18.96M)",
       "type": "deadline",
       "status_override": null,
       "location": null,
-      "notes": "Proposed, not yet approved — deadline for government agencies to file claims.",
+      "notes": "Summons due date for the Adversary Complaint filed 10/6/2026 (Docket #272) seeking turnover of $18,960,176.31 from the Defense Logistics Agency.",
+      "resources": [
+        {
+          "label": "Adversary Complaint",
+          "docket_no": "0272",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000010"
+        }
+      ]
+    },
+    {
+      "date_iso": "2027-02-26",
+      "time_et": "5:00 PM",
+      "title": "Governmental claims bar date",
+      "type": "deadline",
+      "status_override": null,
+      "location": null,
+      "notes": "Debtors revised this order after informal U.S. Trustee comments and it drew no objections by the Oct 9 deadline (Certification of Counsel, Docket #308); still formally awaiting entry at the Oct 16 hearing, but approval now appears to be a formality. Deadline for government agencies to file claims. Established by Bar Date Order, Docket #309, entered 10/13/2026.",
       "resources": [
         {
           "label": "Bar date motion",

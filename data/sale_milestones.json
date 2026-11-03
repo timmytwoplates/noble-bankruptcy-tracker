@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-10-05",
+  "as_of": "2026-11-03",
   "petition_date": "2026-08-30",
   "process_type": "Dual-track: (1) court-supervised marketing & sale of some/all assets on a going-concern basis, run in parallel with (2) an orderly liquidation/monetization of inventory and receivables. Both tracks proceed simultaneously, not sequentially, per the First Day Declaration.",
   "investment_banker": "Portage Point Partners (via Triple P Securities, LLC) — also serves as Debtors' financial advisor / CTO provider (Triple P TRS, LLC)",
-  "stalking_horse_status": "NONE DESIGNATED AS OF 2026-09-28. The Debtors entered chapter 11 without a stalking horse bid. As of the Sept 7, 2026 bidding procedures motion, Portage Point had contacted ~105 prospective buyers, ~25 of whom signed NDAs for diligence access. The Bidding Procedures Order (Docket #219, entered 9/26/26) preserves the Debtors' ability to designate a stalking horse bidder later, with bid protections, if it would maximize estate value. Deadline to designate one is October 23, 2026 (per Cash Collateral Milestones) / October 21-23, 2026 (per Bidding Procedures sale timeline).",
+  "stalking_horse_status": "NONE DESIGNATED AS OF 2026-09-28. The Debtors entered chapter 11 without a stalking horse bid. As of the Sept 7, 2026 bidding procedures motion, Portage Point had contacted ~105 prospective buyers, ~25 of whom signed NDAs for diligence access. The Bidding Procedures Order (Docket #219, entered 9/26/26) preserves the Debtors' ability to designate a stalking horse bidder later, with bid protections, if it would maximize estate value. Deadline to designate one is October 23, 2026 (per Cash Collateral Milestones) / October 21-23, 2026 (per Bidding Procedures sale timeline). UPDATE (2026-10-24): The October 23, 2026 4:00pm ET deadline to designate a stalking horse bidder (per the Bidding Procedures Order, Docket #219) has now passed with no stalking horse designation appearing on the docket through entry #407 (filed 10/26/26). The Bid Deadline (10/30, now just 3 days away) and Auction (11/4, if more than one Qualified Bid is received) remain on schedule per the Bidding Procedures Order. UPDATE (2026-10-31): The October 30, 2026 4:00pm ET Bid Deadline has now passed. Only routine/administrative filings (professional fee applications, a lease rejection motion, a claim stipulation, and an appellate procedural filing) were docketed on 10/30/26 (entries #415-421) — no notice disclosing bid results or a stalking horse designation has appeared yet. The next expected signal is the Auction on 11/4 (if more than one Qualified Bid was received) or a Notice of Auction Results around 11/5. UPDATE (2026-11-02): The Notice of Auction (Docket #426) confirms the Debtors received more than one Qualified Bid by the October 30 Bid Deadline. No stalking horse bidder was ever designated during this process. The Auction will proceed as scheduled on November 4, 2026 at 10:00am ET, conducted virtually via Zoom; a Notice of Auction Results is expected around November 5, 2026.",
   "cash_collateral_milestones": [
     {
       "deadline_days_after_petition": 10,
@@ -24,28 +24,56 @@
       "deadline_date": "2026-10-14",
       "event": "Debtors shall have EITHER executed an asset purchase agreement OR filed a chapter 11 plan + disclosure statement",
       "docket_source": "218 (Exhibit 2)",
-      "status": "pending"
+      "status": "SUPERSEDED — the Third Interim Cash Collateral Order (Docket #338, entered 2026-10-14) reset this milestone; a combined disclosure statement + plan of liquidation is now due 2026-11-14 instead (see restated milestones below)."
     },
     {
       "deadline_days_after_petition": 50,
       "deadline_date": "2026-10-19",
       "event": "Final cash collateral order entered (the Final Hearing itself is Oct 16 at 10:00am ET, objections due Oct 9 at 4:00pm ET per Docket #218 ¶33; Oct 19 is the milestone deadline for the order)",
       "docket_source": "218",
-      "status": "pending"
+      "status": "SUPERSEDED — rather than hold the contested Oct 16 final hearing, the parties agreed to a consent Third Interim Order (Docket #338, entered 2026-10-14) resolving the Committee's and U.S.'s objections; the real Final Hearing on cash collateral is now continued to 2026-11-16 at 1:00pm ET (objections due 2026-11-09)."
     },
     {
       "deadline_days_after_petition": 90,
       "deadline_date": "2026-11-28",
       "event": "Sale of all/substantially all assets consummated",
       "docket_source": "218 (Exhibit 2)",
-      "status": "pending"
+      "status": "SUPERSEDED — extended to 2026-12-18 per the restated milestones in the Third Interim Order (Docket #338, Exhibit 2)."
     },
     {
       "deadline_days_after_petition": 110,
       "deadline_date": "2026-12-18",
       "event": "Chapter 11 plan confirmed",
       "docket_source": "218 (Exhibit 2)",
-      "status": "pending"
+      "status": "status unclear post-amendment — the Third Interim Order's restated milestones (Docket #338, Exhibit 2) do not repeat a separate chapter 11 plan-confirmation deadline; the closest analog in the new schedule is the 2026-12-18 sale-consummation deadline below."
+    },
+    {
+      "deadline_days_after_petition": null,
+      "deadline_date": "2026-11-14",
+      "event": "Debtors shall have filed a combined disclosure statement and plan of liquidation",
+      "docket_source": "338 (Exhibit 2)",
+      "status": "pending — restated milestone from the Third Interim Cash Collateral Order, agreed to by the Prepetition Term Loan Agent"
+    },
+    {
+      "deadline_days_after_petition": null,
+      "deadline_date": "2026-11-16",
+      "event": "Order approving sale of all/substantially all assets obtained (acceptable to the Prepetition Term Loan Agent)",
+      "docket_source": "338 (Exhibit 2)",
+      "status": "pending — aligns with the Sale Hearing already set for 2026-11-16 per the Bidding Procedures Order (Docket #219)"
+    },
+    {
+      "deadline_days_after_petition": null,
+      "deadline_date": "2026-11-16",
+      "event": "Final Order on cash collateral motion entered",
+      "docket_source": "338 ¶33 (Exhibit 2)",
+      "status": "pending — Final Hearing continued to this date; objections due 2026-11-09"
+    },
+    {
+      "deadline_days_after_petition": null,
+      "deadline_date": "2026-12-18",
+      "event": "Sale of all/substantially all assets consummated (acceptable to the Prepetition Term Loan Agent)",
+      "docket_source": "338 (Exhibit 2)",
+      "status": "pending — roughly 3 weeks later than the original Bidding Procedures Order closing target of 2026-11-20"
     }
   ],
   "sale_timeline": [
@@ -64,25 +92,25 @@
     {
       "date": "2026-10-23, 4:00pm ET",
       "event": "Deadline for Debtors to designate a Stalking Horse Bidder (if any)",
-      "status": "pending",
+      "status": "deadline passed with no stalking horse designation yet disclosed on the docket — no filing announcing (or declining to designate) a stalking horse bidder appears among docket entries through #407 (filed 10/26/26); next check will confirm whether one is named before the 10/30 Bid Deadline",
       "docket_source": "219"
     },
     {
       "date": "2026-10-30, 4:00pm ET",
       "event": "Bid Deadline",
-      "status": "pending",
-      "docket_source": "219"
+      "status": "MET — more than one Qualified Bid was received by the October 30, 2026 4:00pm ET deadline, per the Notice of Auction (Docket #426, filed 11/2/26); the Auction will proceed as scheduled.",
+      "docket_source": "219, 426"
     },
     {
       "date": "2026-11-04, 10:00am ET",
       "event": "Auction (only if more than one Qualified Bid received)",
-      "status": "pending",
-      "docket_source": "219"
+      "status": "CONFIRMED PROCEEDING — the Notice of Auction (Docket #426) confirms more than one Qualified Bid was received, so the Auction will go forward on 11/4/26 at 10:00am ET, held virtually via Zoom.",
+      "docket_source": "219, 426"
     },
     {
       "date": "1 business day after Auction (~2026-11-05)",
       "event": "Notice of Auction Results filed",
-      "status": "pending",
+      "status": "Going ahead — Notice of Auction (Docket #426) confirms more than one Qualified Bid was received",
       "docket_source": "219"
     },
     {
@@ -106,11 +134,11 @@
     {
       "date": "2026-11-20",
       "event": "Deadline to consummate approved Sale",
-      "status": "pending",
-      "docket_source": "219"
+      "status": "status unclear — the Bidding Procedures Order (Docket #219) still lists this as the sale-closing target, but the Third Interim Cash Collateral Order's lender-consent milestones (Docket #338, Exhibit 2, entered 2026-10-14) now set a later backstop deadline of 2026-12-18 for consummating the sale.",
+      "docket_source": "219, 338"
     }
   ],
-  "notes": "The bidding-procedures process is an OPEN auction process, not a pre-negotiated sale — any Qualified Bidder can participate. This is a meaningfully more uncertain path than a case that starts with a signed stalking-horse asset purchase agreement. Per Lansio Declaration (Docket #92), if a stalking horse is later designated, it would set a bidding floor. Court-approved bid procedures order was entered ahead of its own required deadline, signaling the case is proceeding on schedule so far.",
+  "notes": "The bidding-procedures process is an OPEN auction process, not a pre-negotiated sale — any Qualified Bidder can participate. This is a meaningfully more uncertain path than a case that starts with a signed stalking-horse asset purchase agreement. Per Lansio Declaration (Docket #92), if a stalking horse is later designated, it would set a bidding floor. Court-approved bid procedures order was entered ahead of its own required deadline, signaling the case is proceeding on schedule so far. UPDATE (2026-10-15): The contested October 16 final cash-collateral hearing was cancelled and resolved instead by a consent Third Interim Order (Docket #338, entered 2026-10-14), which reset the lender-driven case milestones roughly a month later across the board (plan/disclosure statement filing now due 11/14, sale-approval order and final cash-collateral order both due 11/16, sale consummation now due 12/18). This was a negotiated, consensual extension — not a default — and the Committee's and the U.S. government's reservations of rights on the cash-collateral order were both resolved as part of it. The Debtors' KERP/KEIP, and the Kirkland & Ellis and Triple P TRS (CTO) retentions, were also finally approved the same day.",
   "source_docket_nos": {
     "bidding_procedures_motion": "0091",
     "lansio_declaration": "0092",

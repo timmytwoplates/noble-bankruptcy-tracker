@@ -258,5 +258,924 @@
         "event": "Deadline to close an approved sale"
       }
     ]
+  },
+  {
+    "as_of": "2026-10-06",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "Three new filings since the last check, all purely procedural follow-through on the DLA appeal reported previously — no change to the case's core trajectory. The government's October 2 Notice of Appeal of the Docket #151 ruling (which forced DLA to release ~$6.4 million in frozen payments to Noble) was formally transmitted to the U.S. District Court for the District of Delaware and docketed as Civil Action No. 26-cv-1279-UNA; as is routine, it was automatically referred to a magistrate judge to screen for mediation before any briefing happens. None of this pauses or reverses the September 18 order — DLA must keep paying Noble in the ordinary course while the appeal is pending. The sale-process calendar is unchanged: no stalking horse has been named yet, and the October 23 designation deadline, October 30 bid deadline, and November 16 sale hearing all remain as scheduled.",
+    "positive_signals": [
+      "The DLA appeal is proceeding through completely standard district-court mechanics (transmittal, docketing, mediation referral) with no sign of an emergency stay request or other attempt to disturb the September 18 payment order.",
+      "No new objections, defaults, or adverse rulings affecting the sale process or cash position appeared in this batch.",
+      "The case continues to hit its bidding-procedures deadlines on or ahead of schedule."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "The DLA appeal (Civil Action No. 26-cv-1279-UNA) remains open and unresolved in district court, keeping alive long-run uncertainty over DLA's ability to freeze or offset future payments even though nothing changes in the near term.",
+      "Bid deadline (Oct 30), auction (Nov 4), and sale hearing (Nov 16) remain unchanged and still compressed — under 7 weeks from now to a required closing of Nov 20."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the KERP/KEIP motion, the Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Continued Section 341 meeting of creditors (via Zoom)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on KERP/KEIP motion, Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing / proposed General Bar Date for claims"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-07",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "Four new filings since the last check. Three are routine case administration (a notice of appearance, and a certification/order setting the next omnibus hearing for October 28). The fourth is a meaningful new development: Noble filed a second, separate adversary complaint against the DLA (Docket #272) seeking turnover of at least $18.96 million for delivered goods and services the government accepted but hasn't paid for — a larger dispute than the $6.97M freeze fight already resolved (and now on appeal) under Docket #151. This doesn't change the sale-process calendar: no stalking horse has been named yet, and the October 23 designation deadline, October 30 bid deadline, and November 16 sale hearing all remain as scheduled.",
+    "positive_signals": [
+      "No change to the sale-process calendar — all deadlines remain on track.",
+      "The new adversary complaint is an offensive move by Noble to recover more money owed to the estate, not a new liability or default.",
+      "The September 18 payment order in the first DLA dispute remains in full effect despite the pending government appeal."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "Noble now has two active, unresolved money disputes with its largest customer (DLA): the ~$6.4M freeze dispute on appeal, and the new $18.96M turnover complaint — both outcomes remain uncertain and the new one just started (summons response not due until January 4, 2027, well past the sale timeline).",
+      "Bid deadline (Oct 30), auction (Nov 4), and sale hearing (Nov 16) remain unchanged and still compressed — under 6 weeks from now to a required closing of Nov 20."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the KERP/KEIP motion, the Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Continued Section 341 meeting of creditors (via Zoom)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on KERP/KEIP motion, Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing / proposed General Bar Date for claims"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-08",
+    "indicator": "uncertain",
+    "indicator_label": "Genuinely uncertain — sale process on schedule, no buyer named yet",
+    "summary": "Nine new filings since the last check, three of them substantive. Noble is pressing its new $18.96M DLA turnover claim hard — it asked the Court to fast-track a partial summary judgment motion, and the Court set a status hearing for the very next day (today, October 8 at 4:00 PM ET). Separately, the first concrete cure-amount dispute has surfaced in the sale process: Thermo Fisher Scientific objected that Noble understated what it owes under a distribution agreement by about $290,000 and flagged export-control and adequate-assurance concerns that can't be resolved until a buyer is identified. A Cole Schotz supplemental conflicts disclosure was also filed — routine, no issue found. None of this changes the sale-process calendar: no stalking horse has been named yet, and the October 23 designation deadline, October 30 bid deadline, and November 16 sale hearing all remain as scheduled.",
+    "positive_signals": [
+      "No change to the sale-process calendar — all deadlines remain on track.",
+      "Noble is moving aggressively to recover the $18.96M it says DLA owes it, seeking an expedited ruling rather than waiting out the normal litigation timeline.",
+      "The Cole Schotz conflicts supplement found no issue that would jeopardize the Debtors' lead Delaware counsel."
+    ],
+    "risk_signals": [
+      "No stalking-horse bidder has been designated as of this update (deadline October 23, 2026) — still the single largest open question in the case.",
+      "A vendor (Thermo Fisher) has now formally disputed a cure amount and raised export-control/adequate-assurance concerns tied to the lack of a named buyer — the kind of friction that tends to multiply as more vendors review their own cure notices ahead of the October 21 cure objection deadline.",
+      "Noble still has two unresolved, actively-litigated money disputes with its largest customer (DLA): the ~$6.4M freeze ruling on appeal, and the new $18.96M turnover complaint now being pushed toward an expedited ruling."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-08",
+        "event": "Status hearing on Noble's motion to expedite partial summary judgment in the DLA turnover adversary proceeding"
+      },
+      {
+        "date": "2026-10-09",
+        "event": "Objection deadline for the final cash collateral order, KERP/KEIP, Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Continued Section 341 meeting of creditors (via Zoom)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Hearing on final cash collateral order, KERP/KEIP, Midwest Pressure Systems admin-claim motion, and the Bar Date Motion"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Sale/cure objection deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a stalking-horse bidder (if any) — the single most important date to watch"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one qualified bid)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale hearing / proposed General Bar Date for claims"
+      },
+      {
+        "date": "2026-11-20",
+        "event": "Deadline to close an approved sale"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-09",
+    "indicator": "uncertain",
+    "indicator_label": "On schedule, but still no stalking horse with two weeks to the designation deadline",
+    "summary": "The case continues to hit its self-imposed deadlines (the Bidding Procedures Order and Sale Notice were both filed early), and the newly-formed Creditors' Committee is now staffing up with its own counsel (Brown Rudnick, Morris James) and financial advisor (FTI Consulting) — a sign the professional infrastructure of the case is maturing normally. However, no stalking horse bidder has been designated yet, and the October 23 deadline to name one is now just two weeks away. Meanwhile, a cluster of cure-cost objections from vendors (Paradise Pillows, Airgas, J.F. Taylor) shows the list of contracts a buyer would assume is still being contested and isn't final.",
+    "positive_signals": [
+      "Bidding Procedures Order and Sale Notice both filed ahead of their court-ordered deadlines",
+      "Creditors' Committee retaining experienced counsel and a financial advisor, signaling active oversight of the sale and recoveries on behalf of unsecured creditors",
+      "No new defaults, missed deadlines, or adverse rulings reported this period"
+    ],
+    "risk_signals": [
+      "Stalking horse bidder still not designated, with the October 23, 2026 deadline approaching fast",
+      "Multiple vendors (Paradise Pillows ~$78K, Airgas ~$62K, J.F. Taylor ~$2.6M) are disputing their cure amounts, meaning the final cost of assuming key contracts in a sale is still unsettled",
+      "Open, uncertain auction process (no pre-negotiated buyer) continues to add risk to the Nov. 16 Sale Hearing and Nov. 20 closing targets"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-09, 4:00pm ET",
+        "event": "Cure cost objection deadline (just passed/passing as of this update)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Final cash collateral hearing"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline; also objection deadline for Committee professional retention applications"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline for Debtors to designate a Stalking Horse Bidder (if any) — the single most important date to watch next"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing (rescheduled to 2:00pm ET) covering Committee professional retention applications and DLA adversary proceeding matters"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-10",
+    "indicator": "uncertain",
+    "indicator_label": "Cure-cost objections keep piling up, including a sweeping one from the U.S. government itself",
+    "summary": "No new default or missed deadline this period, but the list of vendors disputing what Noble says it owes them under contracts headed to a buyer keeps growing — Teledyne (FLIR), JDI Integrations, Rae Systems, and Weatherproofing Technologies all filed objections this week, together disputing several million dollars in proposed cure amounts. More significantly, the United States itself filed a sweeping objection asking the court to strike every federal agency contract (including DLA contracts) from the cure notice entirely and require the government's own written consent before any of them can be assigned to a buyer — a sign the government intends to control the terms of any handoff of its contracts rather than defer to the ordinary sale process. Separately, Noble is fighting a vendor's ($39,530) request for immediate priority payment, arguing the goods were drop-shipped straight to a military base and never physically received by Noble. The October 23 stalking-horse deadline is now two weeks away with still no bidder named.",
+    "positive_signals": [
+      "No new default, missed deadline, or adverse ruling reported this period",
+      "Vendor disputes so far are about the correct dollar amount or which contracts are covered — not objections to the sale process itself",
+      "Noble is actively contesting claims it views as unsupported (Midwest Pressure), suggesting ordinary care in managing the estate's cash"
+    ],
+    "risk_signals": [
+      "The United States has objected broadly to assignment of any federal agency contract without its consent — this could complicate or delay transferring Noble's DLA-related business to a buyer",
+      "At least five vendors (Teledyne, JDI, Rae Systems, Weatherproofing, plus earlier objectors) now dispute their cure amounts, worth several million dollars combined, leaving the true cost of assuming key contracts still unresolved",
+      "Stalking horse bidder still not designated, with the October 23, 2026 deadline approaching fast",
+      "Open, uncertain auction process (no pre-negotiated buyer) continues to add risk to the Nov. 16 Sale Hearing and Nov. 20 closing targets"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-14",
+        "event": "Deadline: Debtors shall have either executed an asset purchase agreement or filed a chapter 11 plan + disclosure statement"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Final cash collateral hearing / omnibus hearing"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline; also objection deadline for Committee professional retention applications"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline for Debtors to designate a Stalking Horse Bidder (if any) — the single most important date to watch next"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing covering Committee professional retention applications"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-13",
+    "indicator": "uncertain",
+    "indicator_label": "Routine case-administration items clearing without objection; the real question — who the buyer is — is still unanswered",
+    "summary": "Five filings landed this period, all dated October 12 and all procedural rather than news-making. Noble's Chief Transformation Officer filed a supplemental declaration defending the KERP/KEIP bonus plan participants as non-insiders, and a notice updated the sealed participant-list exhibits. More notably, three separate retention/claims matters — Cole Schotz's Delaware co-counsel retention, Verita Global's administrative-advisor retention, and the revised claims bar-date order (Nov 16, 2026 general / Feb 26, 2027 governmental, both unchanged) — all cleared the October 9 objection deadline with zero objections, including sign-off from the U.S. Trustee on the bar-date order. These are positive if unglamorous signs the case's basic infrastructure (counsel, claims agent, claims process) is falling into place without friction. None of this touches the two things that actually matter most right now: whether a stalking horse bidder gets named by the October 23 deadline, or how the sale auction plays out. No new Monthly Operating Report was filed this period.",
+    "positive_signals": [
+      "Professional retention applications (Cole Schotz as co-counsel, Verita Global as administrative advisor) both cleared with zero objections",
+      "The U.S. Trustee resolved its comments on the claims bar-date order and does not object to entry — one less open issue heading into the Oct 16 omnibus hearing",
+      "No new default, missed deadline, or adverse ruling reported this period"
+    ],
+    "risk_signals": [
+      "Still no stalking horse bidder named, with the October 23, 2026 designation deadline now just over a week away",
+      "The KERP/KEIP motion (bonus plan for retained employees) remains contested enough to need a supplemental declaration defending against insider status — suggests continued scrutiny, though no formal objection has surfaced on the docket yet",
+      "The broader sale-process risks flagged in the prior update (U.S. government's blanket objection to assigning federal contracts, several vendors disputing cure amounts) are unchanged and unresolved"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-14",
+        "event": "Debtors' deadline to have EITHER signed an asset purchase agreement OR filed a chapter 11 plan + disclosure statement (cash collateral milestone)"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Omnibus hearing: final cash collateral order, bar dates, KERP/KEIP motion, Midwest Pressure admin claim"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "Milestone deadline for entry of the final cash collateral order"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline for Debtors to designate a stalking horse bidder, if any"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one Qualified Bid is received)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "General claims bar date (proof-of-claim deadline)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-14",
+    "indicator": "uncertain",
+    "indicator_label": "Case infrastructure keeps clearing cleanly, but the DLA/government dispute just got a lot bigger in dollar terms",
+    "summary": "October 13 was a heavy filing day (20 new docket entries, all substantive or near-substantive) but most of it was case plumbing falling into place without friction: the bar date order was entered exactly as proposed (Nov 16, 2026 general / Feb 26, 2027 governmental, no objections), and both the Cole Schotz co-counsel and Verita Global administrative-advisor retention orders were entered with zero objections. The Kirkland & Ellis lead-counsel and Portage Point/CTO retentions are one step from final entry, each needing only a supplemental declaration and certification of counsel this period. The real news, however, came from the United States: in a motion seeking adequate protection of its setoff rights ahead of the November 16 sale hearing, the government disclosed that two previously-sealed False Claims Act qui tam suits against Noble have now been partially unsealed, and that it values its total damages/penalties claim in those suits at no less than $266 million — roughly 30 times the ~$8 million that has been the public face of the DLA dispute until now. The same filing confirmed the government is formally refusing to consent to the assumption of 100+ federal contracts at the Debtors' proposed $0 cure cost, and DLA separately moved to lift the stay to terminate ~21,000 largely-dead delivery orders. A vendor (Anduril Industries) also surfaced an objection showing its $27 million DLA-linked purchase order was omitted entirely from the cure-cost notice — a reminder that more such gaps could appear as other counterparties review that notice. None of this changes the sale timeline on its face, but it meaningfully raises the stakes around how much of any sale proceeds the government will seek to have reserved, and adds a second major open dispute (on top of the still-undesignated stalking horse) to watch heading into the October 16 final cash collateral hearing and the October 28 hearing on these new DLA/government motions.",
+    "positive_signals": [
+      "Bar date order entered exactly as proposed, with no objections (Nov 16, 2026 general / Feb 26, 2027 governmental)",
+      "Cole Schotz and Verita Global retention orders both entered October 13 with zero objections",
+      "Kirkland & Ellis and Portage Point/CTO retentions are down to a final certification of counsel each, with no reported opposition",
+      "Sale-process paperwork (Sale Notice, Cure Notice, Bidding Procedures Order) all remains ahead of or on its original schedule"
+    ],
+    "risk_signals": [
+      "The United States now claims no less than $266 million in FCA-related damages/penalties against Noble across two newly-unsealed qui tam suits — far larger than any DLA-related figure previously disclosed in the case",
+      "The government is seeking a super-priority administrative claim plus a reserve from sale proceeds, and separately refuses to consent to assuming 100+ federal contracts at a $0 cure cost — both could complicate or delay closing a sale",
+      "DLA has moved to terminate ~21,000 delivery orders under its largely-expired contracts, formalizing the wind-down of what was historically Noble's largest revenue relationship",
+      "A vendor (Anduril) says a $27 million DLA-linked contract was left off the cure-cost notice entirely, raising the question of whether other counterparties have similar gaps",
+      "Still no stalking horse bidder designated, with the October 23, 2026 deadline now just over a week away",
+      "The Oct 14, 2026 cash-collateral milestone (execute an APA or file a plan + disclosure statement) falls today; no confirmation yet, in the filings reviewed, that it was met"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-16",
+        "event": "Final Cash Collateral Hearing (U.S. and Committee both reserving rights on the proposed order)"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-15",
+    "indicator": "uncertain",
+    "indicator_label": "Case timeline quietly slipped about a month, but every open fight from the day before just got resolved by consent",
+    "summary": "October 14 was the cleanup day after a heavy filing day on the 13th: rather than hold the contested final cash-collateral hearing that had been set for October 16, the Debtors, the Committee, the secured lenders, the U.S. Trustee and the United States agreed to a consent “Third Interim” cash-collateral order (Docket #338) that resolves both the Committee's and the government's reservations of rights from the day before. The price of that consensus is time: the real Final Hearing on cash collateral is now pushed to November 16, and the lender-imposed case milestones were reset roughly a month later across the board — a combined disclosure statement and liquidation plan is now due November 14 (was October 14), the sale-approval and final cash-collateral orders are both due November 16, and the sale itself now has a lender backstop deadline of December 18 (previously November 28). The October 16 omnibus hearing was cancelled outright (Docket #340) because every item on its agenda, including the KERP/KEIP plan and the Kirkland & Ellis and Triple P/CTO retentions, got resolved by consent order the day before; only a minor vendor dispute (Midwest Pressure Systems' ~$39,530 administrative claim) was adjourned, to November 16. None of this is a default — it's a negotiated breather — but it does mean the case is now running about a month behind the schedule set when the Bidding Procedures Order was entered in late September, and the stalking-horse designation deadline (October 23) is unchanged and still the nearest real test of whether a committed buyer exists.",
+    "positive_signals": [
+      "The Committee's and the U.S. government's reservations of rights on the cash-collateral order were both resolved consensually, without a contested hearing",
+      "KERP/KEIP, Kirkland & Ellis (lead counsel), and Triple P TRS (CTO) retentions were all finally approved October 14 with no unresolved objections",
+      "The slipped deadlines were extended by agreement of the Prepetition Term Loan Agent (the senior secured lender), not imposed after a default — a sign the lender still sees a viable path to repayment",
+      "The U.S. government's setoff/recoupment rights were expressly preserved in the new order, suggesting that dispute is being managed rather than escalating"
+    ],
+    "risk_signals": [
+      "Every major lender-driven milestone just moved about a month later (plan/disclosure statement: 10/14 → 11/14; sale-approval and final cash-collateral orders: 10/19 → 11/16; sale consummation: 11/28 → 12/18), extending the runway the case needs to hold together",
+      "The Bidding Procedures Order (Docket #219) still lists November 20 as the sale-closing target while the new cash-collateral milestones say December 18 — these two governing documents are not obviously reconciled",
+      "No stalking horse bidder has been designated yet, with the October 23 deadline now just over a week away and unaffected by this reset",
+      "The case still carries the unresolved ~$266 million FCA/qui-tam exposure and DLA's ~21,000-delivery-order stay-relief motion disclosed the day before, both still pending for the October 28 hearing"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "New deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing, continued Final Cash Collateral Hearing, and adjourned Midwest Pressure claim matter, all on one date"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-16",
+    "indicator": "uncertain",
+    "indicator_label": "Quiet day on the docket — the only news is a one-week slip in the creditors' meeting",
+    "summary": "Only four items hit the docket since the last check, and none touch the sale process, cash collateral, or the DLA fights. The Section 341 meeting of creditors — the standard first-look session where creditors can question a Noble representative under oath — convened on October 14 as scheduled but ran out of time and was continued one week to October 21 at 10:00 a.m. ET, still by Zoom; a minute sheet and a formal Zoom notice from the U.S. Trustee's office are the only new substantive-adjacent filings. The other two new entries are pure case administration: a transcript request for the October 8 status hearing and Verita Global's routine certificate of service for last week's filings. None of this changes the picture from October 15: no stalking horse bidder has been designated, the October 21 cure/sale objection deadline and the October 23 stalking-horse designation deadline are both still exactly one week out, and the case's real test — whether a committed buyer exists — remains unanswered.",
+    "positive_signals": [
+      "The continued creditors' meeting is routine scheduling, not a sign of any new problem with Noble's disclosures or management",
+      "No adverse filings, objections, or deadline misses appeared in this period"
+    ],
+    "risk_signals": [
+      "Still no stalking horse bidder with the October 23 designation deadline now just one week away",
+      "The case's unresolved ~$266 million FCA/qui-tam exposure and DLA's ~21,000-delivery-order stay-relief motion remain pending ahead of the October 28 omnibus hearing"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline, and the continued Section 341 Meeting of Creditors"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing, continued Final Cash Collateral Hearing, and adjourned Midwest Pressure claim matter, all on one date"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-17",
+    "indicator": "uncertain",
+    "indicator_label": "DLA appeal sharpens and the OCP bench grows, but sale process and cash collateral are unchanged",
+    "summary": "Twelve new filings landed, all dated October 16 and none touching the sale process or cash collateral directly. The most notable is the government's Statement of the Issues to Be Presented on Appeal (Docket #345), which formally lays out why DLA is appealing the September 18 order that forced it to turn over $6.43 million to Noble — the government argues the turnover should have gone through a full adversary proceeding, not an emergency motion, and that its setoff rights weren't adequately protected. A companion filing (Docket #346) just lists the appellate record. Separately, four new ordinary-course professionals filed disinterestedness declarations: Chess Consulting, Integrate Consulting, Zucker Law Group, and a second, narrower Arnold & Porter Kaye Scholer engagement specifically for government-contracts work. The Chess Consulting filing is the most telling — it confirms Noble is actively staffing up to pursue its Contract Disputes Act claim against DLA. Claims agent Verita Global also filed a minor supplemental conflicts disclosure, and one routine stay-relief fee receipt appeared. Nothing here changes the sale timeline: no stalking horse has been designated, and the October 21 cure/sale-objection deadline and October 23 stalking-horse deadline are unchanged.",
+    "positive_signals": [
+      "Noble continues to build out its legal and expert team (Chess Consulting, Arnold & Porter's government-contracts group) to press its multi-million-dollar claims against DLA, rather than standing pat.",
+      "No adverse rulings, objections, or missed deadlines appeared in this batch of filings."
+    ],
+    "risk_signals": [
+      "The government's appeal of the $6.4 million turnover order is now proceeding on a defined set of issues, adding a layer of appellate uncertainty on top of the ~$266 million FCA/qui-tam exposure and DLA's pending stay-relief motion over ~21,000 delivery orders.",
+      "Still no stalking horse bidder, with the October 23 designation deadline now less than a week away."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline, and the continued Section 341 Meeting of Creditors"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing, continued Final Cash Collateral Hearing, and adjourned Midwest Pressure claim matter, all on one date"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-20",
+    "indicator": "uncertain",
+    "indicator_label": "Quiet check-in: two routine service filings, sale and cash-collateral timelines unchanged",
+    "summary": "Only two new docket entries appeared since the last check, both routine certificates of service with no new substantive content: Verita Global's confirmation that it served certain October 16 filings (Docket #358), and the United States' confirmation that it served its appellate Statement of Issues and Record Designation (Docket #357, covering the already-reported #345/#346 appeal of the $6.43 million DLA turnover order). No stalking horse bidder has been designated. The Cure/Sale Objection Deadline (October 21) and the Stalking Horse designation deadline (October 23) are both imminent but not yet due as of this check.",
+    "positive_signals": [
+      "No adverse rulings, missed deadlines, or new objections appeared in this batch."
+    ],
+    "risk_signals": [
+      "Still no stalking horse bidder, with the October 23 designation deadline just three days away.",
+      "The Cure/Sale Objection Deadline (October 21) and the Bid Deadline (October 30) are both approaching without a signed stalking-horse agreement in hand, keeping the sale process on the riskier open-auction path."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one Qualified Bid received)"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-21",
+    "indicator": "uncertain",
+    "indicator_label": "Quiet check-in: two routine bar-date filings, no sale-process movement",
+    "summary": "Only two new docket entries appeared since the last check, both administrative follow-ups to the already-reported Bar Date Order (Docket #309): a certificate of service confirming the proof-of-claim forms and bar-date notice went out to creditors on October 16 (Docket #359), and an affidavit confirming the bar-date notice ran in the Wall Street Journal on October 19 (Docket #360). Neither changes any deadline or reveals new facts. No stalking horse bidder has been designated. Today is also the Cure Objection Deadline / Sale Objection Deadline (October 21), and the Stalking Horse designation deadline (October 23) is two days away — both remain the most important near-term dates to watch.",
+    "positive_signals": [
+      "No adverse rulings, missed deadlines, or new objections appeared in this batch.",
+      "The bar-date notice process (service + publication) is now fully complete, keeping the claims process on schedule."
+    ],
+    "risk_signals": [
+      "Still no stalking horse bidder, with the October 23 designation deadline just two days away.",
+      "Today's Cure/Sale Objection Deadline (October 21) and the approaching Bid Deadline (October 30) mean the sale is still proceeding as an open auction rather than a pre-negotiated deal."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-21",
+        "event": "Cure Objection Deadline / Sale Objection Deadline (today)"
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one Qualified Bid received)"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-22",
+    "indicator": "uncertain",
+    "indicator_label": "First full-month financials land; Debtors push back hard on the $266M government claim",
+    "summary": "A large batch of 19 new filings landed on October 21, dominated by two developments. First, the first full-month Monthly Operating Reports (for September 2026) were filed for all eleven debtors — only the lead debtor (Noble Supply & Logistics), K.D. Analytical Consulting, and holding company Noble.com reported actual activity; the other eight remain shell-like with $0 across the board. The lead debtor's operations were roughly breakeven ($378K gross profit on $17.7M revenue) with a net cash increase of $9.2M for the month (helped by a $15M AR collection and a voluntary $2M paydown of the Blue Torch term loan), though a $7.0M net loss on paper (mostly interest expense) continues to erode book equity. Second, the Debtors filed forceful objections to both pending government motions: a limited objection to DLA's stay-relief motion (seeking to exclude already-completed, already-paid delivery orders from termination) and a full objection asking the court to flatly deny the government's $266 million adequate-protection request, arguing it's an improper re-litigation of a ruling the court already made and that the government's sole evidentiary support — a thin attorney declaration — is inadmissible. The Committee of Unsecured Creditors reserved its rights on both motions rather than taking a side. No stalking horse bidder has been designated, and that deadline (October 23) is now imminent.",
+    "positive_signals": [
+      "The lead debtor generated positive net cash flow for its first full month ($9.2M), including a voluntary debt paydown — a sign of at least short-term liquidity stability.",
+      "Operating results were close to breakeven at the gross-profit level, not deteriorating further.",
+      "The Debtors are not simply absorbing the government's $266M claim — they filed a detailed, well-supported objection calling the government's evidence inadmissible, which if successful would remove a major potential drag on recoveries for other creditors."
+    ],
+    "risk_signals": [
+      "Still no stalking horse bidder with the designation deadline (October 23) now one day away, keeping the sale an open, uncertain auction process.",
+      "The $266M FCA claim fight is now fully joined and contested — an adverse ruling at the October 28 hearing could still create a major superpriority claim against sale proceeds.",
+      "Eight of the eleven debtor entities continue to show zero independent financial activity, meaning virtually all of the estate's real financial picture rests on just three entities' numbers.",
+      "The lead debtor's $7.0M net loss for the month, if it continues, keeps chipping away at book equity even while cash is stable."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing on DLA's stay-relief motion (~21,000 delivery orders) and the U.S.'s $266M adequate-protection motion"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one Qualified Bid received)"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-23",
+    "indicator": "uncertain",
+    "indicator_label": "Stalking horse deadline arrives with no bidder named; government presses its DLA stay-relief fight",
+    "summary": "Fourteen new filings landed on October 22, mostly administrative (committee-counsel no-objection certificates, ordinary-course-professional disinterestedness declarations, a notice of appearance). The one substantive filing is the government's reply brief doubling down on its motion to lift the stay on roughly 21,000 DLA delivery orders: DOJ argues Noble's claim that ~2,100 orders were already \"completed\" wrongly equates shipment with the government's formal acceptance, and that Noble's own supporting declaration is thin and contradicted by Noble's position in its own suit against DLA. That fight, along with the government's separate $266M adequate-protection motion, is now set for the October 28 omnibus hearing — which was itself moved up again, from 2:00 p.m. to 10:00 a.m. that day. Separately, a newly retained German law firm's disclosure reveals Noble is moving to terminate employees and wind up its German branch office, a concrete step toward shrinking the estate's footprint rather than selling it intact. Most importantly, October 23 — today — is the deadline for Debtors to designate a stalking horse bidder, and as of the close of filings on October 22 none had been named.",
+    "positive_signals": [
+      "The three Creditors' Committee professional-retention applications (Brown Rudnick, Morris James, FTI Consulting) drew zero objections and are on track for routine approval at the October 28 hearing.",
+      "No new adverse financial disclosures this round — the fight over the government's claims is proceeding through ordinary motion practice rather than any new default or liquidity event."
+    ],
+    "risk_signals": [
+      "The stalking horse designation deadline is today (October 23) with no bidder yet named as of the last filing — if none is designated, the entire sale proceeds as an open, uncertain auction.",
+      "The government's reply brief is a well-argued, aggressive push to terminate essentially all 21,000 outstanding DLA delivery orders with no carve-out, which would foreclose Noble's attempt to preserve ~2,100 orders it says are already earned.",
+      "The German branch wind-down (via the MELCHERS retention) signals at least one piece of the business is being shut down rather than sold, a modest negative signal for overall going-concern recovery value."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-23",
+        "event": "Deadline to designate a Stalking Horse Bidder (if any)"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus Hearing (now 10:00 AM ET) on DLA's stay-relief motion (~21,000 delivery orders), the U.S.'s $266M adequate-protection motion, and Committee professional retentions"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction (if more than one Qualified Bid received)"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline: file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-24",
+    "indicator": "negative",
+    "indicator_label": "Negative — government claim exposure balloons sharply; sale process still lacks a stalking horse past its designation deadline",
+    "summary": "Two developments this period cut against the Debtors. First, in a October 23 reply brief, the government disclosed for the first time that it anticipates its total claims against Noble — across the FCA qui tam actions and its other pending investigations — will likely exceed $1 billion once filed, a sharp jump from the $266 million figure disclosed two weeks earlier; this is argued, not proven, but it raises the stakes of the October 28 omnibus hearing considerably. Second, the October 23, 4:00pm ET deadline for the Debtors to designate a stalking horse bidder (per the Bidding Procedures Order, Docket #219) passed with no stalking horse appearing on the docket, meaning the November 4 auction (if it happens at all) is still heading toward an open, uncertain bidding process rather than a pre-negotiated floor. On the positive side, the Committee's full professional slate (Brown Rudnick as lead counsel) is now formally retained by court order (Docket #394) with no objections, keeping the case's administrative machinery moving on schedule.",
+    "positive_signals": [
+      "Brown Rudnick LLP's retention as Committee counsel was approved by court order (Docket #394, entered 10/23/26) without objection, nunc pro tunc to September 16, 2026 — the Committee's full professional slate (Brown Rudnick, Morris James, FTI Consulting) is now in place.",
+      "The case's administrative/professional-retention track continues to clear without contested hearings, freeing the docket's bandwidth for the sale process and the government disputes."
+    ],
+    "risk_signals": [
+      "The government now anticipates its total claims against Noble will likely exceed $1 billion (per the Oct 23, 2026 reply brief, Docket #395) — a figure roughly four times the $266 million qui tam claim disclosed on October 13 and far larger than Noble's ~$292 million in funded debt.",
+      "The October 23 deadline to designate a stalking horse bidder passed with none named on the docket, leaving the November 4 auction (if held) to proceed without a pre-negotiated bidding floor just one week before the October 30 Bid Deadline.",
+      "The adequate-protection fight and the stay-relief fight over ~21,000 delivery orders both remain contested heading into the October 28 omnibus hearing, with full briefing now complete on both sides."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing on the government's Adequate Protection Motion and its Stay Relief Motion over ~21,000 DLA delivery orders"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline (Bidding Procedures Order, Docket #219)"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction, if more than one Qualified Bid is received"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file a combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Hearing on cash collateral"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-27",
+    "indicator": "uncertain",
+    "indicator_label": "Watchful — two deadlines converge within days",
+    "summary": "No new information changes the core uncertainty since the last check-in: still no stalking horse bidder with the Bid Deadline only three days out (10/30), and the October 28 hearing has grown into a genuinely pivotal event — it will now decide not just DLA's stay-relief and adequate-protection motions but also a threshold jurisdictional fight (sovereign immunity / Court of Federal Claims transfer) over Noble's ~$400M breach-of-contract claim against DLA. If the bankruptcy court concludes it lacks jurisdiction over that claim, Noble's recovery on its largest contract dispute could be pushed into an entirely separate, slower court system, well outside the current sale and plan timeline. Meanwhile, the sale process and Committee professional retentions continue routinely.",
+    "positive_signals": [
+      "Committee professionals (Brown Rudnick, Morris James, FTI) are now all retained by court order, and their first interim fee applications are modest relative to case size.",
+      "Bidding Procedures milestones that have come due so far (Sale Notice, Cure Notice) have been met on or ahead of schedule.",
+      "The parties have narrowed the stay-relief dispute to a relatively small, well-defined disagreement (~2,100 delivery orders) rather than a wholesale fight."
+    ],
+    "risk_signals": [
+      "No stalking horse bidder designated even though the designation deadline (10/23) has passed; the Bid Deadline (10/30) is now imminent.",
+      "The October 28 hearing now carries a genuine jurisdictional threshold question — if the claim against DLA must be transferred to the Court of Federal Claims, that could strand a $400M+ asset of the estate in a separate, slower forum.",
+      "The government has previously signaled it believes total claims against Noble could exceed $1 billion across the FCA actions and ongoing investigations, dwarfing the unsecured creditor recovery pool."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing: DLA stay-relief motion, government adequate-protection motion, and the sovereign-immunity/jurisdiction question in Noble's adversary proceeding against DLA"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline (4:00pm ET)"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction, if more than one Qualified Bid is received"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Hearing on cash collateral"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-28",
+    "indicator": "uncertain",
+    "indicator_label": "Watchful — omnibus hearing day, no new substance yet",
+    "summary": "Since the last check-in, only routine filings have landed: an amended hearing agenda and certificates of service confirming the Debtors' witness/exhibit list and an ordinary-course professional's disinterestedness declaration were served ahead of today's (October 28) omnibus hearing. No stalking horse bidder has been designated — that October 23 deadline remains passed with none disclosed — and the Bid Deadline is now just two days away (October 30). The pivotal hearing covering DLA's stay-relief motion, the government's adequate-protection motion, and the sovereign-immunity/jurisdiction question over Noble's ~$400M claim against DLA is scheduled for later today; no outcome is yet on the docket.",
+    "positive_signals": [
+      "Bidding Procedures milestones due so far (Sale Notice, Cure Notice) were met on or ahead of schedule.",
+      "Committee professionals remain retained by court order with no new fee disputes surfacing.",
+      "Required pre-hearing filings (witness list, agenda, service) were completed on time ahead of today's hearing, suggesting no procedural slippage."
+    ],
+    "risk_signals": [
+      "No stalking horse bidder designated even though the designation deadline (10/23) has passed; the Bid Deadline (10/30) is now only two days out.",
+      "Today's hearing carries a genuine jurisdictional threshold question — if the DLA claim must be transferred to the Court of Federal Claims, a $400M+ estate asset could be stranded in a separate, slower forum.",
+      "The sale and plan timeline remains tight, with the combined disclosure statement/plan of liquidation due November 14 and sale consummation targeted for December 18."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-28",
+        "event": "Omnibus hearing: DLA stay-relief motion, government adequate-protection motion, and the sovereign-immunity/jurisdiction question in Noble's adversary proceeding against DLA"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline (4:00pm ET)"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction, if more than one Qualified Bid is received"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Hearing on cash collateral"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-29",
+    "indicator": "uncertain",
+    "indicator_label": "Watchful — yesterday's omnibus hearing concluded, outcome not yet on the docket",
+    "summary": "Only two routine filings landed since the last check-in: a request for the written transcript of yesterday's (October 28) omnibus hearing, and the hearing's audio recording. Neither filing reveals what the judge actually decided on the DLA stay-relief motion, the government's adequate-protection motion, or the sovereign-immunity/jurisdiction question over Noble's ~$400M claim against DLA — that will only become clear from a transcript, a written order, or a party's follow-up filing. No stalking horse bidder has been designated; the Bid Deadline is now just one day away (October 30).",
+    "positive_signals": [
+      "No new adverse rulings or objections have appeared on the docket since the hearing.",
+      "Pre-hearing procedural steps (agenda, service, witness lists) all cleared on time with no reported slippage."
+    ],
+    "risk_signals": [
+      "The outcome of yesterday's pivotal hearing (DLA stay-relief, government adequate-protection motion, sovereign-immunity/jurisdiction question over the ~$400M DLA claim) is still unknown from the public docket.",
+      "No stalking horse bidder designated even though the designation deadline (10/23) has long passed; the Bid Deadline (10/30) is now only one day out.",
+      "The sale and plan timeline remains tight, with the combined disclosure statement/plan of liquidation due November 14 and sale consummation targeted for December 18."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline (4:00pm ET)"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction, if more than one Qualified Bid is received"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Supplemental Sale Objection Deadline / Adequate Assurance Objection Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Hearing on cash collateral"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-30",
+    "indicator": "uncertain",
+    "indicator_label": "Bid Deadline day — no stalking horse, outcome of Oct 28 hearing still not on the docket",
+    "summary": "Only two routine certificates of service were filed since yesterday's check (confirming prior service of case documents), so there is still no public docket record of what was decided at the October 28 omnibus hearing on the DLA stay-relief motion, the government's adequate-protection motion, or the sovereign-immunity/jurisdiction question over Noble's ~$400M claim against DLA. Today, October 30, is the Bid Deadline (4:00pm ET) under the Bidding Procedures Order — no stalking horse bidder has been designated, so the market will find out for the first time today whether any qualified bids were submitted. Bid details themselves are not expected to hit the public docket immediately; the next real signal will likely be the Notice of Auction Results (if an auction is triggered) or a status filing in the days ahead.",
+    "positive_signals": [
+      "No new adverse rulings, objections, or motions to convert/dismiss have appeared on the docket.",
+      "The case has stayed on its procedural track (service certificates, routine filings) with no reported slippage in the days leading up to the Bid Deadline."
+    ],
+    "risk_signals": [
+      "No stalking horse bidder has been designated, even on Bid Deadline day itself — meaning the sale process is entering its critical phase without a committed floor bid.",
+      "The outcome of the October 28 hearing (DLA stay relief, government adequate-protection motion, sovereign immunity/jurisdiction over the ~$400M DLA claim) remains unknown from the public docket.",
+      "The compressed timeline continues: if an auction is needed, it is just 5 days out (Nov 4), with the combined disclosure statement/plan of liquidation due Nov 14 and sale consummation targeted for Dec 18."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-10-30",
+        "event": "Bid Deadline (4:00pm ET)"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "Auction, if more than one Qualified Bid is received"
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Notice of Auction Results expected to be filed (1 business day after Auction)"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Supplemental Sale Objection Deadline / Adequate Assurance Objection Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Hearing on cash collateral"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-10-31",
+    "indicator": "uncertain",
+    "indicator_label": "Bid Deadline has passed with no disclosed results; day's filings were routine housekeeping",
+    "summary": "The seven filings docketed since the last check (entries #415-421) were all routine case administration: four professionals' first monthly fee applications (Kirkland & Ellis, Cole Schotz, Verita Global, and Triple P TRS/the CTO — together requesting roughly $1.9 million for the first month of the case), a motion to reject a small Maryland office lease, a stipulation resolving a single vendor's claim (Midwest Pressure Systems, allowed at $54,049.30), and a procedural filing building the record for DLA's pending appeal. None of these touch the two things that matter most right now: whether any qualified bids were submitted by yesterday's October 30 Bid Deadline, and what was decided at the October 28 hearing on DLA's stay-relief motion and the government's adequate-protection motion. Both remain unknown from the public docket as of this check.",
+    "positive_signals": [
+      "No new adverse rulings, objections to the sale process, or motions to convert/dismiss have appeared on the docket.",
+      "A disputed vendor claim (Midwest Pressure Systems) was resolved consensually by stipulation rather than requiring a contested hearing, a modest sign the claims process is proceeding in an orderly way.",
+      "Professional fee requests for the first month of the case (~$1.9M combined across four firms) are in line with expectations for a case of this size and show no sign of fee-related friction yet."
+    ],
+    "risk_signals": [
+      "The October 30 Bid Deadline has passed with no public disclosure yet of whether any qualified bids — let alone a stalking horse-caliber bid — were received; the sale's trajectory is still unknown.",
+      "The outcome of the October 28 hearing (DLA stay relief over ~21,000 delivery orders, the government's adequate-protection motion, and the sovereign-immunity/jurisdiction question over Noble's ~$400M claim) remains undisclosed.",
+      "The appeal of the September 18 ruling in Noble's favor (release of frozen DLA payments) continues to move forward in parallel, with the appellate record now being built — an adverse outcome there could affect Noble's recovery on withheld government payments."
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-04",
+        "event": "Auction, if more than one Qualified Bid was received"
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Notice of Auction Results expected to be filed (1 business day after Auction)"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Supplemental Sale Objection Deadline / Adequate Assurance Objection Deadline / lease rejection objection deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing, continued Final Hearing on cash collateral, and (if contested) lease rejection motion hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-11-03",
+    "indicator": "uncertain",
+    "indicator_label": "Mixed but net-positive week: major legal risk cleared, sale enters its final stretch with no stalking horse",
+    "summary": "Two major, previously-open threats resolved this week, and the sale process reached its most consequential milestone yet. The bankruptcy court denied the government's bid for adequate-protection priority over its $1 billion-plus FCA/qui tam claims — a significant win that keeps those disputed claims from jumping ahead of other creditors in the sale-proceeds waterfall, at least for now. In the same ruling, the court let DLA move forward with terminating ~21,000 dead delivery orders (a formality with little practical effect, since most of the underlying contracts had already expired or been non-renewed) and ordered the government to pay Noble $8.49 million on undisputed invoices by November 9. Separately, the Notice of Auction confirms more than one Qualified Bid was received by the October 30 deadline, so the long-anticipated Auction will proceed on November 4 — but still with no stalking horse ever having been designated, which keeps the eventual sale price less certain than a typical process.",
+    "positive_signals": [
+      "Government's $1B+ adequate-protection claim denied — removes the biggest threat to an orderly distribution of sale proceeds to other creditors",
+      "Court orders the government to pay Noble $8.49 million by November 9, 2026 on undisputed invoices — real near-term cash",
+      "More than one Qualified Bid received by the October 30 deadline, confirming the Auction will proceed November 4 rather than the sale defaulting to a single unopposed bid",
+      "Sale-hearing timeline (11/16) remains on track despite the litigation activity"
+    ],
+    "risk_signals": [
+      "No stalking horse bidder was ever designated — the Auction proceeds without a price floor set in advance, adding uncertainty to the eventual sale price",
+      "DLA now cleared to formally terminate ~21,000 delivery orders, cementing the loss of that contract relationship (though most were already effectively dead)",
+      "The government's much larger claims (FCA qui tam suits, possibly $1B+) remain unresolved on the merits — only the adequate-protection priority request was denied, not the underlying claims",
+      "Government previously appealed the September 18 turnover order (Docket #345) to the district court — that appeal, and a likely new one over this ruling, could still disrupt distributions later"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-04",
+        "event": "Auction (virtual, via Zoom)"
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Expected Notice of Auction Results"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Government's court-ordered deadline to pay Noble $8,493,160.09; also the Supplemental Sale/Adequate Assurance Objection Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement + plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
   }
 ]

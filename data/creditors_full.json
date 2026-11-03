@@ -1,6 +1,6 @@
 {
-  "source_note": "Full creditor mailing list from Docket #17 (Redacted Creditor Matrix, filed 09/25/26), merged with dollar amounts from the Top-30-Largest-Unsecured-Claims list (Docket #1). Everyone not on that Top-30 list holds an amount of $0 here \u2014 not because they're owed nothing, but because Noble was only required to disclose amounts for its 30 largest unsecured claims; the true amount for the rest isn't in any filing we've reviewed. 'Type' is an automated best-effort classification from the company/person name and known vendor lists, not a category the court filings themselves assign \u2014 expect some misclassifications, especially for generically-named companies. Addresses (and therefore map links) are the mailing/notice address on file with the court, which is sometimes a payment/AP address rather than a physical storefront. Entries also carry a `pre_petition_90d_payments` field where the creditor was identified in the Statements of Financial Affairs (Official Form 207, Part 2, Question 3) filed 9/28/2026, showing payments made to that creditor in the 90 days before the bankruptcy filing (non-insider creditors only; insider payments are disclosed separately and not included here).",
-  "generated_note": "Map links point to a Google Maps search for the creditor's name and exact notice address \u2014 for a franchise or chain, this generally resolves to the specific location tied to that address rather than the brand's corporate site. 'Official website' is populated only for a small set of creditors we could confidently identify by name; we did not attempt to verify a website for every entry.",
+  "source_note": "Full creditor mailing list from Docket #17 (Redacted Creditor Matrix, filed 09/25/26), merged with dollar amounts from the Top-30-Largest-Unsecured-Claims list (Docket #1). Everyone not on that Top-30 list holds an amount of $0 here — not because they're owed nothing, but because Noble was only required to disclose amounts for its 30 largest unsecured claims; the true amount for the rest isn't in any filing we've reviewed. 'Type' is an automated best-effort classification from the company/person name and known vendor lists, not a category the court filings themselves assign — expect some misclassifications, especially for generically-named companies. Addresses (and therefore map links) are the mailing/notice address on file with the court, which is sometimes a payment/AP address rather than a physical storefront. Entries also carry a `pre_petition_90d_payments` field where the creditor was identified in the Statements of Financial Affairs (Official Form 207, Part 2, Question 3) filed 9/28/2026, showing payments made to that creditor in the 90 days before the bankruptcy filing (non-insider creditors only; insider payments are disclosed separately and not included here).",
+  "generated_note": "Map links point to a Google Maps search for the creditor's name and exact notice address — for a franchise or chain, this generally resolves to the specific location tied to that address rather than the brand's corporate site. 'Official website' is populated only for a small set of creditors we could confidently identify by name; we did not attempt to verify a website for every entry.",
   "creditors": [
     {
       "name": "1 Source Property Solutions LLC",
@@ -1552,7 +1552,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Aegis%20Integrations%20Gmbh%2C%20Jeremy%20Mack%20Europaallee%2033%2C%20Kaiserslautern%2C%2067657%2C%20Germany",
       "official_website": null,
-      "top30_notes": "Kaiserslautern, Germany \u2014 same city as Noble Germany operations."
+      "top30_notes": "Kaiserslautern, Germany — same city as Noble Germany operations."
     },
     {
       "name": "Aero Component",
@@ -4027,7 +4027,7 @@
     },
     {
       "name": "Anduril Industries, Inc.",
-      "amount_usd": 0,
+      "amount_usd": 4699988.06,
       "rank_in_top30": null,
       "type": "Trade Vendor / Supplier",
       "type_detail": "Trade Vendor / Supplier",
@@ -4038,8 +4038,8 @@
       "address_raw": "1375 Sunflower Ave",
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Anduril%20Industries%2C%20Inc.%2C%201375%20Sunflower%20Ave%2C%20Costa%20Mesa%2C%20CA%2C%2092626",
-      "official_website": null,
-      "top30_notes": null
+      "official_website": "https://www.anduril.com",
+      "top30_notes": "Not on the original top-30 list, but disclosed via a October 13, 2026 limited objection (Docket #313): Anduril supplies goods/services for Noble's DLA contract performance under a $27.2M purchase order (P2012015); it has invoiced $4,699,988.06 to date and reserves rights to a further $5,388,047.00 under a second, related purchase order (P2012022). Anduril says its contract was omitted entirely from the Debtors' cure-cost notice (Docket #252)."
     },
     {
       "name": "Andy Zamora Castillo",
@@ -6211,7 +6211,7 @@
       "state": "NC",
       "zip": "27502",
       "country": null,
-      "address_raw": "PO Box 62516 Baltimore MD 21264\u22122516 Order Submission 800 W. Williams Street, Suite 207",
+      "address_raw": "PO Box 62516 Baltimore MD 21264−2516 Order Submission 800 W. Williams Street, Suite 207",
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Barton%20International%20Basecom%20Inc.%2C%20PO%20Box%2062516%20Baltimore%20MD%2021264%E2%88%922516%20Order%20Submission%20800%20W.%20Williams%20Street%2C%20Suite%20207%2C%20Apex%2C%20NC%2C%2027502",
       "official_website": null,
@@ -7599,7 +7599,7 @@
       "amount_usd": 4281146.0,
       "rank_in_top30": 7,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Arlington",
       "state": "VA",
       "zip": "22203",
@@ -11784,7 +11784,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Continental%20Heavy%20Civil%20Corp%2C%20Mark%20Zenardi%2013131%20SW%20132ST%20STE%20102%2C%20Miami%2C%20FL%2C%2033186",
       "official_website": null,
-      "top30_notes": "Sits on the Official Committee of Unsecured Creditors. \u201cHeavy civil\u201d = large-scale construction/earthwork contracting."
+      "top30_notes": "Sits on the Official Committee of Unsecured Creditors. “Heavy civil” = large-scale construction/earthwork contracting."
     },
     {
       "name": "Continental Pllc",
@@ -12440,7 +12440,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Crestwood%20Technology%20Group%2C%20LLC%2C%20Erin%20Vatcher%201%20Odell%20Plaza%2C%20Yonkers%2C%20NY%2C%2010701",
       "official_website": null,
-      "top30_notes": "Filed a Notice of Appearance in the case via Gellert Seitz Busenkell & Brown \u2014 Docket #192."
+      "top30_notes": "Filed a Notice of Appearance in the case via Gellert Seitz Busenkell & Brown — Docket #192."
     },
     {
       "name": "Cribmaster, Inc.",
@@ -17183,7 +17183,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Epoch%20Concepts%2C%20Nathan%20Leitch%201510%20W%20Canal%20Ct%2C%20Ste%201000%2C%20Littleton%2C%20CO%2C%2080120-5639",
       "official_website": null,
-      "top30_notes": "Littleton, CO \u2014 known federal IT services provider."
+      "top30_notes": "Littleton, CO — known federal IT services provider."
     },
     {
       "name": "Equipment Corporation Of America",
@@ -17999,7 +17999,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=FCN%2C%20Inc.%2C%20Anil%20Khatri%2012501%20Ardenes%20Ave%20Suite%20101%2C%20Rockville%2C%20MD%2C%2020852",
       "official_website": null,
-      "top30_notes": "Rockville, MD \u2014 known federal IT hardware reseller.",
+      "top30_notes": "Rockville, MD — known federal IT hardware reseller.",
       "pre_petition_90d_payments": {
         "total_paid_usd": 571533.69,
         "payment_count": 5,
@@ -20560,7 +20560,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=GJB%20and%20Associates%20LLC%2C%20Kory%20Rasmussen%201188%20Bishop%20St%20Suite%202110%2C%20Honolulu%2C%20HI%2C%2096813",
       "official_website": null,
-      "top30_notes": "Honolulu, HI. Represented by its own counsel (Potter Anderson & Corroon LLP) in this case \u2014 Docket #190.",
+      "top30_notes": "Honolulu, HI. Represented by its own counsel (Potter Anderson & Corroon LLP) in this case — Docket #190.",
       "pre_petition_90d_payments": {
         "total_paid_usd": 533760.49,
         "payment_count": 4,
@@ -22684,7 +22684,7 @@
       "state": null,
       "zip": null,
       "country": "Japan",
-      "address_raw": "Yoshinori Harada 1-7-8\uff0cshozokumachi Iwakuni Yamaguchi",
+      "address_raw": "Yoshinori Harada 1-7-8，shozokumachi Iwakuni Yamaguchi",
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Hirayama%20Shoten%20Ltd.%2C%20Yoshinori%20Harada%201-7-8%EF%BC%8Cshozokumachi%20Iwakuni%20Yamaguchi%2C%20740-0001%2C%20Japan",
       "official_website": null,
@@ -23052,7 +23052,7 @@
       "state": "OH",
       "zip": "44193",
       "country": null,
-      "address_raw": "Imaging Systems Group PO Box 73702\u2212N",
+      "address_raw": "Imaging Systems Group PO Box 73702−N",
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Horizons%20Incorporated%20Isg%2C%20Imaging%20Systems%20Group%20PO%20Box%2073702%E2%88%92N%2C%20Cleveland%2C%20OH%2C%2044193",
       "official_website": null,
@@ -25152,7 +25152,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=J.F.%20Taylor%2C%20Inc%2C%20Kayla%20Kern%2045671%20Pleasant%20Mill%20Drive%2C%20Great%20Mills%2C%20MD%2C%2020634",
       "official_website": null,
-      "top30_notes": "Great Mills, MD \u2014 known defense engineering/technical services firm."
+      "top30_notes": "Great Mills, MD — known defense engineering/technical services firm."
     },
     {
       "name": "J.J. Keller & Assoc., Inc.",
@@ -26912,7 +26912,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Kamikita%20Kensetsu%20Co.%2C%20Ltd.%2C%20Kunio%20Akasaka%202-8%20Higashi-4%20Bancho%20Towada-Shi%20Aomori%2C%20034%2C%2000032%2C%20Japan",
       "official_website": null,
-      "top30_notes": "Aomori, Japan (\u201ckensetsu\u201d = construction in Japanese) \u2014 likely tied to Noble's Japan/overseas depot operations."
+      "top30_notes": "Aomori, Japan (“kensetsu” = construction in Japanese) — likely tied to Noble's Japan/overseas depot operations."
     },
     {
       "name": "Kampi Components Co., Inc.",
@@ -28375,7 +28375,7 @@
       "amount_usd": 2551030.25,
       "rank_in_top30": 23,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Rochester",
       "state": "NY",
       "zip": "14623",
@@ -32456,7 +32456,7 @@
       "amount_usd": 3045430.1,
       "rank_in_top30": 15,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Victor",
       "state": "NY",
       "zip": "14564",
@@ -32465,7 +32465,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Metrea%20Advanced%20Signals%20LLC%2C%20April%20Winifree%20833%20Phillips%20Rd%20Suite%20C%2C%20Victor%2C%20NY%2C%2014564",
       "official_website": null,
-      "top30_notes": "Metrea is a defense/aerospace technology group; \u201cAdvanced Signals\u201d suggests comms/signals equipment.",
+      "top30_notes": "Metrea is a defense/aerospace technology group; “Advanced Signals” suggests comms/signals equipment.",
       "pre_petition_90d_payments": {
         "total_paid_usd": 842352.45,
         "payment_count": 2,
@@ -33269,7 +33269,7 @@
     },
     {
       "name": "Midwest Pressure Systems, Inc.",
-      "amount_usd": 0,
+      "amount_usd": 54049.3,
       "rank_in_top30": null,
       "type": "Trade Vendor / Supplier",
       "type_detail": "Trade Vendor / Supplier",
@@ -33281,7 +33281,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Midwest%20Pressure%20Systems%2C%20Inc.%2C%20850%20Transport%20Dr%2C%20Valparaiso%2C%20IN%2C%2046383",
       "official_website": null,
-      "top30_notes": null
+      "top30_notes": "Administrative-expense claim (Docket #248) resolved by stipulation (Docket #418, approved 10/30/2026): allowed as a non-priority general unsecured claim of $54,049.30; Midwest withdrew its Section 503(b)(9) priority request."
     },
     {
       "name": "Midwest Technical Solutions",
@@ -36552,7 +36552,7 @@
       "amount_usd": 1948791.75,
       "rank_in_top30": 29,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Plymouth",
       "state": "MN",
       "zip": "55442-2515",
@@ -36568,7 +36568,7 @@
       "amount_usd": 1948791.75,
       "rank_in_top30": 29,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Falls Church",
       "state": "VA",
       "zip": "22042",
@@ -39000,7 +39000,7 @@
       "amount_usd": 2345000.28,
       "rank_in_top30": 25,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "New York",
       "state": "NY",
       "zip": "10001",
@@ -39009,7 +39009,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Persistent%20Systems%2C%20Ilse%20Perez%20601%20West%2026th%20Street%2C%20Suite%20905%2C%20New%20York%2C%20NY%2C%2010001",
       "official_website": "https://www.persistentsystems.com",
-      "top30_notes": "Known maker of tactical wireless (MANET) radio networking equipment \u2014 fits the DFS tactical-gear business."
+      "top30_notes": "Known maker of tactical wireless (MANET) radio networking equipment — fits the DFS tactical-gear business."
     },
     {
       "name": "Peter Crawford",
@@ -41336,7 +41336,7 @@
       "amount_usd": 2037616.86,
       "rank_in_top30": 28,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Fort Wayne",
       "state": "IN",
       "zip": "46808",
@@ -42097,7 +42097,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Rigaku%20Analytical%20Devices%20Inc.%2C%20Kent%20Heath%2030%20Upton%20Drive%20Suite%202%2C%20Wilmington%2C%20MA%2C%2001887",
       "official_website": null,
-      "top30_notes": "X-ray and analytical instrument maker \u2014 fits the Federal Resources CBRNE product line.",
+      "top30_notes": "X-ray and analytical instrument maker — fits the Federal Resources CBRNE product line.",
       "pre_petition_90d_payments": {
         "total_paid_usd": 100000.0,
         "payment_count": 2,
@@ -42328,7 +42328,7 @@
       "amount_usd": 32013371.32,
       "rank_in_top30": 1,
       "type": "Individual",
-      "type_detail": "Former owner \u2014 seller-note / deferred consideration (likely)",
+      "type_detail": "Former owner — seller-note / deferred consideration (likely)",
       "city": null,
       "state": null,
       "zip": null,
@@ -42337,7 +42337,7 @@
       "redacted_address": true,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Robert%20H%20McWilliams",
       "official_website": null,
-      "top30_notes": "By far the largest unsecured claim in the case and the only individual on the list. Identified from Noble's own press archive: McWilliams was CEO of Federal Resources Supply Company (grew it from $80M to $350M+ revenue, 2012-2017), then became its President and Chairman in 2018 (Noble.com press release, 6/25/2018). Noble acquired Federal Resources in October 2021. The First Day Declaration (Docket #15) discloses a $36M unsecured 'Seller Note' issued to 'former stakeholders of Federal Resources Supply Company' as acquisition consideration \u2014 this $32M claim, classified as 'Debt' rather than 'Trade Vendor,' is almost certainly McWilliams' share of that Seller Note (or closely related deferred consideration), not a trade/vendor obligation. Not stated explicitly as such in any filing we've read \u2014 inferred from the press release plus the Seller Note disclosure, not confirmed by a document that names him as the noteholder. His current email domain (wrighttoolcompany.com) suggests he has since moved on to Wright Tool Company, an industrial tool maker unrelated to Noble."
+      "top30_notes": "By far the largest unsecured claim in the case and the only individual on the list. Identified from Noble's own press archive: McWilliams was CEO of Federal Resources Supply Company (grew it from $80M to $350M+ revenue, 2012-2017), then became its President and Chairman in 2018 (Noble.com press release, 6/25/2018). Noble acquired Federal Resources in October 2021. The First Day Declaration (Docket #15) discloses a $36M unsecured 'Seller Note' issued to 'former stakeholders of Federal Resources Supply Company' as acquisition consideration — this $32M claim, classified as 'Debt' rather than 'Trade Vendor,' is almost certainly McWilliams' share of that Seller Note (or closely related deferred consideration), not a trade/vendor obligation. Not stated explicitly as such in any filing we've read — inferred from the press release plus the Seller Note disclosure, not confirmed by a document that names him as the noteholder. His current email domain (wrighttoolcompany.com) suggests he has since moved on to Wright Tool Company, an industrial tool maker unrelated to Noble."
     },
     {
       "name": "Robert Joseph Mcgill",
@@ -42945,7 +42945,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=RYO%20Enterprise.Co.Ltd%2C%20Daisuke%20Takase%203231-1%20Noborikawa%20Okinawa%20Okinawa%2C%20904%2C%2002142%2C%20Japan",
       "official_website": null,
-      "top30_notes": "Okinawa, Japan \u2014 likely tied to Noble's Okinawa operations."
+      "top30_notes": "Okinawa, Japan — likely tied to Noble's Okinawa operations."
     },
     {
       "name": "Ryoko Kaji",
@@ -49144,7 +49144,7 @@
       "amount_usd": 2790962.16,
       "rank_in_top30": 19,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Arlington",
       "state": "VA",
       "zip": "22202",
@@ -49153,7 +49153,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Technology%20Service%20Corporation%2C%20Aaron%20Barkley%20251%2018th%20St%20Suite%20705%2C%20Arlington%2C%20VA%2C%2022202",
       "official_website": null,
-      "top30_notes": "Arlington, VA \u2014 known EW/ISR defense contractor (\u201cTSC\u201d)."
+      "top30_notes": "Arlington, VA — known EW/ISR defense contractor (“TSC”)."
     },
     {
       "name": "Techops Specialty Vehicles, LLC",
@@ -50168,7 +50168,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Thermo%20Scientific%20Portable%20Analytical%20Instruments%20Inc.%2C%20Jeff%20Vermilyea%202%20Radcliff%20Road%2C%20Tewksbury%2C%20MA%2C%2001876",
       "official_website": null,
-      "top30_notes": "Analytical/detection instrument maker \u2014 fits the Federal Resources CBRNE (chemical/biological/radiological/nuclear/explosives) product line."
+      "top30_notes": "Analytical/detection instrument maker — fits the Federal Resources CBRNE (chemical/biological/radiological/nuclear/explosives) product line."
     },
     {
       "name": "Thermotron Industries",
@@ -52139,7 +52139,7 @@
       "top30_notes": null
     },
     {
-      "name": "U.S. Department of Justice \u2014 Antitrust Division",
+      "name": "U.S. Department of Justice — Antitrust Division",
       "amount_usd": 0,
       "rank_in_top30": null,
       "type": "Government / Military",
@@ -52155,7 +52155,7 @@
       "top30_notes": null
     },
     {
-      "name": "U.S. Department of Justice \u2014 Civil Division",
+      "name": "U.S. Department of Justice — Civil Division",
       "amount_usd": 0,
       "rank_in_top30": null,
       "type": "Government / Military",
@@ -52431,7 +52431,7 @@
       "amount_usd": 1855885.8,
       "rank_in_top30": 30,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 defense technology",
+      "type_detail": "COGS / product supplier — defense technology",
       "city": "Montreal",
       "state": "QC",
       "zip": "H4T 1V7",
@@ -52440,7 +52440,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Ultra%20Electronics%20TCS%20Inc%2C%20Jeffrey%20Wrobel%205990%20Cote%20de%20Liesse%2C%20Montreal%2C%20QC%2C%20H4T%201V7%2C%20Canada",
       "official_website": null,
-      "top30_notes": "Montreal, QC, Canada \u2014 defense communications electronics."
+      "top30_notes": "Montreal, QC, Canada — defense communications electronics."
     },
     {
       "name": "Umit Zhanaidarova",
@@ -52564,7 +52564,7 @@
       "state": "DC",
       "zip": "20530-0001",
       "country": null,
-      "address_raw": "Civil Division, Commercial Litigation Branch \u2014 Attn: Steven M. Mager 950 Pennsylvania Avenue NW",
+      "address_raw": "Civil Division, Commercial Litigation Branch — Attn: Steven M. Mager 950 Pennsylvania Avenue NW",
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=United%20States%20of%20America%2C%20Civil%20Division%2C%20Commercial%20Litigation%20Branch%20%E2%80%94%20Attn%3A%20Steven%20M.%20Mager%20950%20Pennsylvania%20Avenue%20NW%2C%20Washington%2C%20DC%2C%2020530-0001",
       "official_website": null,
@@ -54975,7 +54975,7 @@
       "amount_usd": 2091910.32,
       "rank_in_top30": 26,
       "type": "Trade Vendor / Supplier",
-      "type_detail": "COGS / product supplier \u2014 electronic components",
+      "type_detail": "COGS / product supplier — electronic components",
       "city": "Roswell",
       "state": "GA",
       "zip": "30076",
@@ -54984,7 +54984,7 @@
       "redacted_address": false,
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=World%20Micro%20Inc%2C%20Dan%20Ellsworth%20205%20Hembree%20Park%20Drive%20Ste%20105%2C%20Roswell%2C%20GA%2C%2030076",
       "official_website": null,
-      "top30_notes": "Roswell, GA \u2014 electronic components distributor.",
+      "top30_notes": "Roswell, GA — electronic components distributor.",
       "pre_petition_90d_payments": {
         "total_paid_usd": 292814.07,
         "payment_count": 4,
@@ -55753,6 +55753,22 @@
       "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Zurich%20American%20Insurance%20Company%2C%201299%20Zurich%20Way%2C%20Schaumburg%2C%20IL%2C%2060196-1056",
       "official_website": null,
       "top30_notes": null
+    },
+    {
+      "name": "MELCHERS Rechtsanwälte Partnerschaftsgesellschaft mbB",
+      "amount_usd": 0,
+      "rank_in_top30": null,
+      "type": "Legal / Professional Services",
+      "type_detail": "Legal / Professional Services",
+      "city": "Heidelberg",
+      "state": null,
+      "zip": "69126",
+      "country": "Germany",
+      "address_raw": "Im Breitspiel 21",
+      "redacted_address": false,
+      "maps_search_url": "https://www.google.com/maps/search/?api=1&query=MELCHERS%20Rechtsanw%C3%A4lte%20Partnerschaftsgesellschaft%20mbB%2C%20Im%20Breitspiel%2021%2C%20Heidelberg%2C%2069126%2C%20Germany",
+      "official_website": null,
+      "top30_notes": "Newly identified ordinary-course professional (Docket #382/383, filed 10/22/2026) — German employment-law counsel retained by Noble to handle termination of German-branch employees and wind-up of the German entity."
     }
   ]
 }

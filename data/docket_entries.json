@@ -3714,7 +3714,7 @@
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Administrative confirmation that the court filing fee was paid.",
+    "summary": "Administrative confirmation that the $298.00 filing fee for the government's Notice of Appeal (Docket #263) was assessed as exempt (government agency).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261005000000000007"
@@ -3725,11 +3725,15 @@
     "title": "Appeal Transmittal Sheet [Appeal Tickle due by: 10/13/2026]",
     "date_filed": "10/5/2026",
     "date_filed_iso": "2026-10-05",
-    "related": [],
+    "related": [
+      "268",
+      "263",
+      "151"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The Bankruptcy Court clerk's office formally transmitted the government's October 2, 2026 Notice of Appeal (Docket #263) to the U.S. District Court for the District of Delaware. The appeal challenges the Court's September 18, 2026 order (Docket #151) requiring DLA to release improperly withheld payments to Noble. The filing fee was waived because the appellant is a government agency, and the matter was assigned Bankruptcy Appeal (BAP) Number 26-56.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261005000000000004"
@@ -3740,11 +3744,14 @@
     "title": "Notice of Docketing",
     "date_filed": "10/5/2026",
     "date_filed_iso": "2026-10-05",
-    "related": [],
+    "related": [
+      "267",
+      "263"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The U.S. District Court for the District of Delaware confirmed that the government's appeal of the September 18, 2026 DLA-funds ruling (Docket #151) has been docketed as Civil Action No. 26-cv-1279-UNA (Bankruptcy Appeal/BAP No. 26-00059). As is standard practice, the case was automatically referred to a U.S. Magistrate Judge to assess whether it's suitable for mediation before briefing begins — a routine procedural step that doesn't reflect any view on the merits.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261005000000000009"
@@ -3767,14 +3774,16 @@
   {
     "docket_no": "0270",
     "pdf_href": "/noble/document/2611369261006000000000006",
-    "title": "Certification of Counsel Regarding Proposed Order Scheduling Omnibus Hearing Date. Filed by Noble Supply & Logistics, LLC. (Attachments: # (1) Exhibit A - Proposed Order) (Dougherty, Jack)",
+    "title": "Certification of Counsel Regarding Proposed Order Scheduling Omnibus Hearing Date (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/6/2026",
     "date_filed_iso": "2026-10-06",
-    "related": [],
+    "related": [
+      "271"
+    ],
     "source_list": "main",
     "category": "Hearing / Court Admin",
     "substantive": true,
-    "summary": null,
+    "summary": "Certification of Counsel presenting a proposed order to the court scheduling the next omnibus hearing date (October 28, 2026).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000006"
@@ -3785,11 +3794,13 @@
     "title": "Order Scheduling Omnibus Hearing Date [Omnibus Hearing scheduled for 10/28/2026 at 11:00 AM US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware]",
     "date_filed": "10/6/2026",
     "date_filed_iso": "2026-10-06",
-    "related": [],
+    "related": [
+      "270"
+    ],
     "source_list": "main",
     "category": "Hearing / Court Admin",
     "substantive": true,
-    "summary": null,
+    "summary": "Order formally scheduling the case's next omnibus hearing for October 28, 2026 at 11:00 AM.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000008"
@@ -3802,9 +3813,9 @@
     "date_filed_iso": "2026-10-06",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble filed a new adversary proceeding against the Defense Logistics Agency seeking turnover of at least $18,960,176.31 for goods and services Noble says it delivered and the government accepted but never paid for. This is separate from the earlier $6.97M administrative-freeze dispute (Docket #151): Noble alleges DLA is now refusing to validate proof of delivery and withholding payment on a blanket theory that its August 27, 2026 contract terminations excuse it from paying for anything, including orders completed before or on the termination date. The complaint brings a turnover claim under 11 U.S.C. § 542 and a breach-of-contract claim, and notes the Court already found in its September 18 order that DLA cannot exercise setoff rights without a motion. A summons has been issued with an answer/response due January 4, 2027.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261006000000000010"
@@ -3815,11 +3826,15 @@
     "title": "Supplemental Declaration of Justin R. Alberto in Support of Debtors' Application for Entry of an Order Authorizing the Retention and Employment of Cole Schotz P.C. as Co-Counsel for the Debtors Effective as of the Petition Date (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "280",
+      "200",
+      "199"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Cole Schotz P.C. — the Debtors' proposed Delaware co-counsel — filed a supplemental conflicts disclosure, as it had committed to do when it first sought court approval to be retained. It re-ran its conflicts database against an expanded list of parties in the case (including the 7-member creditors' committee appointed September 16) and disclosed one new wrinkle: Cole Schotz represents FTI Consulting, the committee's financial advisor, in matters unrelated to this case. The firm says it doesn't believe this creates any actual conflict and continues to view itself as a 'disinterested person' able to serve as Debtors' counsel. This is a routine, expected follow-up disclosure rather than a sign of trouble with the retention.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000001"
@@ -3834,7 +3849,7 @@
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "A law firm formally notifying the court it represents a creditor or party in interest in the case — procedural, but can signal which parties are actively watching the case.",
+    "summary": "A law firm formally notifying the court it represents Textron Systems Corporation, a creditor or party in interest in the case — procedural, but signals Textron is actively watching the case.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000007"
@@ -3842,14 +3857,14 @@
   {
     "docket_no": "0275",
     "pdf_href": "/noble/document/2611369261007000000000009",
-    "title": "Notice of Hearing re: Debtors’ Emergency Motion to Expedite Motion for Partial Summary Judgment [Hearing scheduled for 10/8/2026 at 04:00 PM at Virtual Hearing: Refer to Notice of Zoom Hearing] (Filed by Noble Supply & Logistics, LLC)",
+    "title": "Notice of Hearing re: Debtors' Emergency Motion to Expedite Motion for Partial Summary Judgment [Hearing scheduled for 10/8/2026 at 04:00 PM at Virtual Hearing: Refer to Notice of Zoom Hearing] (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble is pushing to speed up its newest fight with the Defense Logistics Agency. On October 6 it filed an emergency motion to expedite a motion for partial summary judgment in the $18.96 million turnover adversary proceeding it filed against DLA on October 6 (Adv. Proc. No. 26-50885, Docket #272). The Court moved unusually fast, setting a status hearing for just two days later — October 8, 2026 at 4:00 PM ET, by Zoom — to address how (and how quickly) that summary-judgment request will be handled. It's a sign Noble wants at least part of the turnover claim decided well before the normal litigation calendar would otherwise allow.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000009"
@@ -3857,14 +3872,18 @@
   {
     "docket_no": "0276",
     "pdf_href": "/noble/document/2611369261007000000000015",
-    "title": "Limited Objection and Reservation of Rights and Notice Regarding Contract Cure to Qualified Bidders Relative to Debtor’s Cure Notice and Proposed Order Approving the Assumption and Assignment of Executory Contracts and Unexpired Leases (Filed by Thermo Fisher Scientific)",
+    "title": "Limited Objection and Reservation of Rights and Notice Regarding Contract Cure to Qualified Bidders Relative to Debtor's Cure Notice and Proposed Order Approving the Assumption and Assignment of Executory Contracts and Unexpired Leases (Filed by Thermo Fisher Scientific)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "252",
+      "219",
+      "91"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Thermo Fisher Scientific and several of its subsidiaries — vendors under contracts Noble wants to transfer to whoever buys the business — filed a limited objection to the September 29 Cure Notice. Thermo says the $9,228,191.24 cure amount listed for one of its distribution agreements is wrong (it calculates $9,518,577.57 is actually owed) and that the notice doesn't accurately identify which contracts are involved. Thermo also flags that some of what it sells Noble is export-controlled and can't be resold or reassigned to a foreign buyer without U.S. government approval, and — since no stalking horse bidder has been named yet — it can't yet assess whether any eventual buyer could perform under its contracts. This is an early, fairly routine-for-this-stage sign that cure-amount fights are starting to surface among Noble's vendors as the sale process heads toward its bid deadline.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000015"
@@ -3875,11 +3894,15 @@
     "title": "Certificate of Service for Tran K. Le re: 1) Order Approving Stipulation Regarding Automatic Stay and Limited Amendment of Pending State Court Complaint; 2) Debtors' Motion for Order (I) Establishing Bar Dates for Filing Claims Against the Debtors and (II) Approving Form and Manner of Notice Thereof; and 3) First Supplemental Declaration of Patrick J. Nash, Jr. in Support of the Debtors' Application for Entry of an Order Authorizing the Retention and Employment of Kirkland & Ellis LLP and Kirkland & Ellis International LLP as Attorneys for the Debtors and Debtors in Possession Effective as of August 30, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "264",
+      "262",
+      "261"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Verita Global's proof of mailing covering three previously-filed documents: an automatic-stay stipulation order, the bar-date motion, and a Kirkland & Ellis retention supplement.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000017"
@@ -3890,11 +3913,13 @@
     "title": "Certificate of Service of Tran K. Le re: Order Scheduling Omnibus Hearing Date (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "271"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Verita Global's proof of mailing for the order scheduling the next omnibus hearing (Docket #271).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000018"
@@ -3905,11 +3930,13 @@
     "title": "Supplemental Certificate of Service of Andrew Henchen re: Notice of Sale, Bidding Procedures, Auction, Sale Hearing and Other Deadlines Related Thereto (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "251"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Sale Process",
     "substantive": false,
-    "summary": "Additional proof-of-mailing for a prior filing.",
+    "summary": "The claims agent filed supplemental proof that additional parties were mailed the Sale Notice (Docket #251). A routine mailing confirmation, not new substantive information about the sale.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000019"
@@ -3920,11 +3947,13 @@
     "title": "Certificate of Service of Tran K. Le re: Supplemental Declaration of Justin R. Alberto in Support of Debtors' Application for Entry of an Order Authorizing the Retention and Employment of Cole Schotz P.C. as Co-Counsel for the Debtors Effective as of the Petition Date (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "273"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Verita Global's proof of mailing for the Cole Schotz supplemental conflicts declaration (Docket #273).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000031"
@@ -3935,11 +3964,13 @@
     "title": "Supplemental Certificate of Service of Heather Fellows re: Notice of Chapter 11 Bankruptcy Case (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/7/2026",
     "date_filed_iso": "2026-10-07",
-    "related": [],
+    "related": [
+      "83"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Additional proof-of-mailing for a prior filing.",
+    "summary": "Verita Global's proof of mailing confirming additional parties were served with notice of the Chapter 11 filing; supplements the certificate of service originally filed as docket #83.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261007000000000033"
@@ -3954,7 +3985,7 @@
     "source_list": "main",
     "category": "Committee",
     "substantive": true,
-    "summary": null,
+    "summary": "JPMorgan Chase, the ABL lender, formally served its written responses and objections to document requests from the Unsecured Creditors' Committee. This is a routine discovery step confirming the Committee is actively investigating the pre-bankruptcy lending relationships and liens as part of its standard duties — the actual substance of the responses isn't filed publicly.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000003"
@@ -3965,11 +3996,13 @@
     "title": "Objection to Notice of Cure Costs (Filed by Paradise Pillows Inc)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0252"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Paradise Pillows Inc., a vendor Noble has a supply agreement with, objects that the Debtors' cure-cost notice (for contracts that might be handed to the buyer of Noble's assets) lists $0 owed to Paradise, when Paradise says it's actually owed $78,260 per its already-filed proof of claim. This is a dispute over how much a buyer would have to pay Paradise to take over its contract — not unusual in an asset sale, but it means the 'cure cost' schedule isn't final yet for this vendor.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000007"
@@ -3980,11 +4013,13 @@
     "title": "Objection of Airgas USA, LLC to Debtors’ Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases in Connection with Sale of Substantially All Assets (Filed by Airgas USA, LLC)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0252"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Airgas, which supplies industrial/medical gases and welding equipment to Noble under several regional agreements, objects that it isn't actually a party to the specific 'Distribution Agreement' the Debtors listed, and in any case disputes the $0 cure amount — Airgas says its books show about $62,000 owed across its North, South, West and Central divisions, plus accruing interest and fees. Airgas also wants assurance any buyer taking over its contracts can actually perform and will cover indemnification obligations.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000008"
@@ -3995,11 +4030,13 @@
     "title": "[Sealed] Application/Motion to Employ/Retain Brown Rudnick LLP as Counsel to the Official Committee of Unsecured Creditors [Hearing scheduled for 10/28/2026 at 11:00 AM at US Bankruptcy Court, 824 Market St., 3rd Fl., Courtroom #7, Wilmington, Delaware. Objections due by 10/21/2026.] (Filed by Committee of Unsecured Creditors) (No Image Available)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0289"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "This is the sealed/restricted-access version of the Creditors' Committee's application to formally retain Brown Rudnick LLP as its lead counsel (see the public redacted version at Docket #289 for details); it was filed under seal alongside the public copy per standard practice for documents containing unredacted billing or personal information.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000010"
@@ -4010,11 +4047,13 @@
     "title": "[Sealed] Application/Motion to Employ/Retain Morris James LLP as Co-Counsel to the Official Committee of Unsecured Creditors [Hearing scheduled for 10/28/2026 at 11:00 AM at US Bankruptcy Court, 824 Market St., 3rd Fl., Courtroom #7, Wilmington, Delaware. Objections due by 10/21/2026.] (Filed by Committee of Unsecured Creditors) (No Image Available)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0291"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed version of the Committee's application to retain Morris James LLP as its Delaware co-counsel (see the public redacted version at Docket #291 for details).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000011"
@@ -4029,7 +4068,7 @@
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed version of the Committee's application to retain FTI Consulting, Inc. as its financial advisor (see the public redacted version at Docket #292 for details).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000012"
@@ -4044,7 +4083,7 @@
     "source_list": "main",
     "category": "Committee",
     "substantive": true,
-    "summary": null,
+    "summary": "Blue Torch Finance, the Term Loan agent, formally served its written responses and objections to the Committee's document requests — the same kind of routine discovery step JPMorgan took in Docket #282, here from the other major secured lender.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000013"
@@ -4055,11 +4094,13 @@
     "title": "(Redacted) Application for Order Authorizing the Employment and Retention of Brown Rudnick LLP as Counsel for the Official Committee of Unsecured Creditors of Noble Supply & Logistics, LLC, et al., Nunc Pro Tunc to September 16, 2026 (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0285"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The Unsecured Creditors' Committee formally asks the court to approve Brown Rudnick LLP as its lead bankruptcy counsel, retroactive to September 16, 2026 (when the Committee first selected the firm). Brown Rudnick will handle the Committee's litigation and overall strategy in the case; its lead partner's current hourly rate is $1,775. A hearing on the application is set for October 28, 2026, with objections due October 21, 2026.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000016"
@@ -4070,11 +4111,16 @@
     "title": "Limited Objection and Reservation of Rights of J.F. Taylor, Inc. to Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases (Filed by J.F. Taylor, Inc.)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0252",
+      "0251",
+      "0219",
+      "0091"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "J.F. Taylor, a defense-training-systems supplier, agrees in principle to let its distribution agreement (with debtor Federal Resources Supply Company) be assumed and handed to a buyer, but objects to the Debtors' proposed cure amount of $2,599,675.06, calling it correct as of today but likely to grow since the sale hasn't closed yet and J.F. Taylor keeps shipping product in the meantime. It's asking that any sale order guarantee payment of whatever additional invoices accrue before closing.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000017"
@@ -4085,11 +4131,13 @@
     "title": "(Redacted) Application for Entry of an Order Authorizing the Retention and Employment of Morris James LLP as Co-Counsel to the Official Committee of Unsecured Creditors Effective as of September 16, 2026 (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0286"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The Committee asks the court to approve Morris James LLP as its Delaware co-counsel (working alongside lead counsel Brown Rudnick), effective September 16, 2026. Same hearing date (October 28) and objection deadline (October 21) as the Committee's other professional-retention applications filed the same day.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000019"
@@ -4104,7 +4152,7 @@
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The Committee asks the court to approve FTI Consulting, Inc. as its financial advisor, effective September 16, 2026. FTI will handle the financial/accounting analysis side of the Committee's work (reviewing Noble's books, the sale process, and recoveries for unsecured creditors) alongside Brown Rudnick and Morris James as counsel.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000020"
@@ -4112,14 +4160,16 @@
   {
     "docket_no": "0293",
     "pdf_href": "/noble/document/2611369261008000000000022",
-    "title": "Notice of Rescheduled Omnibus Hearing Time [Hearing Originally Scheduled for October 28, 2026 at 11:00 a.m. has been rescheduled. Hearing scheduled for 10/28/2026 at 02:00 PM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware] (Filed by Noble Supply & Logistics, LLC)",
+    "title": "Notice of Rescheduled Omnibus Hearing Time [Hearing Originally Scheduled for October 28, 2026 at 11:00 a.m. has been rescheduled. Hearing scheduled for 10/28/2026 at 02:00 PM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware]",
     "date_filed": "10/8/2026",
     "date_filed_iso": "2026-10-08",
-    "related": [],
+    "related": [
+      "0271"
+    ],
     "source_list": "main",
     "category": "Hearing / Court Admin",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "The October 28, 2026 omnibus hearing (which covers the Committee's professional-retention applications above, and the DLA adversary proceeding) was pushed back two hours, from 11:00 a.m. to 2:00 p.m. Eastern — same date, no substantive change.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261008000000000022"
@@ -4130,11 +4180,15 @@
     "title": "Amended Notice of Hearing on the Official Committee of Unsecured Creditors Professionals' Retention Applications [Hearing scheduled for 10/28/2026 at 02:00 PM at US Bankruptcy Court, 824 Market St., 3rd Fl., Courtroom #7, Wilmington, Delaware. Objections due by 10/21/2026.] (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "292",
+      "291",
+      "289"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Notice confirming the hearing date (October 28, 2026) and objection deadline (October 21, 2026) for the creditors' committee's applications to hire its three professionals — Brown Rudnick LLP (lead counsel), Morris James LLP (co-counsel), and FTI Consulting (financial advisor). This date was already reflected on the dashboard's calendar as an Omnibus Hearing; this filing just confirms these specific retention applications will be considered at it.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000001"
@@ -4145,11 +4199,13 @@
     "title": "Response and Reservation of Rights of Weatherproofing Technologies, Inc. to Debtors' Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases in Connection with Sale of Substantially All Assets (Filed by Weatherproofing Technologies, Inc.)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "252"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Weatherproofing Technologies (WTI), which Noble's own bankruptcy schedules already list as being owed $4,093,002.56, filed a response reserving its rights regarding the cure notice — flagging that it expects any cure amount tied to its contract to match that already-acknowledged balance before the contract can be assigned to a buyer.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000006"
@@ -4157,14 +4213,18 @@
   {
     "docket_no": "0296",
     "pdf_href": "/noble/document/2611369261009000000000012",
-    "title": "Objection Objection of JDI Integrations, LLC to Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases in Connection with Sale of Substantially All Assets (related document(s)[91], [219], [252]) Filed by JDI Integrations, LLC (Attachments: # (1) Exhibit A # (2) Certificate of Service) (Heilman, Leslie)",
+    "title": "Objection of JDI Integrations, LLC to Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases in Connection with Sale of Substantially All Assets (Filed by JDI Integrations, LLC)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "252",
+      "219",
+      "91"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "JDI Integrations, a defense-project supplier, objects that Noble's proposed cure amount of $2,851,753.00 is far short of the $3,267,532.50 JDI says it's actually owed (including a finance charge for late payment). JDI wants the correct, higher amount fixed before its contract can be handed off to a buyer.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000012"
@@ -4172,14 +4232,17 @@
   {
     "docket_no": "0297",
     "pdf_href": "/noble/document/2611369261009000000000015",
-    "title": "Objection UNITED STATES OBJECTION TO NOTICE OF CURE COSTS AND POTENTIAL ASSUMPTION AND ASSIGNMENT OF EXECUTORY CONTRACTS AND UNEXPIRED LEASES IN CONNECTION WITH SALE OF SUBSTANTIALLY ALL ASSETS (related document(s)[219], [252]) Filed by UNITED STATES OF AMERICA (Attachments: # (1) Exhibit A # (2) Exhibit B # (3) Proposed Form of Order # (4) Certificate of Service) (Lamb, Ryan)",
+    "title": "United States’ Objection to Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases in Connection with Sale of Substantially All Assets (Filed by United States of America)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "252",
+      "219"
+    ],
     "source_list": "main",
-    "category": "Sale Process",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The U.S. government formally objects to any sale-related order that would let Noble transfer federal contracts (including DLA contracts) to a buyer without the government's written consent, or that would lock in \"cure\" payoff amounts for those contracts without the government's agreement. The U.S. asks the court to strike all federal agency contracts from Noble's cure notice entirely and make clear that amounts owed on those contracts remain subject to the government's own rights, including offset. This is a forceful signal that the government, Noble's largest former customer, intends to control the terms of any sale involving its contracts rather than defer to the standard bankruptcy sale process.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000015"
@@ -4194,7 +4257,7 @@
     "source_list": "main",
     "category": "Committee",
     "substantive": true,
-    "summary": null,
+    "summary": "A notice confirming that Alter Domus (collateral agent for the subordinated noteholders) formally responded to the creditors' committee's discovery requests seeking documents. The actual responses/objections were served privately by email, not filed publicly, so the substance isn't visible on the docket — this entry just confirms the committee's investigation into the subordinated noteholders is actively underway.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000016"
@@ -4205,11 +4268,13 @@
     "title": "Debtors’ Objection to Motion of Midwest Pressure Systems, Inc. for Allowance and Payment of Administrative Expense Claim (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "248"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Claims / Bar Date",
     "substantive": true,
-    "summary": null,
+    "summary": "A vendor, Midwest Pressure Systems, asked to be paid $39,530.26 immediately and in full, ahead of other creditors, for goods delivered right before the bankruptcy filing. Noble is fighting that request, arguing the goods were drop-shipped straight to a U.S. Air Force base under a DLA order and Noble itself never physically received them — so, Noble argues, the claim doesn't legally qualify for priority payment and Midwest should instead be treated as an ordinary unsecured creditor like everyone else.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000017"
@@ -4220,11 +4285,13 @@
     "title": "Objection of Teledyne to Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases in Connection with Sale of Substantially All Assets (Filed by FLIR Unmanned Aerial Systems ULC, FLIR Unmanned Aerial Systems AS, Teledyne FLIR Defense, LLC)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "252"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Teledyne (FLIR), a drone/sensor supplier owed over $1,017,304 as of the filing date, objects that Noble's cure notice doesn't clearly match the actual contracts on Teledyne's books, so Teledyne can't tell which agreements Noble actually intends to hand off to a buyer. It is asking the court to make Noble clarify the contracts and fix the correct payoff amount before any assignment is approved.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000020"
@@ -4235,11 +4302,16 @@
     "title": "Limited Objection and Reservation of Rights of Rae Systems, Inc. to Notice of Cure Costs and Potential Assumption and Assignment of Executory Contracts and Unexpired Leases (Filed by Rae Systems, Inc.)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "252",
+      "251",
+      "219",
+      "91"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Rae Systems, a vendor whose contract Noble may assume and transfer to a buyer, says the cure amount Noble proposed to pay ($1,037,048.50) is too low — Rae says the real balance owed is $1,066,345.07. It is not blocking the sale outright, but wants the correct, higher payoff amount fixed before any contract gets assigned to a new owner.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000022"
@@ -4250,11 +4322,13 @@
     "title": "Certificate of Service of Tran K. Le re: Notice of Rescheduled Omnibus Hearing Time (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "293"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine proof-of-mailing filing confirming parties were served notice that an omnibus hearing time was rescheduled.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000023"
@@ -4265,11 +4339,13 @@
     "title": "Supplemental Certificate of Service of Heather Fellows re: Notice of Chapter 11 Bankruptcy Case (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/9/2026",
     "date_filed_iso": "2026-10-09",
-    "related": [],
+    "related": [
+      "83"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Additional proof-of-mailing for a prior filing.",
+    "summary": "Routine proof-of-mailing filing by the claims agent confirming additional parties were served with the original bankruptcy notice.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261009000000000025"
@@ -4280,11 +4356,14 @@
     "title": "Supplemental Declaration of Robert Albergotti, Chief Transformation Officer of Noble Equity Holdings, LLC in Support of Debtors’ Motion for Entry of an Order Approving (I) Key Employee Retention Plan and (II) Key Executive Incentive Plan (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/12/2026",
     "date_filed_iso": "2026-10-12",
-    "related": [],
+    "related": [
+      "196",
+      "195"
+    ],
     "source_list": "main",
-    "category": "Professional Retention",
+    "category": "Employee / KERP",
     "substantive": true,
-    "summary": null,
+    "summary": "A supplemental declaration from Noble's Chief Transformation Officer further argues that the employees covered by the proposed Key Employee Retention Plan (KERP) and Key Executive Incentive Plan (KEIP) are not company \"insiders\" under bankruptcy law — a distinction that matters because bonus plans for insiders face much stricter court scrutiny than plans for ordinary employees. He walks through each participant group (finance/payroll, IT, supply chain and warehouse operations, federal contract management, Noble IQ, and regional site management) and argues none of them sit on the board, set company-wide policy, or control the sale, financing, or restructuring decisions — they just carry out management's directives in their day-to-day jobs.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261012000000000004"
@@ -4295,11 +4374,15 @@
     "title": "Notice of Filing Revised Redacted Exhibits to Debtors’ Motion for Entry of an Order Approving (I) Key Employee Retention Plan and (II) Key Executive Incentive Plan (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/12/2026",
     "date_filed_iso": "2026-10-12",
-    "related": [],
+    "related": [
+      "250",
+      "249",
+      "195"
+    ],
     "source_list": "main",
-    "category": "Professional Retention",
+    "category": "Employee / KERP",
     "substantive": true,
-    "summary": null,
+    "summary": "Debtors filed revised, further-redacted versions of the sealed KERP participant list (Exhibit B) and KEIP participant list (Exhibit C) that were originally attached to the redacted version of the KERP/KEIP motion (Docket #250). The underlying participant names and compensation figures remain sealed from the public docket; only the redaction itself was updated.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261012000000000006"
@@ -4307,14 +4390,17 @@
   {
     "docket_no": "0306",
     "pdf_href": "/noble/document/2611369261012000000000007",
-    "title": "Certificate of No Objection Regarding Debtors' Application for Entry of an Order Authorizing the Retention and Employment of Cole Schotz P.C. as Co-Counsel for the Debtors Effective as of the Petition Date (related document(s)[199], [200]) Filed by Noble Supply & Logistics, LLC. (Dougherty, Jack)",
+    "title": "Certificate of No Objection Regarding Debtors’ Application for Entry of an Order Authorizing the Retention and Employment of Cole Schotz P.C. as Co-Counsel for the Debtors Effective as of the Petition Date (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/12/2026",
     "date_filed_iso": "2026-10-12",
-    "related": [],
+    "related": [
+      "200",
+      "199"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "No objections were filed by the October 9 deadline to Debtors' application to retain Cole Schotz P.C. as Delaware co-counsel (working alongside lead counsel Kirkland & Ellis), so counsel is asking the court to enter the retention order without needing a hearing.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261012000000000007"
@@ -4325,11 +4411,14 @@
     "title": "Certificate of No Objection Regarding Debtors’ Application for Authorization to Employ and Retain Kurtzman Carson Consultants, LLC dba Verita Global as Administrative Advisor Effective as of the Petition Date (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/12/2026",
     "date_filed_iso": "2026-10-12",
-    "related": [],
+    "related": [
+      "204",
+      "203"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "No objections were filed to Debtors' application to retain claims and noticing agent Kurtzman Carson Consultants (dba Verita Global) as the case's administrative advisor, so counsel is asking the court to enter that retention order as well.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261012000000000008"
@@ -4340,11 +4429,13 @@
     "title": "Certification of Counsel Regarding Order (I) Establishing Bar Dates for Filing Claims Against the Debtors and (II) Approving Form and Manner of Notice Thereof (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/12/2026",
     "date_filed_iso": "2026-10-12",
-    "related": [],
+    "related": [
+      "262"
+    ],
     "source_list": "main",
     "category": "Claims / Bar Date",
     "substantive": true,
-    "summary": null,
+    "summary": "After informal comments from the U.S. Trustee, the Debtors agreed to a revised bar-date order, and it drew no objections by the October 9 deadline. Counsel is asking the court to enter the revised order at the Oct 16 omnibus hearing. The deadlines themselves are unchanged from the original proposal: November 16, 2026 at 5:00pm ET for most creditors to file proof-of-claim forms, and February 26, 2027 at 5:00pm ET for government agencies.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261012000000000009"
@@ -4355,11 +4446,14 @@
     "title": "Order (I) Establishing Bar Dates for Filing Claims Against the Debtors and (II) Approving Form and Manner of Notice Thereof",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "262",
+      "308"
+    ],
     "source_list": "main",
     "category": "Claims / Bar Date",
     "substantive": true,
-    "summary": null,
+    "summary": "The court entered the bar date order: most creditors must file a proof of claim by November 16, 2026 at 5:00pm ET (the General Bar Date), and government agencies have until February 26, 2027 at 5:00pm ET (the Governmental Bar Date). These dates are unchanged from the proposed order — they drew no objections.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000003"
@@ -4370,11 +4464,15 @@
     "title": "Order Authorizing the Retention and Employment of Cole Schotz P.C. as Co-Counsel for the Debtors Effective as of the Petition Date",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "199",
+      "200",
+      "306"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court approved Cole Schotz P.C.'s retention as Delaware co-counsel to the Debtors, effective as of the August 30, 2026 petition date. No objections were filed.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000004"
@@ -4385,11 +4483,14 @@
     "title": "Order Authorizing the Debtors to Employ and Retain Kurtzman Carson Consultants, LLC dba Verita Global as Administrative Advisor Effective as of the Petition Date",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "204",
+      "307"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court approved Verita Global's retention in the broader 'Administrative Advisor' role (schedules/SOFA assistance, solicitation, balloting, claims reconciliation) in addition to its existing claims-and-noticing-agent role. No objections were filed.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000005"
@@ -4397,14 +4498,14 @@
   {
     "docket_no": "0312",
     "pdf_href": "/noble/document/2611369261013000000000012",
-    "title": "Notice of Appearance. Filed by Anduril Industries, Inc.. (Attachments: # (1) Certificate of Service) (Donilon, Gregory)",
+    "title": "Notice of Appearance and Request for Service of Papers Pursuant to Fed. R. Bankr. P. 2002 by Steptoe LLP and Stevens & Lee, P.C. on Behalf of Anduril Industries, Inc. (Filed by Anduril Industries, Inc.)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
     "related": [],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "A law firm formally notifying the court it represents a creditor or party in interest in the case — procedural, but can signal which parties are actively watching the case.",
+    "summary": "Anduril Industries, Inc. — a Noble vendor supplying goods for DLA contract performance — appeared in the case through counsel Steptoe LLP and Stevens & Lee, P.C.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000012"
@@ -4415,11 +4516,13 @@
     "title": "Limited Objection and Reservation of Rights of Anduril Industries, Inc. to the Debtors’ Assumption and Assignment of Executory Contracts and Proposed Cure Amounts (Filed by Anduril Industries, Inc.)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "252"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Anduril Industries objected to the Debtors' cure-cost notice, saying its $27.2 million purchase order supplying goods for a DLA contract was left off the list entirely. Anduril says it has already invoiced $4.7 million for delivered goods and reserves rights to another $5.4 million under a second, related purchase order. Anduril isn't opposing a sale — it's asking the court to make sure its contract (and the amounts Noble owes it) are actually accounted for before any assumption and assignment goes through.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000013"
@@ -4434,7 +4537,7 @@
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "An out-of-state attorney asking the Delaware court for permission to appear in this case.",
+    "summary": "Routine request to admit an out-of-state attorney to represent Anduril Industries.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000014"
@@ -4449,7 +4552,7 @@
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "An out-of-state attorney asking the Delaware court for permission to appear in this case.",
+    "summary": "Routine request to admit an out-of-state attorney to represent Anduril Industries.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000015"
@@ -4462,9 +4565,9 @@
     "date_filed_iso": "2026-10-13",
     "related": [],
     "source_list": "main",
-    "category": "Professional Retention",
+    "category": "Employee / KERP",
     "substantive": true,
-    "summary": null,
+    "summary": "Procedural filing asking the court to enter a companion order that keeps the names and compensation figures of KERP/KEIP bonus-plan participants sealed from the public docket (only the general plan terms, not individual participant identities, are public).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000016"
@@ -4475,11 +4578,15 @@
     "title": "Certification of Counsel Regarding Order Pursuant to Sections 363(b) and 503(c) of the Bankruptcy Code Approving Key Employee Retention Plan and Key Executive Incentive Plan (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "195",
+      "250",
+      "304"
+    ],
     "source_list": "main",
-    "category": "Professional Retention",
+    "category": "Employee / KERP",
     "substantive": true,
-    "summary": null,
+    "summary": "With the objection deadline passed and informal comments from the U.S. Trustee and the Creditors' Committee now resolved, the Debtors are asking the court to enter a revised order approving the KERP (retention bonuses for rank-and-file employees) and KEIP (incentive bonuses for executives). No party opposes entry.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000018"
@@ -4494,7 +4601,7 @@
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "A further declaration supporting Portage Point's (Triple P TRS's) retention to provide Robert Albergotti as Chief Transformation Officer and additional restructuring staff, addressing follow-up questions raised before the retention order can be entered.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000019"
@@ -4505,11 +4612,13 @@
     "title": "Order for Admission Pro Hac Vice of Timothy W. Walsh, Esq. (Steptoe LLP) to Represent Anduril Industries, Inc.",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "314"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Court granting an out-of-state attorney permission to appear in this case.",
+    "summary": "Court granted admission of out-of-state counsel for Anduril Industries.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000020"
@@ -4520,11 +4629,13 @@
     "title": "Order for Admission Pro Hac Vice of Joshua R. Taylor, Esq. (Steptoe LLP) to Represent Anduril Industries, Inc.",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "315"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Court granting an out-of-state attorney permission to appear in this case.",
+    "summary": "Court granted admission of out-of-state counsel for Anduril Industries.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000021"
@@ -4535,11 +4646,13 @@
     "title": "Order Authorizing Debtors to Redact and File Under Seal Certain Information in the Debtors’ Motion for an Order (I) Approving Key Employee Retention Plans and (II) Key Executive Incentive Plan",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "316"
+    ],
     "source_list": "main",
-    "category": "Professional Retention",
+    "category": "Employee / KERP",
     "substantive": true,
-    "summary": null,
+    "summary": "The court entered the companion sealing order, keeping KERP/KEIP participant names and compensation figures confidential while the underlying bonus-plan motion is decided.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000022"
@@ -4550,11 +4663,13 @@
     "title": "Certification of Counsel Regarding Order (I) Authorizing the Debtors to Employ and Retain Triple P TRS, LLC to Provide (A) Robert Albergotti as Chief Transformation Officer and (B) Additional Personnel, as Necessary, Effective as of the Petition Date and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "318"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Asking the court to enter the order approving Portage Point/Triple P TRS's retention to provide the Chief Transformation Officer and additional restructuring personnel, now that the supplemental declaration has addressed open questions.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000023"
@@ -4565,11 +4680,14 @@
     "title": "Second Supplemental Declaration of Patrick J. Nash, Jr. in Support of the Debtors’ Application for Entry of an Order Authorizing the Retention and Employment of Kirkland & Ellis LLP and Kirkland & Ellis International LLP as Attorneys for the Debtors and Debtors in Possession Effective as of August 30, 2026 (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "197",
+      "198"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "A second supplemental declaration from lead debtor counsel (Kirkland & Ellis) addressing further disclosure questions needed before the court will approve the firm's retention as the Debtors' lead bankruptcy counsel.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000026"
@@ -4580,11 +4698,16 @@
     "title": "Certification of Counsel Regarding Order Authorizing the Retention and Employment of Kirkland & Ellis LLP and Kirkland & Ellis International LLP as Attorneys for the Debtors and Debtors in Possession Effective as of August 30, 2026 (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "197",
+      "198",
+      "264",
+      "323"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "With disclosure questions resolved, the Debtors are asking the court to enter the order finally approving Kirkland & Ellis's retention as lead bankruptcy counsel, effective as of the petition date.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000027"
@@ -4592,14 +4715,14 @@
   {
     "docket_no": "0325",
     "pdf_href": "/noble/document/2611369261013000000000028",
-    "title": "Motion of the United States for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders [ Hearing scheduled for 10/28/2026 at 02:00 PM at US Bankruptcy Court, 824 Market St., 3rd Fl., Courtroom #7, Wilmington, Delaware. Objections due by 10/21/2026.] (Filed by United States of America)",
+    "title": "Motion of the United States for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
     "related": [],
     "source_list": "main",
-    "category": "First Day / Case Admin",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "DLA asked the court to lift the automatic stay so it can formally terminate about 21,000 delivery orders under Noble's largely-expired FSG-53, SOE and MRO contracts (most already past-due or ones Noble already agreed to wind down) and end Noble's obligation to staff an on-site Army depot supply store. DLA isn't trying to claw money back here — it says none of these orders were ever completed or paid for, and it just wants to formally close them out so it can source supplies elsewhere and free up obligated funds. Hearing set for October 28, 2026 at 2:00pm ET; objections due October 21.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000028"
@@ -4610,11 +4733,15 @@
     "title": "Reservation of Rights of the Official Committee of Unsecured Creditors in Connection with the Debtors’ Cash Collateral Motion (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "13",
+      "73",
+      "218"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "Committee",
     "substantive": true,
-    "summary": null,
+    "summary": "The Unsecured Creditors' Committee says it's still negotiating the final form of the cash-collateral order and budget with the Debtors and the secured lenders, and is preserving its right to object at the October 16 final hearing if those talks don't resolve its concerns.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000029"
@@ -4622,14 +4749,27 @@
   {
     "docket_no": "0327",
     "pdf_href": "/noble/document/2611369261013000000000030",
-    "title": "United States’ Motion for Entry of an Order (I) Granting Adequate Protection Under Sections 361, 363(e), and 553 of the Bankruptcy Code and (II) Granting Related Relief [Hearing scheduled for 10/28/2026 at 02:00 PM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware. Objections due by 10/21/2026.] (Filed by United States of America)",
+    "title": "United States’ Motion for Entry of an Order (I) Granting Adequate Protection Under Sections 361, 363(e), and 553 of the Bankruptcy Code and (II) Granting Related Relief",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "15",
+      "91",
+      "92",
+      "124",
+      "125",
+      "151",
+      "154",
+      "219",
+      "222",
+      "252",
+      "297",
+      "26-50885"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The United States wants a super-priority administrative claim and a reserve set aside from any sale proceeds to protect its right to offset money it says Noble owes the government, before the November 16 sale hearing. In making its case, the government disclosed that it has now partially unsealed two separate False Claims Act lawsuits against Noble (in New Mexico and Massachusetts federal courts) and says the total damages and penalties it believes Noble owes under those suits are no less than $266 million — far larger than the roughly $8 million in disputed amounts previously discussed in the DLA payment-freeze fight. The government also disclosed it formally objected on October 9 to Noble's plan to assume and assign over 100 federal contracts at a $0 cure cost, since it never consented to that.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000030"
@@ -4640,11 +4780,15 @@
     "title": "United States’ Reservation of Rights (Filed by United States of America)",
     "date_filed": "10/13/2026",
     "date_filed_iso": "2026-10-13",
-    "related": [],
+    "related": [
+      "13",
+      "188",
+      "218"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Financing / Cash Collateral",
     "substantive": true,
-    "summary": null,
+    "summary": "Ahead of the October 16 final cash collateral hearing, the government argues the proposed order goes too far by declaring the secured lenders' liens not subject to \"setoff and recoupment\" — it says a lender can't acquire greater rights than the Debtors had, and the Debtors' own defenses/recoupment rights against the government survive regardless of the lenders' lien priority.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261013000000000031"
@@ -4655,11 +4799,13 @@
     "title": "Notice of Deadlines for Filing Proofs of Claim Against the Debtors [Proofs of Claims due by 11/16/2026] (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "309"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Claims / Bar Date",
     "substantive": true,
-    "summary": null,
+    "summary": "This is the formal mailed notice implementing the bar date order entered October 13 (Docket #309): most creditors must get a proof of claim form to the claims agent, Verita Global, by November 16, 2026 at 5:00pm ET (the “General Bar Date”), or they can be permanently barred from collecting on that claim or voting on a future plan. Government agencies get until February 26, 2027. People who already filed a claim, or who agree with how their claim is listed on Noble's own schedules, generally don't need to file anything.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000002"
@@ -4670,11 +4816,16 @@
     "title": "Certificate of Service of Jeffrey R. Waxman re: Documents Served on or Before October 9, 2026 (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "294",
+      "292",
+      "291",
+      "289"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Committee",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine proof-of-service filing by the Creditors' Committee's Delaware counsel (Morris James) confirming service of its professional-retention papers.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000003"
@@ -4685,11 +4836,19 @@
     "title": "Certification of Counsel Regarding Third Interim Order (I) Authorizing Limited Use of Cash Collateral, (II) Granting Adequate Protection Liens and Superpriority Administrative Expense Claims to Prepetition Secured Parties, (III) Modifying the Automatic Stay, (IV) Scheduling a Final Hearing, and (V) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "338",
+      "328",
+      "326",
+      "218",
+      "73",
+      "14",
+      "13"
+    ],
     "source_list": "main",
     "category": "Financing / Cash Collateral",
     "substantive": true,
-    "summary": null,
+    "summary": "Debtors' counsel tells the court that after the Committee's and the U.S. government's reservations of rights (Docket #326, #328) on the proposed final cash-collateral order, all parties — the Committee, the secured lenders, the U.S. Trustee, and the United States — have now agreed on a revised “Third Interim” cash-collateral order (attached) that resolves those objections, and asks the court to enter it without a hearing.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000006"
@@ -4703,8 +4862,8 @@
     "related": [],
     "source_list": "main",
     "category": "Committee",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "Procedural notice confirming the Debtors served written responses/objections to the Creditors' Committee's document requests (discovery) on October 9, 2026. The substance of the responses isn't filed publicly.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000009"
@@ -4715,11 +4874,13 @@
     "title": "Certificate of Service of Tran K. Le re: Debtors' Objection to Motion of Midwest Pressure Systems, Inc. for Allowance and Payment of Administrative Expense Claim (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "299"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Claims / Bar Date",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine proof-of-service filing by the claims agent confirming service of the Debtors' objection to a vendor's (Midwest Pressure Systems) request for immediate payment of a ~$39,530 administrative claim.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000010"
@@ -4730,11 +4891,14 @@
     "title": "Certificate of Service of Tran K. Le re: 1) Supplemental Declaration of Robert Albergotti, Chief Transformation Officer of Noble Equity Holdings, LLC in Support of Debtors' Motion for Entry of an Order Approving (I) Key Employee Retention Plan and (II) Key Executive Incentive Plan; and 2) Notice of Filing Revised Redacted Exhibits to Debtors' Motion for Entry of an Order Approving (I) Key Employee Retention Plan and (II) Key Executive Incentive Plan (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "305",
+      "304"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Employee / KERP",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine proof-of-service filing by the claims agent confirming service of supplemental KERP/KEIP declaration materials.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000011"
@@ -4745,11 +4909,18 @@
     "title": "Certificate of Service of Tran K. Le re: Documents Served on October 13, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "323",
+      "321",
+      "318",
+      "311",
+      "310",
+      "309"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Other / General",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine proof-of-service filing by the claims agent confirming service of the batch of orders and declarations entered/filed on October 13 (bar date order, Cole Schotz and Verita retention orders, Triple P and Kirkland supplemental papers, seal order).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000012"
@@ -4760,11 +4931,14 @@
     "title": "Order Pursuant to Sections 363(b) and 503(c) of the Bankruptcy Code Approving Key Employee Retention Plan and Key Executive Incentive Plan",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "317",
+      "195"
+    ],
     "source_list": "main",
-    "category": "Professional Retention",
+    "category": "Employee / KERP",
     "substantive": true,
-    "summary": null,
+    "summary": "The court approved Noble's Key Employee Retention Plan (KERP) and Key Executive Incentive Plan (KEIP) in full, with one tweak: each KEIP participant will also get a payout equal to 100% of their target bonus when a chapter 11 plan takes effect, on top of the sale/collection milestone payouts already in the plan (though each person can still only collect one incentive award total, not both). These retention/incentive payments get priority as administrative expenses, meaning they get paid before most other claims.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000014"
@@ -4775,11 +4949,15 @@
     "title": "Order Authorizing the Retention and Employment of Kirkland & Ellis LLP and Kirkland & Ellis International LLP as Attorneys for the Debtors and Debtors in Possession Effective as of August 30, 2026",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "324",
+      "198",
+      "197"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court formally approved Kirkland & Ellis's retention as the Debtors' lead bankruptcy counsel, effective back to the August 30, 2026 petition date, after the U.S. Trustee's informal comments were addressed through supplemental disclosures. Kirkland will be paid under the normal fee-application process (sections 330/331 of the Bankruptcy Code), subject to court review.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000015"
@@ -4790,11 +4968,16 @@
     "title": "Third Interim Order (I) Authorizing Limited Use of Cash Collateral, (II) Granting Adequate Protection Liens and Superpriority Administrative Expense Claims to Prepetition Secured Parties, (III) Modifying the Automatic Stay, (IV) Scheduling a Final Hearing, and (V) Granting Related Relief",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "331",
+      "218",
+      "73",
+      "13"
+    ],
     "source_list": "main",
     "category": "Financing / Cash Collateral",
     "substantive": true,
-    "summary": null,
+    "summary": "Rather than hold the contested final cash-collateral hearing that had been set for October 16, the court entered this consent “Third Interim” order resolving the Committee's and the U.S. government's objections. It pushes the real Final Hearing on cash collateral out to November 16, 2026 at 1:00pm ET (objections due November 9), while letting Noble keep using the lenders' cash collateral under the existing budget in the meantime. The order also resets the case's lender-imposed milestones: Noble must now file a combined disclosure statement and liquidation plan by November 14, get a sale-approval order by November 16, and close a sale of all/substantially all assets by December 18, 2026 — all roughly a month later than the schedule set back in September. Crucially, the U.S. government's setoff and recoupment rights are expressly preserved and untouched by this order, which is exactly the issue it had reserved rights over.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000016"
@@ -4805,11 +4988,16 @@
     "title": "Order (I) Authorizing the Debtors to Employ and Retain Triple P TRS, LLC to Provide (A) Robert Albergotti as Chief Transformation Officer and (B) Additional Personnel, as Necessary, Effective as of the Petition Date and (II) Granting Related Relief",
     "date_filed": "10/14/2026",
     "date_filed_iso": "2026-10-14",
-    "related": [],
+    "related": [
+      "322",
+      "318",
+      "202",
+      "201"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court approved the retention of Triple P TRS, LLC (an affiliate of investment bank Portage Point Partners) to continue providing Robert Albergotti as Chief Transformation Officer and other needed personnel, effective back to the petition date. The order comes with guardrails typical of these CTO/restructuring-officer engagements: Portage Point can't also act as an investor/acquirer or in other conflicting roles in the case, must file monthly fee and staffing reports, can't seek a success fee without a later court reasonableness review, and is barred from investing in Noble or any buyer of Noble for three years after the engagement ends.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000017"
@@ -4822,9 +5010,9 @@
     "date_filed_iso": "2026-10-14",
     "related": [],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "The published running order of matters to be heard at an upcoming omnibus hearing.",
+    "summary": "The October 16 omnibus hearing was cancelled because every matter on its agenda got resolved by consent order on October 14 (cash collateral, KERP/KEIP, the Kirkland/Cole Schotz/Triple P/Verita retentions, and the bar date order) — except the Midwest Pressure Systems administrative-claim dispute, which was adjourned by agreement to the November 16, 2026 1:00pm hearing instead.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261014000000000018"
@@ -4832,14 +5020,14 @@
   {
     "docket_no": "0341",
     "pdf_href": "/noble/document/2611369261015000000000001",
-    "title": "Minute Sheet 341 Meeting Held and Continued Continued Meeting Held on October 14 and continued to October 21, 2026 at 10 a.m. Filed by U.S. Trustee. 341(a) meeting to be held on 10/21/2026 at 10:00 AM at Virtual Hearing: Refer to Notice of Zoom Hearing. (Casey, Linda)",
+    "title": "Minute Sheet re: 341 Meeting Held on October 14, 2026 at 10 a.m. and Continued to October 21, 2026 at 10 a.m. [341(a) meeting to be held on 10/21/2026 at 10:00 AM at Virtual Hearing: Refer to Notice of Zoom Hearing] (Filed by U.S. Trustee) (No Image Available)",
     "date_filed": "10/15/2026",
     "date_filed_iso": "2026-10-15",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Hearing / Court Admin",
     "substantive": true,
-    "summary": null,
+    "summary": "The Section 341 meeting of creditors — a routine first-look session where creditors can question a Noble representative under oath, run by the U.S. Trustee's office rather than the judge — convened on October 14, 2026 but was not finished. The U.S. Trustee's minute sheet continues it to October 21, 2026 at 10:00 a.m. ET via the same Zoom meeting.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000001"
@@ -4852,9 +5040,9 @@
     "date_filed_iso": "2026-10-15",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Hearing / Court Admin",
     "substantive": true,
-    "summary": null,
+    "summary": "Formal notice of the Zoom login details for the continued Section 341 creditors' meeting on October 21, 2026 at 10:00 a.m. ET — the same meeting referenced in the minute sheet above, now with full dial-in/video instructions and a reminder that joining by plain web browser may not work (the Trustee recommends downloading the Zoom app in advance).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000002"
@@ -4865,11 +5053,13 @@
     "title": "Request for Transcript of Hearing Held on October 8, 2026 Received (No Image Available)",
     "date_filed": "10/15/2026",
     "date_filed_iso": "2026-10-15",
-    "related": [],
+    "related": [
+      "0275"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "A request to the court reporter for a written transcript of a hearing.",
+    "summary": "A court reporter transcript request was received for the October 8, 2026 status hearing on Noble's motion to expedite summary judgment in its $18.96M DLA turnover adversary proceeding (related to Docket #275).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000006"
@@ -4880,11 +5070,17 @@
     "title": "Certificate of Service of Tran K. Le re: Documents Served on October 14, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/15/2026",
     "date_filed_iso": "2026-10-15",
-    "related": [],
+    "related": [
+      "0340",
+      "0339",
+      "0338",
+      "0337",
+      "0336"
+    ],
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Claims agent Verita Global's routine certificate confirming service of five prior filings (Docket #336-340) on the case's mailing list.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261015000000000007"
@@ -4895,11 +5091,15 @@
     "title": "Statement of the Issues to Be Presented on Appeal (Filed by United States of America)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0346",
+      "0263",
+      "0151"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The United States, on behalf of DLA, formally detailed the grounds for its appeal (Civil Action No. 26-cv-1279-UNA) of the September 18 ruling (Docket #151) that ordered DLA to turn over $6.43 million to Noble. The government argues the Bankruptcy Court erred by: ordering turnover through an emergency motion rather than a formal adversary proceeding as bankruptcy rules require; finding DLA's setoff rights adequately protected despite Noble's disputed, unmatured payables; and concluding DLA's administrative freeze on Noble's payments exceeded what the Supreme Court allowed in Citizens Bank of Maryland v. Strumpf. This doesn't change the underlying order (DLA already paid the $6.43 million and the appeal doesn't pause that), but it signals the government intends to keep fighting the ruling on the merits.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000005"
@@ -4910,11 +5110,14 @@
     "title": "Appellant’s Designation of the Items to be Included in the Record on Appeal and Local Rule 8009–1 Index (Filed by United States of America)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0345",
+      "0263"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The government filed a procedural index of the docket entries, hearing transcripts, and exhibits it wants included in the appellate record for its appeal of the September 18 order (Docket #151) requiring DLA to turn over $6.43 million to Noble. This is a standard administrative step in pursuing the appeal, not a new substantive ruling or argument.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000006"
@@ -4929,7 +5132,7 @@
     "source_list": "main",
     "category": "Routine",
     "substantive": false,
-    "summary": "Administrative confirmation that the court filing fee was paid.",
+    "summary": "Routine court-fee receipt ($199.00) tied to a Motion for Relief from the Automatic Stay filed around this date; the underlying motion itself isn't part of this docket entry.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000017"
@@ -4940,11 +5143,14 @@
     "title": "[Sealed] Declaration of Disinterestedness of Chess Consulting LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0349",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed counterpart to Chess Consulting LLC's disinterestedness declaration; not publicly viewable. See the redacted public version at Docket #349.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000008"
@@ -4955,11 +5161,14 @@
     "title": "(Redacted) Declaration of Disinterestedness of Chess Consulting LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0348",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Chess Consulting LLC, an expert firm based in Reston, VA, filed a disinterestedness declaration confirming no conflicting interests. Notably, the filing reveals why Noble retained the firm: to provide expert services supporting lead restructuring counsel Arnold & Porter Kaye Scholer in preparing Noble's Contract Disputes Act certified claim against the Defense Logistics Agency — concrete evidence Noble is actively building its case against DLA.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000009"
@@ -4970,11 +5179,14 @@
     "title": "[Sealed] Declaration of Disinterestedness of Integrate Consulting, LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0351",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed counterpart to Integrate Consulting, LLC's disinterestedness declaration; not publicly viewable. See the redacted public version at Docket #351.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000010"
@@ -4985,11 +5197,14 @@
     "title": "(Redacted) Declaration of Disinterestedness of Integrate Consulting, LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0350",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Integrate Consulting, LLC, based in Charleston, SC, filed a disinterestedness declaration confirming no conflicting interests; the firm has provided Noble information technology consulting services since 2019 and continues in that ordinary-course role during the bankruptcy.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000011"
@@ -5000,11 +5215,13 @@
     "title": "[Sealed] Declaration of Disinterestedness of Zucker Law Group LLP Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0353"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed counterpart to Zucker Law Group LLP's disinterestedness declaration; not publicly viewable. See the redacted public version at Docket #353.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000012"
@@ -5015,11 +5232,14 @@
     "title": "(Redacted) Declaration of Disinterestedness of Zucker Law Group LLP Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0352",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Zucker Law Group LLP, a Boston firm, filed a disinterestedness declaration confirming it holds no conflicting interests; the firm has provided Noble general legal services since November 2024 and continues in that ordinary-course role during the bankruptcy.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000013"
@@ -5030,11 +5250,14 @@
     "title": "[Sealed] Declaration of Disinterestedness of Arnold & Porter Kaye Scholer LLP Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0355",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed counterpart to Arnold & Porter Kaye Scholer LLP's disinterestedness declaration; not publicly viewable. See the redacted public version at Docket #355.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000014"
@@ -5045,11 +5268,14 @@
     "title": "(Redacted) Declaration of Disinterestedness of Arnold & Porter Kaye Scholer LLP Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0354",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Arnold & Porter Kaye Scholer LLP filed a disinterestedness declaration for a second, narrower ordinary-course engagement: providing Noble government-contracting and litigation services, a role it has filled since April 2026. This is separate from Arnold & Porter's other role in the case as counsel to Alter Domus (US) LLC, the agent for Noble's prepetition subordinated noteholders, and reinforces that Noble is staffing up its fight with the Defense Logistics Agency.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000015"
@@ -5060,11 +5286,15 @@
     "title": "Supplemental Declaration of Evan Gershbein in Support of (I) Debtors’ Application for Authorization to Employ and Retain Kurtzman Carson Consultants, LLC dba Verita Global as Claims and Noticing Agent Effective as of the Petition Date and (II) Debtors’ Application for Authorization to Employ and Retain Kurtzman Carson Consultants LLC as Administrative Advisor Effective as of the Petition Date (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/16/2026",
     "date_filed_iso": "2026-10-16",
-    "related": [],
+    "related": [
+      "0203",
+      "0043",
+      "0004"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Claims agent Verita Global filed a supplemental disclosure in support of its own court retention, revealing it is a party to a credit agreement under which funds and subsidiaries of Prudential Financial, Inc. act as lenders, with Alter Domus (US) LLC — the agent for Noble's prepetition subordinated noteholders — serving as administrative agent on that facility. Verita says this new connection doesn't change its conclusion that it remains a disinterested party with no conflicting interests in the case.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261016000000000016"
@@ -5075,11 +5305,14 @@
     "title": "Certificate of Service of Louisa A. Soulard re: 1) Statement of the Issues to be Presented on Appeal; and 2) Appellant’s Designation of the Items to be Included in the Record on Appeal and Local Rule 8009–1 Index (Filed by United States of America)",
     "date_filed": "10/19/2026",
     "date_filed_iso": "2026-10-19",
-    "related": [],
+    "related": [
+      "346",
+      "345"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Other / General",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine certificate of service confirming the United States served its Statement of the Issues to Be Presented on Appeal and its appellate record designation (Docket #345 and #346) — the government's filings laying out its appeal of the September 18 order requiring DLA to turn over $6.43 million to Noble. No new substantive content beyond what #345/#346 already disclosed.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261019000000000001"
@@ -5090,11 +5323,17 @@
     "title": "Certificate of Service of Tran K. Le re: Documents Served on October 16, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/19/2026",
     "date_filed_iso": "2026-10-19",
-    "related": [],
+    "related": [
+      "356",
+      "355",
+      "353",
+      "351",
+      "349"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Other / General",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine certificate of service from claims agent Verita Global confirming that certain documents filed on October 16, 2026 were served on parties in interest. No new substantive information.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261019000000000006"
@@ -5102,14 +5341,17 @@
   {
     "docket_no": "0359",
     "pdf_href": "/noble/document/2611369261020000000000011",
-    "title": "Certificate of Service of Andrew Henchen re: 1) Modified Form 410 Proof of Claim and 2) Notice of Deadlines for Filing Proofs of Claim Against the Debtors (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "title": "Certificate of Service re 1) Modified Form 410 Proof of Claim and 2) Notice of Deadlines for Filing Proofs of Claim Against the Debtors (related document(s)[309], [329]) Filed by Kurtzman Carson Consultants, LLC dba Verita Global. (Kass, Albert)",
     "date_filed": "10/20/2026",
     "date_filed_iso": "2026-10-20",
-    "related": [],
+    "related": [
+      "309",
+      "329"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Claims / Bar Date",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Verita Global (the claims agent) confirms it served the proof-of-claim form and the bar-date deadlines notice on creditors on October 16, 2026, by email and First-Class Mail.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261020000000000011"
@@ -5117,14 +5359,16 @@
   {
     "docket_no": "0360",
     "pdf_href": "/noble/document/2611369261020000000000012",
-    "title": "Affidavit of Publication of the Notice of Entry of Bar Date Order Establishing Deadlines for Filing of Proofs of Claim in The Wall Street Journal (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "title": "Affidavit of Publication of the Notice of Entry of Bar Date Order Establishing Deadlines for Filing of Proofs of Claim in the Wall Street Journal (related document(s)[309]) Filed by Kurtzman Carson Consultants, LLC dba Verita Global. (Kass, Albert)",
     "date_filed": "10/20/2026",
     "date_filed_iso": "2026-10-20",
-    "related": [],
+    "related": [
+      "309"
+    ],
     "source_list": "main",
     "category": "Claims / Bar Date",
     "substantive": true,
-    "summary": null,
+    "summary": "Verita Global filed proof that the bar-date notice ran as a legal notice in the Wall Street Journal on October 19, 2026, satisfying the publication requirement in the Bar Date Order (Docket #309). The notice restates the deadlines for filing proofs of claim: the General Bar Date is November 16, 2026 for most creditors, and the Governmental Bar Date is February 26, 2027 at 5:00pm ET for government units. No new deadlines or facts beyond what Docket #309 already established.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261020000000000012"
@@ -5132,14 +5376,14 @@
   {
     "docket_no": "0361",
     "pdf_href": "/noble/document/2611369261021000000000002",
-    "title": "Transcript regarding Hearing Held 10/08/2026 RE: Status Conference. Remote electronic access to the transcript is restricted until 1/19/2027. The transcript may be viewed at the Bankruptcy Court Clerk's Office. For information about how to obtain a transcript, call or Contact the Court Reporter/Transcriber, Reliable, at Telephone number (302) 654-8080. Notice of Intent to Request Redaction Deadline Due By 10/28/2026. Redaction Request Due By 11/12/2026. Redacted Transcript Submission Due By 11/23/2026. Transcript access will be restricted through 1/19/2027. (GNP)",
+    "title": "Transcript Regarding Hearing Held October 8, 2026 re: Status Conference [Transcript access will be restricted through 1/19/2027] (No Image Available)",
     "date_filed": "10/21/2026",
     "date_filed_iso": "2026-10-21",
     "related": [],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Official transcript of a hearing (access is typically restricted for a period after filing).",
+    "summary": "Court reporter's transcript of the October 8, 2026 status conference. Public access to the transcript itself is restricted until January 19, 2027 per standard court transcript rules; this entry is just the docketing notice.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000002"
@@ -5152,9 +5396,9 @@
     "date_filed_iso": "2026-10-21",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
-    "substantive": true,
-    "summary": null,
+    "category": "Hearing / Court Admin",
+    "substantive": false,
+    "summary": "Routine filing: counsel for creditor Oracle America, Inc. asks to be added to the case's notice list so it receives copies of future filings. Does not raise any substantive issue.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000017"
@@ -5165,11 +5409,13 @@
     "title": "Debtors’ Limited Objection to Motion of the United States for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders (Filed by Noble Supply & Logistics, LLC )",
     "date_filed": "10/21/2026",
     "date_filed_iso": "2026-10-21",
-    "related": [],
+    "related": [
+      "325"
+    ],
     "source_list": "main",
-    "category": "First Day / Case Admin",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble doesn't oppose the government's request to terminate contracts and delivery orders it hasn't yet performed, but objects to the government also trying to terminate orders Noble has already fully completed and in some cases already been paid for — Noble says those aren't \"executory\" contracts anymore and shouldn't be swept into the termination. Noble also objects to language in the government's proposed order that would try to force any future termination disputes into a specific legal process (the Contract Disputes Act) rather than letting the bankruptcy court decide the forum. Noble submitted its own revised proposed order removing the completed orders from the termination list.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000019"
@@ -5180,11 +5426,13 @@
     "title": "Reservation of Rights to Motion of the United States for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders (Filed by Thermo Fisher Scientific)",
     "date_filed": "10/21/2026",
     "date_filed_iso": "2026-10-21",
-    "related": [],
+    "related": [
+      "325"
+    ],
     "source_list": "main",
-    "category": "First Day / Case Admin",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Thermo Fisher Scientific (a Noble vendor that supplied goods ultimately shipped to the DLA) isn't taking a position on whether the government's contract-termination motion should be granted, but is formally preserving its own right to seek payment from Noble and/or the government for purchase orders it already processed and incurred costs on.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000020"
@@ -5195,11 +5443,14 @@
     "title": "Declaration of Robert Albergotti, Chief Transformation Officer of Noble Equity Holdings, LLC, in Support of Debtors’ Limited Objection to Motion of the United States for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/21/2026",
     "date_filed_iso": "2026-10-21",
-    "related": [],
+    "related": [
+      "325",
+      "363"
+    ],
     "source_list": "main",
-    "category": "First Day / Case Admin",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Supporting declaration from Noble's restructuring advisor (Portage Point) explaining the factual basis for Noble's objection (Docket #363): his team cross-checked the government's list of orders-to-be-terminated against Noble's own NetSuite records and found a number of orders where Noble had already shipped/delivered everything and in some cases already been paid — those are the orders Noble wants excluded from the termination.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000021"
@@ -5210,11 +5461,13 @@
     "title": "Debtors’ Objection to United States’ Motion for Entry of an Order (I) Granting Adequate Protection Under Sections 361, 363(e), and 553 of the Bankruptcy Code and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/21/2026",
     "date_filed_iso": "2026-10-21",
-    "related": [],
+    "related": [
+      "327"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble is asking the court to flatly deny the government's request for a $266 million superpriority claim and sale-proceeds reserve tied to its newly-disclosed False Claims Act allegations. Noble argues this is really just a second attempt at the same request the court already rejected in its September 18 order — that the government can't get adequate protection for a disputed claim without first proving it through a formal estimation proceeding. Noble also argues the government's only evidence for the $266 million figure is a thin, 3-page attorney declaration that names no specific fraudulent transaction and improperly relies on confidential settlement-negotiation statements, which aren't allowed as evidence. Bottom line: Noble is pushing back hard on the $266M claim as unsubstantiated, not conceding any of it.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000022"
@@ -5225,11 +5478,14 @@
     "title": "Reservation of Rights of the Official Committee of Unsecured Creditors to (I) the United States’ Motion for Entry of an Order Granting Adequate Protection Under Sections 361, 363(e), and 553 of the Bankruptcy Code and Granting Related Relief and (II) the United States’ Motion for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/21/2026",
     "date_filed_iso": "2026-10-21",
-    "related": [],
+    "related": [
+      "325",
+      "327"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "Committee",
     "substantive": true,
-    "summary": null,
+    "summary": "The official unsecured creditors' committee is formally preserving its right to weigh in further on both government motions (the DLA stay-relief motion and the $266M adequate protection motion) without yet taking a detailed substantive position of its own — a procedural placeholder rather than a new argument.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000023"
@@ -5242,9 +5498,9 @@
     "date_filed_iso": "2026-10-21",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
-    "substantive": true,
-    "summary": null,
+    "category": "First Day / Case Admin",
+    "substantive": false,
+    "summary": "Court record confirming the Section 341 meeting of creditors (where creditors can question company representatives under oath) was held and has concluded. No document image is available for this entry.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000025"
@@ -5259,7 +5515,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "The lead debtor's first full-month financial report (prior report covered only a 2-day stub period). Noble Supply & Logistics brought in $16.3M in cash receipts against $7.1M in disbursements for a $9.2M net cash increase, including a voluntary $2M paydown of its Blue Torch term loan. On paper it posted a $7.0M net loss for the month, driven mostly by interest expense, though the underlying operating business was roughly breakeven (gross profit of only $378K on $17.7M of revenue). Full-time headcount fell from 272 at filing to 252.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000026"
@@ -5274,7 +5530,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report. Its financial activity is consolidated at the Noble Supply & Logistics level.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000027"
@@ -5289,7 +5545,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000028"
@@ -5304,7 +5560,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000029"
@@ -5319,7 +5575,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "One of only three debtor entities (along with the lead debtor and Noble.com) with real financial activity to report this period. K.D. Analytical was modestly profitable on a stand-alone basis: $708K in cash receipts against $659K in disbursements, and $269K in net income on $1.5M of revenue.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000030"
@@ -5334,7 +5590,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000031"
@@ -5349,7 +5605,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000032"
@@ -5364,7 +5620,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000033"
@@ -5379,7 +5635,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble.com is a pure holding company (parent of the other debtor entities) with no cash activity or employees of its own. It shows a deeply negative net worth on paper because of how intercompany balances net out at the holding-company level, and posted a $1.3M net loss purely from amortization of a holding-company-level intangible asset.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000034"
@@ -5394,7 +5650,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000035"
@@ -5409,7 +5665,7 @@
     "source_list": "main",
     "category": "Financial Reporting",
     "substantive": true,
-    "summary": null,
+    "summary": "Routine monthly filing for this debtor subsidiary — reports no independent cash, assets, or operating activity (all $0), consistent with its first report.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261021000000000036"
@@ -5417,14 +5673,14 @@
   {
     "docket_no": "0380",
     "pdf_href": "/noble/document/2611369261022000000000002",
-    "title": "Notice of Appearance. Filed by Texas Comptroller of Public Accounts, Revenue Accounting Division. (Kirk, Jamie)",
+    "title": "Notice of Appearance and Request for Service of Notice and Pleadings by Jamie Kirk (Texas Attorney General's Office) on Behalf of Texas Comptroller of Public Accounts, Revenue Accounting Division (Filed by Texas Comptroller of Public Accounts, Revenue Accounting Division)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
     "related": [],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Other / General",
     "substantive": false,
-    "summary": "A law firm formally notifying the court it represents a creditor or party in interest in the case — procedural, but can signal which parties are actively watching the case.",
+    "summary": "The Texas Comptroller of Public Accounts (Revenue Accounting Division) filed a notice of appearance through the Texas Attorney General's Office, asking to receive copies of all filings and notices in the case.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000002"
@@ -5432,14 +5688,14 @@
   {
     "docket_no": "0381",
     "pdf_href": "/noble/document/2611369261022000000000003",
-    "title": "Certification of Counsel Filed by Texas Comptroller of Public Accounts, Revenue Accounting Division. (Kirk, Jamie)",
+    "title": "Government Attorney Certification (Filed by Texas Comptroller of Public Accounts, Revenue Accounting Division)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
     "related": [],
     "source_list": "main",
     "category": "Other / General",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "A formality required when a government attorney appears in a Delaware bankruptcy case: the Texas Assistant Attorney General certifies she is licensed and in good standing, so she can represent the Texas Comptroller and the Texas Workforce Commission in this case.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000003"
@@ -5447,14 +5703,17 @@
   {
     "docket_no": "0382",
     "pdf_href": "/noble/document/2611369261022000000000004",
-    "title": "[SEALED] Declaration of Disinterestedness of MELCHERS Rechtsanwalte Partnerschaftsgesellschaft mbB, Heidelberg, Germany, Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (related document(s)[217]) Filed by Noble Supply & Logistics, LLC. (Alberto, Justin)",
+    "title": "[Sealed] Declaration of Disinterestedness of MELCHERS Rechtsanwalte Partnerschaftsgesellschaft mbB, Heidelberg, Germany, Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (Filed by Noble Supply & Logistics, LLC) (No Image Availalble)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0383",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble filed a sealed declaration showing that MELCHERS Rechtsanwälte, a Heidelberg, Germany law firm, qualifies as a disinterested \"ordinary course\" professional. The public (redacted) version, Docket #383, explains what the firm is actually doing for Noble: see that entry.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000004"
@@ -5462,14 +5721,17 @@
   {
     "docket_no": "0383",
     "pdf_href": "/noble/document/2611369261022000000000005",
-    "title": "(REDACTED) Declaration of Disinterestedness of MELCHERS Rechtsanwalte Partnerschaftsgesellschaft mbB, Heidelberg, Germany, Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (related document(s)[217], [382]) Filed by Noble Supply & Logistics, LLC. (Alberto, Justin)",
+    "title": "(Redacted) Declaration of Disinterestedness of MELCHERS Rechtsanwalte Partnerschaftsgesellschaft mbB, Heidelberg, Germany, Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0382",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The redacted, public version of Docket #382. It discloses that Noble has hired MELCHERS Rechtsanwälte, a German law firm, for employment-law advice on terminating staff at Noble's German branch office and for legal advice on winding up that German entity — a concrete sign Noble is shutting down its German operations (Noble Germany, the Kaiserslautern location) rather than selling them intact.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000005"
@@ -5477,14 +5739,17 @@
   {
     "docket_no": "0384",
     "pdf_href": "/noble/document/2611369261022000000000006",
-    "title": "[SEALED] Declaration of Disinterestedness of Dickinson Wright, PLLC Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (related document(s)[217]) Filed by Noble Supply & Logistics, LLC. (Alberto, Justin)",
+    "title": "[Sealed] Declaration of Disinterestedness of Dickinson Wright, PLLC Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0385",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble filed a sealed declaration showing that Dickinson Wright, PLLC (a law firm already on Noble's ordinary-course-professional roster) qualifies as disinterested under the court's OCP order. The public version is Docket #385.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000006"
@@ -5492,14 +5757,17 @@
   {
     "docket_no": "0385",
     "pdf_href": "/noble/document/2611369261022000000000007",
-    "title": "(REDACTED) Declaration of Disinterestedness of Dickinson Wright, PLLC Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (related document(s)[217], [384]) Filed by Noble Supply & Logistics, LLC. (Alberto, Justin)",
+    "title": "(Redacted) Declaration of Disinterestedness of Dickinson Wright, PLLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0384",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
-    "substantive": true,
-    "summary": null,
+    "category": "Professional Retention",
+    "substantive": false,
+    "summary": "Redacted, public version of Docket #384 confirming Dickinson Wright, PLLC's disinterestedness as one of Noble's ordinary-course outside law firms; no new financial or claim information.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000007"
@@ -5507,14 +5775,17 @@
   {
     "docket_no": "0386",
     "pdf_href": "/noble/document/2611369261022000000000008",
-    "title": "[SEALED] Declaration of Disinterestedness of Vinson & Elkins, LLP Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (related document(s)[217]) Filed by Noble Supply & Logistics, LLC. (Alberto, Justin)",
+    "title": "[Sealed] Declaration of Disinterestedness of Vinson & Elkins, LLP Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0387",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble filed a sealed declaration showing that Vinson & Elkins LLP (another existing ordinary-course law firm) qualifies as disinterested under the court's OCP order. The public version is Docket #387.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000008"
@@ -5522,14 +5793,17 @@
   {
     "docket_no": "0387",
     "pdf_href": "/noble/document/2611369261022000000000009",
-    "title": "(REDACTED) Declaration of Disinterestedness of Vinson & Elkins, LLP Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (related document(s)[217], [386]) Filed by Noble Supply & Logistics, LLC. (Alberto, Justin)",
+    "title": "(Redacted) Declaration of Disinterestedness of Vinson & Elkins LLP Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0386",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
-    "substantive": true,
-    "summary": null,
+    "category": "Professional Retention",
+    "substantive": false,
+    "summary": "Redacted, public version of Docket #386 confirming Vinson & Elkins LLP's disinterestedness as one of Noble's ordinary-course outside law firms; no new financial or claim information.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000009"
@@ -5537,14 +5811,16 @@
   {
     "docket_no": "0388",
     "pdf_href": "/noble/document/2611369261022000000000011",
-    "title": "Notice of Rescheduled Omnibus Hearing Time [Hearing Originally Scheduled for October 28, 2026 at 2:00 p.m. has been rescheduled. Hearing scheduled for 10/28/2026 at 10:00 AM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware.] (Filed by Noble Supply & Logistics, LLC)",
+    "title": "Notice of Rescheduled Omnibus Hearing Time <em>[Hearing Originally Scheduled for October 28, 2026 at 2:00 p.m. has been rescheduled. Hearing scheduled for 10/28/2026 at 10:00 AM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware.]</em> (Filed by Noble Supply &amp; Logistics, LLC)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0293"
+    ],
     "source_list": "main",
     "category": "Hearing / Court Admin",
     "substantive": true,
-    "summary": null,
+    "summary": "The omnibus hearing scheduled for October 28, 2026 was moved earlier in the day, from 2:00 p.m. to 10:00 a.m. Eastern — no items were added, removed, or postponed to a different date; this also governs the related DLA adversary proceeding (No. 26-50885).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000011"
@@ -5555,11 +5831,13 @@
     "title": "Certificate of No Objection Regarding Application for Order Authorizing the Employment and Retention of Brown Rudnick LLP as Counsel for the Official Committee of Unsecured Creditors of Noble Supply & Logistics, LLC, et al., Nunc Pro Tunc to September 16, 2026 (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0289"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "Routine filing confirming no one objected, by the October 21 deadline, to the Creditors' Committee's request to hire Brown Rudnick LLP as its lead counsel — clearing the way for the court to approve that retention.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000015"
@@ -5570,11 +5848,13 @@
     "title": "Certificate of No Objection Regarding Application for Entry of an Order Authorizing the Retention and Employment of Morris James LLP as Co-Counsel to the Official Committee of Unsecured Creditors Effective as of September 16, 2026 (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0291"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "Routine filing confirming no one objected to the Committee's request to hire Morris James LLP as its Delaware co-counsel, clearing the way for court approval of that retention.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000016"
@@ -5585,11 +5865,13 @@
     "title": "Certification of Counsel Regarding Application for an Order Authorizing the Retention and Employment of FTI Consulting, Inc. as Financial Advisor to the Official Committee of Unsecured Creditors Effective as of September 16, 2026 (Filed by Committee of Unsecured Creditors)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0292"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "Routine filing confirming no one objected to the Committee's request to hire FTI Consulting, Inc. as its financial advisor, clearing the way for court approval of that retention.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000017"
@@ -5600,11 +5882,17 @@
     "title": "Reply of the United States in Support of Its Motion for Limited Relief from the Automatic Stay to Exercise Termination Rights with Respect to Certain DLA Contracts and Delivery Orders (Filed by United States of America)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0367",
+      "0365",
+      "0364",
+      "0363",
+      "0325"
+    ],
     "source_list": "main",
-    "category": "First Day / Case Admin",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The Department of Justice, representing the Defense Logistics Agency, urged the court to reject Noble's limited objection to DLA's motion to terminate roughly 21,000 unfulfilled delivery orders. Noble wanted about 2,100 of those orders — which it says it already completed — carved out of the termination; the government says Noble's evidence only shows the goods were shipped, not that DLA formally accepted them (the step that actually completes a delivery order under these contracts), and that DLA's own records show none of those 2,100 orders were in fact completed. The government asks the court to let the terminations proceed on all orders and to leave Noble to pursue any payment disputes through the separate Contract Disputes Act claims process rather than through this stay-relief motion; the issue will be argued at the October 28, 2026 omnibus hearing.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000018"
@@ -5615,11 +5903,22 @@
     "title": "Certificate of Service of Tran K. Le re: Documents Served on October 21, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/22/2026",
     "date_filed_iso": "2026-10-22",
-    "related": [],
+    "related": [
+      "0379",
+      "0378",
+      "0377",
+      "0376",
+      "0375",
+      "0374",
+      "0373",
+      "0372",
+      "0371",
+      "0370"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine certificate of service by the claims agent (Verita Global) confirming that documents served on October 21, 2026 were sent to the required parties.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261022000000000019"
@@ -5630,11 +5929,14 @@
     "title": "Order Authorizing the Employment and Retention of Brown Rudnick LLP as Counsel for the Official Committee of Unsecured Creditors of Noble Supply & Logistics, LLC, et al., Nunc Pro Tunc to September 16, 2026",
     "date_filed": "10/23/2026",
     "date_filed_iso": "2026-10-23",
-    "related": [],
+    "related": [
+      "0389",
+      "0289"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court approved Brown Rudnick LLP's retention as counsel to the Official Committee of Unsecured Creditors, effective nunc pro tunc to September 16, 2026. No objections were filed.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261023000000000008"
@@ -5642,14 +5944,17 @@
   {
     "docket_no": "0395",
     "pdf_href": "/noble/document/2611369261023000000000010",
-    "title": "United States’ Reply to Debtors’ Objection to its Motion for Entry of an Order (I) Granting Adequate Protection Under Sections 361, 363(e), and 553 of the Bankruptcy Code and (II) Granting Related Relief (Filed by United States of America)",
+    "title": "United States’ Reply to Debtors’ Objection to its Motion for Entry of an Order (I) Granting Adequate Protection Under Sections 361, 363(e), and 553 of the Bankruptcy Code and (II) Granting Related Relief",
     "date_filed": "10/23/2026",
     "date_filed_iso": "2026-10-23",
-    "related": [],
+    "related": [
+      "0366",
+      "0327"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The government urged the court to overrule Noble's objection to its $266 million adequate-protection request, arguing it isn't re-litigating the September 18 ruling and isn't trying to prove its claims' validity now — only to preserve a capped, prepetition-payables-limited right to setoff. Most notably, the government disclosed for the first time that it now anticipates its total claims against Noble, once filed, will likely exceed $1 billion — a sharp escalation from the $266 million qui tam figure disclosed on October 13 — though it gave no breakdown of that new number. Scheduled to be argued at the October 28, 2026 omnibus hearing.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261023000000000010"
@@ -5660,11 +5965,16 @@
     "title": "Certificate of Service of Tran K. Le re: Documents Served on October 22, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/23/2026",
     "date_filed_iso": "2026-10-23",
-    "related": [],
+    "related": [
+      "0388",
+      "0387",
+      "0385",
+      "0383"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Routine certificate of service by the claims agent (Verita Global) confirming that documents served on October 22, 2026 were sent to the required parties.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261023000000000011"
@@ -5672,14 +5982,14 @@
   {
     "docket_no": "0397",
     "pdf_href": "/noble/document/2611369261026000000000001",
-    "title": "Debtors' Witness and Exhibit List for Hearing Scheduled for October 28, 2026 at 10:00 a.m. (Eastern Time) (Filed by Noble Supply & Logistics, LLC)",
+    "title": "Debtors' Witness and Exhibit List for Hearing Scheduled for October 28, 2026 at 10:00 a.m. (Eastern Time)",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Ahead of the October 28 omnibus hearing on the government's stay-relief and adequate-protection motions, Noble lists its witnesses and exhibits, including Chief Transformation Officer Robert Albergotti (whose declaration covers the status of delivery orders and DLA's termination rights) and exhibits drawn from prior DLA declarations and the parties' competing delivery-order schedules.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000001"
@@ -5690,11 +6000,14 @@
     "title": "Order Authorizing the Retention and Employment of Morris James LLP as Co-Counsel to the Official Committee of Unsecured Creditors Effective as of September 16, 2026",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
-    "related": [],
+    "related": [
+      "0390",
+      "0291"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court formally approved the Unsecured Creditors' Committee's retention of Morris James LLP as co-counsel, effective retroactively to September 16, 2026, on customary terms (advance notice before rate increases, no reimbursement for defending its own fee applications, standard indemnification limits).",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000002"
@@ -5705,11 +6018,14 @@
     "title": "Order Authorizing Retention of FTI Consulting, Inc. as Financial Advisor for the Official Committee of Unsecured Creditors",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
-    "related": [],
+    "related": [
+      "0391",
+      "0292"
+    ],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "The court approved the Committee's retention of FTI Consulting, Inc. as its financial advisor, effective September 16, 2026, on standard compensation and indemnification terms.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000003"
@@ -5717,14 +6033,17 @@
   {
     "docket_no": "0400",
     "pdf_href": "/noble/document/2611369261026000000000004",
-    "title": "United States' Witness and Exhibit List for Hearing on October 28, 2026 at 10:00 a.m. (ET) on Its Motions for Limited Relief from the Automatic Stay and for Adequate Protection (Filed by United States of America)",
+    "title": "United States' Witness and Exhibit List for Hearing on October 28, 2026 at 10:00 a.m. (ET) on its Motions for Limited Relief from the Automatic Stay and for Adequate Protection",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
-    "related": [],
+    "related": [
+      "0327",
+      "0325"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The government lists its witnesses (DLA contracting officials covering the FSG-53, SOE/FESE, and MRO contracts, plus a DOJ trial attorney) and exhibits for the October 28 hearing on its stay-relief and adequate-protection motions. Several exhibits are pulled directly from Noble's related adversary proceeding against DLA, underscoring that the same hearing will also touch on that case's summary-judgment fight.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000004"
@@ -5732,14 +6051,14 @@
   {
     "docket_no": "0401",
     "pdf_href": "/noble/document/2611369261026000000000005",
-    "title": "Notice of Agenda of Matters Scheduled for Hearing on October 28, 2026 at 10:00 a.m. (Eastern Time) Before the Honorable Craig T. Goldblatt [Hearing scheduled for 10/28/2026 at 10:00 AM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware] (Filed by Noble Supply & Logistics, LLC)",
+    "title": "Notice of Agenda of Matters Scheduled for Hearing on October 28, 2026 at 10:00 a.m. (Eastern Time) Before the Honorable Craig T. Goldblatt",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
     "related": [],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "The published running order of matters to be heard at an upcoming omnibus hearing.",
+    "summary": "Agenda for the October 28, 2026 omnibus hearing: three Committee-professional retention applications (Brown Rudnick, Morris James, FTI) are resolved by order with no hearing needed; the government's stay-relief motion (Dkt. 325) and adequate-protection motion (Dkt. 327), plus Noble's motion for partial summary judgment, the government's motion to dismiss, and its cross-motion for summary judgment in the DLA adversary proceeding, remain contested and will be argued.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000005"
@@ -5747,14 +6066,14 @@
   {
     "docket_no": "0402",
     "pdf_href": "/noble/document/2611369261026000000000008",
-    "title": "Monthly Application for Compensation // First Monthly Fee Application of Brown Rudnick LLP, as Counsel for the Official Committee of Unsecured Creditors for Allowance of Interim Compensation and for Reimbursement of Disbursements Incurred for the period September 16, 2026 to September 30, 2026 Filed by Committee of Unsecured Creditors. Objections due by 11/16/2026. (Attachments: # (1) Notice # (2) Exhibit A # (3) Exhibit B # (4) Exhibit C # (5) Certification # (6) Certificate of Service) (Waxman, Jeffrey)",
+    "title": "First Monthly Fee Application of Brown Rudnick LLP, as Counsel for the Official Committee of Unsecured Creditors for Allowance of Interim Compensation and for Reimbursement of Disbursements Incurred for the Period September 16, 2026 Through September 30, 2026",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
     "related": [],
     "source_list": "main",
-    "category": "Committee",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Brown Rudnick LLP, counsel to the Unsecured Creditors' Committee, seeks interim approval of $339,739.00 in fees and $264.00 in expenses for September 16-30, 2026, requesting payment of $271,791.20 (80% of fees plus all expenses) under the case's interim compensation procedures. Objections due November 16, 2026.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000008"
@@ -5762,14 +6081,14 @@
   {
     "docket_no": "0403",
     "pdf_href": "/noble/document/2611369261026000000000009",
-    "title": "Monthly Application for Compensation // First Monthly Application of Morris James LLP, Co-Counsel to the Official Committee of Unsecured Creditors, for Allowance of Compensation and Reimbursement of Expenses for the period from September 16, 2026 to September 30, 2026 Filed by Committee of Unsecured Creditors. Objections due by 11/16/2026. (Attachments: # (1) Notice # (2) Exhibit A # (3) Exhibit B # (4) Declaration # (5) Certificate of Service) (Waxman, Jeffrey)",
+    "title": "First Monthly Application of Morris James LLP, Co-Counsel to the Official Committee of Unsecured Creditors, for Allowance of Compensation and Reimbursement of Expenses for the Period from September 16, 2026 Through September 30, 2026",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
     "related": [],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Morris James LLP, Committee co-counsel, seeks interim approval of $85,024.80 in fees and $600.04 in expenses for September 16-30, 2026, requesting payment of $85,624.84. Objections due November 16, 2026.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000009"
@@ -5777,14 +6096,14 @@
   {
     "docket_no": "0404",
     "pdf_href": "/noble/document/2611369261026000000000010",
-    "title": "Monthly Application for Compensation // First Monthly Application of FTI Consulting, Inc., Financial Advisor to the Official Committee of Unsecured Creditors, for Allowance of Compensation and Reimbursement of Expenses for the period from September 16, 2026 to September 30, 2026 Filed by Committee of Unsecured Creditors. Objections due by 11/16/2026. (Attachments: # (1) Notice # (2) Exhibit A # (3) Exhibit B # (4) Exhibit C # (5) Exhibit D # (6) Certificate of Service) (Waxman, Jeffrey)",
+    "title": "First Monthly Application of FTI Consulting, Inc., Financial Advisor to the Official Committee of Unsecured Creditors, for Allowance of Compensation and Reimbursement of Expenses for the Period from September 16, 2026 Through September 30, 2026",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
     "related": [],
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "FTI Consulting, the Committee's financial advisor, seeks interim approval of $249,522.00 in fees and $162.26 in expenses for September 16-30, 2026, requesting payment of $199,779.86 (80% of fees plus all expenses). Objections due November 16, 2026.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000010"
@@ -5792,14 +6111,17 @@
   {
     "docket_no": "0405",
     "pdf_href": "/noble/document/2611369261026000000000016",
-    "title": "[Sealed] Declaration of Disinterestedness of Kinsey Consulting LLC Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business (Filed by Noble Supply & Logistics, LLC) (No Image Available)",
+    "title": "[Sealed] Declaration of Disinterestedness of Kinsey Consulting LLC Pursuant to the Order Authorizing the Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
-    "related": [],
+    "related": [
+      "0406",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Sealed version of a declaration of disinterestedness for Kinsey Consulting LLC, an ordinary-course professional retained by the Debtors; the publicly readable version is the redacted filing at Docket #406.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000016"
@@ -5807,44 +6129,32 @@
   {
     "docket_no": "0406",
     "pdf_href": "/noble/document/2611369261026000000000018",
-    "title": "(Redacted) Declaration of Disinterestedness of Kinsey Consulting LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Noble Supply & Logistics, LLC)",
+    "title": "(Redacted) Declaration of Disinterestedness of Kinsey Consulting LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
-    "related": [],
+    "related": [
+      "0405",
+      "0217"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Kinsey Consulting LLC, a facility-security consulting firm that has worked with Noble since February 2019, discloses under oath — as required for an ordinary-course professional — that it has no interest adverse to the Debtors' estates after checking its connections against the case's interested-parties list.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000018"
   },
   {
     "docket_no": "0407",
-    "pdf_href": "/noble/document/2611369261026000000000022",
-    "title": "Change of Address for Kurtzman Carson Consultants, LLC dba Verita Global (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
-    "date_filed": "10/26/2026",
-    "date_filed_iso": "2026-10-26",
-    "related": [],
-    "source_list": "main",
-    "category": "Other / General",
-    "substantive": true,
-    "summary": null,
-    "topic": null,
-    "topic_label": null,
-    "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000022"
-  },
-  {
-    "docket_no": "0407",
     "pdf_href": "/noble/document/2611369261026000000000020",
-    "title": "The Parties Should be Prepared to Address, at the Hearing Scheduled for October 28, 2026, the Question Whether, in the Event the Court Were to Conclude that it Lacks Jurisdiction to Hear the Claim for Breach of Contract on Account of the United States’ Sovereign Immunity, Such Claim Should be Transferred to the Court of Federal Claims Under Section 1631 of Title 28 (No Image Available)",
+    "title": "The Parties Should be Prepared to Address, at the Hearing Scheduled for October 28, 2026, the Question Whether, in the Event the Court Were to Conclude that it Lacks Jurisdiction to Hear the Claim for Breach of Contract on Account of the United States' Sovereign Immunity, Such Claim Should be Transferred to the Court of Federal Claims Under Section 1631 of Title 28",
     "date_filed": "10/26/2026",
     "date_filed_iso": "2026-10-26",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The court issues a notice (no document image available) flagging a threshold legal question for argument at the October 28 hearing: whether the bankruptcy court even has subject-matter jurisdiction to hear Noble's breach-of-contract claim against DLA, given the government's sovereign immunity, or whether that claim must instead be transferred to the U.S. Court of Federal Claims under 28 U.S.C. section 1631. A ruling that the court lacks jurisdiction could send Noble's roughly $400 million SOE-contract dispute to a different court entirely, potentially delaying resolution well beyond the case's current sale timeline.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261026000000000020"
@@ -5855,11 +6165,14 @@
     "title": "Notice of Amended Agenda of Matters Scheduled for Hearing on October 28, 2026 at 10:00 a.m. (Eastern Time) Before the Honorable Craig T. Goldblatt [Hearing scheduled for 10/28/2026 at 10:00 AM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware] (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/27/2026",
     "date_filed_iso": "2026-10-27",
-    "related": [],
+    "related": [
+      "410",
+      "401"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "The published running order of matters to be heard at an upcoming omnibus hearing.",
+    "summary": "The amended agenda for the October 28, 2026, 10:00 a.m. omnibus hearing before Judge Goldblatt in Wilmington, Delaware, filed by the Debtors.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261027000000000008"
@@ -5870,11 +6183,15 @@
     "title": "Certificate of Service of Tran K. Le re: 1) Debtors' Witness and Exhibit List for Hearing Scheduled for October 28, 2026 at 10:00 a.m. (Eastern Time); 2) Notice of Agenda of Matters Scheduled for Hearing on October 28, 2026 at 10:00 a.m. (Eastern Time) Before the Honorable Craig T. Goldblatt; and 3) Declaration of Disinterestedness of Kinsey Consulting LLC Pursuant to the Order (I) Authorizing Debtors to Retain and Compensate Professionals Utilized in the Ordinary Course of Business and (II) Granting Related Relief (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/27/2026",
     "date_filed_iso": "2026-10-27",
-    "related": [],
+    "related": [
+      "406",
+      "401",
+      "397"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Proof of service confirming the Debtors' witness/exhibit list for tomorrow's hearing, the hearing agenda, and an ordinary-course professional's (Kinsey Consulting LLC) disinterestedness declaration were served on required parties.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261027000000000013"
@@ -5885,11 +6202,13 @@
     "title": "Certificate of Service of Tran K. Le re: Notice of Amended Agenda of Matters Scheduled for Hearing on October 28, 2026 at 10:00 a.m. (Eastern Time) Before the Honorable Craig T. Goldblatt (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
     "date_filed": "10/27/2026",
     "date_filed_iso": "2026-10-27",
-    "related": [],
+    "related": [
+      "408"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Proof that the amended hearing agenda for the October 28 omnibus hearing was served on the required parties by the claims agent.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261027000000000015"
@@ -5900,11 +6219,13 @@
     "title": "Request for Transcript of Hearing Held on October 28, 2026 Received (No Image Available)",
     "date_filed": "10/28/2026",
     "date_filed_iso": "2026-10-28",
-    "related": [],
+    "related": [
+      "408"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "A request to the court reporter for a written transcript of a hearing.",
+    "summary": "Someone requested the official written transcript of the October 28, 2026 hearing before Judge Goldblatt. The transcript itself is not yet on the docket.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261028000000000001"
@@ -5917,9 +6238,9 @@
     "date_filed_iso": "2026-10-28",
     "related": [],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Audio recording of a hearing.",
+    "summary": "The audio recording of the October 28, 2026 hearing before Judge Goldblatt was docketed (a large, 101 MB audio file). This is a procedural recording of a hearing already reflected on the docket via the amended hearing agenda (Docket #408); no transcript or outcome details accompany it.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261028000000000005"
@@ -5927,14 +6248,31 @@
   {
     "docket_no": "0413",
     "pdf_href": "/noble/document/2611369261029000000000006",
-    "title": "Supplemental Certificate of Service of Heather Fellows re: Documents Served on October 14, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "title": "Supplemental Certificate of Service re Documents Served on October 14, 2026 (related document(s)[206], [207], [208], [209], [210], [211], [212], [213], [214], [215], [216], [217], [218], [219], [220], [251]) Filed by Kurtzman Carson Consultants, LLC dba Verita Global. (Kass, Albert)",
     "date_filed": "10/29/2026",
     "date_filed_iso": "2026-10-29",
-    "related": [],
+    "related": [
+      "0206",
+      "0207",
+      "0208",
+      "0209",
+      "0210",
+      "0211",
+      "0212",
+      "0213",
+      "0214",
+      "0215",
+      "0216",
+      "0217",
+      "0218",
+      "0219",
+      "0220",
+      "0251"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Additional proof-of-mailing for a prior filing.",
+    "summary": "Routine supplemental certificate of service, filed by claims agent Kurtzman Carson Consultants dba Verita Global, confirming service of various prior case documents (including bidding procedures and sale-related filings) on parties on October 14, 2026. No new substantive information.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261029000000000006"
@@ -5942,14 +6280,32 @@
   {
     "docket_no": "0414",
     "pdf_href": "/noble/document/2611369261029000000000007",
-    "title": "Supplemental Certificate of Service of Heather Fellows re: Documents Served on or Before October 20, 2026 (Filed by Kurtzman Carson Consultants, LLC dba Verita Global)",
+    "title": "Supplemental Certificate of Service re Documents Served on or before October 20, 2026 (related document(s)[83], [206], [207], [208], [209], [210], [211], [212], [213], [214], [215], [216], [217], [218], [219], [220], [251]) Filed by Kurtzman Carson Consultants, LLC dba Verita Global. (Kass, Albert)",
     "date_filed": "10/29/2026",
     "date_filed_iso": "2026-10-29",
-    "related": [],
+    "related": [
+      "0083",
+      "0206",
+      "0207",
+      "0208",
+      "0209",
+      "0210",
+      "0211",
+      "0212",
+      "0213",
+      "0214",
+      "0215",
+      "0216",
+      "0217",
+      "0218",
+      "0219",
+      "0220",
+      "0251"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Additional proof-of-mailing for a prior filing.",
+    "summary": "Routine supplemental certificate of service, filed by claims agent Kurtzman Carson Consultants dba Verita Global, confirming service of various prior case documents (including bidding procedures and sale-related filings) on parties as of on or before October 20, 2026. No new substantive information.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261029000000000007"
@@ -5962,9 +6318,9 @@
     "date_filed_iso": "2026-10-30",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Kirkland & Ellis, the Debtors' lead bankruptcy counsel, filed its first monthly fee application for August 30 through September 30, 2026, seeking $43,123.60 (80% of $53,904.50 billed) in fees and no expense reimbursement. The modest amount reflects that K&E's retention order was not entered until October 14, 2026, even though it is effective back to the petition date.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000001"
@@ -5979,7 +6335,7 @@
     "source_list": "main",
     "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Cole Schotz P.C., Delaware co-counsel to the Debtors, filed its first monthly fee application for August 30 through September 30, 2026, seeking $1,031,146.00 in fees (80% of $1,288,932.50 billed) and $22,751.05 in expense reimbursement.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000002"
@@ -5987,14 +6343,14 @@
   {
     "docket_no": "0417",
     "pdf_href": "/noble/document/2611369261030000000000003",
-    "title": "Debtors' Motion for Entry of an Order (I) Authorizing (A) the Rejection of a Certain Unexpired Lease of Nonresidential Real Property Effective as of the Rejection Date and (B) Granting Related Relief [Hearing scheduled for 11/16/2026 at 01:00 PM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware. Objections due by 11/9/2026.] (Filed by Noble Supply & Logistics, LLC)",
+    "title": "Debtors' Motion for Entry of an Order (I) Authorizing (A) the Rejection of a Certain Unexpired Lease of Nonresidential Real Property Effective as of the Rejection Date and (B) the Abandonment of Certain Personal Property Effective as of the Rejection Date and (II) Granting Related Relief [Hearing scheduled for 11/16/2026 at 01:00 PM at US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware. Objections due by 11/9/2026.] (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "10/30/2026",
     "date_filed_iso": "2026-10-30",
     "related": [],
     "source_list": "main",
     "category": "Other / General",
     "substantive": true,
-    "summary": null,
+    "summary": "The Debtors asked the court to let them reject a small office lease — about 2,829 square feet at 46655 Expedition Drive, Lexington Park, Maryland, with landlord Expedition III, LLC — effective October 31, 2026, and to abandon any low-value property left behind. This is routine real-estate cleanup as Noble winds down unneeded locations; objections are due November 9 and it will be heard at the November 16 omnibus hearing if contested.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000003"
@@ -6005,11 +6361,14 @@
     "title": "Certification of Counsel Regarding Order Approving Stipulation Regarding Allowance of Midwest Pressure Systems, Inc.'s Non-Priority, General Unsecured Claim (related document(s)[248], [299]) Filed by Noble Supply & Logistics, LLC. (Attachments: # (1) Exhibit A - Proposed Order) (Dougherty, Jack)",
     "date_filed": "10/30/2026",
     "date_filed_iso": "2026-10-30",
-    "related": [],
+    "related": [
+      "248",
+      "299"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Claims / Bar Date",
     "substantive": true,
-    "summary": null,
+    "summary": "The Debtors and vendor Midwest Pressure Systems, Inc. resolved Midwest's administrative-expense claim motion (Docket #248) by stipulation: Midwest will be allowed a non-priority, general unsecured claim of $54,049.30, and in exchange it withdraws its request for priority as a Section 503(b)(9) administrative expense. This settles a dispute that had been scheduled to be heard at the November 16 omnibus hearing.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000006"
@@ -6017,14 +6376,14 @@
   {
     "docket_no": "0419",
     "pdf_href": "/noble/document/2611369261030000000000010",
-    "title": "First Monthly Fee Application of Kurtzman Carson Consultants, LLC dba Verita Global as Administrative Advisor to the Debtors, for the Period from August 30, 2026 Through and Including September 30, 2026 [Objections due by 11/20/2026] (Filed by Noble Supply & Logistics, LLC)",
+    "title": "First Monthly Fee Application of Kurtzman Carson Consultants, LLC dba Verita Global as Administrative Advisor to the Debtors, for the Period from August 30, 2026 Through and Including September 30, 2026 [Objections due by 11/20/2026]",
     "date_filed": "10/30/2026",
     "date_filed_iso": "2026-10-30",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Verita Global (the claims and noticing agent, also serving as administrative advisor) filed its first monthly fee application for August 30 through September 30, 2026, seeking $17,095.04 (80% of $21,368.80 in fees) and no expense reimbursement.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000010"
@@ -6035,11 +6394,17 @@
     "title": "Appellee Designation of Additional Items for Inclusion in Record of Appeal (Appellees' Counter-Designation of the Items to be Included in the Record on Appeal and Local Rule 8009-1 Index). Filed by Noble Supply & Logistics, LLC. (Attachments: # (1) Exhibit A) (Dean, G.)",
     "date_filed": "10/30/2026",
     "date_filed_iso": "2026-10-30",
-    "related": [],
+    "related": [
+      "151",
+      "263",
+      "345",
+      "346",
+      "357"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "In the United States' (DLA's) ongoing appeal of Judge Goldblatt's September 18 ruling (Docket #151) that DLA improperly froze Noble's prepetition invoice payments, the Debtors filed their counter-designation of what should be included in the appellate record. They add the transcript of the October 28, 2026 hearing and the full set of the three interim cash-collateral orders. This is a routine procedural step in building the appeal record for the district court (Civil Action No. 26-cv-01279-JLH) — it does not report any ruling or outcome from the October 28 hearing itself.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000012"
@@ -6052,9 +6417,9 @@
     "date_filed_iso": "2026-10-30",
     "related": [],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "Professional Retention",
     "substantive": true,
-    "summary": null,
+    "summary": "Triple P TRS, LLC — which provides the company's Chief Transformation Officer (Robert Albergotti) and additional restructuring personnel — filed its first monthly fee statement for August 30 through September 30, 2026. It requests $816,576.50 in hourly fees plus a $75,000 monthly flat fee and $51,927.79 in expenses, for a total of $943,504.29 (average hourly rate $721.29). No objection is required for payment unless filed by November 13, 2026.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261030000000000013"
@@ -6065,11 +6430,17 @@
     "title": "Certification of Counsel Regarding Revised Proposed Order Granting Motion of the United States for Limited Relief from the Automatic Stay (Filed by United States of America)",
     "date_filed": "11/2/2026",
     "date_filed_iso": "2026-11-02",
-    "related": [],
+    "related": [
+      "423",
+      "367",
+      "364",
+      "363",
+      "325"
+    ],
     "source_list": "main",
-    "category": "First Day / Case Admin",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Implements the Court's November 2 Memorandum Opinion (Docket #427): DLA's counsel submits a revised proposed order granting the government limited relief from the automatic stay so it can formally terminate roughly 21,000 largely-dead DLA delivery orders, following the Debtors' limited objection (Docket #363) and reservations of rights from the Committee and Thermo Fisher Scientific.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000003"
@@ -6080,11 +6451,13 @@
     "title": "Certificate of Service of Ryan W. Lamb re: Certification of Counsel Regarding Revised Proposed Order Granting Motion of the United States for Limited Relief from the Automatic Stay (Filed by United States of America)",
     "date_filed": "11/2/2026",
     "date_filed_iso": "2026-11-02",
-    "related": [],
+    "related": [
+      "422"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Certificate of service confirming service of the Docket #422 certification of counsel, filed by counsel for the United States.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000004"
@@ -6095,11 +6468,16 @@
     "title": "Certification of Counsel Regarding Proposed Order Denying the United States’ Motion for Adequate Protection (Filed by United States of America)",
     "date_filed": "11/2/2026",
     "date_filed_iso": "2026-11-02",
-    "related": [],
+    "related": [
+      "425",
+      "395",
+      "366",
+      "327"
+    ],
     "source_list": "main",
-    "category": "Financing / Cash Collateral",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "Implements the Court's ruling denying the government's Adequate Protection Motion (Docket #327): at the October 28 hearing the Court denied the motion from the bench and directed the United States to submit a proposed order under certification of counsel, which is attached here as Exhibit A.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000005"
@@ -6110,11 +6488,16 @@
     "title": "Certificate of Service of Ryan W. Lamb re: Certification of Counsel Regarding Proposed Order Denying the United States’ Motion for Adequate Protection (Filed by United States of America)",
     "date_filed": "11/2/2026",
     "date_filed_iso": "2026-11-02",
-    "related": [],
+    "related": [
+      "424",
+      "395",
+      "366",
+      "327"
+    ],
     "source_list": "main",
-    "category": "Routine",
+    "category": "Hearing / Court Admin",
     "substantive": false,
-    "summary": "Confirms that Verita Global (the claims agent) served a prior filing on the appropriate parties — a required proof-of-mailing, not new substantive news.",
+    "summary": "Certificate of service confirming service of the Docket #424 certification of counsel, filed by counsel for the United States.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000006"
@@ -6125,11 +6508,15 @@
     "title": "Notice of Auction (Filed by Noble Supply & Logistics, LLC)",
     "date_filed": "11/2/2026",
     "date_filed_iso": "2026-11-02",
-    "related": [],
+    "related": [
+      "251",
+      "219",
+      "91"
+    ],
     "source_list": "main",
     "category": "Sale Process",
     "substantive": true,
-    "summary": null,
+    "summary": "Noble confirms it received more than one Qualified Bid by the October 30, 2026 Bid Deadline, so an Auction will proceed as scheduled on November 4, 2026 at 10:00am ET, conducted virtually via Zoom. Still no stalking horse bidder was designated before the process reached this stage. Parties wishing to observe may request a Zoom link from Debtors' counsel.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000010"
@@ -6140,11 +6527,14 @@
     "title": "Memorandum Opinion",
     "date_filed": "11/2/2026",
     "date_filed_iso": "2026-11-02",
-    "related": [],
+    "related": [
+      "325",
+      "327"
+    ],
     "source_list": "main",
-    "category": "Other / General",
+    "category": "DLA Dispute",
     "substantive": true,
-    "summary": null,
+    "summary": "The Court's 48-page ruling resolving the government's Adequate Protection Motion (Docket #327), its Stay Relief Motion (Docket #325), and Noble's turnover adversary proceeding against DLA together. Judge Goldblatt denies the government's request for adequate protection (a superpriority claim and sale-proceeds reserve), finding the government's disputed, unliquidated FCA/qui tam claims (alleged to exceed $1 billion) don't carry a present right of setoff under ordinary common-law rules, and that the specific priority relief requested was independently unavailable. The Court separately grants the government relief from the automatic stay so DLA can exercise whatever nonbankruptcy termination rights it has over roughly 21,000 delivery orders, without deciding whether those rights are valid. On Noble's turnover claim, the Court grants partial summary judgment for Noble: the government must pay Noble $8,493,160.09 for deliveries with matured, undisputed payment obligations by November 9, 2026. It denies turnover on amounts tied to delivery-destination disputes (dismissed without prejudice) and rules the Tucker Act doesn't waive sovereign immunity for Noble's separate $400M+ breach-of-contract claim over the SOE contract termination in this bankruptcy forum.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000012"
@@ -6173,8 +6563,8 @@
     "related": [],
     "source_list": "main",
     "category": "Other / General",
-    "substantive": true,
-    "summary": null,
+    "substantive": false,
+    "summary": "Routine corrective entry: the court's clerk replaced the Memorandum Opinion (Docket #427) with a corrected copy to fix a typographical error. Read #427 for the substance; nothing new in this entry.",
     "topic": null,
     "topic_label": null,
     "pdf_url": "https://veritaglobal.net/noble/document/2611369261103000000000004"

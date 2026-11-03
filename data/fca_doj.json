@@ -1,0 +1,191 @@
+{
+  "tab_intro": "Separate from the DFAS payment-freeze fight covered in the Overview tab, the United States disclosed on October 13, 2026 that it has partially unsealed two False Claims Act qui tam lawsuits against Noble and is asserting a much larger damages claim — together with a request for priority protection from any sale proceeds. This tab pulls together that disclosure, the government's pending motion, and Noble's longer regulatory history with the Department of Justice.",
+  "exposure_summary": {
+    "qui_tam_claimed_usd": 266000000,
+    "qui_tam_claimed_label": "Newly-disclosed FCA/qui tam claim (2 suits)",
+    "dla_payment_dispute_usd": 6972618,
+    "dla_payment_dispute_label": "Separate DFAS payment freeze (resolved in Noble's favor, Sept 18)",
+    "prior_settlement_usd": 1034495.99,
+    "prior_settlement_label": "Prior FCA settlement already being paid (Cannon AFB, 2025)"
+  },
+  "caveat": "These are allegations made by the government in a bankruptcy-court filing seeking adequate protection, not a judgment or proven liability. Noble has not yet responded on the record specifically to the $266 million figure, and the two qui tam suits remain only partially unsealed — their full case numbers, relators, and underlying allegations are not yet part of the public bankruptcy docket. As of October 21, 2026, the Debtors have formally and forcefully disputed the $266 million figure in a court filing, calling the government's supporting evidence inadmissible and insufficient — this is no longer merely undisputed on the record. On October 23, 2026, in a reply brief supporting the Adequate Protection Motion, the government disclosed for the first time that it anticipates its total claims against the Debtors — across the FCA qui tam actions and its still-pending investigations — will likely exceed $1 billion once governmental proofs of claim are filed. It offered no breakdown of that figure and reiterated that the October 28 hearing will not be evidentiary and is not meant to liquidate or prove the validity of any claim.",
+  "qui_tam_suits": [
+    {
+      "court": "U.S. District Court for the District of New Mexico",
+      "status": "Partially unsealed",
+      "notes": "One of two qui tam (whistleblower) False Claims Act suits against Noble disclosed for the first time on October 13, 2026. Case number, relator identity, and the specific underlying allegations are not yet stated in the bankruptcy docket."
+    },
+    {
+      "court": "U.S. District Court for the District of Massachusetts",
+      "status": "Partially unsealed",
+      "notes": "The second of the two suits, disclosed the same day. Massachusetts is also where Noble is headquartered (Boston), though the filing doesn't say whether that's related to the suit's subject matter."
+    }
+  ],
+  "adequate_protection_motion": {
+    "docket_no": "327",
+    "related_docket_nos": "297, 272, 325",
+    "filed_date": "2026-10-13",
+    "hearing_date": "2026-10-28",
+    "summary": "The United States asked the bankruptcy court to grant it “adequate protection” for its setoff and recoupment rights given the much larger claim it now says it holds against Noble. Filed the same day it disclosed the two unsealed qui tam suits and their $266 million combined claim, the motion also confirms two other things: that the government formally objected on October 9 (Docket #297) to Noble's plan to assume and assign more than 100 federal contracts at a $0 cure cost, and that it's aware of Noble's own $18.96 million turnover adversary proceeding against DLA (commenced October 6, Docket #272) seeking payment for accepted but unpaid deliveries. The motion is scheduled to be heard at the October 28, 2026 omnibus hearing, alongside DLA's related motion to lift the stay and terminate roughly 21,000 delivery orders.",
+    "relief_sought": [
+      "A superpriority administrative expense claim protecting the government's asserted setoff/recoupment rights",
+      "A reserve carved out of any sale proceeds to cover the government's claims before they're distributed to other creditors",
+      "Preservation of its objection to Noble assuming and assigning 100+ federal contracts at a $0 cure cost in connection with the sale"
+    ],
+    "debtors_objection": {
+      "docket_no": "366",
+      "filed_date": "2026-10-21",
+      "summary": "The Debtors filed a full objection asking the court to deny the Adequate Protection Motion outright. They argue it's an improper second attempt at relief the court already denied in its September 18 order (which held that the government can't get adequate protection for a disputed setoff claim without first proving it through a formal estimation proceeding), and that the government's only evidence for the $266 million FCA claim is a thin, fact-free 3-page attorney declaration that improperly relies on confidential settlement-negotiation statements inadmissible under Federal Rule of Evidence 408. The Debtors also note the government has since confirmed it will NOT treat the October 28 hearing as evidentiary — it isn't trying to prove the claim's validity there, which cuts against the idea that adequate protection is needed now."
+    },
+    "committee_reservation_of_rights": {
+      "docket_no": "367",
+      "filed_date": "2026-10-21",
+      "summary": "The official unsecured creditors' committee reserved its right to be heard further on both the Adequate Protection Motion and the Stay Relief Motion without yet staking out a detailed position of its own."
+    },
+    "government_reply": {
+      "docket_no": "395",
+      "filed_date": "2026-10-23",
+      "hearing_date": "2026-10-28",
+      "summary": "The United States replied in support of the Adequate Protection Motion, urging the court to overrule the Debtors' objection (Docket #366). It argues the Debtors mischaracterize the motion as an improper second attempt at setoff relief already denied in the September 18 order, or as an effort to prove up unliquidated claims; it says any eventual super-priority claim is inherently capped at the prepetition payables DLA still owes Noble, and defends the Asiyanbi Declaration as context for the partially-unsealed qui tam suits rather than proof of their value. Most notably, the government disclosed that it now anticipates its total claims against Noble, once filed, will likely exceed $1 billion — a sharp escalation from the $266 million qui tam figure disclosed on October 13 — though it gave no further breakdown. Scheduled to be argued at the October 28, 2026 omnibus hearing."
+    },
+    "outcome": {
+      "date": "2026-11-02",
+      "docket_no": "424, 427",
+      "summary": "DENIED. In its November 2 Memorandum Opinion (Docket #427), the Court ruled the government's disputed, unliquidated FCA/qui tam claims (which it says may exceed $1 billion once filed) do not create a present right of setoff under ordinary common-law rules — only a liquidated, undisputed claim would. The Court also found the specific relief requested (a superpriority administrative claim and a carve-out from sale proceeds) was independently unavailable on these facts. A proposed order denying the motion was submitted under certification of counsel at Docket #424. This removes, for now, the risk that the government's $1 billion-plus claims would jump the line ahead of other creditors in the sale proceeds waterfall."
+    }
+  },
+  "comparison_table": [
+    {
+      "item": "Government's anticipated TOTAL claims across all investigations (disclosed in Oct 23, 2026 reply brief) — no breakdown given",
+      "amount_usd": 1000000000,
+      "status": "New, unquantified estimate; broader than (and inclusive of) the $266M qui tam figure; not a filed or liquidated claim"
+    },
+    {
+      "item": "False Claims Act qui tam suits (D.N.M. & D.Mass.) — newly disclosed",
+      "amount_usd": 266000000,
+      "status": "Disclosed 10/13/26; allegation only, not yet litigated in this case"
+    },
+    {
+      "item": "FSG-53 performance disincentive claim (Years 1-2)",
+      "amount_usd": 7907033.24,
+      "status": "Disputed; part of DLA's setoff claims from the Sept. 2026 payment-freeze fight"
+    },
+    {
+      "item": "DOJ's own Cannon AFB exposure estimate (~500 transactions, if liability + treble damages apply)",
+      "amount_usd": 7800000,
+      "status": "A DOJ estimate cited for context, not a claim filed in this case"
+    },
+    {
+      "item": "DFAS prepetition payment freeze — resolved in Noble's favor",
+      "amount_usd": 6972618,
+      "status": "Court ordered $6,434,434.37 released net of settlement debt (Sept. 18, 2026 order)"
+    },
+    {
+      "item": "Cannon AFB FCA settlement (2025)",
+      "amount_usd": 1034495.99,
+      "status": "Being paid in 6 semi-annual installments since June 2025; ~3 of 6 paid as of Sept. 2026"
+    },
+    {
+      "item": "Noble's own turnover claim against DLA (unpaid accepted deliveries)",
+      "amount_usd": 18960176.31,
+      "status": "Pending — Noble is the plaintiff here (Adv. Proc. No. 26-50885)"
+    }
+  ],
+  "prior_investigations_note": "The newly-unsealed qui tam suits aren't Noble's first encounter with DOJ scrutiny. Per the First Day Declaration, three separate pre-petition investigations were already on the books:",
+  "timeline": [
+    {
+      "date": "2023",
+      "event": "DOJ issues a Civil Investigative Demand regarding Noble's MRO/TLS contracts with DLA (Northeast/Southeast US and European Command), covering prompt-pay discounts and bidding-process concerns; Noble enters ability-to-pay settlement talks. (Exact 2023 date not stated in the filing.)",
+      "docket_source": "15"
+    },
+    {
+      "date": "2023-11-08",
+      "event": "A grand jury subpoena is issued over the same MRO/TLS bidding-process concerns; a Deferred Prosecution Agreement with DOJ's Antitrust Division is later put in place, pending ability-to-pay negotiations.",
+      "docket_source": "15"
+    },
+    {
+      "date": "2024-09-11",
+      "event": "DOJ issues a CID to Federal Resources Supply Company (acquired by Noble in Oct. 2021) over nitrile-glove contract compliance during COVID-19; Federal Resources is cooperating voluntarily.",
+      "docket_source": "15"
+    },
+    {
+      "date": "2025-06-12",
+      "event": "Noble (successor to Noble Sales Co., Inc.) executes a $1,034,495.99 False Claims Act settlement with DOJ/Dept. of the Air Force over a Cannon Air Force Base contract, payable in six semi-annual installments plus 5% interest.",
+      "docket_source": "124"
+    },
+    {
+      "date": "2026-10-09",
+      "event": "The United States formally objects to Noble's plan to assume and assign 100+ federal contracts at a $0 cure cost as part of the sale process.",
+      "docket_source": "297"
+    },
+    {
+      "date": "2026-10-13",
+      "event": "The United States moves for adequate protection of its setoff rights and discloses, for the first time, that two False Claims Act qui tam suits against Noble (D. New Mexico and D. Massachusetts) have been partially unsealed, with claimed damages/penalties of no less than $266 million.",
+      "docket_source": "327"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "Omnibus hearing where the government's adequate-protection motion, and DLA's related stay-relief motion over ~21,000 delivery orders, are scheduled to be addressed. Objections were due October 21.",
+      "docket_source": "293"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "The Debtors file objections to both government motions: a limited objection to the Stay Relief Motion (seeking to exclude already-completed delivery orders from termination, Docket #363) and a full objection to the Adequate Protection Motion (asking the court to deny the $266M claim request outright as an unsupported re-litigation of the September 18 order, Docket #366). The Official Committee of Unsecured Creditors reserves its rights on both motions (Docket #367); vendor Thermo Fisher Scientific reserves its rights on the Stay Relief Motion (Docket #364).",
+      "docket_source": "363, 364, 365, 366, 367"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "The United States files a reply brief supporting its motion to lift the stay on ~21,000 DLA delivery orders, rebutting the Debtors' argument that roughly 2,100 of those orders were already completed.",
+      "docket_source": "392"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "The United States files a reply brief in support of its Adequate Protection Motion, rebutting the Debtors' October 21 objection and disclosing for the first time that it anticipates total government claims against Noble (across the FCA actions and ongoing investigations) will likely exceed $1 billion.",
+      "docket_source": "395"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "Ahead of the October 28 omnibus hearing, both sides file witness and exhibit lists for the stay-relief and adequate-protection motions (Docket #397, #400). The court also flags, for argument at that same hearing, a threshold question: whether it has subject-matter jurisdiction over Noble's breach-of-contract claim against DLA given the government's sovereign immunity, or whether the claim must be transferred to the Court of Federal Claims (Docket #407) — a question that could determine where, and on what timeline, Noble's $400M+ SOE-contract dispute gets decided.",
+      "docket_source": "397, 400, 407"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "The Court holds the omnibus hearing on the Adequate Protection Motion and the Stay Relief Motion and rules from the bench: it denies adequate protection and grants stay relief, directing the parties to submit implementing orders under certification of counsel.",
+      "docket_source": "per Docket #424 ¶3"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "The Court issues its 48-page written Memorandum Opinion (Docket #427) formally denying the Adequate Protection Motion and granting the Stay Relief Motion, and separately rules on Noble's turnover adversary proceeding: partial summary judgment for Noble on $8,493,160.09 of undisputed matured invoices (due Nov. 9, 2026), with the delivery-destination-dispute portion of the claim dismissed without prejudice. Implementing orders follow at Docket #422 and #424.",
+      "docket_source": "427, 422, 424"
+    }
+  ],
+  "stay_relief_motion": {
+    "docket_no": "325",
+    "filed_date": "2026-10-13",
+    "hearing_date": "2026-10-28",
+    "summary": "A separate motion filed the same day as the Adequate Protection Motion: the United States, on behalf of the DLA, asked the court for relief from the automatic stay so it can terminate roughly 21,000 delivery orders under certain DLA contracts. This is a distinct request from the $266M adequate-protection fight — it's about letting DLA formally terminate orders, not about protecting a claim.",
+    "debtors_limited_objection": {
+      "docket_no": "363",
+      "filed_date": "2026-10-21",
+      "summary": "The Debtors don't oppose letting the government terminate orders that haven't been performed yet, but object to the government sweeping in orders the Debtors have already fully completed (and in some cases already been paid for) — those aren't \"executory\" contracts anymore, so there's nothing left to terminate. The Debtors also object to proposed order language that would restrict where future termination disputes could be litigated. Supported by a declaration (Docket #365) from the Debtors' financial advisor describing a line-by-line reconciliation of the government's order list against Noble's own records."
+    },
+    "third_party_reservations": [
+      {
+        "party": "Thermo Fisher Scientific (Thermo Scientific Portable Analytical Instruments Inc., Thermo Eberline LLC, Thermo Environmental Instruments LLC)",
+        "docket_no": "364",
+        "filed_date": "2026-10-21",
+        "summary": "A Noble vendor whose goods were shipped on to the DLA; takes no position on the motion itself but reserves its own right to seek payment for purchase orders it already processed and incurred costs on."
+      }
+    ],
+    "government_reply": {
+      "docket_no": "392",
+      "filed_date": "2026-10-22",
+      "summary": "The United States replied in support of its stay-relief motion, urging the court to overrule the Debtors' limited objection. The government argues the Debtors' claim that ~2,100 delivery orders were \"completed\" conflates mere delivery with the Government's formal acceptance (the actual trigger for completion under the DLA contracts' incorporated FAR clause), and that the Debtors' own supporting declaration is conclusory and contradicted by Noble's position in its own adversary proceeding against DLA, where Noble has described acceptance as a separate, later step after delivery. The government also defends the disputed-claims language in its proposed order as simply restating that any disputes go through the Contract Disputes Act process. Argued at the October 28, 2026 omnibus hearing."
+    },
+    "outcome": {
+      "date": "2026-11-02",
+      "docket_no": "422, 427",
+      "summary": "GRANTED. The same Memorandum Opinion (Docket #427) grants the government relief from the automatic stay so DLA can exercise whatever nonbankruptcy termination rights it holds over the roughly 21,000 delivery orders at issue — without the Court deciding whether those termination rights are actually valid; that question is left for another forum. A revised proposed order implementing this ruling was submitted under certification of counsel at Docket #422."
+    }
+  }
+}
