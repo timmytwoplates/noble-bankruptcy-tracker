@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-10",
   "petition_date": "2026-08-30",
   "process_type": "Dual-track: (1) court-supervised marketing & sale of some/all assets on a going-concern basis, run in parallel with (2) an orderly liquidation/monetization of inventory and receivables. Both tracks proceed simultaneously, not sequentially, per the First Day Declaration.",
   "investment_banker": "Portage Point Partners (via Triple P Securities, LLC) — also serves as Debtors' financial advisor / CTO provider (Triple P TRS, LLC)",
-  "stalking_horse_status": "NONE DESIGNATED AS OF 2026-09-28. The Debtors entered chapter 11 without a stalking horse bid. As of the Sept 7, 2026 bidding procedures motion, Portage Point had contacted ~105 prospective buyers, ~25 of whom signed NDAs for diligence access. The Bidding Procedures Order (Docket #219, entered 9/26/26) preserves the Debtors' ability to designate a stalking horse bidder later, with bid protections, if it would maximize estate value. Deadline to designate one is October 23, 2026 (per Cash Collateral Milestones) / October 21-23, 2026 (per Bidding Procedures sale timeline). UPDATE (2026-10-24): The October 23, 2026 4:00pm ET deadline to designate a stalking horse bidder (per the Bidding Procedures Order, Docket #219) has now passed with no stalking horse designation appearing on the docket through entry #407 (filed 10/26/26). The Bid Deadline (10/30, now just 3 days away) and Auction (11/4, if more than one Qualified Bid is received) remain on schedule per the Bidding Procedures Order. UPDATE (2026-10-31): The October 30, 2026 4:00pm ET Bid Deadline has now passed. Only routine/administrative filings (professional fee applications, a lease rejection motion, a claim stipulation, and an appellate procedural filing) were docketed on 10/30/26 (entries #415-421) — no notice disclosing bid results or a stalking horse designation has appeared yet. The next expected signal is the Auction on 11/4 (if more than one Qualified Bid was received) or a Notice of Auction Results around 11/5. UPDATE (2026-11-02): The Notice of Auction (Docket #426) confirms the Debtors received more than one Qualified Bid by the October 30 Bid Deadline. No stalking horse bidder was ever designated during this process. The Auction will proceed as scheduled on November 4, 2026 at 10:00am ET, conducted virtually via Zoom; a Notice of Auction Results is expected around November 5, 2026.",
+  "stalking_horse_status": "NONE DESIGNATED AS OF 2026-09-28. The Debtors entered chapter 11 without a stalking horse bid. As of the Sept 7, 2026 bidding procedures motion, Portage Point had contacted ~105 prospective buyers, ~25 of whom signed NDAs for diligence access. The Bidding Procedures Order (Docket #219, entered 9/26/26) preserves the Debtors' ability to designate a stalking horse bidder later, with bid protections, if it would maximize estate value. Deadline to designate one is October 23, 2026 (per Cash Collateral Milestones) / October 21-23, 2026 (per Bidding Procedures sale timeline). UPDATE (2026-10-24): The October 23, 2026 4:00pm ET deadline to designate a stalking horse bidder (per the Bidding Procedures Order, Docket #219) has now passed with no stalking horse designation appearing on the docket through entry #407 (filed 10/26/26). The Bid Deadline (10/30, now just 3 days away) and Auction (11/4, if more than one Qualified Bid is received) remain on schedule per the Bidding Procedures Order. UPDATE (2026-10-31): The October 30, 2026 4:00pm ET Bid Deadline has now passed. Only routine/administrative filings (professional fee applications, a lease rejection motion, a claim stipulation, and an appellate procedural filing) were docketed on 10/30/26 (entries #415-421) — no notice disclosing bid results or a stalking horse designation has appeared yet. The next expected signal is the Auction on 11/4 (if more than one Qualified Bid was received) or a Notice of Auction Results around 11/5. UPDATE (2026-11-02): The Notice of Auction (Docket #426) confirms the Debtors received more than one Qualified Bid by the October 30 Bid Deadline. No stalking horse bidder was ever designated during this process. The Auction will proceed as scheduled on November 4, 2026 at 10:00am ET, conducted virtually via Zoom; a Notice of Auction Results is expected around November 5, 2026. UPDATE (2026-11-04): The Auction, originally set for today (November 4, 2026 at 10:00am ET), has been adjourned by one day to November 5, 2026 at 10:00am ET (Notice of Adjournment of Auction, Docket #430, filed 11/3/26). The adjournment is procedural only — more than one Qualified Bid was already confirmed received by the October 30 Bid Deadline, and the Auction remains virtual via Zoom under the same Bidding Procedures. A Notice of Auction Results is now expected around November 6, 2026. UPDATE (2026-11-06): The Notice of Auction Results (Docket #437) is in. No single buyer emerged for the company as a going concern. The November 5 Auction produced only a piecemeal sale: Noble IQ (the smallest segment) sold to Briggs Management Partners, LLC for $6,284,541 cash plus assumed liabilities (backup bidder: Forward Readiness, LLC); some FSG inventory sold off separately for $2,387,000 (S & B, Inc. dba WG Henschen) and $280,044.31 (Peerless Aerospace LLC); and the noble.com web domain sold for $400,000 (Booth.com, LTD). Total realized across all announced deals is roughly $9.35 million. The notice states the Debtors received other bids/expressions of interest for additional assets but chose not to qualify them at this time — meaning the much larger Defense & Federal Solutions and Supply Chain Services segments (the bulk of Noble's revenue) do not yet have an announced buyer. Objections to the Auction results are due November 9, 2026, and the Sale Hearing to approve what was sold is set for November 16, 2026 at 1:00pm ET. The Debtors retain discretion to qualify further bids and run additional sale processes for the unsold assets.",
   "cash_collateral_milestones": [
     {
       "deadline_days_after_petition": 10,
@@ -102,22 +102,22 @@
       "docket_source": "219, 426"
     },
     {
-      "date": "2026-11-04, 10:00am ET",
+      "date": "2026-11-05, 10:00am ET (adjourned one day from 11/4)",
       "event": "Auction (only if more than one Qualified Bid received)",
-      "status": "CONFIRMED PROCEEDING — the Notice of Auction (Docket #426) confirms more than one Qualified Bid was received, so the Auction will go forward on 11/4/26 at 10:00am ET, held virtually via Zoom.",
-      "docket_source": "219, 426"
+      "status": "ADJOURNED ONE DAY — the Notice of Adjournment of Auction (Docket #430, filed 11/3/26) moved the Auction from 11/4/26 to 11/5/26 at 10:00am ET; more than one Qualified Bid was already confirmed received, so the Auction is still proceeding, just a day later.",
+      "docket_source": "219, 426, 430"
     },
     {
-      "date": "1 business day after Auction (~2026-11-05)",
+      "date": "1 business day after Auction (~2026-11-06)",
       "event": "Notice of Auction Results filed",
-      "status": "Going ahead — Notice of Auction (Docket #426) confirms more than one Qualified Bid was received",
-      "docket_source": "219"
+      "status": "FILED 2026-11-06 (Docket #437) — but the results are a piecemeal sale of Noble IQ plus some FSG inventory and the noble.com domain (~$9.35M combined), not a sale of the company as a going concern. Other bids for additional assets (likely including the larger DFS/SCS segments) were not qualified at this time.",
+      "docket_source": "219, 430, 437"
     },
     {
       "date": "2026-11-09, 4:00pm ET",
       "event": "Supplemental Sale Objection Deadline / Adequate Assurance Objection Deadline",
-      "status": "pending",
-      "docket_source": "219"
+      "status": "MET — four objections/reservations of rights were filed by the 11/9 4:00pm ET deadline: the United States (Docket #443, re: federal-agency contract assumption/assignment and cure costs for the Successful Bidders), Rae Systems/Honeywell Analytics (Docket #441), Bering Straits Professional Services (Docket #446), and Oracle America (Docket #447). All are limited/protective objections reserving rights on cure costs and contract assignment — none oppose the sale outright. Debtors' reply deadline is 11/11; Sale Hearing remains 11/16.",
+      "docket_source": "219, 441, 443, 446, 447"
     },
     {
       "date": "2026-11-11, 4:00pm ET",

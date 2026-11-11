@@ -334,6 +334,55 @@ footer a{color:var(--text-muted); text-decoration:underline;}
 
   <!-- SALE PROCESS -->
   <div class="panel" id="panel-sale">
+    <div id="sr-section" style="display:none;">
+      <h2 class="section-title">Auction results: what sold, to whom, and what's left</h2>
+      <div class="card">
+        <p id="sr-intro"></p>
+        <div class="grid-3" id="sr-stats" style="margin-top:12px;"></div>
+        <div id="sr-cite" style="margin-top:8px;"></div>
+      </div>
+
+      <h2 class="section-title spaced">What sold</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Asset</th><th>Buyer</th><th>Winning bid</th><th>Federal contracts that could transfer?</th></tr></thead>
+          <tbody id="sr-deals"></tbody>
+        </table>
+      </div>
+
+      <div class="discrepancy-callout" style="margin-top:12px;">
+        <div class="dc-icon">&#9888;</div>
+        <div class="dc-body">
+          <div class="dc-title" id="sr-rules-head"></div>
+          <ul class="plain" id="sr-rules"></ul>
+        </div>
+      </div>
+
+      <h2 class="section-title spaced">Government contracts by business unit</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Business unit</th><th>Status</th><th>GSA / IDIQ-type contracts on the cure schedule</th><th>Could transfer?</th></tr></thead>
+          <tbody id="sr-units"></tbody>
+        </table>
+      </div>
+
+      <h2 class="section-title spaced">Still unsold: pieces that could be auctioned</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Piece</th><th>What we know</th><th>Government contracts</th></tr></thead>
+          <tbody id="sr-remaining"></tbody>
+        </table>
+      </div>
+      <p id="sr-not-auctioned" style="font-size:12.5px; margin-top:10px;"></p>
+
+      <h2 class="section-title spaced">Open items</h2>
+      <div class="card">
+        <ul class="plain" id="sr-open"></ul>
+        <p id="sr-sources" style="font-size:11.5px; color:var(--text-muted); margin-top:10px;"></p>
+      </div>
+      <div style="height:18px;"></div>
+    </div>
+
     <div class="grid-2">
       <div class="card">
         <h2 class="section-title">Stalking horse status</h2>
@@ -844,6 +893,60 @@ __DATA_JSON__
   renderStl('#sale-timeline', sm.sale_timeline, 'date', 'event', it => it.status==='met'?'met':'');
   renderStl('#sale-cc-milestones', sm.cash_collateral_milestones, 'deadline_date', 'event',
     it => it.status && it.status.startsWith('MET')?'met':'');
+
+  /* ---------------- AUCTION RESULTS (inside Sale Process tab) ---------------- */
+  const sr = DATA.sale_results;
+  if (sr) {
+    $('#sr-section').style.display = '';
+    $('#sr-intro').textContent = sr.intro;
+    $('#sr-stats').innerHTML = `
+      <div class="stat-tile"><div class="label">Cash in winning bids</div><div class="value">${fmtUSD(sr.totals.winning_cash_usd)}</div></div>
+      <div class="stat-tile"><div class="label">Winning bids / buyers</div><div class="value">${sr.totals.deal_count}</div></div>
+      <div class="stat-tile"><div class="label">Court approval</div><div class="value" style="font-size:14px; line-height:1.4;">Sale Hearing ${fmtDate(sr.auction.sale_hearing.slice(0,10))}, 1:00 PM ET</div></div>`;
+    $('#sr-cite').innerHTML = citeHtml(sr.auction.notice_docket, 'Notice of Auction Results') +
+      '<div class="source-cite" style="padding-bottom:0;">' + sr.totals.note + '</div>';
+
+    const dealsBody = $('#sr-deals');
+    sr.deals.forEach(d => {
+      const tr = document.createElement('tr');
+      const backup = d.backup
+        ? `<div style="margin-top:8px; padding-top:8px; border-top:1px dashed var(--gridline);"><b>Backup bidder:</b> ${d.backup.buyer}<br><span style="color:var(--text-secondary);">${d.backup.bid}</span><div class="source-cite" style="padding-bottom:0;">${d.backup.note}</div></div>`
+        : '';
+      tr.innerHTML = `
+        <td><b>${d.asset}</b><div class="source-cite" style="padding-bottom:0;">${d.unit_note}</div></td>
+        <td><b>${d.buyer}</b><div class="source-cite" style="padding-bottom:0;">${d.role}</div></td>
+        <td><span class="mono tabular">${d.bid}</span>${backup}</td>
+        <td><span class="pill ${d.gov_flag}">${d.gov_label}</span><div style="font-size:12.5px; color:var(--text-secondary); margin-top:6px;">${d.gov_detail}</div></td>`;
+      dealsBody.appendChild(tr);
+    });
+
+    $('#sr-rules-head').textContent = sr.gov_rules.headline;
+    $('#sr-rules').innerHTML = sr.gov_rules.points.map(p => `<li>${p}</li>`).join('');
+
+    const unitsBody = $('#sr-units');
+    sr.by_unit.forEach(u => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><b>${u.unit}</b></td>
+        <td><b>${u.status}</b><div class="source-cite" style="padding-bottom:0;">${u.sold_to}</div></td>
+        <td style="font-size:12.5px;">${u.cure_schedule}<div class="source-cite" style="padding-bottom:0; margin-top:6px;">${u.note}</div></td>
+        <td><span class="pill ${u.gov_flag}">${u.gov_label}</span></td>`;
+      unitsBody.appendChild(tr);
+    });
+
+    const remBody = $('#sr-remaining');
+    sr.remaining.forEach(r => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><b>${r.piece}</b></td>
+        <td style="font-size:12.5px;">${r.detail}<div style="margin-top:4px;">${citeHtml(r.docket)}</div></td>
+        <td style="font-size:12.5px; color:var(--text-secondary);">${r.gov}</td>`;
+      remBody.appendChild(tr);
+    });
+    $('#sr-not-auctioned').textContent = sr.not_auctioned;
+    $('#sr-open').innerHTML = sr.open_items.map(i => `<li>${i}</li>`).join('');
+    $('#sr-sources').textContent = sr.sources_note;
+  }
 
   /* ---------------- DOJ & FCA ---------------- */
   const fca = DATA.fca_doj;

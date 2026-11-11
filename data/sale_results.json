@@ -1,0 +1,175 @@
+{
+  "as_of": "2026-11-11",
+  "intro": "The Debtors ran the auction on Nov 5, 2026 (virtual, via Zoom) and filed the Notice of Auction Results on Nov 6. Every bid below is still \"subject to agreement on definitive documentation\", and the final asset purchase agreements control over the notice's summary. As of the Nov 9 objection deadline the Debtors had not filed an asset purchase agreement, a list of designated contracts, or a proposed sale order (Docket #443, para. 8). The court has not yet approved any sale; the Sale Hearing is Nov 16, 2026 at 1:00 PM ET.",
+  "auction": {
+    "auction_date": "2026-11-05",
+    "notice_docket": "437",
+    "notice_filed": "2026-11-06",
+    "sale_hearing": "2026-11-16 1:00 PM ET (Wilmington, in person)",
+    "objection_deadline": "2026-11-09 4:00 PM ET (passed)",
+    "status": "Winning bids selected; sale NOT yet approved by the court"
+  },
+  "totals": {
+    "winning_cash_usd": 9351585.31,
+    "deal_count": 4,
+    "note": "Sum of the cash in the four winning bids (6,284,541 + 2,387,000 + 280,044.31 + 400,000). Excludes liabilities the Noble IQ buyer assumes and the backup bid. Compare with roughly $255.6M of secured debt (see Outlook tab)."
+  },
+  "deals": [
+    {
+      "asset": "Noble IQ business",
+      "unit_note": "Smallest segment (about $15M of 2025 revenue): training, technical, calibration and repair services",
+      "buyer": "Briggs Management Partners, LLC",
+      "role": "Successful bidder",
+      "bid": "$6,284,541 cash at closing, plus assumption of certain liabilities (accounts payable and cure costs on \"designated contracts\", if any cure costs exist)",
+      "cash_usd": 6284541,
+      "backup": {
+        "buyer": "Forward Readiness, LLC",
+        "bid": "$5,634,451 cash + $500,000 contingent consideration + assumption of liabilities including cure costs on designated contracts",
+        "note": "Headline value $6,134,451, so the winner's bid beat it by $150,090. The notice's table prints \"Forward Readiness, LLC\"; some later filings (including Docket #443) write \"IQ Forward Readiness, LLC\"."
+      },
+      "gov_flag": "warning",
+      "gov_label": "Possible: only through government novation",
+      "gov_detail": "The Noble IQ business works with federal customers. On the Debtors' cure schedule, K.D. Analytical Consulting, LLC (the Debtor that runs the KDA technical-services side of Noble IQ) lists entries for the Air Force, the Army (ACC-APG), NAVSUP in Sigonella, the Secret Service and Argonne National Laboratory. No GSA-labeled entries appear under that entity. The notice does not say which contracts Briggs is buying (\"designated contracts\" are not yet listed), and the US has stated it has not consented to any transfer of a federal contract.",
+      "docket": "437, 443"
+    },
+    {
+      "asset": "Certain of the Debtors' FSG inventory",
+      "unit_note": "Goods only. The notice does not itemize which inventory or why it was wanted.",
+      "buyer": "S & B, Inc. dba WG Henschen",
+      "role": "Successful bidder",
+      "bid": "$2,387,000 cash",
+      "cash_usd": 2387000,
+      "backup": null,
+      "gov_flag": "neutral",
+      "gov_label": "None indicated",
+      "gov_detail": "An inventory purchase; the notice mentions no contracts. The US notes that goods to which the government holds title are not estate property and cannot be sold (Docket #443, para. 15).",
+      "docket": "437"
+    },
+    {
+      "asset": "Certain of the Debtors' FSG inventory",
+      "unit_note": "Goods only. The notice does not itemize which inventory or why it was wanted.",
+      "buyer": "Peerless Aerospace LLC",
+      "role": "Successful bidder",
+      "bid": "$280,044.31 cash",
+      "cash_usd": 280044.31,
+      "backup": null,
+      "gov_flag": "neutral",
+      "gov_label": "None indicated",
+      "gov_detail": "An inventory purchase; the notice mentions no contracts.",
+      "docket": "437"
+    },
+    {
+      "asset": "Web domain (www.noble.com)",
+      "unit_note": "The domain only. Noble IQ's own web pages currently live on this domain.",
+      "buyer": "Booth.com, LTD",
+      "role": "Successful bidder",
+      "bid": "$400,000 cash",
+      "cash_usd": 400000,
+      "backup": null,
+      "gov_flag": "neutral",
+      "gov_label": "None",
+      "gov_detail": "A domain name; no contracts involved.",
+      "docket": "437"
+    }
+  ],
+  "gov_rules": {
+    "headline": "No buyer gets a federal contract automatically.",
+    "points": [
+      "Under 11 U.S.C. 365(c)(1) and the Anti-Assignment Act (41 U.S.C. 6305), the US says no federal contract may be assumed or assigned without its written consent, and it has not given consent (Docket #297 and #443).",
+      "Consent comes through the FAR novation process, decided by each contracting officer, and the US says it generally happens after the sale closes (Docket #297, para. 16).",
+      "The US asked that any sale order make no finding on adequate assurance for federal contracts, set no cure amounts for them, and preserve the government's setoff and recoupment rights (Docket #443).",
+      "The cure schedule (Docket #252-1) lists 147 entries labeled \"Government Contract\", 123 of which appear to name a federal agency, mostly without contract numbers. It is a list of possible assumptions, not of contracts actually being sold.",
+      "Company-wide, the Debtors held more than 100 multi-award IDIQ contracts and 12 single-award IDIQ contracts (Docket #15, as cited in #443). The filings do not say whether any GSA-labeled entry is a Multiple Award Schedule contract, a blanket purchase agreement or an order."
+    ]
+  },
+  "by_unit": [
+    {
+      "unit": "Noble IQ",
+      "status": "SOLD (pending approval)",
+      "sold_to": "Briggs Management Partners, LLC (backup: Forward Readiness, LLC)",
+      "cure_schedule": "K.D. Analytical Consulting, LLC: about 6 entries labeled \"Government Contract\" (Air Force, Army ACC-APG, NAVSUP Sigonella, Secret Service x2, and one facilities contractor) and a few distribution-type entries (including Argonne National Laboratory and an Air Force entry that carries a contract-style number). No GSA-labeled entries.",
+      "gov_flag": "warning",
+      "gov_label": "Possible (novation)",
+      "note": "Also a subcontract-style Basic Ordering Agreement with Bering Straits Professional Services (Docket #446) that is not on the cure schedule; that party served a notice of intent to terminate for cause on Oct 27. Which entity holds Noble IQ's training and HazmatIQ work is not stated in the filings."
+    },
+    {
+      "unit": "Defense & Federal Solutions (DFS)",
+      "status": "NOT SOLD",
+      "sold_to": "No bid announced",
+      "cure_schedule": "GSA-labeled entries (about 19 by our read of the PDF) sit under Noble Supply & Logistics (about 13), Federal Resources Supply Company (3) and Tactical & Survival Specialties (3), including GSA Federal Acquisition Service, GSA General Products Acquisition Center, and GSA regional offices; one entry carries a number (7QSBPA-D6). Also DLA Aviation, DLA Land & Maritime (the US counts ten identical entries), DHS, DEA, DTRA and State.",
+      "gov_flag": "serious",
+      "gov_label": "Has GSA / IDIQ: no buyer",
+      "note": "DFS is the bulk of the multi-award IDIQ base and the largest segment ($674M of 2025 revenue). The SOE contract (about $630M in 2025) had about $400M of orders terminated Aug 27, and the court let DLA terminate about 21,000 delivery orders (Docket #434). The filings do not map each Debtor entity to a segment, so the entity breakdown above is by Debtor, not by segment."
+    },
+    {
+      "unit": "Supply Chain Services (SCS)",
+      "status": "NOT SOLD",
+      "sold_to": "No bid announced",
+      "cure_schedule": "The long-term single-award programs sit here. The FSG-53 contract terminated in June 2026 (Docket #15). The Army depot supply-store obligation is among what DLA asked to end (Docket #325). Olive Branch and Holly Springs warehouse leases are on the cure schedule.",
+      "gov_flag": "serious",
+      "gov_label": "Single-award IDIQs: no buyer",
+      "note": "The 12 single-award IDIQ contracts are described as capital-intensive. The two largest have been terminated or not renewed."
+    },
+    {
+      "unit": "Noble International",
+      "status": "NOT SOLD",
+      "sold_to": "No bid announced",
+      "cure_schedule": "Two entries naming the Canadian Department of National Defence appear on the cure schedule. The Debtors have hired German counsel to terminate staff and wind up the German entity (Docket #383).",
+      "gov_flag": "neutral",
+      "gov_label": "Foreign customers; winding down",
+      "note": "About $198M of 2025 revenue, a low-margin drop-ship model."
+    }
+  ],
+  "remaining": [
+    {
+      "piece": "Defense & Federal Solutions (DFS) business",
+      "detail": "Largest segment ($674M of 2025 revenue). No qualified bid announced.",
+      "gov": "Yes: GSA-labeled and DLA/agency IDIQ entries sit with this part of the business. Transfer would need novation.",
+      "docket": "437, 252, 297"
+    },
+    {
+      "piece": "Supply Chain Services (SCS) business",
+      "detail": "$139M of 2025 revenue. Largest contract (FSG-53) terminated June 2026. No qualified bid announced.",
+      "gov": "Single-award IDIQs; mostly terminated or expiring. Transfer would need novation.",
+      "docket": "437, 15"
+    },
+    {
+      "piece": "Noble International business",
+      "detail": "$198M of 2025 revenue; Germany being wound down. No qualified bid announced.",
+      "gov": "Foreign-government and overseas U.S. military customers.",
+      "docket": "437, 383"
+    },
+    {
+      "piece": "Remaining inventory",
+      "detail": "The lead debtor carried about $61.3M of net inventory at Aug 31 (book value; not what it would sell for). Only $2.67M of cash for two inventory lots has been announced. Goods to which the government holds title cannot be sold.",
+      "gov": "No contracts attach to goods, but some stock was bought for DLA demand plans.",
+      "docket": "156, 437, 443"
+    },
+    {
+      "piece": "Accounts receivable",
+      "detail": "The lead debtor carried about $64.6M of net receivables at Aug 31 (book value). The cash-collateral budget treats these as collections; the Debtors can also sell them. The court ordered DLA to pay $8,458,217.45 for completed deliveries (Docket #445).",
+      "gov": "Receivables owed by federal agencies are subject to the government's claimed setoff rights.",
+      "docket": "156, 445"
+    },
+    {
+      "piece": "Leases, software and other assets",
+      "detail": "Boston HQ, Olive Branch and Holly Springs warehouses and a Pax River lease are on the cure schedule; Oracle (NetSuite) says its licenses cannot be assigned without its consent (Docket #447). About $3.5M of net fixed assets at Aug 31.",
+      "gov": "None.",
+      "docket": "252, 447, 156"
+    },
+    {
+      "piece": "Bids the Debtors chose not to qualify",
+      "detail": "The Debtors received \"additional expressions of interest and Bids regarding certain assets not otherwise subject to the Successful Bids\", did not qualify them \"at this time\", and reserved the right to qualify them later and run another auction. The notice gives no detail and no date.",
+      "gov": "Unknown.",
+      "docket": "437"
+    }
+  ],
+  "not_auctioned": "Not part of this sale process: the estate's claims against the government (about $86M FSG-53 Contract Disputes Act claim; a $400M+ SOE termination claim the bankruptcy court said it cannot decide) and any preference actions on the 90-day vendor payments.",
+  "open_items": [
+    "No asset purchase agreement, designated-contract list, or proposed sale order had been filed as of the Nov 9 objections or on the Nov 10 docket.",
+    "Sale-related objections filed Nov 9 are limited reservations of rights, not opposition to the sale: the United States (Docket #443), Rae Systems/Honeywell (#441), Bering Straits Professional Services (#446) and Oracle (#447).",
+    "Sale Hearing Nov 16, 2026 at 1:00 PM ET. Combined disclosure statement and plan of liquidation due Nov 14. Next omnibus hearing Dec 17, 2026.",
+    "Bidder names are as printed in Docket #437. The filings say nothing about who is behind them."
+  ],
+  "sources_note": "Built from Docket #437 (results), #443 and #297 (US objections), #252-1 (cure schedule), #446, #447, #441, #15 (First Day Declaration), #156 (lead debtor operating report), #325/#434 (DLA stay relief), #383 and #445. The entity-by-agency counts from the cure schedule are our reading of the PDF text and may be off by a few entries."
+}

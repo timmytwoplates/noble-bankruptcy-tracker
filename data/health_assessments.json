@@ -1177,5 +1177,178 @@
         "event": "Sale Hearing and continued Final Cash Collateral Hearing"
       }
     ]
+  },
+  {
+    "as_of": "2026-11-04",
+    "indicator": "uncertain",
+    "indicator_label": "Minor one-day slip in the Auction, otherwise unchanged",
+    "summary": "The only development since yesterday is a one-day administrative adjournment of the Auction, from November 4 to November 5, 2026 at 10:00am ET (Docket #430). This is not a sign of trouble: more than one Qualified Bid had already been confirmed received by the October 30 Bid Deadline, the Auction remains virtual via Zoom under the existing Bidding Procedures, and no stalking horse has (or needed to have) been designated. The rest of the sale timeline — the November 9 government payment deadline, the November 14 plan/disclosure-statement deadline, and the November 16 Sale Hearing — is unaffected.",
+    "positive_signals": [
+      "More than one Qualified Bid remains confirmed received, so the Auction is still happening, just one day later than planned",
+      "No other deadlines in the sale or cash-collateral timeline moved"
+    ],
+    "risk_signals": [
+      "A short, unexplained adjournment this close to a contested Auction can sometimes signal last-minute bid or procedural wrangling between bidders — the docket gives no reason for the one-day delay",
+      "No stalking horse bidder was ever designated, so the eventual sale price is still untested against a pre-agreed floor"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-05",
+        "event": "Auction (virtual, via Zoom) — adjourned from 11/4"
+      },
+      {
+        "date": "2026-11-06",
+        "event": "Expected Notice of Auction Results"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Government's court-ordered deadline to pay Noble $8,493,160.09; also the Supplemental Sale/Adequate Assurance Objection Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement + plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-11-05",
+    "indicator": "uncertain",
+    "indicator_label": "Formal orders catch up to the Nov 2 ruling; Auction happening today",
+    "summary": "Five routine-to-moderate filings landed since the last check, all dated November 4. Two are the formally-entered orders implementing the Court's November 2 Memorandum Opinion that was already captured here: one order grants DLA limited stay relief to pursue contract terminations, and the other formally denies the government's Adequate Protection Motion — neither changes anything already known. A third approves a small ($54,049.30) unsecured-claim settlement with a vendor. The other two are routine (a notice of appearance, an appellate certificate of service). No stalking horse has been designated, and today's Auction (adjourned one day, from Nov 4 to Nov 5 at 10:00am ET) had not yet produced a results notice as of this check.",
+    "positive_signals": [
+      "The Court's favorable rulings on the stay-relief and adequate-protection motions (first seen Nov 2) are now formally entered, with no surprises or changes in the formal orders",
+      "A small vendor claim dispute (Midwest Pressure Systems) resolved by consent rather than contested litigation, at a modest $54,049.30"
+    ],
+    "risk_signals": [
+      "The Auction scheduled for today (Nov 5, 10:00am ET) had not yet produced a results notice as of this check — still the most important open question in the case",
+      "No stalking horse bidder was ever designated, so the eventual sale price remains untested against a pre-agreed floor"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-05",
+        "event": "Auction (virtual, via Zoom) — results not yet reported as of this check"
+      },
+      {
+        "date": "2026-11-06",
+        "event": "Expected Notice of Auction Results"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Government's court-ordered deadline to pay Noble $8,493,160.09; also the Supplemental Sale/Adequate Assurance Objection Deadline"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement + plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-11-07",
+    "indicator": "negative",
+    "indicator_label": "Auction results in: piecemeal sale worth ~$9.35M, not a going-concern deal for the company",
+    "summary": "The Notice of Auction Results (Docket #437, filed 11/6) answers the case's biggest open question, and the answer is discouraging for creditors hoping for a full going-concern sale. The November 5 Auction did not produce a buyer for Noble as a whole. Instead it sold off Noble IQ (the smallest segment) for $6,284,541, some FSG inventory for about $2.67 million combined, and the noble.com domain for $400,000 — roughly $9.35 million against $292 million of funded debt and $250 million of trade payables. The notice says other bids for additional assets were not qualified at this time, implying the larger Defense & Federal Solutions and Supply Chain Services segments did not clear the bar in this round. Three routine certificates of service were the only other filings. The next milestones are the November 9 objection deadline, the November 14 disclosure-statement/liquidation-plan deadline, and the November 16 Sale Hearing (also the continued final cash-collateral hearing).",
+    "positive_signals": [
+      "Noble IQ — described as the highest-margin segment — did sell, for a price close to its backup bid, suggesting a competitive process for that piece",
+      "The Debtors retain discretion to qualify additional bids later and run further sale processes for unsold assets, so this auction result may not be the final word on the larger segments"
+    ],
+    "risk_signals": [
+      "No buyer emerged for the company as a going concern; the deals announced so far total roughly $9.35 million against $292 million of funded secured debt",
+      "The larger Defense & Federal Solutions and Supply Chain Services segments — most of Noble's revenue — appear to have no qualified buyer as of this notice",
+      "The November 14 deadline to file a combined disclosure statement and plan of liquidation is now just one week away, and it's unclear how a plan can describe asset recoveries that are still unresolved",
+      "Unsecured creditors (owed roughly $250 million in trade payables alone) look increasingly likely to recover little to nothing if most of the business doesn't sell"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-09",
+        "event": "Deadline to object to the Auction results / Successful Bidders"
+      },
+      {
+        "date": "2026-11-09",
+        "event": "Government's court-ordered deadline to pay Noble $8,493,160.09"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing to approve the Auction results, and continued Final Cash Collateral Hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-11-10",
+    "indicator": "negative",
+    "indicator_label": "Sale process grinding forward on schedule, but still no going-concern buyer for the core business",
+    "summary": "Twelve filings landed on Nov 9, 2026 — the Supplemental Sale Objection Deadline — and all are routine next-steps rather than new surprises. Four objections/reservations of rights (the United States, Rae Systems/Honeywell Analytics, Bering Straits Professional Services, and Oracle America) were filed against the piecemeal sale announced Nov 6, but all are limited and protective in nature — none opposes the sale outright, and the government's objection is specifically about not binding federal contracting officers to bankruptcy-court cure/assignment findings. The Court also issued an Amended Memorandum Opinion (Docket #445) that corrects a clerical error in the Nov 2 DLA turnover ruling (the government now owes Noble $8,458,217.45, down slightly from $8,493,160.09) without changing the outcome, and scheduled the next omnibus hearing for Dec 17. The Debtors also expanded their Ordinary Course Professional list with a new AR-software vendor and a government-contracts law firm. None of this changes the fundamental picture from last week: the Nov 5 Auction produced only a ~$9.35M piecemeal sale (Noble IQ, some inventory, and the domain name), with no buyer yet for the much larger Defense & Federal Solutions and Supply Chain Services segments. The next real tests are the Nov 11 reply deadline, the Nov 14 deadline to file a combined disclosure statement and liquidation plan, and the Nov 16 Sale Hearing (doubling as the continued final cash-collateral hearing).",
+    "positive_signals": [
+      "The sale-objection process is proceeding without major new opposition — all four objections filed are limited/protective, not attempts to block the sale",
+      "The corrected DLA turnover ruling confirms the government still owes Noble money on undisputed invoices, even after the government's own appeal and objections",
+      "Case administration continues on a predictable cadence (next omnibus hearing already locked in for Dec 17)"
+    ],
+    "risk_signals": [
+      "No going-concern buyer has emerged for Noble's largest segments (Defense & Federal Solutions, Supply Chain Services) as of this filing batch",
+      "The Nov 14 deadline to file a combined disclosure statement and liquidation plan is now just days away, and will be the next major signal of how unsecured creditors are likely to fare",
+      "The government's Nov 9 objection flags that federal-agency contracts (central to Noble's business) may not transfer smoothly to a buyer without separate, potentially slow, executive-branch novation approval"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-11",
+        "event": "Debtors' deadline to reply to sale objections"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing (also continued Final Hearing on cash collateral)"
+      },
+      {
+        "date": "2026-12-17",
+        "event": "Next omnibus hearing"
+      }
+    ]
+  },
+  {
+    "as_of": "2026-11-11",
+    "indicator": "negative",
+    "indicator_label": "Quiet day on the docket — only a routine filing, with three major deadlines still bearing down this week",
+    "summary": "Only one filing landed since the last check: a Certificate of No Objection (Docket #453) confirming that nobody objected to the Debtors' motion to reject an unexpired real-property lease (Docket #417), clearing the way for the Court to enter that order without a hearing. This is a minor, uncontested, routine filing and doesn't change the overall picture of the case. Today, November 11, 2026, is also the deadline for the Debtors to reply to the sale objections filed on November 9 — no reply has appeared on the docket as of this check, which isn't unusual if it's filed later today or docketed with a short delay. The two bigger near-term tests remain unchanged: the November 14 deadline to file a combined disclosure statement and liquidation plan, and the November 16 Sale Hearing (doubling as the continued final cash-collateral hearing), where the Court will consider approving the roughly $9.35 million piecemeal sale reached at the November 5 Auction (Noble IQ, some FSG inventory, and the noble.com domain) while Noble's two largest segments — Defense & Federal Solutions and Supply Chain Services — still have no announced buyer.",
+    "positive_signals": [
+      "No new objections, adverse rulings, or surprises landed since the last check",
+      "The lease rejection motion is proceeding without opposition, a small incremental step toward reducing ongoing estate costs"
+    ],
+    "risk_signals": [
+      "No going-concern buyer has emerged yet for Noble's two largest segments (Defense & Federal Solutions, Supply Chain Services)",
+      "The Nov 14 deadline to file a combined disclosure statement and plan of liquidation is now just days away and will be the next real signal of how unsecured creditors are likely to fare",
+      "The Nov 16 Sale Hearing is the next point where the Court could approve, modify, or complicate the piecemeal sale reached at auction"
+    ],
+    "watch_next": [
+      {
+        "date": "2026-11-11",
+        "event": "Debtors' deadline to reply to sale objections (today — not yet on the docket as of this check)"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Deadline to file combined disclosure statement and plan of liquidation"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Sale Hearing (also continued Final Hearing on cash collateral)"
+      },
+      {
+        "date": "2026-12-17",
+        "event": "Next omnibus hearing"
+      }
+    ]
   }
 ]

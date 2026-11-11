@@ -33,6 +33,7 @@ FILES = {
     "case_calendar": "case_calendar.json",
     "case_analysis": "case_analysis.json",
     "fca_doj": "fca_doj.json",
+    "sale_results": "sale_results.json",
 }
 
 

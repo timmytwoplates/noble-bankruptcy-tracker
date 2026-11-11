@@ -355,13 +355,13 @@
       ]
     },
     {
-      "date_iso": "2026-11-04",
+      "date_iso": "2026-11-05",
       "time_et": "10:00 AM",
-      "title": "Auction (virtual, via Zoom) — more than one Qualified Bid received",
+      "title": "Auction (virtual, via Zoom) — adjourned one day from 11/4 — more than one Qualified Bid received",
       "type": "hearing",
-      "status_override": null,
+      "status_override": "held",
       "location": "Virtual (Zoom). Observers may request a link from Debtors' counsel (Cole Schotz, pratkowiak@coleschotz.com per the sale notice).",
-      "notes": "The Notice of Auction (Docket #426) confirms the Debtors received more than one Qualified Bid by the Oct 30 deadline, so the auction is going ahead. No stalking horse was ever designated. Not a court hearing — a private process open to Qualified Bidders; results are expected in a Notice of Auction Results about Nov 5.",
+      "notes": "The Auction was originally set for 11/4/26 but adjourned one day to 11/5/26 at 10:00am ET per the Notice of Adjournment of Auction (Docket #430, filed 11/3/26). More than one Qualified Bid was already confirmed received by the Oct 30 deadline, so the auction is still going ahead, just a day later. No stalking horse was ever designated. Not a court hearing — a private process open to Qualified Bidders; results are now expected in a Notice of Auction Results about Nov 6. RESULT (Notice of Auction Results, Docket #437, filed 11/6/26): the Auction produced only a piecemeal sale — Noble IQ to Briggs Management Partners, LLC ($6,284,541 cash + assumed liabilities); some FSG inventory to S & B, Inc. dba WG Henschen ($2,387,000) and Peerless Aerospace LLC ($280,044.31); and the noble.com domain to Booth.com, LTD ($400,000). Other bids for additional assets were not qualified at this time. Objections due 11/9; Sale Hearing 11/16.",
       "resources": [
         {
           "label": "Notice of Sale (key dates)",
@@ -372,17 +372,22 @@
           "label": "Notice of Auction",
           "docket_no": "0426",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369261102000000000010"
+        },
+        {
+          "label": "Notice of Adjournment of Auction",
+          "docket_no": "0430",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261103000000000013"
         }
       ]
     },
     {
       "date_iso": "2026-11-09",
       "time_et": null,
-      "title": "Government must pay Noble $8,493,160.09 (court-ordered)",
+      "title": "Government must pay Noble $8,458,217.45 (court-ordered, as corrected)",
       "type": "deadline",
       "status_override": null,
       "location": null,
-      "notes": "Per the Court's Nov 2 Memorandum Opinion: partial summary judgment for Noble on its turnover claim for deliveries with matured, undisputed payment obligations. Note the government has already appealed the earlier Sept 18 order and may seek to stay or appeal this one.",
+      "notes": "Per the Court's Nov 2 Memorandum Opinion (Docket #427), as corrected by the Nov 9 Amended Memorandum Opinion (Docket #445): partial summary judgment for Noble on its turnover claim for deliveries with matured, undisputed payment obligations. The amended opinion reduces the amount owed from $8,493,160.09 to $8,458,217.45 (clerical corrections only; outcome unchanged). Note the government has already appealed the earlier Sept 18 order and may seek to stay or appeal this one.",
       "resources": [
         {
           "label": "Memorandum Opinion",
@@ -393,6 +398,11 @@
           "label": "Corrective entry replacing it",
           "docket_no": "0429",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369261103000000000004"
+        },
+        {
+          "label": "Amended Memorandum Opinion",
+          "docket_no": "0445",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261109000000000013"
         }
       ]
     },
@@ -537,6 +547,22 @@
           "label": "Bar date motion",
           "docket_no": "0262",
           "pdf_url": "https://veritaglobal.net/noble/document/2611369261002000000000014"
+        }
+      ]
+    },
+    {
+      "date_iso": "2026-12-17",
+      "time_et": "1:00 PM",
+      "title": "Omnibus Hearing",
+      "type": "hearing",
+      "status_override": null,
+      "location": "US Bankruptcy Court, 824 Market St., 5th Fl., Courtroom #5, Wilmington, Delaware (before Judge Goldblatt)",
+      "notes": "Next scheduled omnibus hearing, per the Order Scheduling Omnibus Hearing Date (Docket #444).",
+      "resources": [
+        {
+          "label": "Order Scheduling Omnibus Hearing Date",
+          "docket_no": "0444",
+          "pdf_url": "https://veritaglobal.net/noble/document/2611369261109000000000012"
         }
       ]
     }

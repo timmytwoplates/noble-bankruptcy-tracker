@@ -157,6 +157,11 @@
       "date": "2026-11-02",
       "event": "The Court issues its 48-page written Memorandum Opinion (Docket #427) formally denying the Adequate Protection Motion and granting the Stay Relief Motion, and separately rules on Noble's turnover adversary proceeding: partial summary judgment for Noble on $8,493,160.09 of undisputed matured invoices (due Nov. 9, 2026), with the delivery-destination-dispute portion of the claim dismissed without prejudice. Implementing orders follow at Docket #422 and #424.",
       "docket_source": "427, 422, 424"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "The Court issues an Amended Memorandum Opinion (Docket #445), correcting the Nov 2 opinion (Docket #427) for clarity/typos per Local Rule 8003-2. The ruling's substance is unchanged — adequate protection still denied, stay relief still granted — but the turnover amount owed to Noble is corrected from $8,493,160.09 to $8,458,217.45.",
+      "docket_source": "445"
     }
   ],
   "stay_relief_motion": {
